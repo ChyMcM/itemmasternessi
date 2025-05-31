@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Longsword",
+    "type": "Weapon",
+    "price": 15,
+    "rarity": "Common",
+    "class_recommendations": ["fighter", "paladin"],
+    "level_restriction": 1,
+    "description": "Melee weapon \n\nVersatile. This weapon can be used with one or two hands. A damage value in parentheses appears with the property. The damage when the weapon is used with two hands to make a melee attack. \n\nDamage: 1d8 (1d10) \nDamage Type: Slashing \nProperties: Versatile \nWeight: 3"
+  },
+  {
+    "name":"Longsword +1",
+    "type":"Weapon",
+    "price":1500,
+    "rarity": "Uncommon",
+    "class_recommendations":["fighter", "paladin"],
+    "level_restriction":5,
+    "description":"Melee weapon \nYou have a +1 bonus to attack and damage rolls made with this weapon. \n\nVersatile: This weapon can be used with one or two hands. A damage value in parentheses appears with the property. The damage when the weapon is used with two hands to make a melee attack. \n\nDamage: 1d8+1 (1d10+1) \nDamage Type: Slashing \nProperties: Versatile \nWeight: 3"
+  },
+  {
+    "name":"Longsword +2",
+    "type":"Weapon",
+    "price":6500,
+    "rarity":"Rare",
+    "class_recommendations":["fighter", "paladin"],
+    "level_restriction":8,
+    "description": "Melee weapon \nYou have a +2 bonus to attack and damage rolls made with this weapon. \n\nVersatile: This weapon can be used with one or two hands. A damage value in parentheses appears with the property. The damage when the weapon is used with two hands to make a melee attack. \n\nDamage: 1d8+2 (1d10+2) \nDamage Type: Slashing \nProperties: Versatile \nWeight: 3"
+  },
+  {
+    "name":"Longsword +3",
+    "type":"Weapon",
+    "price":12000,
+    "rarity":"Very Rare",
+    "class_recommendations":["fighter", "paladin"],
+    "level_restriction":12,
+    "description":"Melee weapon \nYou have a +3 bonus to attack and damage rolls made with this weapon. \n\nVersatile: This weapon can be used with one or two hands. A damage value in parentheses appears with the property. The damage when the weapon is used with two hands to make a melee attack. \n\nDamage: 1d8+3 (1d10+3) \nDamage Type: Slashing \nProperties: Versatile \nWeight: 3"
+  },
+  {
+    "name": "Arcane Focus",
+    "type": "Gear",
+    "price": 25,
+    "rarity": "Common",
+    "class_recommendations": ["wizard", "sorcerer", "warlock"],
+    "level_restriction": 1,
+    "description": "An arcane focus is a special item designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus, as described in the Spellcasting section."
+  },
+  {
+    "name": "Wand of the War Mage +1",
+    "type": "Wand",
+    "price": 1500,
+    "rarity": "Uncommon",
+    "class_recommendations": ["wizard", "sorcerer"],
+    "level_restriction": 5,
+    "attunement": "Attunement by a Spellcaster",
+    "description": "While you are holding this wand, you gain a +1 bonus to spell attack rolls. In addition, you ignore half cover when making a spell attack."
+  },
+  {
+    "name":"Wand of the War Mage +2",
+    "type": "Wand",
+    "price": 6500,
+    "rarity":"Rare",
+    "class_recommendations":["wizard", "sorcerer"],
+    "level_restriction": 8,
+    "attunement": "Attunement by a Spellcaster",
+    "description":"While you are holding this wand, you gain a +2 bonus to spell attack rolls. In addition, you ignore half cover when making a spell attack."
+  },
+  {
+    "name":"Wand of the War Mage +3",
+    "type":"Wand",
+    "price": 22000,
+    "rarity": "Very Rare",
+    "class_recommendations":["wizard", "sorcerer"],
+    "level_restriction": 12,
+    "attunement": "Attunement by a Spellcaster",
+    "description":"While you are holding this wand, you gain a +3 bonus to spell attack rolls. In addition, you ignore half cover when making a spell attack."
+  },
+  {
+    "name": "Thieves' Tools",
+    "type": "Tool",
+    "price": 25,
+    "rarity": "Common",
+    "class_recommendations": ["rogue", "bard", "artificer"],
+    "level_restriction": 1,
+    "description": "This set of tools includes a small file, a set of lock picks, a small mirror mounted on a metal handle, a set of narrow-bladed scissors, and a pair of pliers. Proficiency with these tools lets you add your proficiency bonus to any ability checks you make to disarm traps or open locks."
+  }
+]
