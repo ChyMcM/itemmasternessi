@@ -4,44 +4,47 @@
     "type": "Weapon",
     "price": 15,
     "rarity": "Common",
-    "class_recommendations": ["fighter", "paladin"],
-    "level_restriction": 1,
+    "class_recommendations": [ "fighter", "paladin" ],
+    "where_get": "Ironclad Monkey",
     "description": "Melee weapon \n\nVersatile. This weapon can be used with one or two hands. A damage value in parentheses appears with the property. The damage when the weapon is used with two hands to make a melee attack. \n\nDamage: 1d8 (1d10) \nDamage Type: Slashing \nProperties: Versatile \nWeight: 3"
   },
   {
-    "name":"Longsword +1",
-    "type":"Weapon",
-    "price":1500,
+    "name": "Longsword +1",
+    "type": "Weapon",
+    "price": 1500,
     "rarity": "Uncommon",
-    "class_recommendations":["fighter", "paladin"],
-    "level_restriction":5,
-    "description":"Melee weapon \nYou have a +1 bonus to attack and damage rolls made with this weapon. \n\nVersatile: This weapon can be used with one or two hands. A damage value in parentheses appears with the property. The damage when the weapon is used with two hands to make a melee attack. \n\nDamage: 1d8+1 (1d10+1) \nDamage Type: Slashing \nProperties: Versatile \nWeight: 3"
+    "class_recommendations": [ "fighter", "paladin" ],
+    "where_get": "Ironclad Monkey",
+    "level_restriction": 5,
+    "description": "Melee weapon \nYou have a +1 bonus to attack and damage rolls made with this weapon. \n\nVersatile: This weapon can be used with one or two hands. A damage value in parentheses appears with the property. The damage when the weapon is used with two hands to make a melee attack. \n\nDamage: 1d8+1 (1d10+1) \nDamage Type: Slashing \nProperties: Versatile \nWeight: 3"
   },
   {
-    "name":"Longsword +2",
-    "type":"Weapon",
-    "price":6500,
-    "rarity":"Rare",
-    "class_recommendations":["fighter", "paladin"],
-    "level_restriction":8,
+    "name": "Longsword +2",
+    "type": "Weapon",
+    "price": 6500,
+    "rarity": "Rare",
+    "class_recommendations": [ "fighter", "paladin" ],
+    "where_get": "Ironclad Monkey",
+    "level_restriction": 8,
     "description": "Melee weapon \nYou have a +2 bonus to attack and damage rolls made with this weapon. \n\nVersatile: This weapon can be used with one or two hands. A damage value in parentheses appears with the property. The damage when the weapon is used with two hands to make a melee attack. \n\nDamage: 1d8+2 (1d10+2) \nDamage Type: Slashing \nProperties: Versatile \nWeight: 3"
   },
   {
-    "name":"Longsword +3",
-    "type":"Weapon",
-    "price":12000,
-    "rarity":"Very Rare",
-    "class_recommendations":["fighter", "paladin"],
-    "level_restriction":12,
-    "description":"Melee weapon \nYou have a +3 bonus to attack and damage rolls made with this weapon. \n\nVersatile: This weapon can be used with one or two hands. A damage value in parentheses appears with the property. The damage when the weapon is used with two hands to make a melee attack. \n\nDamage: 1d8+3 (1d10+3) \nDamage Type: Slashing \nProperties: Versatile \nWeight: 3"
+    "name": "Longsword +3",
+    "type": "Weapon",
+    "price": 12000,
+    "rarity": "Very Rare",
+    "class_recommendations": [ "fighter", "paladin" ],
+    "where_get": "Ironclad Monkey",
+    "level_restriction": 12,
+    "description": "Melee weapon \nYou have a +3 bonus to attack and damage rolls made with this weapon. \n\nVersatile: This weapon can be used with one or two hands. A damage value in parentheses appears with the property. The damage when the weapon is used with two hands to make a melee attack. \n\nDamage: 1d8+3 (1d10+3) \nDamage Type: Slashing \nProperties: Versatile \nWeight: 3"
   },
   {
     "name": "Arcane Focus",
     "type": "Gear",
     "price": 25,
     "rarity": "Common",
-    "class_recommendations": ["wizard", "sorcerer", "warlock"],
-    "level_restriction": 1,
+    "class_recommendations": [ "wizard", "sorcerer", "warlock" ],
+    "where_get": "Starter Items, Magicians Menagerie",
     "description": "An arcane focus is a special item designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus, as described in the Spellcasting section."
   },
   {
@@ -49,38 +52,174 @@
     "type": "Wand",
     "price": 1500,
     "rarity": "Uncommon",
-    "class_recommendations": ["wizard", "sorcerer"],
+    "class_recommendations": [ "wizard", "sorcerer" ],
+    "where_get": "Magicians Menagerie",
     "level_restriction": 5,
     "attunement": "Attunement by a Spellcaster",
     "description": "While you are holding this wand, you gain a +1 bonus to spell attack rolls. In addition, you ignore half cover when making a spell attack."
   },
   {
-    "name":"Wand of the War Mage +2",
+    "name": "Wand of the War Mage +2",
     "type": "Wand",
     "price": 6500,
-    "rarity":"Rare",
-    "class_recommendations":["wizard", "sorcerer"],
+    "rarity": "Rare",
+    "class_recommendations": [ "wizard", "sorcerer" ],
+    "where_get": "Magicians Menagerie",
     "level_restriction": 8,
     "attunement": "Attunement by a Spellcaster",
-    "description":"While you are holding this wand, you gain a +2 bonus to spell attack rolls. In addition, you ignore half cover when making a spell attack."
+    "description": "While you are holding this wand, you gain a +2 bonus to spell attack rolls. In addition, you ignore half cover when making a spell attack."
   },
   {
-    "name":"Wand of the War Mage +3",
-    "type":"Wand",
+    "name": "Wand of the War Mage +3",
+    "type": "Wand",
     "price": 22000,
     "rarity": "Very Rare",
-    "class_recommendations":["wizard", "sorcerer"],
+    "class_recommendations": [ "wizard", "sorcerer" ],
+    "where_get": "Unknown",
     "level_restriction": 12,
     "attunement": "Attunement by a Spellcaster",
-    "description":"While you are holding this wand, you gain a +3 bonus to spell attack rolls. In addition, you ignore half cover when making a spell attack."
+    "description": "While you are holding this wand, you gain a +3 bonus to spell attack rolls. In addition, you ignore half cover when making a spell attack."
   },
   {
     "name": "Thieves' Tools",
     "type": "Tool",
     "price": 25,
     "rarity": "Common",
-    "class_recommendations": ["rogue", "bard", "artificer"],
+    "class_recommendations": [ "rogue", "bard", "artificer" ],
+    "where_get": "Starter gear, Unknown",
     "level_restriction": 1,
     "description": "This set of tools includes a small file, a set of lock picks, a small mirror mounted on a metal handle, a set of narrow-bladed scissors, and a pair of pliers. Proficiency with these tools lets you add your proficiency bonus to any ability checks you make to disarm traps or open locks."
+  },
+  {
+    "name": "Armor of Gleaming Enchantment",
+    "type": "Armor Enchantment",
+    "price": "300 + item cost",
+    "rarity": "Common",
+    "where_get": "Ironclad Monkey",
+    "description": "This Armor never gets dirty."
+  },
+  {
+    "name": "Bark Armor",
+    "type": "Armor",
+    "price": 1500,
+    "rarity": "Common",
+    "where_get": "Ironclad Monkey",
+    "description": "Armor Class: 11\nWeight: 14\nWhile wearing bark armor, you gain advantage on stealth checks made in wooded areas."
+  },
+  {
+    "name": "Breastplate",
+    "type": "Armor",
+    "price": 400,
+    "rarity": "Common",
+    "where_get": "Ironclad Monkey",
+    "description": "Armor Class: 14\nWeight: 20lb\nThis armor consists of a fitted metal chest piece worn with supple leather. Although it leaves the legs and arms relatively unprotected, this armor provides good protection for the wearer's vital organs while leaving the wearer relatively unencumbered."
+  },
+  {
+    "name": "Cast-off Armor Enchantment",
+    "type": "Armor Enchantment",
+    "price": "100 + item cost",
+    "rarity": "Common",
+    "where_get": "Ironclad Monkey",
+    "description": "You can doff this armor as an action."
+  },
+  {
+    "name": "Chain Shirt",
+    "type": "Armor",
+    "price": 50,
+    "rarity": "Common",
+    "where_get": "Ironclad Monkey",
+    "description": "Made of interlocking metal rings, a chain shirt is worn between layers of clothing or leather. This armor offers modest protection to the wearer's upper body and allows the sound of the rings rubbing against one another to be muffled by outer layers."
+  },
+  {
+    "name": "Divers Armor",
+    "type": "Armor",
+    "price": 2000,
+    "rarity": "Common",
+    "where_get": "Ironclad Monkey",
+    "description": "Armor Class: 17\nWeight: 100lb\nWhile wearing divers armor your movement is reduced by 10, unless your Strength score is equal to or greater than 18. Additionally, whenever the spell Water Breathing is cast on you while wearing the divers armor, the duration of the spell is doubled for you."
+  },
+  {
+    "name": "Freerunners Armor Enchantment",
+    "type": "Armor Enchantment",
+    "price": "250 + item cost",
+    "rarity": "Common",
+    "where_get": "Ironclad Monkey",
+    "description": "Light Armor Enchantment\n\nWhile wearing this leather armor, you feel light on your feet and agile. When you make a long jump onto or alongside a wall or similar surface that isn’t slippery for the first time on your turn, you can move along that wall for the length of the jump during the move. While on that surface, you can make a second jump, provided you have the movement to do so."
+  },
+  {
+    "name": "Half Plate",
+    "type": "Armor",
+    "price": 750,
+    "rarity": "Common",
+    "where_get": "Ironclad Monkey",
+    "description": "Armor Class: 15\nWeight: 40lb\nHalf plate consists of shaped metal plates that cover most of the wearer's body. It does not include leg protection beyond simple greaves that are attached with leather straps."
+  },
+  {
+    "name": "Hide",
+    "type": "Armor",
+    "price": 10,
+    "rarity": "Common",
+    "where_get": "Ironclad Monkey",
+    "description": "Armor Class: 12\nWeight: 12lb\nThis crude armor consists of thick furs and pelts."
+  },
+  {
+    "name": "Leather",
+    "type": "Armor",
+    "price": 10,
+    "rarity": "Common",
+    "where_get": "Ironclad Monkey",
+    "description": "Armor CLass: 11\nWeight: 10lb\nThe breastplate and shoulder protectors of this armor are made of leather that has been stiffened by being boiled in oil. The rest of the armor is made of softer and more flexible materials."
+  },
+  {
+    "name": "Leather Corslet",
+    "type": "Armor",
+    "price": 45,
+    "rarity": "Common",
+    "where_get": "Ironclad Monkey",
+    "description": "Armor Class: 12\nWeight: 10lb\nA close-fitting shirt of hardened leather with long sleeves."
+  },
+  {
+    "name": "Leather Shirt",
+    "type": "Armor",
+    "price": 10,
+    "rarity": "Common",
+    "where_get": "Ironclad Monkey",
+    "description": "Armor Class: 11\nWeight: 8lb\nA lightweight garment of hardened leather, providing some protection to its wearer while allowing for great freedom of movement."
+  },
+  {
+    "name": "Padded",
+    "type": "Armor",
+    "price": 5,
+    "rarity": "Common",
+    "where_get": "Ironclad Monkey",
+    "description": "Armor Class: 11\nWeight: 8lb\nPadded armor consists of quilted layers of cloth and batting."
+  },
+  {
+    "name": "Plate",
+    "type": "Armor",
+    "price": 1500,
+    "rarity": "Common",
+    "class_recommendations": "paladin",
+    "where_get": "Ironclad Monkey",
+    "description": "Armor Class: 18\nWeight: 65lb\nPlate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body."
+  },
+  {
+    "name": "Pot Lid",
+    "type": "Armor",
+    "price": 10,
+    "rarity": "Common",
+    "where_get": "Ironclad Monkey",
+    "description": "Armor Class: +1\nWeight: 2lb\nWhen taking the attack action with a finesse or light melee weapon that you’re holding in one hand, you can use a bonus action to attack with a pot lid that you’re holding in the other hand. On a hit, the pot lid deals 1d4 bludgeoning damage. You don’t add your ability modifier to the damage of the bonus attack, unless that modifier is negative."
+  },
+  {
+    "name": "Pride Silk Outfit",
+    "type": "Armor",
+    "price": 500,
+    "rarity": "Common",
+    "where_get": "Magicians Menagerie",
+    "description": "An outfit made of pride silk weighs 4 pounds and costs 500 gp. If you aren’t wearing armor, your base Armor Class is 11 + your Dexterity modifier while wearing it."
+  },
+  {
+
   }
 ]
