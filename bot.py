@@ -55,27 +55,94 @@ async def recommend(ctx, class_name: str, level: int):
     await ctx.send(embed=embed)
 
 @bot.command()
-async def type(ctx, *, item_type: str):
-    matches = [item for item in item_data if item.get("type", "").lower() == item_type.lower()]
-    
+async def itemsbytype(ctx, type: str, rarity: str = None):
+    rarity_order = {
+        "common": 1,
+        "uncommon": 2,
+        "rare": 3,
+        "very rare": 4,
+        "legendary": 5
+    }
+
+    matches = [
+        item for item in item_data
+        if item.get("type", "").lower() == type.lower()
+        and (rarity is None or item.get("rarity", "").lower() == rarity.lower())
+    ]
+
     if not matches:
-        await ctx.send(f"No items of type '{item_type}' found.")
+        message = f"No items of type '{type}'"
+        if rarity:
+            message += f" with rarity '{rarity}'"
+        await ctx.send(message + ".")
         return
 
-    embed = discord.Embed(
-        title=f"Items of Type: {item_type.title()}",
-        color=0x4fc3f7
-    )
+    # Build title
+    embed_title = f"{type.title()}s"
+    if rarity:
+        embed_title += f" (Rarity: {rarity.title()})"
 
-    for item in matches:
-        name = item["name"]
-        price = item.get("price", "Unknown")
-        embed.add_field(name=name, value=f"{price} gp", inline=False)
+    # Build output fields
+    all_fields = []
 
-    await ctx.send(embed=embed)
+    if rarity:  # If filtering by rarity, skip grouping
+        sorted_items = sorted(matches, key=lambda x: x.get("name", "").lower())
+        for item in sorted_items:
+            name = item["name"]
+            price = item.get("price", "Unknown")
+            level = item.get("level_restriction")
+            value = f"Price: {price} gp"
+            if level:
+                value += f"\nLevel Restriction: {level}"
+            all_fields.append((name, value))
+    else:
+        # Group and sort by rarity, then by name
+        grouped = {}
+        for item in matches:
+            item_rarity = item.get("rarity", "Unknown").title()
+            grouped.setdefault(item_rarity, []).append(item)
+
+        sorted_rarities = sorted(
+            grouped.keys(),
+            key=lambda r: rarity_order.get(r.lower(), 999)
+        )
+
+        for item_rarity in sorted_rarities:
+            all_fields.append(("**" + item_rarity + "**", "\u200b"))  # Group label
+
+            sorted_items = sorted(grouped[item_rarity], key=lambda x: x.get("name", "").lower())
+            for item in sorted_items:
+                name = item["name"]
+                price = item.get("price", "Unknown")
+                level = item.get("level_restriction")
+                value = f"Price: {price} gp"
+                if level:
+                    value += f"\nLevel Restriction: {level}"
+                all_fields.append((name, value))
+
+    # Split into pages of max 25 fields
+    MAX_FIELDS = 25
+    field_chunks = [all_fields[i:i + MAX_FIELDS] for i in range(0, len(all_fields), MAX_FIELDS)]
+
+    for i, chunk in enumerate(field_chunks):
+        embed = discord.Embed(
+            title=f"Items of Type: {embed_title} (Page {i + 1}/{len(field_chunks)})",
+            color=0x4fc3f7
+        )
+        for name, value in chunk:
+            embed.add_field(name=name, value=value, inline=False)
+        await ctx.send(embed=embed)
 
 @bot.command()
 async def location(ctx, *, location: str):
+    rarity_order = {
+        "common": 1,
+        "uncommon": 2,
+        "rare": 3,
+        "very rare": 4,
+        "legendary": 5
+    }
+
     matches = [
         item for item in item_data
         if item.get("where_get", "").lower() == location.lower()
@@ -85,23 +152,45 @@ async def location(ctx, *, location: str):
         await ctx.send(f"No items found at '{location}'.")
         return
 
-    embed = discord.Embed(
-        title=f"Items Found at: {location.title()}",
-        color=0x9b59b6
+    # Group by rarity
+    grouped = {}
+    for item in matches:
+        rarity = item.get("rarity", "Unknown").title()
+        grouped.setdefault(rarity, []).append(item)
+
+    # Sort the rarity groups by rarity level
+    sorted_rarities = sorted(
+        grouped.keys(),
+        key=lambda r: rarity_order.get(r.lower(), 999)
     )
 
-    for item in matches:
-        name = item["name"]
-        price = item.get("price", "Unknown")
-        level = item.get("level_restriction")
+    # Build all fields first
+    all_fields = []
+    for rarity in sorted_rarities:
+        all_fields.append(("**" + rarity + "**", "\u200b"))  # Rarity header
 
-        value = f"Price: {price} gp"
-        if level:
-            value += f"\nLevel Restriction: {level}"
+        sorted_items = sorted(grouped[rarity], key=lambda x: x.get("name", "").lower())
+        for item in sorted_items:
+            name = item["name"]
+            price = item.get("price", "Unknown")
+            level = item.get("level_restriction")
+            value = f"Price: {price} gp"
+            if level:
+                value += f"\nLevel Restriction: {level}"
+            all_fields.append((name, value))
 
-        embed.add_field(name=name, value=value, inline=False)
+    # Split into chunks of 25 fields per embed
+    MAX_FIELDS = 25
+    field_chunks = [all_fields[i:i + MAX_FIELDS] for i in range(0, len(all_fields), MAX_FIELDS)]
 
-    await ctx.send(embed=embed)
+    for i, chunk in enumerate(field_chunks):
+        embed = discord.Embed(
+            title=f"Items Found at: {location.title()} (Page {i + 1}/{len(field_chunks)})",
+            color=0x9b59b6
+        )
+        for name, value in chunk:
+            embed.add_field(name=name, value=value, inline=False)
+        await ctx.send(embed=embed)
 
 @bot.command()
 async def rarity(ctx, *, rarity: str):
@@ -109,27 +198,35 @@ async def rarity(ctx, *, rarity: str):
         item for item in item_data
         if item.get("rarity", "").lower() == rarity.lower()
     ]
-    
+
     if not matches:
         await ctx.send(f"No items found with rarity '{rarity}'.")
         return
 
-    embed = discord.Embed(
-        title=f"Items with Rarity: {rarity.title()}",
-        color=0xf1c40f  
-    )
+    # Sort alphabetically
+    matches.sort(key=lambda x: x.get("name", "").lower())
 
-    for item in matches:
-        name = item["name"]
-        price = item.get("price", "Unknown")
-        level = item.get("level_restriction")
+    # Create multiple embeds if needed
+    MAX_FIELDS = 25
+    chunks = [matches[i:i + MAX_FIELDS] for i in range(0, len(matches), MAX_FIELDS)]
 
-        value = f"Price: {price} gp"
-        if level:
-            value += f"\nLevel Restriction: {level}"
+    for index, chunk in enumerate(chunks):
+        embed = discord.Embed(
+            title=f"Items with Rarity: {rarity.title()} (Page {index + 1}/{len(chunks)})",
+            color=0xf1c40f
+        )
 
-        embed.add_field(name=name, value=value, inline=False)
+        for item in chunk:
+            name = item["name"]
+            price = item.get("price", "Unknown")
+            level = item.get("level_restriction")
 
-    await ctx.send(embed=embed)
+            value = f"Price: {price} gp"
+            if level:
+                value += f"\nLevel Restriction: {level}"
+
+            embed.add_field(name=name, value=value, inline=False)
+
+        await ctx.send(embed=embed)
 
 bot.run("my bot key")
