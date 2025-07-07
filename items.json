@@ -220,6 +220,137 @@
     "description": "An outfit made of pride silk weighs 4 pounds and costs 500 gp. If you aren’t wearing armor, your base Armor Class is 11 + your Dexterity modifier while wearing it."
   },
   {
+    "name": "Ring Mail",
+    "type": "Armor",
+    "price": 30,
+    "rarity": "Common",
+    "where_get": "Ironclad Monkey",
+    "description": "Armor Class: 14\nWeight: 40lb\nThis armor is leather armor with heavy rings sewn into it. The rings help reinforce the armor against blows from swords and axes. Ring mail is inferior to chain mail, and it's usually worn only by those who can't afford better armor."
+  },
+  {
+    "name": "Scale Armour",
+    "type": "Armor",
+    "price": 50,
+    "rarity": "Common",
+    "where_get": "Ironclad Monkey",
+    "description": "Armor Class: 14\nWeight: 40lb\nThis armour consists of a coat and leggings (and perhaps a separate skirt) of leather covered with overlapping pieces of metal, much like the scales of a fish. The suit includes gauntlets."
+  },
+  {
+    "name": "Scale Mail",
+    "type": "Armor",
+    "price": 50,
+    "rarity": "Common",
+    "where_get": "Ironclad Monkey",
+    "description": "Armor Class: 14\nWeight: 45lb\nThis armor consists of a coat and leggings (and perhaps a separate skirt) of leather covered with overlapping pieces of metal, much like the scales of a fish. The suit includes gauntlets."
+  },
+  {
+    "name": "Scumweed Armor",
+    "type": "Armor",
+    "price": 60,
+    "rarity": "Common",
+    "where_get": "Ironclad Monkey",
+    "description": "Armor Class: 15\nWeight: 22lb\nScumweed is slimy and thick. Dried scumweed can even make hardy armor in a pinch and more than a few monsters and witches have been known to use it for precisely that purpose."
+  },
+  {
+    "name": "Shield",
+    "type": "Armor",
+    "price": 10,
+    "rarity": "Common",
+    "where_get": "Ironclad Monkey",
+    "description": "Armor Class: +2\nWeight: 6lb\nShields require the Utilize action to Don or Doff. You gain the Armor Class benefit of a Shield only if you have training with it."
+  },
+  {
+    "name": "Shield of the Silver Dragon",
+    "type": "Armor",
+    "price": 6500,
+    "rarity": "Rare",
+    "gacha": "Rare Armor",
+    "where_get": "Research",
+    "description": "Armor Class: +4\nWeight: 6lb\nThis shield is a +2 shield emblazoned with a stylized silver dragon that is the emblem of the Order of the Silver Dragon (see chapter 7). The shield whispers warnings to its bearer, granting a +2 bonus to initiative if the bearer isn’t incapacitated"
+  },
+  {
+    "name": "Smoldering Armor Enchantment",
+    "type": "Armor Enchantment",
+    "price": "300 + item cost",
+    "rarity": "Common",
+    "where_get": "Ironclad Monkey",
+    "description": "Wisps of harmless, odorless smoke rise from this armor while it is worn."
+  },
+  {
+    "name": "Spiked Armor",
+    "type": "Armor",
+    "price": 75,
+    "rarity": "Common",
+    "where_get": "Ironclad Monkey",
+    "description": "Armor Class: 14\nWeight: 45lb\nSpiked armor is a rare type of medium armor made by dwarves. It consists of a leather coat and leggings covered with spikes that are usually made of metal."
+  },
+  {
+    "name": "Splint",
+    "type": "Armor",
+    "price": 200,
+    "rarity": "Common",
+    "where_get": "Ironclad Monkey",
+    "description": "Armor Class: 17\nWeight: 60lb\nSpiked armor is a rare type of medium armor made by dwarves. It consists of a leather coat and leggings covered with spikes that are usually made of metal."
+  },
+  {
+    "name": "Studded Leather",
+    "type": "Armor",
+    "price": 45,
+    "rarity": "Common",
+    "where_get": "Ironclad Monkey",
+    "description": "Armor Class: 12\nWeight: 13lb\nMade from tough but flexible leather, studded leather is reinforced with close-set rivets or spikes"
+  },
+  {
+    "name": "Adamantine Armor",
+    "type": "Armor",
+    "price": 100000,
+    "rarity": "Very Rare",
+    "gacha": "Very Rare Armor",
+    "where_get": "Research",
+    "description": "This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While you’re wearing it, any Critical Hit against you becomes a normal hit."
+  },
+  {
+    "name": "Angler's Armor",
+    "type": "Armor",
+    "price": 5000,
+    "rarity": "Uncommon",
+    "where_get": "Order Ironclad Monkey",
+    "description": "This magic armor was hand-made by a clan of proud fishers. The armor is made of countless hardened scales lining a reinforced leather jacket, making it a sturdy and weather proof option for sailors. While wearing this armor, you gain a swimming speed of 30 feet, and the normal and long ranges of nets are doubled for you. In addition, when you fish while wearing this armor, you have adv while fishing."
+  },
+  {
+    "name": "Armor of Fungal Spores Enchantment",
+    "type": "Armor Enchantment",
+    "price": "8000 + item price",
+    "rarity": "Uncommon",
+    "where_get": "Order Ironclad Monkey",
+    "description": "While wearing this armor, you can take a bonus action to make the armor emit poisonous spores, which fill a 10-foot-radius sphere centered on yourself. Each creature in that area must succeed on a DC 15 Constitution saving throw or have the poisoned condition until the end of your next turn. Once this property is used, it can’t be used again until the next dawn."
+  },
+  {
+    "name": "Armor of Weightlessness Enchantment",
+    "type": "Armor Enchantment",
+    "price": "8000 + item price",
+    "rarity": "Uncommon",
+    "where_get": "Order Ironclad Monkey",
+    "description": "This armor has 5 charges. While you wear it, you can use a bonus action to expend 1 or more charges to cast one of the following spells from the armor, targeting yourself: Jump (1 charge) or Levitate (2 charges)., This armor regains 1d4 + 1 expended charges daily at dawn."
+  },
+  {
+    "name": "Armor of Fallen Enchantment",
+    "type": "Armor Enchantment",
+    "price": "8000 + item price",
+    "rarity": "Uncommon",
+    "where_get": "Order Ironclad Monkey",
+    "description": "While wearing this armor, you can use it to cast either Speak with Dead or Animate Dead. Once the armor has cast a spell in this way, it can’t cast either spell until the next dawn. Your soul keeps this armor together. If you die while you are attuned to the armor, the armor is destroyed."
+  },
+  {
+    "name": "Bane Shield",
+    "type": "Armor",
+    "price": 10000,
+    "rarity": "Rare",
+    "where_get": "Research",
+    "gacha": "Rare Armor",
+    "description": "This classic iron shield is emblazoned with the skull-like face of a demon. The shield has 3 charges and regains 1d3 expended charges daily at dawn. When you take damage from a creature within 5 feet of you while holding this shield, you can use your reaction to expend 1 of its charges to curse that creature. The next time that creature makes an ability check or attack roll before the end of its next turn, it must roll a d4 and subtract the number rolled from the total"
+  },
+  {
 
   }
 ]
