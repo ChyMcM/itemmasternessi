@@ -351,6 +351,330 @@
     "description": "This classic iron shield is emblazoned with the skull-like face of a demon. The shield has 3 charges and regains 1d3 expended charges daily at dawn. When you take damage from a creature within 5 feet of you while holding this shield, you can use your reaction to expend 1 of its charges to curse that creature. The next time that creature makes an ability check or attack roll before the end of its next turn, it must roll a d4 and subtract the number rolled from the total"
   },
   {
+    "name": "Carvaloth Scale Armor",
+    "type": "Armor",
+    "price": 8500,
+    "rarity": "Uncommon",
+    "where_get": "Order Ironclad Monkey",
+    "description": "Armor Class: 14\nWeight: 45lb\nThis red-tinged armor was fashioned from the scales of several carvaloths. While wearing this armor, Wisdom (Perception) checks to see you have disadvantage, and you have advantage on Dexterity (Stealth) checks to hide from sight, as the armor’s color shifts to camouflage you."
+  },
+  {
+    "name": "Feywatch Shield",
+    "type": "Armor",
+    "price": 10000,
+    "rarity": "Rare",
+    "where_get": "Research",
+    "gacha": "Rare Armor",
+    "description": "Armor Class: +2\nWeight: 6lb\nThis metal shield of elven make is a classic gift to allies of the fey. While holding it, you gain a +5 bonus to ability checks made to identify or perceive illusions and on saving throws against becoming charmed."
+  },
+  {
+    "name": "Mariners Armor Enchantment",
+    "type": "Armor Enchantment",
+    "price": "800 + item cost",
+    "rarity": "Uncommon",
+    "where_get": "Ironclad Monkey",
+    "description": "While wearing this armor, you have a swimming speed equal to your walking speed. In addition, whenever you start your turn underwater with 0 hit points, the armor causes you to rise 60 feet toward the surface. The armor is decorated with fish and shell motifs."
+  },
+  {
+    "name": "Mind Carapace Armor Enchantment",
+    "type": "Armor Enchantment",
+    "price": "N\\A",
+    "rarity": "Uncommon",
+    "where_get": "Unknown",
+    "description": "Any nonmagical suit of heavy armor can be turned by mind flayers into mind carapace armor. Only one creature can attune to it: either a specific mind flayer or one of its thralls. While worn by any other creature, the mind carapace armor functions as normal armor of its kind. To its intended wearer, the armor grants advantage on Intelligence, Wisdom, and Charisma saving throws and makes its wearer immune to the frightened condition."
+  },
+  {
+    "name": "Mithral Armor",
+    "type": "Armor",
+    "price": "2000 + item cost",
+    "rarity": "Uncommon",
+    "where_get": "Ironclad Monkey",
+    "description": "Mithral is a light, flexible metal. A mithral breastplate can be worn under normal clothes. If the armor normally imposes disadvantage on Dexterity (Stealth) checks or has a Strength requirement, the mithral version of the armor doesn't."
+  },
+  {
+    "name": "Sentinel Shield",
+    "type": "Armor",
+    "price": 2000,
+    "rarity": "Uncommon",
+    "where_get": "Ironclad Monkey",
+    "description": "Armor Class: +2\nWeight: 6lb\nWhile holding this Shield, you have Advantage on Initiative rolls and Wisdom (Perception) checks. The Shield is emblazoned with a symbol of an eye."
+  },
+  {
+    "name": "Serpent Scale Armor",
+    "type": "Armor",
+    "price": 2000,
+    "rarity": "Uncommon",
+    "where_get": "Ironclad Monkey",
+    "description": "Armor Class: 14\nWeight: 45lb\nThis suit of magic armor is made from shimmering scales. While wearing it, you can apply your full Dexterity modifier (instead of a maximum of +2) when determining your Armor Class. In addition, this armor does not impose disadvantage on your Dexterity (Stealth) checks."
+  },
+  {
+    "name": "Shield of the Tortoise",
+    "type": "Armor",
+    "rarity": "Uncommon",
+    "price": 2000,
+    "where_get": "Ironclad Monkey",
+    "description": "Armor Class: +2\nWeight: 6lb\nWhile you are wielding this shield, you gain a +1 bonus to AC. This bonus is in addition to the shield’s normal bonus to AC.\nCurse. This item is cursed. Attuning to it extends the curse to you until you are targeted by a Remove Curse spell or similar magic. You cannot discard the shield, and remain attuned to it, as long as you are cursed. As long as you are cursed, you are sluggish. Your speed is halved. When you roll initiative, treat the roll on your d20 as a 1. You can’t change your initiative by any means."
+  },
+  {
+    "name": "Shield +1",
+    "type": "Armor",
+    "price": "NA",
+    "rarity": "Uncommon",
+    "where_get": "Unknown",
+    "description": "Armor Class: +3\nWeight: 6lb\nWhile holding this Shield, you have a bonus to Armor Class determined by the Shield’s rarity, in addition to the Shield’s normal bonus to AC."
+  },
+  {
+    "name": "Sir Varion's Shield",
+    "type": "Armor",
+    "price": 10000,
+    "rarity": "Rare",
+    "gacha": "Rare Armor",
+    "where_get": "Research",
+    "description": "Armor Class: +2\nWeight: 6lb\nThis large shield once belonged to Sir Varion, a noble knight who strode bravely through battles on ice, sand, or swamp. While holding this shield, you ignore nonmagical difficult terrain and have a +1 bonus to AC. This bonus is in addition to the shield's normal bonus to AC."
+  },
+  {
+    "name": "Skymetal Shield",
+    "type": "Armor",
+    "price": 10000,
+    "rarity": "Rare",
+    "gacha": "Rare Armor",
+    "where_get": "Research",
+    "description": "Armor Class: +2\nWeight: 6lb\nThis shield is constructed from hammered meteoric iron and embossed with a delerium crystal. When you are hit with a melee or ranged attack while wielding this shield, you can use your reaction to absorb residual energy from the attack. You suffer damage and effects from the attack as normal, and the shield gains 1 charge. The shield can have a maximum of 5 charges. Unexpended charges are lost each day at dawn.\nAs an action while wielding the shield, you can expend all its charges to release a forceful blast. Creatures within 10 feet of you must succeed on a DC 15 Constitution saving throw. On a failed saving throw, creatures in the area take 1d6 force damage for each expended charge, and are flung back 10 feet and knocked prone."
+  },
+  {
+    "name": "Wildskin Armor",
+    "type": "Armor",
+    "attunement": "Attunement by Druid",
+    "class_recommendations": [ "Druid" ],
+    "price": 15000,
+    "rarity": "Rare",
+    "gacha": "Rare Armor",
+    "where_get": "Research",
+    "description": "Armor Class: 12\nWeight: 12lb\nThis enchanted hide armor magically conforms to your body and moves naturally with your movements. While wearing this armor, you can choose to have it reinforce your new form when you use your Wild Shape. When you do, your AC while you are transformed is equal to 14 + your Dexterity modifier (maximum 2), unless it’s already higher. You gain this benefit even if the armor merges into your new form. Once this property has been used, it can’t be used again until the next dawn."
+  },
+  {
+    "name": "Wing Crest Shield",
+    "type": "Armor",
+    "price": 8500,
+    "rarity": "Uncommon",
+    "where_get": "Order Ironclad Monkey",
+    "description": "Armor Class: +2\nWeight: 6lb\nWhile wielding this shield, you gain a +1 bonus to your AC. As an action, you can speak the command word to cast gust of wind (save DC 15). Once the shield has been used to cast this spell, it can’t be used to cast this spell again until the next dawn."
+  },
+  {
+    "name": "Armor of Acid Resistence Enchantment",
+    "type": "Armor Enchantment",
+    "price": "10000 + item cost",
+    "attunement": "Requires Attunement",
+    "rarity": "Rare",
+    "gacha": "Rare Armor",
+    "where_get": "Research",
+    "description": "You have Resistance to Acid damage while you wear this armor."
+  },
+  {
+    "name": "Armor of Cold Resistence Enchantment",
+    "type": "Armor Enchantment",
+    "price": "10000 + item cost",
+    "attunement": "Requires Attunement",
+    "rarity": "Rare",
+    "gacha": "Rare Armor",
+    "where_get": "Research",
+    "description": "You have Resistance to Cold damage while you wear this armor."
+  },
+  {
+    "name": "Armor of Fire Resistence Enchantment",
+    "type": "Armor Enchantment",
+    "price": "10000 + item cost",
+    "attunement": "Requires Attunement",
+    "rarity": "Rare",
+    "gacha": "Rare Armor",
+    "where_get": "Research",
+    "description": "You have Resistance to Fire damage while you wear this armor."
+  },
+  {
+    "name": "Armor of Force Resistence Enchantment",
+    "type": "Armor Enchantment",
+    "price": "10000 + item cost",
+    "attunement": "Requires Attunement",
+    "rarity": "Rare",
+    "gacha": "Rare Armor",
+    "where_get": "Research",
+    "description": "You have Resistance to Force damage while you wear this armor."
+  },
+  {
+    "name": "Armor of Lightning Resistence Enchantment",
+    "type": "Armor Enchantment",
+    "price": "10000 + item cost",
+    "attunement": "Requires Attunement",
+    "rarity": "Rare",
+    "gacha": "Rare Armor",
+    "where_get": "Research",
+    "description": "You have Resistance to Lightning damage while you wear this armor."
+  },
+  {
+    "name": "Armor of Necrotic Resistence Enchantment",
+    "type": "Armor Enchantment",
+    "price": "10000 + item cost",
+    "attunement": "Requires Attunement",
+    "rarity": "Rare",
+    "gacha": "Rare Armor",
+    "where_get": "Research",
+    "description": "You have Resistance to Necrotic damage while you wear this armor."
+  },
+  {
+    "name": "Armor of Poison Resistence Enchantment",
+    "type": "Armor Enchantment",
+    "price": "10000 + item cost",
+    "attunement": "Requires Attunement",
+    "rarity": "Rare",
+    "gacha": "Rare Armor",
+    "where_get": "Research",
+    "description": "You have Resistance to Poison damage while you wear this armor."
+  },
+  {
+    "name": "Armor of Psychic Resistence Enchantment",
+    "type": "Armor Enchantment",
+    "price": "10000 + item cost",
+    "attunement": "Requires Attunement",
+    "rarity": "Rare",
+    "gacha": "Rare Armor",
+    "where_get": "Research",
+    "description": "You have Resistance to Psychic damage while you wear this armor."
+  },
+  {
+    "name": "Armor of Radiant Resistence Enchantment",
+    "type": "Armor Enchantment",
+    "price": "10000 + item cost",
+    "attunement": "Requires Attunement",
+    "rarity": "Rare",
+    "gacha": "Rare Armor",
+    "where_get": "Research",
+    "description": "You have Resistance to Radiant damage while you wear this armor."
+  },
+  {
+    "name": "Armor of Thunder Resistence Enchantment",
+    "type": "Armor Enchantment",
+    "price": "10000 + item cost",
+    "attunement": "Requires Attunement",
+    "rarity": "Rare",
+    "gacha": "Rare Armor",
+    "where_get": "Research",
+    "description": "You have Resistance to Thunder damage while you wear this armor."
+  },
+  {
+    "name": "Armor of Vulnerability (Bludgeoning)",
+    "type": "Armor",
+    "price": 15000,
+    "attunement": "Requires Attunement",
+    "rarity": "Rare",
+    "gacha": "Rare Armor",
+    "where_get": "Research",
+    "description": "While wearing this armor, you have resistance to bludgeoning damage.\nCurse. This armor is cursed, a fact that is revealed only when an identify spell is cast on the armor or you attune to it. Attuning to the armor curses you until you are targeted by the remove curse spell or similar magic; removing the armor fails to end the curse. While cursed, you have vulnerability to piercing and slashing damage."
+  },
+  {
+    "name": "Armor of Vulnerability (Piercing)",
+    "type": "Armor",
+    "price": 15000,
+    "attunement": "Requires Attunement",
+    "rarity": "Rare",
+    "gacha": "Rare Armor",
+    "where_get": "Research",
+    "description": "While wearing this armor, you have resistance to piercing damage.\nCurse. This armor is cursed, a fact that is revealed only when an identify spell is cast on the armor or you attune to it. Attuning to the armor curses you until you are targeted by the remove curse spell or similar magic; removing the armor fails to end the curse. While cursed, you have vulnerability to bludgeoning and slashing damage."
+  },
+  {
+    "name": "Armor of Vulnerability (Slashing)",
+    "type": "Armor",
+    "price": 15000,
+    "attunement": "Requires Attunement",
+    "rarity": "Rare",
+    "gacha": "Rare Armor",
+    "where_get": "Research",
+    "description": "While wearing this armor, you have resistance to slashing damage.\nCurse. This armor is cursed, a fact that is revealed only when an identify spell is cast on the armor or you attune to it. Attuning to the armor curses you until you are targeted by the remove curse spell or similar magic; removing the armor fails to end the curse. While cursed, you have vulnerability to bludgeoning and piercing damage."
+  },
+  {
+    "name": "Arrow-Catching Shield",
+    "type": "Armor",
+    "price": 8500,
+    "attunement": "Requires Attunement",
+    "rarity": "Rare",
+    "gacha": "Rare Armor",
+    "where_get": "Research",
+    "description": "Armor Class: +2\nWeight: 6lb\nYou gain a +2 bonus to Armor Class against ranged attack rolls while you wield this Shield. This bonus is in addition to the Shield’s normal bonus to AC\nWhenever an attacker makes a ranged attack roll against a target within 5 feet of you, you can take a Reaction to become the target of the attack instead."
+  },
+  {
+    "name": "Battering Shield",
+    "type": "Armor",
+    "price": 8500,
+    "attunement": "Requires Attunement",
+    "rarity": "Rare",
+    "gacha": "Rare Armor",
+    "where_get": "Research",
+    "description": "Armor Class: +2\nWeight: 6lb\nWhile holding this iron tower shield, you gain a +1 bonus to AC. This bonus is in addition to the shield’s normal bonus to AC.\nAdditionally, the shield has 3 charges, and it regains 1d3 expended charges daily at dawn. If you are holding the shield and push a creature within your reach at least 5 feet away, you can expend 1 charge to push that creature an additional 10 feet, knock it prone, or both."
+  },
+  {
+    "name": "Breastplate of Balance",
+    "type": "Armor",
+    "price": 10000,
+    "attunement": "Requires Attunement",
+    "rarity": "Rare",
+    "gacha": "Rare Armor",
+    "where_get": "Research",
+    "description": "Armor Class: 14\nWeight: 20lb\nThis burnished copper breastplate looks as if it were made of interlocking gears. Merchant’s scales are emblazoned across the chest.\nThe armor has 4 charges. You can use the charges in the following ways while wearing the armor:\nEqualize. When you or a creature you can see within 60 feet of yourself is about to roll a d20 with advantage or disadvantage, you can expend 1 charge and take a reaction to prevent the roll from being affected by advantage or disadvantage.\nExpunge Imbalance. As a bonus action, you can expend 2 charges to cast the Lesser Restoration spell from the armor.\nThe armor regains 1d4 expended charges daily at dawn."
+  },
+  {
+    "name": "Breastplate, +1",
+    "type": "Armor",
+    "price": "NA",
+    "rarity": "Rare",
+    "where_get": "Unknown",
+    "description": "Armor Class: 15\nWeight: 20lb\nYou have a +1 bonus to AC while wearing this armor."
+  },
+  {
+    "name": "Chain Mail, +1",
+    "type": "Armor",
+    "price": "NA",
+    "rarity": "Rare",
+    "where_get": "Unknown",
+    "description": "Armor Class: 17\nWeight: 55lb\nYou have a +1 bonus to AC while wearing this armor."
+  },
+  {
+    "name": "Chain Shirt, +1",
+    "type": "Armor",
+    "price": "NA",
+    "rarity": "Rare",
+    "where_get": "Unknown",
+    "description": "Armor Class: 14\nWeight: 20lb\nYou have a +1 bonus to AC while wearing this armor."
+  },
+  {
+    "name": "Demon Skin Armor Enchantment",
+    "type": "Heavy Armor Enchantment",
+    "price": 15000,
+    "attunement": "Requires Attunement",
+    "rarity": "Rare",
+    "gacha": "Rare Armor",
+    "where_get": "Research",
+    "description": "This magic armor appears as a pot of bubbling black ichor. When you attune to it, the ichor adheres to and contours to your skin, and the pot disappears. The armor can be worn under normal clothes, and it doesn’t impede bodily functions. Once you put it on, it can’t be removed unless you choose to do so or you die, at which point the pot reappears and the ichor flows back into it.\nWhile wearing the armor, you have resistance to poison damage. The armor also doesn’t impose disadvantage on Dexterity (Stealth) checks."
+  },
+  {
+    "name": "Dragonguard",
+    "type": "Armor",
+    "price": 10000,
+    "attunement": "Requires Attunement",
+    "rarity": "Rare",
+    "gacha": "Rare Armor",
+    "where_get": "Research",
+    "description": "Armor Class: 15\nWeight: 20lb\nYou have a +1 bonus to AC while wearing this armor.\nThis +1 breastplate has a gold dragon motif worked into its design. Created for a human hero of Neverwinter named Tergon, it grants its wearer advantage on saving throws against the breath weapons of creatures that have the dragon type."
+  },
+  {
+    "name": "Ebony Beetle Armor Enchantment",
+    "type": "Heavy Armor Enchantment",
+    "price": 20000,
+    "attunement": "Requires Attunement",
+    "rarity": "Rare",
+    "gacha": "Rare Armor",
+    "where_get": "Research",
+    "description": "This glossy black breastplate is made from enchanted carrion beetle chitin by the darakhul. If the armor normally imposes disadvantage on Dexterity (Stealth) checks or has a Strength requirement, the ebony beetle version of the armor doesn’t. While wearing the armor, you are immune to slashing damage. It is half the weight of comparable metal armor."
+  },
+  {
 
   }
 ]
