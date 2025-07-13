@@ -1,6 +1,6 @@
-import discord
 from discord.ext import commands
 import json
+import random
 
 with open("items.json", "r") as f:
     item_data = json.load(f)
@@ -38,24 +38,64 @@ async def item(ctx, *, item_name: str):
     await ctx.send(embed=embed)
 
 @bot.command()
-async def recommend(ctx, class_name: str, level: int):
+async def recommend(ctx, *, class_name: str):
+    rarity_order = {
+        "common": 1,
+        "uncommon": 2,
+        "rare": 3,
+        "very rare": 4,
+        "legendary": 5
+    }
+
+    # Match class_recommendations correctly
     matches = [
         item for item in item_data
-        if class_name.lower() in [c.lower() for c in item["class_recommendations"]]
-        and item["level_restriction"] <= level
+        if class_name.lower() in [cls.lower() for cls in item.get("class_recommendations", [])]
     ]
 
     if not matches:
-        await ctx.send("No recommended items found.")
+        await ctx.send(f"No item recommendations found for class '{class_name}'.")
         return
 
-    embed = discord.Embed(title=f"Recommended for {class_name.title()} (Level {level}+)", color=0x8e44ad)
-    for item in matches[:5]:
-        embed.add_field(name=item["name"], value=f"{item['type']} - {item['price']} gp", inline=False)
-    await ctx.send(embed=embed)
+    # Sort by rarity, then alphabetically
+    matches.sort(
+        key=lambda x: (
+            rarity_order.get(x.get("rarity", "").lower(), 999),
+            x.get("name", "").lower()
+        )
+    )
+
+    # Prepare item fields
+    all_fields = []
+    for item in matches:
+        name = item.get("name", "Unnamed Item")
+        price = item.get("price", "Unknown")
+        rarity = item.get("rarity", "Unknown")
+        item_type = item.get("type", "Unknown")
+        level = item.get("level_restriction")
+
+        value = f"{rarity} {item_type}\nPrice: {price} gp"
+        if level:
+            value += f"\nLevel Restriction: {level}"
+
+        all_fields.append((name, value))
+
+    # Paginate results (max 25 fields per embed)
+    MAX_FIELDS = 25
+    chunks = [all_fields[i:i + MAX_FIELDS] for i in range(0, len(all_fields), MAX_FIELDS)]
+
+    for i, chunk in enumerate(chunks):
+        embed = discord.Embed(
+            title=f"Recommended Items for: {class_name.title()} (Page {i + 1}/{len(chunks)})",
+            color=0x2ecc71
+        )
+        for name, value in chunk:
+            embed.add_field(name=name, value=value, inline=False)
+
+        await ctx.send(embed=embed)
 
 @bot.command()
-async def itemsbytype(ctx, type: str, rarity: str = None):
+async def type(ctx, type: str, rarity: str = None):
     rarity_order = {
         "common": 1,
         "uncommon": 2,
@@ -228,5 +268,100 @@ async def rarity(ctx, *, rarity: str):
             embed.add_field(name=name, value=value, inline=False)
 
         await ctx.send(embed=embed)
+
+@bot.command()
+async def gacha(ctx, *, category: str):
+    # Filter items by gacha category (case-insensitive)
+    matches = [
+        item for item in item_data
+        if item.get("gacha", "").lower() == category.lower()
+    ]
+
+    if not matches:
+        await ctx.send(f"No gacha items found for category '{category}'.")
+        return
+
+    # Choose a random item
+    selected = random.choice(matches)
+
+    # Pull fields
+    name = selected.get("name", "Unnamed Item")
+    price = selected.get("price", "Unknown")
+    item_type = selected.get("type", "Unknown")
+    rarity = selected.get("rarity", "Unknown")
+    level = selected.get("level_restriction")
+    attune = selected.get("attunement")
+    description = selected.get("description", "No description provided.")
+
+    # Build embed
+    embed = discord.Embed(
+        title=name,
+        color=0x00bcd4
+    )
+
+    embed.add_field(name="Type", value=f"{rarity} {item_type}", inline=True)
+    embed.add_field(name="Price", value=f"{price} gp", inline=True)
+
+    if level:
+        embed.add_field(name="Level Restriction", value=str(level), inline=True)
+    if attune and attune.lower() == "true":
+        embed.add_field(name="Attunement", value="Yes", inline=True)
+
+    # Add description in its own section
+    embed.add_field(name="Description", value=description, inline=False)
+
+    await ctx.send(embed=embed)
+
+@bot.command(name="nessihelp")
+async def help(ctx):
+    embed = discord.Embed(
+        title="📘 Item Master Nessi Help",
+        description="Here's how to use the available commands:",
+        color=0x5dade2
+    )
+
+    embed.add_field(
+        name="`~item <item name>`",
+        value="Returns full details about the item with the given name.",
+        inline=False
+    )
+
+    embed.add_field(
+        name="`~type <type> [rarity]`",
+        value="Lists all items of a specific type (e.g. Wand, Armor). You can optionally filter by rarity. Results are grouped by rarity and paginated.",
+        inline=False
+    )
+
+    embed.add_field(
+        name="`~location <location>`",
+        value="Lists all items available at the given location (e.g. Ironclad Monkey), grouped and sorted by rarity.",
+        inline=False
+    )
+
+    embed.add_field(
+        name="`~rarity <rarity>`",
+        value="Lists all items with the specified rarity (e.g. Uncommon), sorted alphabetically. Supports long lists using multiple pages.",
+        inline=False
+    )
+
+    embed.add_field(
+        name="`~recommend <class> <level>`",
+        value="Recommends items suitable for a class like Fighter, Wizard, etc. (Custom feature).",
+        inline=False
+    )
+
+    embed.add_field(
+        name="`~gacha <category>`",
+        value="Rolls a random item from a gacha category (e.g. Rare Armor, Very Rare Wand). Returns a styled item embed with full info.",
+        inline=False
+    )
+
+    embed.add_field(
+        name="Need more help?",
+        value="Ask a staff member or developer for additional categories, custom filters, or new gacha pools.",
+        inline=False
+    )
+
+    await ctx.send(embed=embed)
 
 bot.run("my bot key")
