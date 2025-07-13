@@ -675,6 +675,311 @@
     "description": "This glossy black breastplate is made from enchanted carrion beetle chitin by the darakhul. If the armor normally imposes disadvantage on Dexterity (Stealth) checks or has a Strength requirement, the ebony beetle version of the armor doesn’t. While wearing the armor, you are immune to slashing damage. It is half the weight of comparable metal armor."
   },
   {
-
+    "name": "Elder Sequoia Scale Mail",
+    "type": "Armor",
+    "price": 25000,
+    "attunement": "Requires Attunement by Druid",
+    "class_recommendations": [ "Druid" ],
+    "rarity": "Very Rare",
+    "gacha": "Very Rare Armor",
+    "where_get": "Research",
+    "description": "Armor Class: 14\nWeight: 45lb\nThis hardy, natural mail is made with leather and protected with the large outer shell of an elder sequoia seed cone. You gain a +1 bonus to AC while wearing this armor. In addition, while wearing this armor, you can use your Wild Shape to transform into a mighty evergreen tree. The tree is 5 feet across at its base and can be up to 40 feet tall. Its branches extend up to 10 feet away from its trunk and must be at least 5 feet above its base.\nThe tree has hit points equal to 5 times your druid level, AC 20, and vulnerability to fire damage. While you’re a tree, you magically retain your normal senses and gain tremorsense out to a range of 30 feet, but your speed becomes 0, and you can only use your actions to shuffle your limbs (as if by a breeze or rustling creature), revert to your normal form, or use your Wild Shape again."
+  },
+  {
+    "name": "Elven Chain",
+    "type": "Armor",
+    "price": 4000,
+    "rarity": "Rare",
+    "gacha": "Rare Armor",
+    "where_get": "Research",
+    "description": "Armor Class: 14\nWeight: 20lb\nYou gain a +1 bonus to AC while you wear this armor. You are considered proficient with this armor even if you lack proficiency with medium armor."
+  },
+  {
+    "name": "Feywrought Armor Enchantment",
+    "type": "Armor Enchantment",
+    "price": "4000 + item cost",
+    "rarity": "Rare",
+    "attunement": "Requires Attunement",
+    "gacha": "Rare Armor",
+    "where_get": "Research",
+    "description": "This colorful, flowery armor was forged in the Feywild and is infused with that plane’s captivating magic.\nWhile wearing this armor, you have advantage on saving throws you make to avoid or end the charmed condition on yourself.\nThis armor has 3 charges. You can use an action to expend a charge to cast the Compulsion spell (save DC 15) from this armor. The armor regains 1d3 expended charges daily at dawn."
+  },
+  {
+    "name": "Forgework Dragon Shield",
+    "type": "Armor",
+    "price": 15000,
+    "rarity": "Very Rare",
+    "gacha": "Very Rare Armor",
+    "attunement": "Requires Attunement",
+    "where_get": "Research",
+    "description": "While holding this plated brass shield, you gain a +1 bonus to AC. This bonus is in addition to the shield’s normal bonus to AC. The shield has a metallic maw in the visage of a dragon forged into the face of the shield, and small plumes of flame occasionally leap from openings in the shield’s plates.\nWhen a creature within 5 feet of you misses you with an attack, you can use your reaction to retaliate with the shield. When you do, a gout of flame erupts from the shield, forcing the attacker to make a DC 15 Dexterity saving throw. On a failed save, the target takes 3d10 fire damage and ignites. Until a creature takes an action to douse the fire, the target takes 1d10 fire damage at the start of each of its turns. On a successful save, the target takes half as much damage and doesn’t ignite. Once this property has been used, it can’t be used again until the next dawn."
+  },
+  {
+    "name": "Ghost Armor Enchantment",
+    "type": "Armor",
+    "price": "10000 + item cost",
+    "rarity": "Rare",
+    "gacha": "Rare Armor",
+    "attunement": "Requires Attunement",
+    "where_get": "Research",
+    "description": "While wearing this armor, you can speak its command word as a bonus action to move incorporeally for 1 round. You can move through other creatures and objects as if they were difficult terrain. You take 5 (1d10) force damage if you end your turn inside an object. You can use this ability a number of rounds per day equal to your level."
+  },
+  {
+    "name": "Glamoured Studded Leather",
+    "type": "Armor",
+    "price": 2000,
+    "rarity": "Rare",
+    "gacha": "Rare Armor",
+    "where_get": "Research",
+    "description": "Armor Class: 13\nWeight: 13lb\nWhile wearing this armor, you gain a +1 bonus to Armor Class. You can also take a Bonus Action to cause the armor to assume the appearance of a normal set of clothing or some other kind of armor. You decide what it looks like—including color, style, and accessories—but the armor retains its normal bulk and weight. The illusory appearance lasts until you use this property again or doff the armor."
+  },
+  {
+    "name": "Glass-Studded Armor",
+    "type": "Armor",
+    "price": 10000,
+    "rarity": "Rare",
+    "gacha": "Rare Armor",
+    "attunement": "Requires Attunement",
+    "where_get": "Research",
+    "description": "Armor Class: 12\nWeight: 13lb\nWhile wearing this armor, you have resistance to radiant damage. Each time a creature makes a melee attack against you, it takes 3 piercing damage. A creature can choose to make an attack with disadvantage to avoid this damage."
+  },
+  {
+    "name": "Gloomwrought Armor Enchantment",
+    "type": "Armor Enchantment",
+    "price": "4000 + item cost",
+    "rarity": "Rare",
+    "gacha": "Rare Armor",
+    "attunement": "Requires Attunement",
+    "where_get": "Research",
+    "description": "This intricate grayscale armor was forged in the Shadowfell and is infused with that plane’s gloom.\nWhile you’re wearing this armor, you have advantage on saving throws you make to avoid or end the frightened condition on yourself.\nThis armor has 3 charges. You can expend a charge to cast the Calm Emotions spell (save DC 15) from the armor. This armor regains 1d3 expended charges daily at dawn."
+  },
+  {
+    "name": "Half Plate, +1",
+    "type": "Armor",
+    "price": "NA",
+    "rarity": "Rare",
+    "where_get": "Unknown",
+    "description": "Armor Class: 16\nWeight: 40lb\nYou have a +1 bonus to AC while wearing this armor."
+  },
+  {
+    "name": "Hide, +1",
+    "type": "Armor",
+    "price": "NA",
+    "rarity": "Rare",
+    "where_get": "Unknown",
+    "description": "Armor Class: 13\nWeight: 12lb\nYou have a +1 bonus to AC while wearing this armor."
+  },
+  {
+    "name": "Leather, +1",
+    "type": "Armor",
+    "price": "NA",
+    "rarity": "Rare",
+    "where_get": "Unknown",
+    "description": "Armor Class: 12\nWeight: 10lb\nYou have a +1 bonus to AC while wearing this armor."
+  },
+  {
+    "name": "Mizzium Armor",
+    "type": "Armor",
+    "price": 200000,
+    "rarity": "Very Rare",
+    "gacha": "Very Rare Armor",
+    "where_get": "Research",
+    "description": "This suit of armor is reinforced with a magically enhanced metal alloy called mizzium, which is made in Izzet foundries. While you’re wearing the armor, any critical hit against you becomes a normal hit. In addition, when you are subjected to a magical effect that allows you to make a Strength or Constitution saving throw to take only half damage, you instead take no damage if you succeed on the saving throw."
+  },
+  {
+    "name": "Molten Bronze Skin Enchantment",
+    "type": "Armor Enchantment",
+    "price": "10000 + item cost",
+    "rarity": "Rare",
+    "gacha": "Rare Armor",
+    "attunement": "Requires Attunement",
+    "where_get": "Research",
+    "description": "This magical armor appears as a jug of molten bronze. When you attune to it, the bronze adheres and contours to your skin. The armor can be worn under normal clothes, but it doesn’t impede bodily functions. Once you put it on, it can’t be removed unless you choose to do so.\nWhile wearing the armor, you have resistance to fire damage. The armor also doesn’t impose disadvantage on Dexterity (Stealth) checks."
+  },
+  {
+    "name": "Moonstone Banded Armor Enchantment",
+    "type": "Armor Enchantment",
+    "price": "10000 + item cost",
+    "rarity": "Rare",
+    "gacha": "Rare Armor",
+    "attunement": "Requires Attunement",
+    "where_get": "Research",
+    "description": "This chain mail armor is made of woven moonlight by the shadow goblins. It weighs half as much as comparable armor and always glows with a gentle radiance. While wearing this armor, you have advantage on saving throws against spells and effects involving radiant, cold, or necrotic damage."
+  },
+  {
+    "name": "Padded, +1",
+    "type": "Armor",
+    "price": "NA",
+    "rarity": "Rare",
+    "where_get": "Unknown",
+    "description": "Armor Class: 12\nWeight: 8lb\nYou have a +1 bonus to AC while wearing this armor."
+  },
+  {
+    "name": "Pariah's Shield",
+    "type": "Armor",
+    "price": 9000,
+    "rarity": "Rare",
+    "gacha": "Rare Armor",
+    "where_get": "Rare Armor",
+    "description": "Armor Class: +2\nWeight: 6lb\nSoldiers of the Boros Legion consider it an honor to bear this shield, even knowing that it might be the last honor they receive. The front of the shield is sculpted to depict a grieving human face.\nYou gain a +1 bonus to AC for every two allies within 5 feet of you (up to a maximum of +3) while you wield this shield. This bonus is in addition to the shield’s normal bonus to AC.\nWhen a creature you can see within 5 feet of you takes damage, you can use your reaction to take that damage, instead of the creature taking it. When you do so, the damage type changes to force."
+  },
+  {
+    "name": "Plate, +1",
+    "type": "Armor",
+    "price": "NA",
+    "rarity": "Rare",
+    "where_get": "Unknown",
+    "description": "Armor Class: 19\nWeight: 65lb\nYou have a +1 bonus to AC while wearing this armor."
+  },
+  {
+    "name": "Rattling Armor",
+    "type":"Armor",
+    "price": 8500,
+    "rarity":"Rare",
+    "gacha":"Rare Armor",
+    "where_get":"Research",
+    "attunement":"Requires Attunement",
+    "description": "Armor Class: 17\nWeight: 60lb\nThis armor is made of humanoid bones and enchanted with glamours of terror. While wearing this armor, you have resistance to necrotic damage. In addition, you can use an action to cast the fear spell. This property of the armor can’t be used again until the next dawn."
+  },
+  {
+    "name": "Ring Mail, +1",
+    "type": "Armor",
+    "price": "NA",
+    "rarity": "Rare",
+    "where_get": "Unknown",
+    "description": "Armor Class: 19\nWeight: 65lb\nYou have a +1 bonus to AC while wearing this armor."
+  },
+  {
+    "name": "Scale Mail, +1",
+    "type": "Armor",
+    "price": "NA",
+    "rarity": "Rare",
+    "where_get": "Unknown",
+    "description": "Armor Class: 19\nWeight: 65lb\nYou have a +1 bonus to AC while wearing this armor."
+  },
+  {
+    "name": "Serpent Hide",
+    "type":"Armor",
+    "price": 8500,
+    "rarity":"Rare",
+    "gacha":"Rare Armor",
+    "attunement":"Requires Attunement",
+    "where_get":"Research",
+    "description": "Armor Class: 12\nWeight: 12lb\nWhile wearing this armor, you can speak its command word to take on the form of a giant constrictor snake. You retain this form as long as you like, but once you return to your normal form, you cannot use it again until after a long rest."
+  },
+  {
+    "name": "Shield of Far Sight",
+    "type":"Armor",
+    "price": 5000,
+    "rarity":"Rare",
+    "gacha":"Rare Armor",
+    "where_get":"Research",
+    "description": "Armor Class: +2\nWeight: 6lb\nA mind flayer skilled at crafting magic items creates a shield of far sight by harvesting an eye from an intelligent humanoid and magically implanting it on the outer surface of a nonmagical shield. The shield becomes a magic item once the eye is implanted, whereupon the mind flayer can give the shield to a thrall or hang it on a wall in its lair. As long as the shield is on the same plane of existence as its creator, the mind flayer can see through the shield’s eye, which has darkvision out to a range of 60 feet. While peering through this magical eye, the mind flayer can use its Mind Blast action as though it were standing behind the shield.\nIf a shield of far sight is destroyed, the mind flayer that created it is blinded for 2d12 hours."
+  },
+  {
+    "name": "Shield of Marius Renathyr, +1",
+    "type":"Armor",
+    "price": 10000,
+    "rarity":"Rare",
+    "gacha":"Rare Armor",
+    "attunement":"Requires Attunement",
+    "where_get":"Research",
+    "description": "Armor Class: +2\nWeight: 6lb\nCrafted from polished gold and white enamel and adorned with an intricate design of a rose encircled by thorny vines, this Shield was once owned by Marius Renathyr, a knight-errant destined for a terrible fate. While holding this Shield, you gain a bonus to AC determined by the Shield’s rarity, in addition to the Shield’s normal bonus to AC, and you can use the following properties.\nValorous Guard (Rare+). When a creature within 5 feet of you is hit by an attack roll, you can take a Reaction to add 2 + the Shield’s bonus to the creature’s AC, potentially causing the attack to miss. When a creature within 5 feet of you fails a Dexterity saving throw, you can take a Reaction to add 2 + the Shield’s bonus to the creature’s total, potentially causing it to succeed."
+  },
+  {
+    "name": "Shield of Missile Attraction",
+    "type":"Armor",
+    "price": 6000,
+    "attunement":"Requires Attunement",
+    "rarity":"Rare",
+    "gacha":"Rare Armor",
+    "where_get":"Research",
+    "description": "Armor Class: +2\nWeight: 6lb\nWhile holding this Shield, you have Resistance to damage from attacks made with Ranged weapons.\nCurse. This Shield is cursed. Attuning to it curses you until you are targeted by a Remove Curse spell or similar magic. Removing the Shield fails to end the curse on you. Whenever an attack with a Ranged weapon targets a creature within 10 feet of you, the curse causes you to become the target instead."
+  },
+  {
+    "name":"Shield of Shadow Form",
+    "type":"Armor",
+    "attunement":"Requires Attunement",
+    "price": 15000,
+    "rarity":"Rare",
+    "gacha":"Rare Armor",
+    "where_get":"Research",
+    "description": "Armor Class: +2\nWeight: 6lb\nWhile holding this shield, you have a +1 bonus to AC.\nAdditionally, you can use an action to transform yourself and everything you wear and carry into a shadowy cloud for 10 minutes. The effect ends if you drop to 0 hit points or use an action to end it.\nWhile in this form, your only method of movement is a flying speed of 10 feet. You can enter and occupy the space of another creature. When you end your turn in another creature’s space, that creature takes 6d8 necrotic damage. You have resistance to mundane damage, and you have advantage on Strength, Dexterity, and Constitution saving throws. You can pass through small holes, narrow openings, and even mere cracks, though you treat liquids as if they were solid surfaces. You can’t fall and remain hovering in the air even when stunned or otherwise incapacitated.\nWhile in the form of a shadowy cloud, you can’t talk or manipulate objects, and any objects you were carrying or holding can’t be dropped, used, or otherwise interacted with. You can’t attack, cast spells, or manifest powers.\nOnce you use the shield to transform into a shadowy cloud, that property can’t be used again until the following dusk."
+  },
+  {
+    "name":"Shield, +2",
+    "type": "Armor",
+    "price": "NA",
+    "rarity": "Rare",
+    "where_get": "Unknown",
+    "description": "Armor Class: +4\nWeight: 6lb\nWhile holding this Shield, you have a bonus to Armor Class determined by the Shield’s rarity, in addition to the Shield’s normal bonus to AC."
+  },
+  {
+    "name":"Splint, +1",
+    "type": "Armor",
+    "price": "NA",
+    "rarity": "Rare",
+    "where_get": "Unknown",
+    "description": "Armor Class: 18\nWeight: 60lb\nYou have a +1 bonus to AC while wearing this armor."
+  },
+  {
+    "name":"Studded Leather, +1",
+    "type": "Armor",
+    "price": "NA",
+    "rarity": "Rare",
+    "where_get": "Unknown",
+    "description": "Armor Class: 13\nWeight: 13lb\nYou have a +1 bonus to AC while wearing this armor."
+  },
+  {
+    "name":"Umbral Armor Enchantment",
+    "type":"Armor Enchantment",
+    "price":"10000 + item cost",
+    "rarity":"Rare",
+    "gacha":"Rare Armor",
+    "where_get":"Research",
+    "description": "This armor is a dull gray, marked with flecks of gold or silver and sometimes filigreed in luminous purple swirls. While wearing this breastplate, you emit a trail of shadows that obscures your passage, wiping away tracks and hiding your movement. All attempts to track you are made with disadvantage, and all ranged attacks against you are also made with disadvantage. However, bright light (such as from sunlight or the daylight spell) negates both effects and makes this armor easy to see. In these conditions, all attacks made against you gain a +2 to the attack roll."
+  },
+  {
+    "name": "Zephyr Light Armor Enchantment",
+    "type":"Armor Enchantment",
+    "attunement":"Requires Attunement",
+    "price": 4000,
+    "rarity":"Rare",
+    "gacha":"Rare Armor",
+    "where_get":"Research",
+    "description": "This fine set of white-and-silver armor bears the wind rune upon its chest.\nWhile wearing this armor, you have advantage on Dexterity (Acrobatics) checks and Dexterity saving throws as your movements are bolstered by gentle currents of wind.\nInvoking the Rune. As an action, you can invoke the armor’s rune to cast the wind wall spell (save DC 15) with it. Once the rune has been invoked, it can’t be invoked again until the next dawn."
+  },
+  {
+    "name":"Animated Shield",
+    "type":"Armor",
+    "rarity":"Very Rare",
+    "gacha":"Very Rare Armor",
+    "attunement":"Requires Attunement",
+    "price":6000,
+    "where_get":"Research",
+    "description":"Armor Class: +2\nWeight: 6lb\nWhile holding this Shield, you can take a Bonus Action to cause it to animate. The Shield leaps into the air and hovers in your space to protect you as if you were wielding it, leaving your hands free. The Shield remains animate for 1 minute, until you take a Bonus Action to end this effect, or until you die or have the Incapacitated condition, at which point the Shield falls to the ground or into your hand if you have one free."
+  },
+  {
+    "name": "Antimagic Armor Enchantment",
+    "type":"Armor Enchantment",
+    "attunement":"Requires Attunement",
+    "rarity":"Very Rare",
+    "gacha":"Very Rare Armor",
+    "price":50000,
+    "where_get":"Research",
+    "description": "While wearing this armor, you can use your reaction to give yourself advantage on a saving throw you make against a spell. Once this property is used, it can’t be used again until the next dawn.\nIn addition, while you wear this armor, you can use it to cast Antimagic Field, requiring no spell components. Once this property is used, it can’t be used again until the next dawn"
+  },
+  {
+    "name": "Heavy Armor of Safeguarding Enchantment",
+    "type":"Armor Enchantment",
+    "attunement":"Requires Attunement",
+    "price":18000,
+    "rarity":"Very Rare",
+    "gacha":"Very Rare Armor",
+    "where_get":"Research",
+    "description": "Set in the center of this armor’s chest is a citrine engraved with the shield rune.\nWhile wearing this armor, your hit point maximum increases by an amount equal to 10 + your level.\nInvoking the Rune. As an action, you can invoke the armor’s rune to cast the beacon of hope spell with it; the spell has a duration of 1 minute and doesn’t require concentration. Once the rune has been invoked, it can’t be invoked again until the next dawn."
+  },
+  {
+    
   }
 ]
