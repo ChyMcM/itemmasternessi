@@ -1,3 +1,4 @@
+import discord
 from discord.ext import commands
 import json
 import random
@@ -363,5 +364,24 @@ async def help(ctx):
     )
 
     await ctx.send(embed=embed)
+
+@bot.event
+async def on_command_error(ctx, error):
+    if isinstance(error, commands.MissingRequiredArgument):
+        await ctx.send(f"⚠️ Missing argument: `{error.param.name}`.\nUse `~nessihelp` for guidance.")
+    
+    elif isinstance(error, commands.CommandNotFound):
+        await ctx.send("❌ That command doesn't exist. Try `~nessihelp` to see valid commands.")
+    
+    elif isinstance(error, commands.BadArgument):
+        await ctx.send("⚠️ Invalid argument. Please double-check your input.")
+    
+    elif isinstance(error, commands.CommandInvokeError):
+        await ctx.send("😵 Something went wrong running that command. Please check your input or ask staff.")
+        raise error  # Optional: log the full traceback for debugging
+
+    else:
+        await ctx.send("🚫 An unexpected error occurred.")
+        raise error
 
 bot.run("my bot key")
