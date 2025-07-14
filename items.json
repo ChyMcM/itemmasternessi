@@ -980,6 +980,232 @@
     "description": "Set in the center of this armor’s chest is a citrine engraved with the shield rune.\nWhile wearing this armor, your hit point maximum increases by an amount equal to 10 + your level.\nInvoking the Rune. As an action, you can invoke the armor’s rune to cast the beacon of hope spell with it; the spell has a duration of 1 minute and doesn’t require concentration. Once the rune has been invoked, it can’t be invoked again until the next dawn."
   },
   {
+    "name": "Heavy Armor of White Rose Enchantment",
+    "type":"Armor Enchantment",
+    "attunement":"Requires Attunement",
+    "price":30000,
+    "rarity":"Very Rare",
+    "gacha":"Very Rare Armor",
+    "where_get":"Research",
+    "description":"You are immune to necrotic and cold damage and vulnerable to fire and radiant damage while you wear this chain mail armor. Additionally, you are imbued with soul-devouring energy. When you hit with a melee attack, the target takes an extra 3d6 necrotic damage, and you regain 3d6 hit points. If you gain hit points above your maximum, you immediately gain a level of exhaustion, and the soul-devouring power of the armor ends until the next dawn."
+  },
+  {
+    "name": "Brazen Armor",
+    "type":"Armor",
+    "attunement":"Requires Attunement",
+    "price":20000,
+    "rarity":"Very Rare",
+    "gacha":"Very Rare Armor",
+    "where_get":"Research",
+    "description":"Armor Class: 18\nWeight: 65lb\nThis armor, fashioned from the body of an Empyrean brazen bull, gleams brightly in direct sunlight. While wearing this armor, you gain a +1 bonus to AC. In addition, you have resistance to fire and radiant damage."
+  },
+  {
+    "name":"Breastplate, +2",
+    "type": "Armor",
+    "price": "NA",
+    "rarity": "Very Rare",
+    "where_get": "Unknown",
+    "description":"Armor Class: 16\nWeight: 20lb\nYou have a +2 bonus to AC while wearing this armor."
+  },
+  {
+    "name":"Chain Mail, +2",
+    "type": "Armor",
+    "price": "NA",
+    "rarity": "Very Rare",
+    "where_get": "Unknown",
+    "description":"Armor Class: 18\nWeight: 55lb\nYou have a +2 bonus to AC while wearing this armor."
+  },
+  {
+    "name":"Chain Shirt, +2",
+    "type": "Armor",
+    "price": "NA",
+    "rarity": "Very Rare",
+    "where_get": "Unknown",
+    "description":"Armor Class: 15\nWeight: 20lb\nYou have a +2 bonus to AC while wearing this armor."
+  },
+  {
+    "name":"Cinder Coat",
+    "type":"Armor",
+    "attunement":"Requires Attunement",
+    "price":10000,
+    "rarity":"Very Rare",
+    "gacha":"Very Rare Armor",
+    "where_get":"Research",
+    "description":"Armor Class: 11\nWeight: 10lb\nThis floor-length leather duster is the color of dying embers. You have a +1 bonus to AC while wearing this armor.\nThe coat has 3 charges. When you hit a creature with an attack, and that creature is not at maximum hit points, you can expend 1 charge to deal an extra 1d10 fire damage to the target. The coat regains 1d3 expended charges daily at dawn."
+  },
+  {
+    "name":"Clockwork Heavy Armor Enchantment",
+    "type":"Armor Enchantment",
+    "attunement":"Requires Attunement",
+    "price":"20000 + item cost",
+    "rarity":"Very Rare",
+    "gacha":"Very Rare Armor",
+    "where_get":"Research",
+    "description":"The outside surface and internal joints of this armor whir with interlocking gears, drawing on the orderly magic of the plane of Mechanus.\nThe armor has 4 charges. If you make a d20 roll while wearing this armor, you can expend 1 charge to change the number rolled to a 10. The armor regains 1d4 expended charges daily at dawn."
+  },
+  {
+    "name":"Demon Armor",
+    "type":"Armor",
+    "attunement":"Requires Attunement",
+    "price":15000,
+    "rarity":"Very Rare",
+    "gacha":"Very Rare Armor",
+    "where_get":"Research",
+    "description":"While wearing this armor, you gain a +1 bonus to AC, and you can understand and speak Abyssal. In addition, the armor’s clawed gauntlets turn unarmed strikes with your hands into magic weapons that deal slashing damage, with a +1 bonus to attack rolls and damage rolls and a damage die of 1d8.\nCurse. Once you don this cursed armor, you can’t doff it unless you are targeted by the remove curse spell or similar magic. While wearing the armor, you have disadvantage on attack rolls against demons and on saving throws against their spells and special abilities."
+  },
+  {
+    "name":"Dragon Scale Mail (Black)",
+    "attunement":"Requires Attunement",
+    "type":"Armor",
+    "price":7500,
+    "rarity":"Very Rare",
+    "gacha":"Very Rare Armor",
+    "where_get":"Research",
+    "description":"Armor Class: 14\nWeight: 45lb\nDragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued.\nWhile wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to acid damage.\nAdditionally, you can focus your senses as an action to magically discern the distance and direction to the closest black dragon within 30 miles of you. This special action can't be used again until the next dawn."
+  },
+  {
+    "name":"Dragon Scale Mail (Blue)",
+    "attunement":"Requires Attunement",
+    "type":"Armor",
+    "price":7500,
+    "rarity":"Very Rare",
+    "gacha":"Very Rare Armor",
+    "where_get":"Research",
+    "description":"Armor Class: 14\nWeight: 45lb\nDragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued.\nWhile wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to lightning damage.\nAdditionally, you can focus your senses as an action to magically discern the distance and direction to the closest blue dragon within 30 miles of you. This special action can't be used again until the next dawn."
+  },
+  {
+    "name":"Dragon Scale Mail (Brass)",
+    "attunement":"Requires Attunement",
+    "type":"Armor",
+    "price":7500,
+    "rarity":"Very Rare",
+    "gacha":"Very Rare Armor",
+    "where_get":"Research",
+    "description":"Armor Class: 14\nWeight: 45lb\nDragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued.\nWhile wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to fire damage.\nAdditionally, you can focus your senses as an action to magically discern the distance and direction to the closest brass dragon within 30 miles of you. This special action can't be used again until the next dawn."
+  },
+  {
+    "name":"Dragon Scale Mail (Bronze)",
+    "attunement":"Requires Attunement",
+    "type":"Armor",
+    "price":7500,
+    "rarity":"Very Rare",
+    "gacha":"Very Rare Armor",
+    "where_get":"Research",
+    "description":"Armor Class: 14\nWeight: 45lb\nDragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued.\nWhile wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to lightning damage.\nAdditionally, you can focus your senses as an action to magically discern the distance and direction to the closest bronze dragon within 30 miles of you. This special action can't be used again until the next dawn."
+  },
+  {
+    "name":"Dragon Scale Mail (Copper)",
+    "attunement":"Requires Attunement",
+    "type":"Armor",
+    "price":7500,
+    "rarity":"Very Rare",
+    "gacha":"Very Rare Armor",
+    "where_get":"Research",
+    "description":"Armor Class: 14\nWeight: 45lb\nDragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued.\nWhile wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to acid damage.\nAdditionally, you can focus your senses as an action to magically discern the distance and direction to the closest copper dragon within 30 miles of you. This special action can't be used again until the next dawn."
+  },
+  {
+    "name":"Dragon Scale Mail (Gold)",
+    "attunement":"Requires Attunement",
+    "type":"Armor",
+    "price":7500,
+    "rarity":"Very Rare",
+    "gacha":"Very Rare Armor",
+    "where_get":"Research",
+    "description":"Armor Class: 14\nWeight: 45lb\nDragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued.\nWhile wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to fire damage.\nAdditionally, you can focus your senses as an action to magically discern the distance and direction to the closest gold dragon within 30 miles of you. This special action can't be used again until the next dawn."
+  },
+  {
+    "name":"Dragon Scale Mail (Green)",
+    "attunement":"Requires Attunement",
+    "type":"Armor",
+    "price":7500,
+    "rarity":"Very Rare",
+    "gacha":"Very Rare Armor",
+    "where_get":"Research",
+    "description":"Armor Class: 14\nWeight: 45lb\nDragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued.\nWhile wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to poison damage.\nAdditionally, you can focus your senses as an action to magically discern the distance and direction to the closest green dragon within 30 miles of you. This special action can't be used again until the next dawn."
+  },
+  {
+    "name":"Dragon Scale Mail (Red)",
+    "attunement":"Requires Attunement",
+    "type":"Armor",
+    "price":7500,
+    "rarity":"Very Rare",
+    "gacha":"Very Rare Armor",
+    "where_get":"Research",
+    "description":"Armor Class: 14\nWeight: 45lb\nDragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued.\nWhile wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to fire damage.\nAdditionally, you can focus your senses as an action to magically discern the distance and direction to the closest red dragon within 30 miles of you. This special action can't be used again until the next dawn."
+  },
+  {
+    "name":"Dragon Scale Mail (Silver)",
+    "attunement":"Requires Attunement",
+    "type":"Armor",
+    "price":7500,
+    "rarity":"Very Rare",
+    "gacha":"Very Rare Armor",
+    "where_get":"Research",
+    "description":"Armor Class: 14\nWeight: 45lb\nDragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued.\nWhile wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to cold damage.\nAdditionally, you can focus your senses as an action to magically discern the distance and direction to the closest silver dragon within 30 miles of you. This special action can't be used again until the next dawn."
+  },
+  {
+    "name":"Dragon Scale Mail (White)",
+    "attunement":"Requires Attunement",
+    "type":"Armor",
+    "price":7500,
+    "rarity":"Very Rare",
+    "gacha":"Very Rare Armor",
+    "where_get":"Research",
+    "description":"Armor Class: 14\nWeight: 45lb\nDragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued.\nWhile wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to cold damage.\nAdditionally, you can focus your senses as an action to magically discern the distance and direction to the closest white dragon within 30 miles of you. This special action can't be used again until the next dawn."
+  },
+  {
+    "name":"Dragon Turtle Barding",
+    "price":20000,
+    "type":"Armor",
+    "rarity":"Very Rare",
+    "gacha":"Very Rare Armor",
+    "where_get":"Research",
+    "description":"Armor Class: 15\nWeight: 45lb\nThis heavy armor is made using salvaged pieces of a dragon turtle’s shell and can fit on a variety of common mounts. Once worn, the armor expands over the course of 1 hour to cover the creature with a defensive shell and enhance its natural abilities, granting it the following benefits:\nThe creature gains a +1 bonus AC.\nThe creature can breathe air and water.\nThe creature gains a swimming speed equal to its walking or flying speed, whichever is higher."
+  },
+  {
+    "name":"Dwarven Half Plate",
+    "price":6000,
+    "type":"Armor",
+    "rarity":"Very Rare",
+    "gacha":"Very Rare Armor",
+    "where_get":"Research",
+    "description":"Armor Class: 17\nWeight: 40lb\nWhile wearing this armor, you gain a +2 bonus to Armor Class. In addition, if an effect moves you against your will along the ground, you can take a Reaction to reduce the distance you are moved by up to 10 feet."
+  },
+  {
+    "name":"Dwarven Plate",
+    "price":9000,
+    "type":"Armor",
+    "rarity":"Very Rare",
+    "gacha":"Very Rare Armor",
+    "where_get":"Research",
+    "description":"Armor Class: 20\nWeight: 65lb\nWhile wearing this armor, you gain a +2 bonus to AC. In addition, if an effect moves you against your will along the ground, you can use your reaction to reduce the distance you are moved by up to 10 feet."
+  },
+  {
+    "name":"Half Plate, +2",
+    "type": "Armor",
+    "price": "NA",
+    "rarity": "Very Rare",
+    "where_get": "Unknown",
+    "description":"Armor Class: 17\nWeight: 40lb\nYou have a +2 bonus to AC while wearing this armor."
+  },
+  {
+    "name":"Hazewalker Plate",
+    "type":"Armor",
+    "price":15000,
+    "rarity":"Very Rare",
+    "gacha":"Very Rare Armor",
+    "where_get":"Research",
+    "description":"Armor Class: 18\nWeight: 65lb\nThis plate armour includes a helmet and is hermetically sealed when worn. You gain the following benefits when its worn and the helmet visor is closed:\nYou are immune to diseases and the poisoned condition, and gain advantage on saving throws against any effect that causes contamination.\nYou have resistance to necrotic and poison damage.\nYou don’t need to breathe."
+  },
+  {
+    "name":"Hide, +2",
+    "type": "Armor",
+    "price": "NA",
+    "rarity": "Very Rare",
+    "where_get": "Unknown",
+    "description":"Armor Class: 14\nWeight: 12lb\nYou have a +2 bonus to AC while wearing this armor."
+  },
+  {
     
   }
 ]
