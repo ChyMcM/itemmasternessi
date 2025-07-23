@@ -2,6 +2,8 @@ import discord
 from discord.ext import commands
 import json
 import random
+from discord.ui import Button, View
+from discord.ext import tasks
 
 with open("items.json", "r") as f:
     item_data = json.load(f)
@@ -270,9 +272,44 @@ async def rarity(ctx, *, rarity: str):
 
         await ctx.send(embed=embed)
 
+class GachaView(View):
+    def __init__(self, category, matches):
+        super().__init__(timeout=60)  # disables button after 60s
+        self.category = category
+        self.matches = matches
+
+        reroll_button = Button(label="🔁 Reroll", style=discord.ButtonStyle.blurple)
+        reroll_button.callback = self.reroll
+        self.add_item(reroll_button)
+
+    async def reroll(self, interaction: discord.Interaction):
+        item = random.choice(self.matches)
+        embed = build_item_embed(item)
+        await interaction.response.edit_message(embed=embed, view=self)
+
+def build_item_embed(item):
+    name = item.get("name", "Unnamed Item")
+    price = item.get("price", "Unknown")
+    item_type = item.get("type", "Unknown")
+    rarity = item.get("rarity", "Unknown")
+    level = item.get("level_restriction")
+    attune = item.get("attunement")
+    desc = item.get("description", "No description available.")
+
+    embed = discord.Embed(title=name, color=0x00bcd4)
+    embed.add_field(name="Type", value=f"{rarity} {item_type}", inline=True)
+    embed.add_field(name="Price", value=f"{price} gp", inline=True)
+
+    if level:
+        embed.add_field(name="Level Restriction", value=str(level), inline=True)
+    if attune and attune.lower() == "true":
+        embed.add_field(name="Attunement", value="Yes", inline=True)
+
+    embed.add_field(name="Description", value=desc, inline=False)
+    return embed
+
 @bot.command()
 async def gacha(ctx, *, category: str):
-    # Filter items by gacha category (case-insensitive)
     matches = [
         item for item in item_data
         if item.get("gacha", "").lower() == category.lower()
@@ -282,36 +319,10 @@ async def gacha(ctx, *, category: str):
         await ctx.send(f"No gacha items found for category '{category}'.")
         return
 
-    # Choose a random item
-    selected = random.choice(matches)
-
-    # Pull fields
-    name = selected.get("name", "Unnamed Item")
-    price = selected.get("price", "Unknown")
-    item_type = selected.get("type", "Unknown")
-    rarity = selected.get("rarity", "Unknown")
-    level = selected.get("level_restriction")
-    attune = selected.get("attunement")
-    description = selected.get("description", "No description provided.")
-
-    # Build embed
-    embed = discord.Embed(
-        title=name,
-        color=0x00bcd4
-    )
-
-    embed.add_field(name="Type", value=f"{rarity} {item_type}", inline=True)
-    embed.add_field(name="Price", value=f"{price} gp", inline=True)
-
-    if level:
-        embed.add_field(name="Level Restriction", value=str(level), inline=True)
-    if attune and attune.lower() == "true":
-        embed.add_field(name="Attunement", value="Yes", inline=True)
-
-    # Add description in its own section
-    embed.add_field(name="Description", value=description, inline=False)
-
-    await ctx.send(embed=embed)
+    item = random.choice(matches)
+    embed = build_item_embed(item)
+    view = GachaView(category, matches)
+    await ctx.send(embed=embed, view=view)
 
 @bot.command(name="nessihelp")
 async def help(ctx):
@@ -383,5 +394,12 @@ async def on_command_error(ctx, error):
     else:
         await ctx.send("🚫 An unexpected error occurred.")
         raise error
+
+@bot.event
+async def on_ready():
+    await bot.change_presence(
+        activity=discord.Game(name="~nessihelp for help")
+    )
+    print(f"Logged in as {bot.user}")
 
 bot.run("my bot key")
