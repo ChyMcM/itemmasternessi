@@ -1206,6 +1206,116 @@
     "description":"Armor Class: 14\nWeight: 12lb\nYou have a +2 bonus to AC while wearing this armor."
   },
   {
+    "name":"Hunter's Coat",
+    "type": "Armor",
+    "price": 7500,
+    "rarity": "Very Rare",
+    "gacha":"Very Rare Armor",
+    "attunement":"Requires Attunement",
+    "where_get":"Research",
+    "description":"Armor Class: 11\nWeight: 10lb\nYou have a +1 bonus to AC while wearing this armor.\nThe coat has 3 charges. When you hit a creature with an attack and that creature doesn’t have all its hit points, you can expend 1 charge to deal an extra 1d10 necrotic damage to the target. The coat regains 1d3 expended charges daily at dawn."
+  },
+  {
+    "name":"Impact Plate",
+    "type": "Armor",
+    "price": 15000,
+    "rarity": "Very Rare",
+    "gacha":"Very Rare Armor",
+    "attunement":"Requires Attunement",
+    "where_get":"Research",
+    "description":"Armor Class: 18\nWeight: 65lb\nThis resilient plate mail was made by dwarves but magically resizes to fit the wearer’s stature. While wearing it, you have resistance to bludgeoning damage, and you don’t take any falling damage when you fall no farther than 100 feet."
+  },
+  {
+    "name":"Last Stand Armor Enchantment",
+    "type":"Armor Enchantment",
+    "price":20000,
+    "rarity":"Very Rare",
+    "gacha":"Very Rare Armor",
+    "where_get":"Research",
+    "description":"You have a +1 bonus to AC while wearing this armor, which shimmers softly.\nIf you die while wearing the armor, it is destroyed, and each celestial, fey, and fiend with 30 feet of you must succeed on a DC 15 Charisma saving throw or be banished to its home plane of existence, unless it is already there."
+  },
+  {
+    "name":"Leather, +2",
+    "type": "Armor",
+    "price": "NA",
+    "rarity": "Very Rare",
+    "where_get": "Unknown",
+    "description":"Armor Class: 13\nWeight: 10lb\nYou have a +2 bonus to AC while wearing this armor."
+  },
+  {
+    "name":"Living Armor Enchantment",
+    "type":"Armor Enchantment",
+    "price":30000,
+    "rarity":"Very Rare",
+    "attunement":"Requires Attunement",
+    "gacha":"Very Rare Armor",
+    "where_get":"Research",
+    "description":"This hideous armor is formed from black chitin, beneath which veins pulse and red sinews glisten. To attune to this item, you must wear it for the entire attunement period, during which tendrils on the inside burrow into you.\nWhile wearing this armor, you have a +1 bonus to Armor Class, and you have resistance to the following damage types: necrotic, poison, and psychic.\nSymbiotic Nature. The armor can’t be removed from you while you’re attuned to it, and you can’t voluntarily end your attunement to it. If you’re targeted by a spell that ends a curse, your attunement to the armor ends, and it detaches from you.\nThe armor requires fresh blood be fed to it. Immediately after you finish any long rest, you must either feed half of your remaining Hit Dice to the armor (round up) or take 1 level of exhaustion."
+  },
+  {
+    "name":"Midnight Light Armor Enchantment",
+    "type":"Armor Enchantment",
+    "price":15000,
+    "attunement":"Requires Attunement",
+    "rarity":"Very Rare",
+    "gacha":"Very Rare Armor",
+    "where_get":"Research",
+    "description":"Spun of pure shadow and invisible in sunlight, armor of this type is typically of shadow goblin or derro construction. While wearing it, you gain a +1 bonus to AC and resistance to radiant damage. In addition, you have advantage on Dexterity (Stealth) checks."
+  },
+  {
+    "name":"Moonbeam Chain Mail",
+    "type":"Armor",
+    "attunement":"Requires Attunement by Druid",
+    "class_recommendations":["Druid"],
+    "price":15000,
+    "rarity":"Very Rare",
+    "gacha":"Very Rare Armor",
+    "where_get":"Research",
+    "description":"Armor Class: 16\nWeight: 5lb\nThis armor is made of woven moonlight by the bearfolk. It weighs only 5 pounds and always glows with a gentle radiance. Its glow cannot be hidden by tunics or cloaks. While wearing this armor, you gain a +1 bonus to AC, increasing to +2 under moonlight. In addition, you gain an additional use of Wild Shape. You are considered proficient with this armor even if you lack proficiency with heavy armor."
+  },
+  {
+    "name":"Padded, +2",
+    "type": "Armor",
+    "price": "NA",
+    "rarity": "Very Rare",
+    "where_get": "Unknown",
+    "description":"Armor Class: 13\nWeight: 8lb\nYou have a +2 bonus to AC while wearing this armor."
+  },
+  {
+    "name":"Plate, +2",
+    "type": "Armor",
+    "price": "NA",
+    "rarity": "Very Rare",
+    "where_get": "Unknown",
+    "description":"Armor Class: 20\nWeight: 65lb\nYou have a +2 bonus to AC while wearing this armor."
+  },
+  {
+    "name":"Ring Mail, +2",
+    "type": "Armor",
+    "price": "NA",
+    "rarity": "Very Rare",
+    "where_get": "Unknown",
+    "description":"Armor Class: 16\nWeight: 40lb\nYou have a +2 bonus to AC while wearing this armor."
+  },
+  {
+    "name":"Sapphire Buckler",
+    "type":"Armor",
+    "attunement":"Requires Attunement",
+    "price":15000,
+    "rarity":"Very Rare",
+    "gacha":"Very Rare Armor",
+    "where_get":"Research",
+    "description":"Armor Class: +2\nWeight: 6lb\nThis crystalline blue shield is fashioned from a sapphire dragon’s scale and is created to aid in rooting out the influence of Aberrations. While wielding the shield, you have resistance to psychic and thunder damage. Also, when you take damage from a creature that is within 5 feet of you, you can use your reaction to deal 2d6 thunder damage to that creature.\nAs an action, you can use the shield to help you locate Aberrations until the end of your next turn. If any Aberrations are within 1 mile of you, the shield emits a low humming tone for a moment, and you know the direction of all Aberrations within that range. Once this property is used, it can’t be used again until the next dawn."
+  },
+  {
+    "name":"Scale Mail, +2",
+    "type": "Armor",
+    "price": "NA",
+    "rarity": "Very Rare",
+    "where_get": "Unknown",
+    "description":"Armor Class: 16\nWeight: 45lb\nYou have a +2 bonus to AC while wearing this armor."
+  },
+  {
     
   }
 ]
