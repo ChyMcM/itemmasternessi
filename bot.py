@@ -357,7 +357,7 @@ async def help(ctx):
     )
 
     embed.add_field(
-        name="`~recommend <class> <level>`",
+        name="`~recommend <class>`",
         value="Recommends items suitable for a class like Fighter, Wizard, etc. (Custom feature).",
         inline=False
     )
