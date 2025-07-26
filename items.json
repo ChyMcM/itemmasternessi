@@ -1362,6 +1362,78 @@
     "description":"Armor Class: 19\nWeight: 60lb\nYou have a +2 bonus to AC while wearing this armor."
   },
   {
+    "name":"Studded Leather, +2",
+    "type": "Armor",
+    "price": "NA",
+    "rarity": "Very Rare",
+    "where_get": "Unknown",
+    "description":"Armor Class: 14\nWeight: 13lb\nYou have a +2 bonus to AC while wearing this armor."
+  },
+  {
+    "name":"Armor of Invulnerability",
+    "type":"Armor",
+    "price":"NA",
+    "rarity":"Legendary",
+    "where_get":"Research",
+    "attunement":"Requires Attunement",
+    "level_restriction":17,
+    "description":"You have resistance to nonmagical damage while you wear this armor. Additionally, you can use an action to make yourself immune to nonmagical damage for 10 minutes or until you are no longer wearing the armor. Once this special action is used, it can't be used again until the next dawn."
+  },
+  {
+    "name":"Armor of the Valiant Soul",
+    "type":"Armor",
+    "price":"NA",
+    "rarity":"Legendary",
+    "where_get":"Research",
+    "attunement":"Requires Attunement",
+    "level_restriction":17,
+    "description":"STARTS AT DORMANT WILL BE QUEST PER STAGE\n\nThis antique armor forged from jade and black-dragon scales was once worn by J’mon Sa Ord of Ank’Harel.\n\nDormant\nWhile the Armor of the Valiant Soul is in a dormant state, you gain a +1 bonus to AC while wearing it.\nYou can also cast the command spell (save DC 14) while attuned to this armor. Once this property is used, it can’t be used again until you finish a long rest.\n\nAwakened\nWhen the Armor of the Valiant Soul reaches an awakened state, you gain the following benefits:\nThe AC bonus of the armor increases to +2.\nYou have resistance to acid damage while wearing this armor.\nYou are immune to the frightened condition while wearing this armor.\nThe spell save DC for the armor’s command spell increases to 16, and the spell can target up to three creatures.\n\nExhalted\nWhen the Armor of the Valiant Soul reaches an exalted state, you gain the following benefits:\nThe AC bonus of the armor increases to +3.\nYou are immune to acid damage while wearing this armor.\nAll friendly creatures within 15 feet of you are immune to the frightened condition as long as you are conscious.\nThe spell save DC of the armor’s command spell increases to 18, and the spell can target up to five creatures."
+  },
+  {
+    "name":"Breastplate, +3",
+    "type": "Armor",
+    "price": "NA",
+    "rarity": "Legendary",
+    "where_get": "Unknown",
+    "description":"Armor Class: 17\nWeight: 20lb\nYou have a +3 bonus to AC while wearing this armor."
+  },
+  {
+    "name":"Chain Mail, +3",
+    "type": "Armor",
+    "price": "NA",
+    "rarity": "Legendary",
+    "where_get": "Unknown",
+    "description":"Armor Class: 19\nWeight: 55lb\nYou have a +3 bonus to AC while wearing this armor."
+  },
+  {
+    "name":"Chain Shirt, +3",
+    "type": "Armor",
+    "price": "NA",
+    "rarity": "Legendary",
+    "where_get": "Unknown",
+    "description":"Armor Class: 16\nWeight: 20lb\nYou have a +3 bonus to AC while wearing this armor."
+  },
+  {
+    "name":"Deathwalker's Ward",
+    "attunement":"Requires Attunement",
+    "type":"Armor",
+    "level_restriction":17,
+    "rarity":"Legendary",
+    "price":"NA",
+    "where_get":"Research",
+    "description":"STARTS AT DORMANT WILL BE QUEST PER STAGE\n\nThis beautiful black leather armor is covered in intricate scrollwork, and has a mantle bearing the black feathers of the Matron of Ravens. Legends say that it has been worn by a number of that deity’s champions over the centuries—most recently, Vax’ildan of Vox Machina.\n\nDormant\nWhen the Deathwalker’s Ward is in a dormant state, you gain a +1 bonus to AC and you have advantage on death saving throws while wearing the armor.\n\nAwakened\nWhen the Deathwalker’s Ward reaches an awakened state, you gain the following benefits:\nThe AC bonus of the armor increases to +2.\nWhile wearing the armor, you have resistance to one of the following damage types of your choice: acid, cold, fire, lightning, necrotic, or poison. You can change the damage type when you finish a short rest.\n\nExhalted\nWhen the Deathwalker’s Ward reaches an exalted state, you gain the following benefits:\nThe AC bonus of the armor increases to +3.\nAs a bonus action, you grow large black raven wings that grant you a flying speed of 60 feet and last for 1 hour. Once this property is used, it can’t be used again until you finish a long rest."
+  },
+  {
+    "name":"Efreeti Chain",
+    "type":"Armor",
+    "attunement":"Requires Attunement",
+    "price":"NA",
+    "level_restriction":17,
+    "rarity":"Legendary",
+    "where_get":"Research",
+    "description":"Armor Class: 16\nWeight: 55lb\nWhile wearing this armor, you gain a +3 bonus to AC, you are immune to fire damage, and you can understand and speak Primordial. In addition, you can stand on and walk across molten rock as if it were solid ground."
+  },
+  {
     
   }
 ]
