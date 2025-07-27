@@ -402,9 +402,23 @@ async def on_ready():
     )
     print(f"Logged in as {bot.user}")
 
+# Load from items.json
+def load_items():
+    with open("items.json", "r", encoding="utf-8") as f:
+        return json.load(f)
+
+# Save to items.json
+def save_items(data):
+    with open("items.json", "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2)
+
+item_data = load_items()
+
 @bot.command()
 async def additem(ctx, name: str, type: str, price: int, rarity: str, where_get: str, level: int = None, attunement: str = None, *, classes: str = None):
-    # Normalize attunement value if provided
+    item_data = load_items()
+
+    # Normalize attunement
     if attunement:
         attunement_val = attunement.strip().lower()
         if attunement_val in ["yes", "true", "y", "1"]:
@@ -417,15 +431,12 @@ async def additem(ctx, name: str, type: str, price: int, rarity: str, where_get:
     else:
         attunement_val = None
 
-    # Process class recommendations
     class_list = [cls.strip() for cls in classes.split(",")] if classes else None
 
-    # Check for duplicates
     if any(i["name"].lower() == name.lower() for i in item_data):
         await ctx.send(f"❌ An item named '{name}' already exists.")
         return
 
-    # Build the new item
     new_item = {
         "name": name,
         "type": type,
@@ -441,7 +452,6 @@ async def additem(ctx, name: str, type: str, price: int, rarity: str, where_get:
     if class_list:
         new_item["class_recommendations"] = class_list
 
-    # Save and confirm
     item_data.append(new_item)
     save_items(item_data)
     await ctx.send(f"✅ Added item: **{name}** to the database.")
