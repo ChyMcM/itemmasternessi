@@ -402,4 +402,48 @@ async def on_ready():
     )
     print(f"Logged in as {bot.user}")
 
+@bot.command()
+async def additem(ctx, name: str, type: str, price: int, rarity: str, where_get: str, level: int = None, attunement: str = None, *, classes: str = None):
+    # Normalize attunement value if provided
+    if attunement:
+        attunement_val = attunement.strip().lower()
+        if attunement_val in ["yes", "true", "y", "1"]:
+            attunement_val = "Yes"
+        elif attunement_val in ["no", "false", "n", "0"]:
+            attunement_val = "No"
+        else:
+            await ctx.send("❌ Invalid attunement value. Use yes/no or true/false.")
+            return
+    else:
+        attunement_val = None
+
+    # Process class recommendations
+    class_list = [cls.strip() for cls in classes.split(",")] if classes else None
+
+    # Check for duplicates
+    if any(i["name"].lower() == name.lower() for i in item_data):
+        await ctx.send(f"❌ An item named '{name}' already exists.")
+        return
+
+    # Build the new item
+    new_item = {
+        "name": name,
+        "type": type,
+        "price": price,
+        "rarity": rarity,
+        "where_get": where_get
+    }
+
+    if level is not None:
+        new_item["level_restriction"] = level
+    if attunement_val is not None:
+        new_item["attunement"] = attunement_val
+    if class_list:
+        new_item["class_recommendations"] = class_list
+
+    # Save and confirm
+    item_data.append(new_item)
+    save_items(item_data)
+    await ctx.send(f"✅ Added item: **{name}** to the database.")
+
 bot.run("my bot key")
