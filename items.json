@@ -1434,6 +1434,167 @@
     "description":"Armor Class: 16\nWeight: 55lb\nWhile wearing this armor, you gain a +3 bonus to AC, you are immune to fire damage, and you can understand and speak Primordial. In addition, you can stand on and walk across molten rock as if it were solid ground."
   },
   {
+    "name":"Half Plate Armor of Etherealness",
+    "type":"Armor",
+    "attunement":"Requires Attunement",
+    "price":"NA",
+    "level_restriction":17,
+    "rarity":"Legendary",
+    "where_get":"Research",
+    "description":"Armor Class: 15\nWeight: 40lb\nWhile you’re wearing this armor, you can take a Magic action and use a command word to gain the effect of the Etherealness spell. The spell ends immediately if you remove the armor or take a Magic action to repeat the command word. This property of the armor can’t be used again until the next dawn."
+  },
+  {
+    "name":"Half Plate, +3",
+    "type": "Armor",
+    "price": "NA",
+    "rarity": "Legendary",
+    "where_get": "Unknown",
+    "description":"Armor Class: 18\nWeight: 40lb\nYou have a +3 bonus to AC while wearing this armor."
+  },
+  {
+    "name":"Hide of the Feral Guardian",
+    "type":"Armor",
+    "price":"NA",
+    "rarity":"Legendary",
+    "where_get":"Research",
+    "attunement":"Requires Attunement",
+    "level_restriction":17,
+    "description":"STARTS AT DORMANT WILL BE QUEST PER STAGE\n\nIt is believed that this polished and beautifully detailed leather armor was a gift from Melora, bestowed on a long-forgotten archdruid and champion of the natural world before the terrors of the Calamity.\n\nDormant\nWhile wearing the armor in its dormant state, you gain the following benefits:\nThe armor grants you a +1 bonus to AC.\nWhile you are transformed by an effect that replaces any of your game statistics with those of another creature, you have a +1 bonus to melee attack and damage rolls, and you retain the benefits of this armor.\nAs an action, you can use the armor to cast polymorph on yourself, transforming into a giant owl while retaining your Intelligence, Wisdom, and Charisma scores. This property can’t be used again until the next dawn.\n\nAwakened\nWhen the armor reaches an awakened state, it gains the following properties:\nThe AC bonus of the armor increases to +2.\nWhile you are transformed by an effect that replaces any of your game statistics with those of another creature, your bonus to melee attack and damage rolls increases by 1 (to +2).\nWhen you cast the polymorph spell using this armor, you can transform into a cave bear (use the polar bear statistics).\n\nExhalted\nWhen the armor reaches an exalted state, it gains the following properties:\nThe AC bonus of the armor increases to +3.\nWhile you are transformed by an effect that replaces any of your game statistics with those of another creature, your bonus to melee attack and damage rolls increases by 1 (to +3).\nWhen you cast the polymorph spell using this armor, you can transform into a guardian wolf (see the accompanying stat block)."
+  },
+  {
+    "name":"Hide, +3",
+    "type": "Armor",
+    "price": "NA",
+    "rarity": "Legendary",
+    "where_get": "Unknown",
+    "description":"Armor Class: 15\nWeight: 12lb\nYou have a +3 bonus to AC while wearing this armor."
+  },
+  {
+    "name":"Honor's Last Stand",
+    "type":"Armor",
+    "attunement":"Requires Attunement by Non-Evil Creature",
+    "price":"NA",
+    "rarity":"Legendary",
+    "level_restriction":17,
+    "where_get":"Research",
+    "description":"STARTS AT DORMANT WILL BE QUEST PER STAGE\n\nThis massive silvered shield bears the crest of the Platinum Dragon and never tarnishes. Its metal is always warm to the touch.\n\nDormant\nWhile Honor’s Last Stand is in a dormant state, you gain a +1 bonus to AC while holding the shield. This bonus is in addition to the shield’s normal bonus to AC. You also can’t be knocked prone while bearing this shield.\n\nAwakened\nWhen Honor’s Last Stand reaches an awakened state, you gain the following benefits:\nThe shield’s bonus to AC increases to +2.\nIf you successfully shove a creature while holding this shield, that creature takes 2d6 force damage.\nWhen a creature within 5 feet of you misses you with an attack, you can attempt to shove that creature as a reaction.\n\nExhalted\nWhen Honor’s Last Stand reaches an exalted state, you gain the following benefits:\nThe shield’s bonus to AC increases to +3.\nWhen you successfully shove a creature while holding this shield, you can move it up to 15 feet away from you.\nAs a bonus action, you can protect an ally within 5 feet of you, granting that ally a +3 bonus to AC until the start of your next turn or until they are no longer within 5 feet of you."
+  },
+  {
+    "name":"Leather, +3",
+    "type": "Armor",
+    "price": "NA",
+    "rarity": "Legendary",
+    "where_get": "Unknown",
+    "description":"Armor Class: 14\nWeight: 10lb\nYou have a +3 bonus to AC while wearing this armor."
+  },
+  {
+    "name":"Obsidian Flint Dragon Plate",
+    "level_restriction":17,
+    "price":"NA",
+    "rarity":"Legendary",
+    "type":"Armor",
+    "where_get":"Research",
+    "description":"Armor Class: 20\nWeight: 65lb\nYou gain a +2 bonus to AC and resistance to poison damage while you wear this armor. In addition, you gain advantage on ability checks and saving throws made to avoid or end the grappled condition on yourself."
+  },
+  {
+    "name":"Padded, +3",
+    "type": "Armor",
+    "price": "NA",
+    "rarity": "Legendary",
+    "where_get": "Unknown",
+    "description":"Armor Class: 14\nWeight: 8lb\nYou have a +3 bonus to AC while wearing this armor."
+  },
+  {
+    "name":"Plate Armor of Etherealness",
+    "type":"Armor",
+    "attunement":"Requires Attunement",
+    "level_restriction":17,
+    "price":"NA",
+    "rarity":"Legendary",
+    "where_get":"Research",
+    "description":"Armor Class: 18\nWeight: 65lb\nWhile you're wearing this armor, you can speak its command word as an action to gain the effect of the etherealness spell, which last for 10 minutes or until you remove the armor or use an action to speak the command word again. This property of the armor can't be used again until the next dawn."
+  },
+  {
+    "name":"Plate of the Dawnmartyr",
+    "type":"Armor",
+    "attunement":"Requires Attunement",
+    "price":"NA",
+    "level_restriction":17,
+    "rarity":"Legendary",
+    "where_get":"Research",
+    "description":"STARTS AT DORMANT WILL BE QUEST PER STAGE\n\nBeautiful silver scrollwork and priceless cut rubies adorn this set of brass-and-gold armor. Legend holds that it was worn by Duana, High Priest of the Dawnfather, when she was martyred in the Battle of Ghor Dranas in the final days of the Calamity. In more recent times, it was worn by Pike Trickfoot, a legendary cleric of the Everlight, while fighting against the Chroma Conclave and the Whispered One.\n\nDormant\nWhile the Plate of the Dawnmartyr is in a dormant state, you gain a +1 bonus to AC while wearing it. When a creature within 5 feet of you hits you with a melee attack, you can use your reaction to rebuke that creature, dealing it 1d6 fire damage.\n\nAwakened\nWhen the Plate of the Dawnmartyr reaches an awakened state, you gain the following benefits:\nThe armor’s bonus to AC increases to +2.\nYou are immune to the frightened condition.\nYou have resistance to fire damage.\nThe fire damage you deal when you rebuke an attacker increases to 2d6.\n\nExhalted\nWhen the Plate of the Dawnmartyr reaches an exalted state, you gain the following benefits:\nThe armor’s bonus to AC increases to +3.\nWhen you rebuke an attacker, you can choose to deal either fire damage or radiant damage.\nWhen you are reduced to 0 hit points, you can choose to have a blast of healing flame surround you. You regain 1 hit point and are lifted to your feet. Each enemy within 10 feet of you takes 2d6 fire damage or radiant damage (your choice). This property of the armor can’t be used again until you finish a long rest."
+  },
+  {
+    "name":"Plate, +3",
+    "type": "Armor",
+    "price": "NA",
+    "rarity": "Legendary",
+    "where_get": "Unknown",
+    "description":"Armor Class: 21\nWeight: 65lb\nYou have a +3 bonus to AC while wearing this armor."
+  },
+  {
+    "name":"Ring Mail, +3",
+    "type": "Armor",
+    "price": "NA",
+    "rarity": "Legendary",
+    "where_get": "Unknown",
+    "description":"Armor Class: 17\nWeight: 40lb\nYou have a +3 bonus to AC while wearing this armor."
+  },
+  {
+    "name":"Scale Mail, +3",
+    "type": "Armor",
+    "price": "NA",
+    "rarity": "Legendary",
+    "where_get": "Unknown",
+    "description":"Armor Class: 17\nWeight: 45lb\nYou have a +3 bonus to AC while wearing this armor."
+  },
+  {
+    "name":"Shield of the Blazing Dreadnought",
+    "type":"Armor",
+    "attunement":"Requires Attunement",
+    "price":"NA",
+    "level_restriction":17,
+    "rarity":"Legendary",
+    "where_get":"Research",
+    "description":"Armor Class: +2\nWeight: 6lb\nModeled after the formidable spiked tower shields wielded by some fire giants, this iron shield emanates a constant warmth.\nYou can use a bonus action to activate the shield, causing glowing lava to flow through the shield’s grooves for 1 minute. While the shield is active, you gain the following benefits:\nBlazing Soul. You have immunity to fire damage.\nCleansing Fire. As an action, you can cause the shield to flare with the cleansing fire of the god Surtur. Choose one creature you can see within 30 feet of yourself (you can choose yourself). One disease or condition of your choice affecting this creature ends immediately; the condition can be blinded, charmed, deafened, or poisoned.\nShield Bash. When you take the Attack action on your turn, you can replace one of your attacks with a shield bash, targeting one creature you can see within 5 feet of yourself. The target must make a Strength saving throw (DC equals 8 + your proficiency bonus + your Strength modifier). On a failed save, the target takes 3d6 bludgeoning damage plus 3d6 fire damage and is knocked prone. On a successful save, the target takes half as much damage only. You can use Shield Bash only once per turn.\nOnce the shield has been activated, it can’t be activated again until the next dawn."
+  },
+  {
+    "name":"Splint, +3",
+    "type": "Armor",
+    "price": "NA",
+    "rarity": "Legendary",
+    "where_get": "Unknown",
+    "description":"Armor Class: 20\nWeight: 60lb\nYou have a +3 bonus to AC while wearing this armor."
+  },
+  {
+    "name":"Stonebreaker's Breastplate",
+    "type":"Armor",
+    "price":"NA",
+    "attunement":"Requires Attunement",
+    "level_restriction":17,
+    "rarity":"Legendary",
+    "where_get":"Research",
+    "description":"Armor Class: 14\nWeight: 20lb\nThis breastplate is made from marbled granite, though it feels no heavier than a typical metal breastplate. Its chest is emblazoned with the stone rune.\nWhile wearing this breastplate, you have resistance to bludgeoning, piercing, and slashing damage and are immune to being knocked prone.\nInvoking the Rune. As an action, you can invoke the breastplate’s rune to cast the wall of stone spell (save DC 14) with it. When you cast the spell in this way, you have advantage on saving throws made to maintain concentration on the spell.\nOnce the rune has been invoked, it can’t be invoked again until the next dawn."
+  },
+  {
+    "name":"Studded Leather, +3",
+    "type": "Armor",
+    "price": "NA",
+    "rarity": "Legendary",
+    "where_get": "Unknown",
+    "description":"Armor Class: 15\nWeight: 13lb\nYou have a +3 bonus to AC while wearing this armor."
+  },
+  {
+    "name":"Tarrasque Plate",
+    "type":"Armor",
+    "price":"NA",
+    "level_restriction":17,
+    "attunement":"Requires Attunement",
+    "rarity":"Legendary",
+    "where_get":"Research",
+    "description":"Armor Class: 18\nWeight: 65lb\nThis impenetrable armor is made from refined fragments of a tarrasque’s armored hide and retains some of its original properties. You have resistance to damage from spells and a +1 bonus to AC while wearing this armor. In addition, whenever you’re targeted by a magic missile spell, a line spell, or a spell that requires a ranged attack roll, roll a d6. On a 6, you are unaffected by the spell, and the effect is reflected back at the caster as though it originated from you, turning the caster into the target."
+  },
+  {
     
   }
 ]
