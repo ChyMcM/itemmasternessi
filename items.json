@@ -4,7 +4,10 @@
     "type": "Weapon",
     "price": 15,
     "rarity": "Common",
-    "class_recommendations": [ "fighter", "paladin" ],
+    "class_recommendations": [
+      "fighter",
+      "paladin"
+    ],
     "where_get": "Ironclad Monkey",
     "description": "Melee weapon \n\nVersatile. This weapon can be used with one or two hands. A damage value in parentheses appears with the property. The damage when the weapon is used with two hands to make a melee attack. \n\nDamage: 1d8 (1d10) \nDamage Type: Slashing \nProperties: Versatile \nWeight: 3"
   },
@@ -13,7 +16,10 @@
     "type": "Weapon",
     "price": 1500,
     "rarity": "Uncommon",
-    "class_recommendations": [ "fighter", "paladin" ],
+    "class_recommendations": [
+      "fighter",
+      "paladin"
+    ],
     "where_get": "Ironclad Monkey",
     "level_restriction": 5,
     "description": "Melee weapon \nYou have a +1 bonus to attack and damage rolls made with this weapon. \n\nVersatile: This weapon can be used with one or two hands. A damage value in parentheses appears with the property. The damage when the weapon is used with two hands to make a melee attack. \n\nDamage: 1d8+1 (1d10+1) \nDamage Type: Slashing \nProperties: Versatile \nWeight: 3"
@@ -23,7 +29,10 @@
     "type": "Weapon",
     "price": 6500,
     "rarity": "Rare",
-    "class_recommendations": [ "fighter", "paladin" ],
+    "class_recommendations": [
+      "fighter",
+      "paladin"
+    ],
     "where_get": "Ironclad Monkey",
     "level_restriction": 8,
     "description": "Melee weapon \nYou have a +2 bonus to attack and damage rolls made with this weapon. \n\nVersatile: This weapon can be used with one or two hands. A damage value in parentheses appears with the property. The damage when the weapon is used with two hands to make a melee attack. \n\nDamage: 1d8+2 (1d10+2) \nDamage Type: Slashing \nProperties: Versatile \nWeight: 3"
@@ -33,7 +42,10 @@
     "type": "Weapon",
     "price": 12000,
     "rarity": "Very Rare",
-    "class_recommendations": [ "fighter", "paladin" ],
+    "class_recommendations": [
+      "fighter",
+      "paladin"
+    ],
     "where_get": "Ironclad Monkey",
     "level_restriction": 12,
     "description": "Melee weapon \nYou have a +3 bonus to attack and damage rolls made with this weapon. \n\nVersatile: This weapon can be used with one or two hands. A damage value in parentheses appears with the property. The damage when the weapon is used with two hands to make a melee attack. \n\nDamage: 1d8+3 (1d10+3) \nDamage Type: Slashing \nProperties: Versatile \nWeight: 3"
@@ -43,7 +55,11 @@
     "type": "Gear",
     "price": 25,
     "rarity": "Common",
-    "class_recommendations": [ "wizard", "sorcerer", "warlock" ],
+    "class_recommendations": [
+      "wizard",
+      "sorcerer",
+      "warlock"
+    ],
     "where_get": "Starter Items, Magicians Menagerie",
     "description": "An arcane focus is a special item designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus, as described in the Spellcasting section."
   },
@@ -52,7 +68,10 @@
     "type": "Wand",
     "price": 1500,
     "rarity": "Uncommon",
-    "class_recommendations": [ "wizard", "sorcerer" ],
+    "class_recommendations": [
+      "wizard",
+      "sorcerer"
+    ],
     "where_get": "Magicians Menagerie",
     "level_restriction": 5,
     "attunement": "Attunement by a Spellcaster",
@@ -63,7 +82,10 @@
     "type": "Wand",
     "price": 6500,
     "rarity": "Rare",
-    "class_recommendations": [ "wizard", "sorcerer" ],
+    "class_recommendations": [
+      "wizard",
+      "sorcerer"
+    ],
     "where_get": "Magicians Menagerie",
     "level_restriction": 8,
     "attunement": "Attunement by a Spellcaster",
@@ -74,7 +96,10 @@
     "type": "Wand",
     "price": 22000,
     "rarity": "Very Rare",
-    "class_recommendations": [ "wizard", "sorcerer" ],
+    "class_recommendations": [
+      "wizard",
+      "sorcerer"
+    ],
     "where_get": "Unknown",
     "level_restriction": 12,
     "attunement": "Attunement by a Spellcaster",
@@ -85,7 +110,11 @@
     "type": "Tool",
     "price": 25,
     "rarity": "Common",
-    "class_recommendations": [ "rogue", "bard", "artificer" ],
+    "class_recommendations": [
+      "rogue",
+      "bard",
+      "artificer"
+    ],
     "where_get": "Starter gear, Unknown",
     "level_restriction": 1,
     "description": "This set of tools includes a small file, a set of lock picks, a small mirror mounted on a metal handle, a set of narrow-bladed scissors, and a pair of pliers. Proficiency with these tools lets you add your proficiency bonus to any ability checks you make to disarm traps or open locks."
@@ -445,7 +474,9 @@
     "name": "Wildskin Armor",
     "type": "Armor",
     "attunement": "Attunement by Druid",
-    "class_recommendations": [ "Druid" ],
+    "class_recommendations": [
+      "Druid"
+    ],
     "price": 15000,
     "rarity": "Rare",
     "gacha": "Rare Armor",
@@ -679,7 +710,9 @@
     "type": "Armor",
     "price": 25000,
     "attunement": "Requires Attunement by Druid",
-    "class_recommendations": [ "Druid" ],
+    "class_recommendations": [
+      "Druid"
+    ],
     "rarity": "Very Rare",
     "gacha": "Very Rare Armor",
     "where_get": "Research",
@@ -833,12 +866,12 @@
   },
   {
     "name": "Rattling Armor",
-    "type":"Armor",
+    "type": "Armor",
     "price": 8500,
-    "rarity":"Rare",
-    "gacha":"Rare Armor",
-    "where_get":"Research",
-    "attunement":"Requires Attunement",
+    "rarity": "Rare",
+    "gacha": "Rare Armor",
+    "where_get": "Research",
+    "attunement": "Requires Attunement",
     "description": "Armor Class: 17\nWeight: 60lb\nThis armor is made of humanoid bones and enchanted with glamours of terror. While wearing this armor, you have resistance to necrotic damage. In addition, you can use an action to cast the fear spell. This property of the armor can’t be used again until the next dawn."
   },
   {
@@ -859,55 +892,55 @@
   },
   {
     "name": "Serpent Hide",
-    "type":"Armor",
+    "type": "Armor",
     "price": 8500,
-    "rarity":"Rare",
-    "gacha":"Rare Armor",
-    "attunement":"Requires Attunement",
-    "where_get":"Research",
+    "rarity": "Rare",
+    "gacha": "Rare Armor",
+    "attunement": "Requires Attunement",
+    "where_get": "Research",
     "description": "Armor Class: 12\nWeight: 12lb\nWhile wearing this armor, you can speak its command word to take on the form of a giant constrictor snake. You retain this form as long as you like, but once you return to your normal form, you cannot use it again until after a long rest."
   },
   {
     "name": "Shield of Far Sight",
-    "type":"Armor",
+    "type": "Armor",
     "price": 5000,
-    "rarity":"Rare",
-    "gacha":"Rare Armor",
-    "where_get":"Research",
+    "rarity": "Rare",
+    "gacha": "Rare Armor",
+    "where_get": "Research",
     "description": "Armor Class: +2\nWeight: 6lb\nA mind flayer skilled at crafting magic items creates a shield of far sight by harvesting an eye from an intelligent humanoid and magically implanting it on the outer surface of a nonmagical shield. The shield becomes a magic item once the eye is implanted, whereupon the mind flayer can give the shield to a thrall or hang it on a wall in its lair. As long as the shield is on the same plane of existence as its creator, the mind flayer can see through the shield’s eye, which has darkvision out to a range of 60 feet. While peering through this magical eye, the mind flayer can use its Mind Blast action as though it were standing behind the shield.\nIf a shield of far sight is destroyed, the mind flayer that created it is blinded for 2d12 hours."
   },
   {
     "name": "Shield of Marius Renathyr, +1",
-    "type":"Armor",
+    "type": "Armor",
     "price": 10000,
-    "rarity":"Rare",
-    "gacha":"Rare Armor",
-    "attunement":"Requires Attunement",
-    "where_get":"Research",
+    "rarity": "Rare",
+    "gacha": "Rare Armor",
+    "attunement": "Requires Attunement",
+    "where_get": "Research",
     "description": "Armor Class: +2\nWeight: 6lb\nCrafted from polished gold and white enamel and adorned with an intricate design of a rose encircled by thorny vines, this Shield was once owned by Marius Renathyr, a knight-errant destined for a terrible fate. While holding this Shield, you gain a bonus to AC determined by the Shield’s rarity, in addition to the Shield’s normal bonus to AC, and you can use the following properties.\nValorous Guard (Rare+). When a creature within 5 feet of you is hit by an attack roll, you can take a Reaction to add 2 + the Shield’s bonus to the creature’s AC, potentially causing the attack to miss. When a creature within 5 feet of you fails a Dexterity saving throw, you can take a Reaction to add 2 + the Shield’s bonus to the creature’s total, potentially causing it to succeed."
   },
   {
     "name": "Shield of Missile Attraction",
-    "type":"Armor",
+    "type": "Armor",
     "price": 6000,
-    "attunement":"Requires Attunement",
-    "rarity":"Rare",
-    "gacha":"Rare Armor",
-    "where_get":"Research",
+    "attunement": "Requires Attunement",
+    "rarity": "Rare",
+    "gacha": "Rare Armor",
+    "where_get": "Research",
     "description": "Armor Class: +2\nWeight: 6lb\nWhile holding this Shield, you have Resistance to damage from attacks made with Ranged weapons.\nCurse. This Shield is cursed. Attuning to it curses you until you are targeted by a Remove Curse spell or similar magic. Removing the Shield fails to end the curse on you. Whenever an attack with a Ranged weapon targets a creature within 10 feet of you, the curse causes you to become the target instead."
   },
   {
-    "name":"Shield of Shadow Form",
-    "type":"Armor",
-    "attunement":"Requires Attunement",
+    "name": "Shield of Shadow Form",
+    "type": "Armor",
+    "attunement": "Requires Attunement",
     "price": 15000,
-    "rarity":"Rare",
-    "gacha":"Rare Armor",
-    "where_get":"Research",
+    "rarity": "Rare",
+    "gacha": "Rare Armor",
+    "where_get": "Research",
     "description": "Armor Class: +2\nWeight: 6lb\nWhile holding this shield, you have a +1 bonus to AC.\nAdditionally, you can use an action to transform yourself and everything you wear and carry into a shadowy cloud for 10 minutes. The effect ends if you drop to 0 hit points or use an action to end it.\nWhile in this form, your only method of movement is a flying speed of 10 feet. You can enter and occupy the space of another creature. When you end your turn in another creature’s space, that creature takes 6d8 necrotic damage. You have resistance to mundane damage, and you have advantage on Strength, Dexterity, and Constitution saving throws. You can pass through small holes, narrow openings, and even mere cracks, though you treat liquids as if they were solid surfaces. You can’t fall and remain hovering in the air even when stunned or otherwise incapacitated.\nWhile in the form of a shadowy cloud, you can’t talk or manipulate objects, and any objects you were carrying or holding can’t be dropped, used, or otherwise interacted with. You can’t attack, cast spells, or manifest powers.\nOnce you use the shield to transform into a shadowy cloud, that property can’t be used again until the following dusk."
   },
   {
-    "name":"Shield, +2",
+    "name": "Shield, +2",
     "type": "Armor",
     "price": "NA",
     "rarity": "Rare",
@@ -915,7 +948,7 @@
     "description": "Armor Class: +4\nWeight: 6lb\nWhile holding this Shield, you have a bonus to Armor Class determined by the Shield’s rarity, in addition to the Shield’s normal bonus to AC."
   },
   {
-    "name":"Splint, +1",
+    "name": "Splint, +1",
     "type": "Armor",
     "price": "NA",
     "rarity": "Rare",
@@ -923,7 +956,7 @@
     "description": "Armor Class: 18\nWeight: 60lb\nYou have a +1 bonus to AC while wearing this armor."
   },
   {
-    "name":"Studded Leather, +1",
+    "name": "Studded Leather, +1",
     "type": "Armor",
     "price": "NA",
     "rarity": "Rare",
@@ -931,670 +964,1292 @@
     "description": "Armor Class: 13\nWeight: 13lb\nYou have a +1 bonus to AC while wearing this armor."
   },
   {
-    "name":"Umbral Armor Enchantment",
-    "type":"Armor Enchantment",
-    "price":"10000 + item cost",
-    "rarity":"Rare",
-    "gacha":"Rare Armor",
-    "where_get":"Research",
+    "name": "Umbral Armor Enchantment",
+    "type": "Armor Enchantment",
+    "price": "10000 + item cost",
+    "rarity": "Rare",
+    "gacha": "Rare Armor",
+    "where_get": "Research",
     "description": "This armor is a dull gray, marked with flecks of gold or silver and sometimes filigreed in luminous purple swirls. While wearing this breastplate, you emit a trail of shadows that obscures your passage, wiping away tracks and hiding your movement. All attempts to track you are made with disadvantage, and all ranged attacks against you are also made with disadvantage. However, bright light (such as from sunlight or the daylight spell) negates both effects and makes this armor easy to see. In these conditions, all attacks made against you gain a +2 to the attack roll."
   },
   {
     "name": "Zephyr Light Armor Enchantment",
-    "type":"Armor Enchantment",
-    "attunement":"Requires Attunement",
+    "type": "Armor Enchantment",
+    "attunement": "Requires Attunement",
     "price": 4000,
-    "rarity":"Rare",
-    "gacha":"Rare Armor",
-    "where_get":"Research",
+    "rarity": "Rare",
+    "gacha": "Rare Armor",
+    "where_get": "Research",
     "description": "This fine set of white-and-silver armor bears the wind rune upon its chest.\nWhile wearing this armor, you have advantage on Dexterity (Acrobatics) checks and Dexterity saving throws as your movements are bolstered by gentle currents of wind.\nInvoking the Rune. As an action, you can invoke the armor’s rune to cast the wind wall spell (save DC 15) with it. Once the rune has been invoked, it can’t be invoked again until the next dawn."
   },
   {
-    "name":"Animated Shield",
-    "type":"Armor",
-    "rarity":"Very Rare",
-    "gacha":"Very Rare Armor",
-    "attunement":"Requires Attunement",
-    "price":6000,
-    "where_get":"Research",
-    "description":"Armor Class: +2\nWeight: 6lb\nWhile holding this Shield, you can take a Bonus Action to cause it to animate. The Shield leaps into the air and hovers in your space to protect you as if you were wielding it, leaving your hands free. The Shield remains animate for 1 minute, until you take a Bonus Action to end this effect, or until you die or have the Incapacitated condition, at which point the Shield falls to the ground or into your hand if you have one free."
+    "name": "Animated Shield",
+    "type": "Armor",
+    "rarity": "Very Rare",
+    "gacha": "Very Rare Armor",
+    "attunement": "Requires Attunement",
+    "price": 6000,
+    "where_get": "Research",
+    "description": "Armor Class: +2\nWeight: 6lb\nWhile holding this Shield, you can take a Bonus Action to cause it to animate. The Shield leaps into the air and hovers in your space to protect you as if you were wielding it, leaving your hands free. The Shield remains animate for 1 minute, until you take a Bonus Action to end this effect, or until you die or have the Incapacitated condition, at which point the Shield falls to the ground or into your hand if you have one free."
   },
   {
     "name": "Antimagic Armor Enchantment",
-    "type":"Armor Enchantment",
-    "attunement":"Requires Attunement",
-    "rarity":"Very Rare",
-    "gacha":"Very Rare Armor",
-    "price":50000,
-    "where_get":"Research",
+    "type": "Armor Enchantment",
+    "attunement": "Requires Attunement",
+    "rarity": "Very Rare",
+    "gacha": "Very Rare Armor",
+    "price": 50000,
+    "where_get": "Research",
     "description": "While wearing this armor, you can use your reaction to give yourself advantage on a saving throw you make against a spell. Once this property is used, it can’t be used again until the next dawn.\nIn addition, while you wear this armor, you can use it to cast Antimagic Field, requiring no spell components. Once this property is used, it can’t be used again until the next dawn"
   },
   {
     "name": "Heavy Armor of Safeguarding Enchantment",
-    "type":"Armor Enchantment",
-    "attunement":"Requires Attunement",
-    "price":18000,
-    "rarity":"Very Rare",
-    "gacha":"Very Rare Armor",
-    "where_get":"Research",
+    "type": "Armor Enchantment",
+    "attunement": "Requires Attunement",
+    "price": 18000,
+    "rarity": "Very Rare",
+    "gacha": "Very Rare Armor",
+    "where_get": "Research",
     "description": "Set in the center of this armor’s chest is a citrine engraved with the shield rune.\nWhile wearing this armor, your hit point maximum increases by an amount equal to 10 + your level.\nInvoking the Rune. As an action, you can invoke the armor’s rune to cast the beacon of hope spell with it; the spell has a duration of 1 minute and doesn’t require concentration. Once the rune has been invoked, it can’t be invoked again until the next dawn."
   },
   {
     "name": "Heavy Armor of White Rose Enchantment",
-    "type":"Armor Enchantment",
-    "attunement":"Requires Attunement",
-    "price":30000,
-    "rarity":"Very Rare",
-    "gacha":"Very Rare Armor",
-    "where_get":"Research",
-    "description":"You are immune to necrotic and cold damage and vulnerable to fire and radiant damage while you wear this chain mail armor. Additionally, you are imbued with soul-devouring energy. When you hit with a melee attack, the target takes an extra 3d6 necrotic damage, and you regain 3d6 hit points. If you gain hit points above your maximum, you immediately gain a level of exhaustion, and the soul-devouring power of the armor ends until the next dawn."
+    "type": "Armor Enchantment",
+    "attunement": "Requires Attunement",
+    "price": 30000,
+    "rarity": "Very Rare",
+    "gacha": "Very Rare Armor",
+    "where_get": "Research",
+    "description": "You are immune to necrotic and cold damage and vulnerable to fire and radiant damage while you wear this chain mail armor. Additionally, you are imbued with soul-devouring energy. When you hit with a melee attack, the target takes an extra 3d6 necrotic damage, and you regain 3d6 hit points. If you gain hit points above your maximum, you immediately gain a level of exhaustion, and the soul-devouring power of the armor ends until the next dawn."
   },
   {
     "name": "Brazen Armor",
-    "type":"Armor",
-    "attunement":"Requires Attunement",
-    "price":20000,
-    "rarity":"Very Rare",
-    "gacha":"Very Rare Armor",
-    "where_get":"Research",
-    "description":"Armor Class: 18\nWeight: 65lb\nThis armor, fashioned from the body of an Empyrean brazen bull, gleams brightly in direct sunlight. While wearing this armor, you gain a +1 bonus to AC. In addition, you have resistance to fire and radiant damage."
+    "type": "Armor",
+    "attunement": "Requires Attunement",
+    "price": 20000,
+    "rarity": "Very Rare",
+    "gacha": "Very Rare Armor",
+    "where_get": "Research",
+    "description": "Armor Class: 18\nWeight: 65lb\nThis armor, fashioned from the body of an Empyrean brazen bull, gleams brightly in direct sunlight. While wearing this armor, you gain a +1 bonus to AC. In addition, you have resistance to fire and radiant damage."
   },
   {
-    "name":"Breastplate, +2",
+    "name": "Breastplate, +2",
     "type": "Armor",
     "price": "NA",
     "rarity": "Very Rare",
     "where_get": "Unknown",
-    "description":"Armor Class: 16\nWeight: 20lb\nYou have a +2 bonus to AC while wearing this armor."
+    "description": "Armor Class: 16\nWeight: 20lb\nYou have a +2 bonus to AC while wearing this armor."
   },
   {
-    "name":"Chain Mail, +2",
+    "name": "Chain Mail, +2",
     "type": "Armor",
     "price": "NA",
     "rarity": "Very Rare",
     "where_get": "Unknown",
-    "description":"Armor Class: 18\nWeight: 55lb\nYou have a +2 bonus to AC while wearing this armor."
+    "description": "Armor Class: 18\nWeight: 55lb\nYou have a +2 bonus to AC while wearing this armor."
   },
   {
-    "name":"Chain Shirt, +2",
+    "name": "Chain Shirt, +2",
     "type": "Armor",
     "price": "NA",
     "rarity": "Very Rare",
     "where_get": "Unknown",
-    "description":"Armor Class: 15\nWeight: 20lb\nYou have a +2 bonus to AC while wearing this armor."
+    "description": "Armor Class: 15\nWeight: 20lb\nYou have a +2 bonus to AC while wearing this armor."
   },
   {
-    "name":"Cinder Coat",
-    "type":"Armor",
-    "attunement":"Requires Attunement",
-    "price":10000,
-    "rarity":"Very Rare",
-    "gacha":"Very Rare Armor",
-    "where_get":"Research",
-    "description":"Armor Class: 11\nWeight: 10lb\nThis floor-length leather duster is the color of dying embers. You have a +1 bonus to AC while wearing this armor.\nThe coat has 3 charges. When you hit a creature with an attack, and that creature is not at maximum hit points, you can expend 1 charge to deal an extra 1d10 fire damage to the target. The coat regains 1d3 expended charges daily at dawn."
-  },
-  {
-    "name":"Clockwork Heavy Armor Enchantment",
-    "type":"Armor Enchantment",
-    "attunement":"Requires Attunement",
-    "price":"20000 + item cost",
-    "rarity":"Very Rare",
-    "gacha":"Very Rare Armor",
-    "where_get":"Research",
-    "description":"The outside surface and internal joints of this armor whir with interlocking gears, drawing on the orderly magic of the plane of Mechanus.\nThe armor has 4 charges. If you make a d20 roll while wearing this armor, you can expend 1 charge to change the number rolled to a 10. The armor regains 1d4 expended charges daily at dawn."
-  },
-  {
-    "name":"Demon Armor",
-    "type":"Armor",
-    "attunement":"Requires Attunement",
-    "price":15000,
-    "rarity":"Very Rare",
-    "gacha":"Very Rare Armor",
-    "where_get":"Research",
-    "description":"While wearing this armor, you gain a +1 bonus to AC, and you can understand and speak Abyssal. In addition, the armor’s clawed gauntlets turn unarmed strikes with your hands into magic weapons that deal slashing damage, with a +1 bonus to attack rolls and damage rolls and a damage die of 1d8.\nCurse. Once you don this cursed armor, you can’t doff it unless you are targeted by the remove curse spell or similar magic. While wearing the armor, you have disadvantage on attack rolls against demons and on saving throws against their spells and special abilities."
-  },
-  {
-    "name":"Dragon Scale Mail (Black)",
-    "attunement":"Requires Attunement",
-    "type":"Armor",
-    "price":7500,
-    "rarity":"Very Rare",
-    "gacha":"Very Rare Armor",
-    "where_get":"Research",
-    "description":"Armor Class: 14\nWeight: 45lb\nDragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued.\nWhile wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to acid damage.\nAdditionally, you can focus your senses as an action to magically discern the distance and direction to the closest black dragon within 30 miles of you. This special action can't be used again until the next dawn."
-  },
-  {
-    "name":"Dragon Scale Mail (Blue)",
-    "attunement":"Requires Attunement",
-    "type":"Armor",
-    "price":7500,
-    "rarity":"Very Rare",
-    "gacha":"Very Rare Armor",
-    "where_get":"Research",
-    "description":"Armor Class: 14\nWeight: 45lb\nDragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued.\nWhile wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to lightning damage.\nAdditionally, you can focus your senses as an action to magically discern the distance and direction to the closest blue dragon within 30 miles of you. This special action can't be used again until the next dawn."
-  },
-  {
-    "name":"Dragon Scale Mail (Brass)",
-    "attunement":"Requires Attunement",
-    "type":"Armor",
-    "price":7500,
-    "rarity":"Very Rare",
-    "gacha":"Very Rare Armor",
-    "where_get":"Research",
-    "description":"Armor Class: 14\nWeight: 45lb\nDragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued.\nWhile wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to fire damage.\nAdditionally, you can focus your senses as an action to magically discern the distance and direction to the closest brass dragon within 30 miles of you. This special action can't be used again until the next dawn."
-  },
-  {
-    "name":"Dragon Scale Mail (Bronze)",
-    "attunement":"Requires Attunement",
-    "type":"Armor",
-    "price":7500,
-    "rarity":"Very Rare",
-    "gacha":"Very Rare Armor",
-    "where_get":"Research",
-    "description":"Armor Class: 14\nWeight: 45lb\nDragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued.\nWhile wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to lightning damage.\nAdditionally, you can focus your senses as an action to magically discern the distance and direction to the closest bronze dragon within 30 miles of you. This special action can't be used again until the next dawn."
-  },
-  {
-    "name":"Dragon Scale Mail (Copper)",
-    "attunement":"Requires Attunement",
-    "type":"Armor",
-    "price":7500,
-    "rarity":"Very Rare",
-    "gacha":"Very Rare Armor",
-    "where_get":"Research",
-    "description":"Armor Class: 14\nWeight: 45lb\nDragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued.\nWhile wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to acid damage.\nAdditionally, you can focus your senses as an action to magically discern the distance and direction to the closest copper dragon within 30 miles of you. This special action can't be used again until the next dawn."
-  },
-  {
-    "name":"Dragon Scale Mail (Gold)",
-    "attunement":"Requires Attunement",
-    "type":"Armor",
-    "price":7500,
-    "rarity":"Very Rare",
-    "gacha":"Very Rare Armor",
-    "where_get":"Research",
-    "description":"Armor Class: 14\nWeight: 45lb\nDragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued.\nWhile wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to fire damage.\nAdditionally, you can focus your senses as an action to magically discern the distance and direction to the closest gold dragon within 30 miles of you. This special action can't be used again until the next dawn."
-  },
-  {
-    "name":"Dragon Scale Mail (Green)",
-    "attunement":"Requires Attunement",
-    "type":"Armor",
-    "price":7500,
-    "rarity":"Very Rare",
-    "gacha":"Very Rare Armor",
-    "where_get":"Research",
-    "description":"Armor Class: 14\nWeight: 45lb\nDragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued.\nWhile wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to poison damage.\nAdditionally, you can focus your senses as an action to magically discern the distance and direction to the closest green dragon within 30 miles of you. This special action can't be used again until the next dawn."
-  },
-  {
-    "name":"Dragon Scale Mail (Red)",
-    "attunement":"Requires Attunement",
-    "type":"Armor",
-    "price":7500,
-    "rarity":"Very Rare",
-    "gacha":"Very Rare Armor",
-    "where_get":"Research",
-    "description":"Armor Class: 14\nWeight: 45lb\nDragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued.\nWhile wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to fire damage.\nAdditionally, you can focus your senses as an action to magically discern the distance and direction to the closest red dragon within 30 miles of you. This special action can't be used again until the next dawn."
-  },
-  {
-    "name":"Dragon Scale Mail (Silver)",
-    "attunement":"Requires Attunement",
-    "type":"Armor",
-    "price":7500,
-    "rarity":"Very Rare",
-    "gacha":"Very Rare Armor",
-    "where_get":"Research",
-    "description":"Armor Class: 14\nWeight: 45lb\nDragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued.\nWhile wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to cold damage.\nAdditionally, you can focus your senses as an action to magically discern the distance and direction to the closest silver dragon within 30 miles of you. This special action can't be used again until the next dawn."
-  },
-  {
-    "name":"Dragon Scale Mail (White)",
-    "attunement":"Requires Attunement",
-    "type":"Armor",
-    "price":7500,
-    "rarity":"Very Rare",
-    "gacha":"Very Rare Armor",
-    "where_get":"Research",
-    "description":"Armor Class: 14\nWeight: 45lb\nDragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued.\nWhile wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to cold damage.\nAdditionally, you can focus your senses as an action to magically discern the distance and direction to the closest white dragon within 30 miles of you. This special action can't be used again until the next dawn."
-  },
-  {
-    "name":"Dragon Turtle Barding",
-    "price":20000,
-    "type":"Armor",
-    "rarity":"Very Rare",
-    "gacha":"Very Rare Armor",
-    "where_get":"Research",
-    "description":"Armor Class: 15\nWeight: 45lb\nThis heavy armor is made using salvaged pieces of a dragon turtle’s shell and can fit on a variety of common mounts. Once worn, the armor expands over the course of 1 hour to cover the creature with a defensive shell and enhance its natural abilities, granting it the following benefits:\nThe creature gains a +1 bonus AC.\nThe creature can breathe air and water.\nThe creature gains a swimming speed equal to its walking or flying speed, whichever is higher."
-  },
-  {
-    "name":"Dwarven Half Plate",
-    "price":6000,
-    "type":"Armor",
-    "rarity":"Very Rare",
-    "gacha":"Very Rare Armor",
-    "where_get":"Research",
-    "description":"Armor Class: 17\nWeight: 40lb\nWhile wearing this armor, you gain a +2 bonus to Armor Class. In addition, if an effect moves you against your will along the ground, you can take a Reaction to reduce the distance you are moved by up to 10 feet."
-  },
-  {
-    "name":"Dwarven Plate",
-    "price":9000,
-    "type":"Armor",
-    "rarity":"Very Rare",
-    "gacha":"Very Rare Armor",
-    "where_get":"Research",
-    "description":"Armor Class: 20\nWeight: 65lb\nWhile wearing this armor, you gain a +2 bonus to AC. In addition, if an effect moves you against your will along the ground, you can use your reaction to reduce the distance you are moved by up to 10 feet."
-  },
-  {
-    "name":"Half Plate, +2",
+    "name": "Cinder Coat",
     "type": "Armor",
-    "price": "NA",
+    "attunement": "Requires Attunement",
+    "price": 10000,
     "rarity": "Very Rare",
-    "where_get": "Unknown",
-    "description":"Armor Class: 17\nWeight: 40lb\nYou have a +2 bonus to AC while wearing this armor."
+    "gacha": "Very Rare Armor",
+    "where_get": "Research",
+    "description": "Armor Class: 11\nWeight: 10lb\nThis floor-length leather duster is the color of dying embers. You have a +1 bonus to AC while wearing this armor.\nThe coat has 3 charges. When you hit a creature with an attack, and that creature is not at maximum hit points, you can expend 1 charge to deal an extra 1d10 fire damage to the target. The coat regains 1d3 expended charges daily at dawn."
   },
   {
-    "name":"Hazewalker Plate",
-    "type":"Armor",
-    "price":15000,
-    "rarity":"Very Rare",
-    "gacha":"Very Rare Armor",
-    "where_get":"Research",
-    "description":"Armor Class: 18\nWeight: 65lb\nThis plate armour includes a helmet and is hermetically sealed when worn. You gain the following benefits when its worn and the helmet visor is closed:\nYou are immune to diseases and the poisoned condition, and gain advantage on saving throws against any effect that causes contamination.\nYou have resistance to necrotic and poison damage.\nYou don’t need to breathe."
+    "name": "Clockwork Heavy Armor Enchantment",
+    "type": "Armor Enchantment",
+    "attunement": "Requires Attunement",
+    "price": "20000 + item cost",
+    "rarity": "Very Rare",
+    "gacha": "Very Rare Armor",
+    "where_get": "Research",
+    "description": "The outside surface and internal joints of this armor whir with interlocking gears, drawing on the orderly magic of the plane of Mechanus.\nThe armor has 4 charges. If you make a d20 roll while wearing this armor, you can expend 1 charge to change the number rolled to a 10. The armor regains 1d4 expended charges daily at dawn."
   },
   {
-    "name":"Hide, +2",
+    "name": "Demon Armor",
     "type": "Armor",
-    "price": "NA",
+    "attunement": "Requires Attunement",
+    "price": 15000,
     "rarity": "Very Rare",
-    "where_get": "Unknown",
-    "description":"Armor Class: 14\nWeight: 12lb\nYou have a +2 bonus to AC while wearing this armor."
+    "gacha": "Very Rare Armor",
+    "where_get": "Research",
+    "description": "While wearing this armor, you gain a +1 bonus to AC, and you can understand and speak Abyssal. In addition, the armor’s clawed gauntlets turn unarmed strikes with your hands into magic weapons that deal slashing damage, with a +1 bonus to attack rolls and damage rolls and a damage die of 1d8.\nCurse. Once you don this cursed armor, you can’t doff it unless you are targeted by the remove curse spell or similar magic. While wearing the armor, you have disadvantage on attack rolls against demons and on saving throws against their spells and special abilities."
   },
   {
-    "name":"Hunter's Coat",
+    "name": "Dragon Scale Mail (Black)",
+    "attunement": "Requires Attunement",
     "type": "Armor",
     "price": 7500,
     "rarity": "Very Rare",
-    "gacha":"Very Rare Armor",
-    "attunement":"Requires Attunement",
-    "where_get":"Research",
-    "description":"Armor Class: 11\nWeight: 10lb\nYou have a +1 bonus to AC while wearing this armor.\nThe coat has 3 charges. When you hit a creature with an attack and that creature doesn’t have all its hit points, you can expend 1 charge to deal an extra 1d10 necrotic damage to the target. The coat regains 1d3 expended charges daily at dawn."
+    "gacha": "Very Rare Armor",
+    "where_get": "Research",
+    "description": "Armor Class: 14\nWeight: 45lb\nDragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued.\nWhile wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to acid damage.\nAdditionally, you can focus your senses as an action to magically discern the distance and direction to the closest black dragon within 30 miles of you. This special action can't be used again until the next dawn."
   },
   {
-    "name":"Impact Plate",
+    "name": "Dragon Scale Mail (Blue)",
+    "attunement": "Requires Attunement",
+    "type": "Armor",
+    "price": 7500,
+    "rarity": "Very Rare",
+    "gacha": "Very Rare Armor",
+    "where_get": "Research",
+    "description": "Armor Class: 14\nWeight: 45lb\nDragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued.\nWhile wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to lightning damage.\nAdditionally, you can focus your senses as an action to magically discern the distance and direction to the closest blue dragon within 30 miles of you. This special action can't be used again until the next dawn."
+  },
+  {
+    "name": "Dragon Scale Mail (Brass)",
+    "attunement": "Requires Attunement",
+    "type": "Armor",
+    "price": 7500,
+    "rarity": "Very Rare",
+    "gacha": "Very Rare Armor",
+    "where_get": "Research",
+    "description": "Armor Class: 14\nWeight: 45lb\nDragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued.\nWhile wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to fire damage.\nAdditionally, you can focus your senses as an action to magically discern the distance and direction to the closest brass dragon within 30 miles of you. This special action can't be used again until the next dawn."
+  },
+  {
+    "name": "Dragon Scale Mail (Bronze)",
+    "attunement": "Requires Attunement",
+    "type": "Armor",
+    "price": 7500,
+    "rarity": "Very Rare",
+    "gacha": "Very Rare Armor",
+    "where_get": "Research",
+    "description": "Armor Class: 14\nWeight: 45lb\nDragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued.\nWhile wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to lightning damage.\nAdditionally, you can focus your senses as an action to magically discern the distance and direction to the closest bronze dragon within 30 miles of you. This special action can't be used again until the next dawn."
+  },
+  {
+    "name": "Dragon Scale Mail (Copper)",
+    "attunement": "Requires Attunement",
+    "type": "Armor",
+    "price": 7500,
+    "rarity": "Very Rare",
+    "gacha": "Very Rare Armor",
+    "where_get": "Research",
+    "description": "Armor Class: 14\nWeight: 45lb\nDragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued.\nWhile wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to acid damage.\nAdditionally, you can focus your senses as an action to magically discern the distance and direction to the closest copper dragon within 30 miles of you. This special action can't be used again until the next dawn."
+  },
+  {
+    "name": "Dragon Scale Mail (Gold)",
+    "attunement": "Requires Attunement",
+    "type": "Armor",
+    "price": 7500,
+    "rarity": "Very Rare",
+    "gacha": "Very Rare Armor",
+    "where_get": "Research",
+    "description": "Armor Class: 14\nWeight: 45lb\nDragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued.\nWhile wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to fire damage.\nAdditionally, you can focus your senses as an action to magically discern the distance and direction to the closest gold dragon within 30 miles of you. This special action can't be used again until the next dawn."
+  },
+  {
+    "name": "Dragon Scale Mail (Green)",
+    "attunement": "Requires Attunement",
+    "type": "Armor",
+    "price": 7500,
+    "rarity": "Very Rare",
+    "gacha": "Very Rare Armor",
+    "where_get": "Research",
+    "description": "Armor Class: 14\nWeight: 45lb\nDragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued.\nWhile wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to poison damage.\nAdditionally, you can focus your senses as an action to magically discern the distance and direction to the closest green dragon within 30 miles of you. This special action can't be used again until the next dawn."
+  },
+  {
+    "name": "Dragon Scale Mail (Red)",
+    "attunement": "Requires Attunement",
+    "type": "Armor",
+    "price": 7500,
+    "rarity": "Very Rare",
+    "gacha": "Very Rare Armor",
+    "where_get": "Research",
+    "description": "Armor Class: 14\nWeight: 45lb\nDragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued.\nWhile wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to fire damage.\nAdditionally, you can focus your senses as an action to magically discern the distance and direction to the closest red dragon within 30 miles of you. This special action can't be used again until the next dawn."
+  },
+  {
+    "name": "Dragon Scale Mail (Silver)",
+    "attunement": "Requires Attunement",
+    "type": "Armor",
+    "price": 7500,
+    "rarity": "Very Rare",
+    "gacha": "Very Rare Armor",
+    "where_get": "Research",
+    "description": "Armor Class: 14\nWeight: 45lb\nDragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued.\nWhile wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to cold damage.\nAdditionally, you can focus your senses as an action to magically discern the distance and direction to the closest silver dragon within 30 miles of you. This special action can't be used again until the next dawn."
+  },
+  {
+    "name": "Dragon Scale Mail (White)",
+    "attunement": "Requires Attunement",
+    "type": "Armor",
+    "price": 7500,
+    "rarity": "Very Rare",
+    "gacha": "Very Rare Armor",
+    "where_get": "Research",
+    "description": "Armor Class: 14\nWeight: 45lb\nDragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued.\nWhile wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to cold damage.\nAdditionally, you can focus your senses as an action to magically discern the distance and direction to the closest white dragon within 30 miles of you. This special action can't be used again until the next dawn."
+  },
+  {
+    "name": "Dragon Turtle Barding",
+    "price": 20000,
+    "type": "Armor",
+    "rarity": "Very Rare",
+    "gacha": "Very Rare Armor",
+    "where_get": "Research",
+    "description": "Armor Class: 15\nWeight: 45lb\nThis heavy armor is made using salvaged pieces of a dragon turtle’s shell and can fit on a variety of common mounts. Once worn, the armor expands over the course of 1 hour to cover the creature with a defensive shell and enhance its natural abilities, granting it the following benefits:\nThe creature gains a +1 bonus AC.\nThe creature can breathe air and water.\nThe creature gains a swimming speed equal to its walking or flying speed, whichever is higher."
+  },
+  {
+    "name": "Dwarven Half Plate",
+    "price": 6000,
+    "type": "Armor",
+    "rarity": "Very Rare",
+    "gacha": "Very Rare Armor",
+    "where_get": "Research",
+    "description": "Armor Class: 17\nWeight: 40lb\nWhile wearing this armor, you gain a +2 bonus to Armor Class. In addition, if an effect moves you against your will along the ground, you can take a Reaction to reduce the distance you are moved by up to 10 feet."
+  },
+  {
+    "name": "Dwarven Plate",
+    "price": 9000,
+    "type": "Armor",
+    "rarity": "Very Rare",
+    "gacha": "Very Rare Armor",
+    "where_get": "Research",
+    "description": "Armor Class: 20\nWeight: 65lb\nWhile wearing this armor, you gain a +2 bonus to AC. In addition, if an effect moves you against your will along the ground, you can use your reaction to reduce the distance you are moved by up to 10 feet."
+  },
+  {
+    "name": "Half Plate, +2",
+    "type": "Armor",
+    "price": "NA",
+    "rarity": "Very Rare",
+    "where_get": "Unknown",
+    "description": "Armor Class: 17\nWeight: 40lb\nYou have a +2 bonus to AC while wearing this armor."
+  },
+  {
+    "name": "Hazewalker Plate",
     "type": "Armor",
     "price": 15000,
     "rarity": "Very Rare",
-    "gacha":"Very Rare Armor",
-    "attunement":"Requires Attunement",
-    "where_get":"Research",
-    "description":"Armor Class: 18\nWeight: 65lb\nThis resilient plate mail was made by dwarves but magically resizes to fit the wearer’s stature. While wearing it, you have resistance to bludgeoning damage, and you don’t take any falling damage when you fall no farther than 100 feet."
+    "gacha": "Very Rare Armor",
+    "where_get": "Research",
+    "description": "Armor Class: 18\nWeight: 65lb\nThis plate armour includes a helmet and is hermetically sealed when worn. You gain the following benefits when its worn and the helmet visor is closed:\nYou are immune to diseases and the poisoned condition, and gain advantage on saving throws against any effect that causes contamination.\nYou have resistance to necrotic and poison damage.\nYou don’t need to breathe."
   },
   {
-    "name":"Last Stand Armor Enchantment",
-    "type":"Armor Enchantment",
-    "price":20000,
-    "rarity":"Very Rare",
-    "gacha":"Very Rare Armor",
-    "where_get":"Research",
-    "description":"You have a +1 bonus to AC while wearing this armor, which shimmers softly.\nIf you die while wearing the armor, it is destroyed, and each celestial, fey, and fiend with 30 feet of you must succeed on a DC 15 Charisma saving throw or be banished to its home plane of existence, unless it is already there."
-  },
-  {
-    "name":"Leather, +2",
+    "name": "Hide, +2",
     "type": "Armor",
     "price": "NA",
     "rarity": "Very Rare",
     "where_get": "Unknown",
-    "description":"Armor Class: 13\nWeight: 10lb\nYou have a +2 bonus to AC while wearing this armor."
+    "description": "Armor Class: 14\nWeight: 12lb\nYou have a +2 bonus to AC while wearing this armor."
   },
   {
-    "name":"Living Armor Enchantment",
-    "type":"Armor Enchantment",
-    "price":30000,
-    "rarity":"Very Rare",
-    "attunement":"Requires Attunement",
-    "gacha":"Very Rare Armor",
-    "where_get":"Research",
-    "description":"This hideous armor is formed from black chitin, beneath which veins pulse and red sinews glisten. To attune to this item, you must wear it for the entire attunement period, during which tendrils on the inside burrow into you.\nWhile wearing this armor, you have a +1 bonus to Armor Class, and you have resistance to the following damage types: necrotic, poison, and psychic.\nSymbiotic Nature. The armor can’t be removed from you while you’re attuned to it, and you can’t voluntarily end your attunement to it. If you’re targeted by a spell that ends a curse, your attunement to the armor ends, and it detaches from you.\nThe armor requires fresh blood be fed to it. Immediately after you finish any long rest, you must either feed half of your remaining Hit Dice to the armor (round up) or take 1 level of exhaustion."
+    "name": "Hunter's Coat",
+    "type": "Armor",
+    "price": 7500,
+    "rarity": "Very Rare",
+    "gacha": "Very Rare Armor",
+    "attunement": "Requires Attunement",
+    "where_get": "Research",
+    "description": "Armor Class: 11\nWeight: 10lb\nYou have a +1 bonus to AC while wearing this armor.\nThe coat has 3 charges. When you hit a creature with an attack and that creature doesn’t have all its hit points, you can expend 1 charge to deal an extra 1d10 necrotic damage to the target. The coat regains 1d3 expended charges daily at dawn."
   },
   {
-    "name":"Midnight Light Armor Enchantment",
-    "type":"Armor Enchantment",
-    "price":15000,
-    "attunement":"Requires Attunement",
-    "rarity":"Very Rare",
-    "gacha":"Very Rare Armor",
-    "where_get":"Research",
-    "description":"Spun of pure shadow and invisible in sunlight, armor of this type is typically of shadow goblin or derro construction. While wearing it, you gain a +1 bonus to AC and resistance to radiant damage. In addition, you have advantage on Dexterity (Stealth) checks."
+    "name": "Impact Plate",
+    "type": "Armor",
+    "price": 15000,
+    "rarity": "Very Rare",
+    "gacha": "Very Rare Armor",
+    "attunement": "Requires Attunement",
+    "where_get": "Research",
+    "description": "Armor Class: 18\nWeight: 65lb\nThis resilient plate mail was made by dwarves but magically resizes to fit the wearer’s stature. While wearing it, you have resistance to bludgeoning damage, and you don’t take any falling damage when you fall no farther than 100 feet."
   },
   {
-    "name":"Moonbeam Chain Mail",
-    "type":"Armor",
-    "attunement":"Requires Attunement by Druid",
-    "class_recommendations":["Druid"],
-    "price":15000,
-    "rarity":"Very Rare",
-    "gacha":"Very Rare Armor",
-    "where_get":"Research",
-    "description":"Armor Class: 16\nWeight: 5lb\nThis armor is made of woven moonlight by the bearfolk. It weighs only 5 pounds and always glows with a gentle radiance. Its glow cannot be hidden by tunics or cloaks. While wearing this armor, you gain a +1 bonus to AC, increasing to +2 under moonlight. In addition, you gain an additional use of Wild Shape. You are considered proficient with this armor even if you lack proficiency with heavy armor."
+    "name": "Last Stand Armor Enchantment",
+    "type": "Armor Enchantment",
+    "price": 20000,
+    "rarity": "Very Rare",
+    "gacha": "Very Rare Armor",
+    "where_get": "Research",
+    "description": "You have a +1 bonus to AC while wearing this armor, which shimmers softly.\nIf you die while wearing the armor, it is destroyed, and each celestial, fey, and fiend with 30 feet of you must succeed on a DC 15 Charisma saving throw or be banished to its home plane of existence, unless it is already there."
   },
   {
-    "name":"Padded, +2",
+    "name": "Leather, +2",
     "type": "Armor",
     "price": "NA",
     "rarity": "Very Rare",
     "where_get": "Unknown",
-    "description":"Armor Class: 13\nWeight: 8lb\nYou have a +2 bonus to AC while wearing this armor."
+    "description": "Armor Class: 13\nWeight: 10lb\nYou have a +2 bonus to AC while wearing this armor."
   },
   {
-    "name":"Plate, +2",
+    "name": "Living Armor Enchantment",
+    "type": "Armor Enchantment",
+    "price": 30000,
+    "rarity": "Very Rare",
+    "attunement": "Requires Attunement",
+    "gacha": "Very Rare Armor",
+    "where_get": "Research",
+    "description": "This hideous armor is formed from black chitin, beneath which veins pulse and red sinews glisten. To attune to this item, you must wear it for the entire attunement period, during which tendrils on the inside burrow into you.\nWhile wearing this armor, you have a +1 bonus to Armor Class, and you have resistance to the following damage types: necrotic, poison, and psychic.\nSymbiotic Nature. The armor can’t be removed from you while you’re attuned to it, and you can’t voluntarily end your attunement to it. If you’re targeted by a spell that ends a curse, your attunement to the armor ends, and it detaches from you.\nThe armor requires fresh blood be fed to it. Immediately after you finish any long rest, you must either feed half of your remaining Hit Dice to the armor (round up) or take 1 level of exhaustion."
+  },
+  {
+    "name": "Midnight Light Armor Enchantment",
+    "type": "Armor Enchantment",
+    "price": 15000,
+    "attunement": "Requires Attunement",
+    "rarity": "Very Rare",
+    "gacha": "Very Rare Armor",
+    "where_get": "Research",
+    "description": "Spun of pure shadow and invisible in sunlight, armor of this type is typically of shadow goblin or derro construction. While wearing it, you gain a +1 bonus to AC and resistance to radiant damage. In addition, you have advantage on Dexterity (Stealth) checks."
+  },
+  {
+    "name": "Moonbeam Chain Mail",
+    "type": "Armor",
+    "attunement": "Requires Attunement by Druid",
+    "class_recommendations": [
+      "Druid"
+    ],
+    "price": 15000,
+    "rarity": "Very Rare",
+    "gacha": "Very Rare Armor",
+    "where_get": "Research",
+    "description": "Armor Class: 16\nWeight: 5lb\nThis armor is made of woven moonlight by the bearfolk. It weighs only 5 pounds and always glows with a gentle radiance. Its glow cannot be hidden by tunics or cloaks. While wearing this armor, you gain a +1 bonus to AC, increasing to +2 under moonlight. In addition, you gain an additional use of Wild Shape. You are considered proficient with this armor even if you lack proficiency with heavy armor."
+  },
+  {
+    "name": "Padded, +2",
     "type": "Armor",
     "price": "NA",
     "rarity": "Very Rare",
     "where_get": "Unknown",
-    "description":"Armor Class: 20\nWeight: 65lb\nYou have a +2 bonus to AC while wearing this armor."
+    "description": "Armor Class: 13\nWeight: 8lb\nYou have a +2 bonus to AC while wearing this armor."
   },
   {
-    "name":"Ring Mail, +2",
+    "name": "Plate, +2",
     "type": "Armor",
     "price": "NA",
     "rarity": "Very Rare",
     "where_get": "Unknown",
-    "description":"Armor Class: 16\nWeight: 40lb\nYou have a +2 bonus to AC while wearing this armor."
+    "description": "Armor Class: 20\nWeight: 65lb\nYou have a +2 bonus to AC while wearing this armor."
   },
   {
-    "name":"Sapphire Buckler",
-    "type":"Armor",
-    "attunement":"Requires Attunement",
-    "price":15000,
-    "rarity":"Very Rare",
-    "gacha":"Very Rare Armor",
-    "where_get":"Research",
-    "description":"Armor Class: +2\nWeight: 6lb\nThis crystalline blue shield is fashioned from a sapphire dragon’s scale and is created to aid in rooting out the influence of Aberrations. While wielding the shield, you have resistance to psychic and thunder damage. Also, when you take damage from a creature that is within 5 feet of you, you can use your reaction to deal 2d6 thunder damage to that creature.\nAs an action, you can use the shield to help you locate Aberrations until the end of your next turn. If any Aberrations are within 1 mile of you, the shield emits a low humming tone for a moment, and you know the direction of all Aberrations within that range. Once this property is used, it can’t be used again until the next dawn."
-  },
-  {
-    "name":"Scale Mail, +2",
+    "name": "Ring Mail, +2",
     "type": "Armor",
     "price": "NA",
     "rarity": "Very Rare",
     "where_get": "Unknown",
-    "description":"Armor Class: 16\nWeight: 45lb\nYou have a +2 bonus to AC while wearing this armor."
+    "description": "Armor Class: 16\nWeight: 40lb\nYou have a +2 bonus to AC while wearing this armor."
   },
   {
-    "name":"Shield of Dawn's Herald",
-    "type":"Armor",
-    "price":15000,
-    "attunement":"Requires Attunement",
-    "rarity":"Very Rare",
-    "gacha":"Very Rare Armor",
-    "where_get":"Research",
-    "description":"Armor Class: +2\nWeight: 6lb\nThe shield has 3 charges, and it regains 1d3 expended charges daily at dawn. While holding this shield, you can expend 1 charge to create a beam of light 10 feet wide and 120 feet long to illuminate everything in front of the shield. All creatures in this beam of light appear in their true form: shapeshifters appear as their unshifted forms, illusions fail to disguise their users, and so on. You can maintain this beam for up to 1 minute, requiring concentration\nAdditionally, undead in the beam take 1d6 radiant damage each round they remain in the beam."
+    "name": "Sapphire Buckler",
+    "type": "Armor",
+    "attunement": "Requires Attunement",
+    "price": 15000,
+    "rarity": "Very Rare",
+    "gacha": "Very Rare Armor",
+    "where_get": "Research",
+    "description": "Armor Class: +2\nWeight: 6lb\nThis crystalline blue shield is fashioned from a sapphire dragon’s scale and is created to aid in rooting out the influence of Aberrations. While wielding the shield, you have resistance to psychic and thunder damage. Also, when you take damage from a creature that is within 5 feet of you, you can use your reaction to deal 2d6 thunder damage to that creature.\nAs an action, you can use the shield to help you locate Aberrations until the end of your next turn. If any Aberrations are within 1 mile of you, the shield emits a low humming tone for a moment, and you know the direction of all Aberrations within that range. Once this property is used, it can’t be used again until the next dawn."
   },
   {
-    "name":"Shield of the Cavalier",
-    "type":"Armor",
-    "attunement":"Requires Attunement",
-    "price":20000,
-    "rarity":"Very Rare",
-    "gacha":"Very Rare Armor",
-    "where_get":"Research",
-    "description":"Armor Class: +4\nWeight: 6lb\nWhile holding this Shield, you have a +2 bonus to Armor Class. This bonus is in addition to the Shield’s normal bonus to AC.\nThe Shield has the following additional properties that you can use while holding it.\nForceful Bash. When you take the Attack action, you can make one of the attack rolls using the Shield against a target within 5 feet of yourself. Apply your Proficiency Bonus and Strength modifier to the attack roll. On a hit, the Shield deals Force damage to the target equal to 2d6 + 2 plus your Strength modifier, and if the target is a creature, you can push it up to 10 feet directly away from yourself. If the creature is your size or smaller, you can also knock it down, giving it the Prone condition.\nProtective Field. As a Reaction, when you or an ally you can see within 5 feet of you is targeted by an attack or makes a saving throw against an area of effect, you can use the Shield to create an immobile 5-foot Emanation originating from you. When the Emanation appears, any creatures or objects not fully contained within it are pushed into the nearest unoccupied spaces outside it. The attack or area of effect that triggered the Reaction has no effect on creatures and objects inside the Emanation, which lasts as long as you maintain Concentration, up to 1 minute. Nothing can pass into or out of the Emanation. A creature or object inside the Emanation can’t be damaged by attacks or effects originating from outside, nor can a creature inside the Emanation damage anything outside it. Once this property is used, it can’t be used again until the next dawn."
-  },
-  {
-    "name":"Shield, +3",
+    "name": "Scale Mail, +2",
     "type": "Armor",
     "price": "NA",
     "rarity": "Very Rare",
     "where_get": "Unknown",
-    "description":"Armor Class: +5\nWeight: 6lb\nWhile holding this Shield, you have a bonus to Armor Class determined by the Shield’s rarity, in addition to the Shield’s normal bonus to AC."
+    "description": "Armor Class: 16\nWeight: 45lb\nYou have a +2 bonus to AC while wearing this armor."
   },
   {
-    "name":"Spellguard Shield",
-    "type":"Armor",
-    "price":50000,
-    "attunement":"Requires Attunement",
-    "rarity":"Very Rare",
-    "gacha":"Very Rare Armor",
-    "where_get":"Research",
-    "description":"Armor Class: +2\nWeight: 6lb\nWhile holding this Shield, you have Advantage on saving throws against spells and other magical effects, and spell attack rolls have Disadvantage against you."
+    "name": "Shield of Dawn's Herald",
+    "type": "Armor",
+    "price": 15000,
+    "attunement": "Requires Attunement",
+    "rarity": "Very Rare",
+    "gacha": "Very Rare Armor",
+    "where_get": "Research",
+    "description": "Armor Class: +2\nWeight: 6lb\nThe shield has 3 charges, and it regains 1d3 expended charges daily at dawn. While holding this shield, you can expend 1 charge to create a beam of light 10 feet wide and 120 feet long to illuminate everything in front of the shield. All creatures in this beam of light appear in their true form: shapeshifters appear as their unshifted forms, illusions fail to disguise their users, and so on. You can maintain this beam for up to 1 minute, requiring concentration\nAdditionally, undead in the beam take 1d6 radiant damage each round they remain in the beam."
   },
   {
-    "name":"Splint, +2",
+    "name": "Shield of the Cavalier",
+    "type": "Armor",
+    "attunement": "Requires Attunement",
+    "price": 20000,
+    "rarity": "Very Rare",
+    "gacha": "Very Rare Armor",
+    "where_get": "Research",
+    "description": "Armor Class: +4\nWeight: 6lb\nWhile holding this Shield, you have a +2 bonus to Armor Class. This bonus is in addition to the Shield’s normal bonus to AC.\nThe Shield has the following additional properties that you can use while holding it.\nForceful Bash. When you take the Attack action, you can make one of the attack rolls using the Shield against a target within 5 feet of yourself. Apply your Proficiency Bonus and Strength modifier to the attack roll. On a hit, the Shield deals Force damage to the target equal to 2d6 + 2 plus your Strength modifier, and if the target is a creature, you can push it up to 10 feet directly away from yourself. If the creature is your size or smaller, you can also knock it down, giving it the Prone condition.\nProtective Field. As a Reaction, when you or an ally you can see within 5 feet of you is targeted by an attack or makes a saving throw against an area of effect, you can use the Shield to create an immobile 5-foot Emanation originating from you. When the Emanation appears, any creatures or objects not fully contained within it are pushed into the nearest unoccupied spaces outside it. The attack or area of effect that triggered the Reaction has no effect on creatures and objects inside the Emanation, which lasts as long as you maintain Concentration, up to 1 minute. Nothing can pass into or out of the Emanation. A creature or object inside the Emanation can’t be damaged by attacks or effects originating from outside, nor can a creature inside the Emanation damage anything outside it. Once this property is used, it can’t be used again until the next dawn."
+  },
+  {
+    "name": "Shield, +3",
     "type": "Armor",
     "price": "NA",
     "rarity": "Very Rare",
     "where_get": "Unknown",
-    "description":"Armor Class: 19\nWeight: 60lb\nYou have a +2 bonus to AC while wearing this armor."
+    "description": "Armor Class: +5\nWeight: 6lb\nWhile holding this Shield, you have a bonus to Armor Class determined by the Shield’s rarity, in addition to the Shield’s normal bonus to AC."
   },
   {
-    "name":"Studded Leather, +2",
+    "name": "Spellguard Shield",
+    "type": "Armor",
+    "price": 50000,
+    "attunement": "Requires Attunement",
+    "rarity": "Very Rare",
+    "gacha": "Very Rare Armor",
+    "where_get": "Research",
+    "description": "Armor Class: +2\nWeight: 6lb\nWhile holding this Shield, you have Advantage on saving throws against spells and other magical effects, and spell attack rolls have Disadvantage against you."
+  },
+  {
+    "name": "Splint, +2",
     "type": "Armor",
     "price": "NA",
     "rarity": "Very Rare",
     "where_get": "Unknown",
-    "description":"Armor Class: 14\nWeight: 13lb\nYou have a +2 bonus to AC while wearing this armor."
+    "description": "Armor Class: 19\nWeight: 60lb\nYou have a +2 bonus to AC while wearing this armor."
   },
   {
-    "name":"Armor of Invulnerability",
-    "type":"Armor",
-    "price":"NA",
-    "rarity":"Legendary",
-    "where_get":"Research",
-    "attunement":"Requires Attunement",
-    "level_restriction":17,
-    "description":"You have resistance to nonmagical damage while you wear this armor. Additionally, you can use an action to make yourself immune to nonmagical damage for 10 minutes or until you are no longer wearing the armor. Once this special action is used, it can't be used again until the next dawn."
+    "name": "Studded Leather, +2",
+    "type": "Armor",
+    "price": "NA",
+    "rarity": "Very Rare",
+    "where_get": "Unknown",
+    "description": "Armor Class: 14\nWeight: 13lb\nYou have a +2 bonus to AC while wearing this armor."
   },
   {
-    "name":"Armor of the Valiant Soul",
-    "type":"Armor",
-    "price":"NA",
-    "rarity":"Legendary",
-    "where_get":"Research",
-    "attunement":"Requires Attunement",
-    "level_restriction":17,
-    "description":"STARTS AT DORMANT WILL BE QUEST PER STAGE\n\nThis antique armor forged from jade and black-dragon scales was once worn by J’mon Sa Ord of Ank’Harel.\n\nDormant\nWhile the Armor of the Valiant Soul is in a dormant state, you gain a +1 bonus to AC while wearing it.\nYou can also cast the command spell (save DC 14) while attuned to this armor. Once this property is used, it can’t be used again until you finish a long rest.\n\nAwakened\nWhen the Armor of the Valiant Soul reaches an awakened state, you gain the following benefits:\nThe AC bonus of the armor increases to +2.\nYou have resistance to acid damage while wearing this armor.\nYou are immune to the frightened condition while wearing this armor.\nThe spell save DC for the armor’s command spell increases to 16, and the spell can target up to three creatures.\n\nExhalted\nWhen the Armor of the Valiant Soul reaches an exalted state, you gain the following benefits:\nThe AC bonus of the armor increases to +3.\nYou are immune to acid damage while wearing this armor.\nAll friendly creatures within 15 feet of you are immune to the frightened condition as long as you are conscious.\nThe spell save DC of the armor’s command spell increases to 18, and the spell can target up to five creatures."
+    "name": "Armor of Invulnerability",
+    "type": "Armor",
+    "price": "NA",
+    "rarity": "Legendary",
+    "where_get": "Research",
+    "attunement": "Requires Attunement",
+    "level_restriction": 17,
+    "description": "You have resistance to nonmagical damage while you wear this armor. Additionally, you can use an action to make yourself immune to nonmagical damage for 10 minutes or until you are no longer wearing the armor. Once this special action is used, it can't be used again until the next dawn."
   },
   {
-    "name":"Breastplate, +3",
+    "name": "Armor of the Valiant Soul",
+    "type": "Armor",
+    "price": "NA",
+    "rarity": "Legendary",
+    "where_get": "Research",
+    "attunement": "Requires Attunement",
+    "level_restriction": 17,
+    "description": "STARTS AT DORMANT WILL BE QUEST PER STAGE\n\nThis antique armor forged from jade and black-dragon scales was once worn by J’mon Sa Ord of Ank’Harel.\n\nDormant\nWhile the Armor of the Valiant Soul is in a dormant state, you gain a +1 bonus to AC while wearing it.\nYou can also cast the command spell (save DC 14) while attuned to this armor. Once this property is used, it can’t be used again until you finish a long rest.\n\nAwakened\nWhen the Armor of the Valiant Soul reaches an awakened state, you gain the following benefits:\nThe AC bonus of the armor increases to +2.\nYou have resistance to acid damage while wearing this armor.\nYou are immune to the frightened condition while wearing this armor.\nThe spell save DC for the armor’s command spell increases to 16, and the spell can target up to three creatures.\n\nExhalted\nWhen the Armor of the Valiant Soul reaches an exalted state, you gain the following benefits:\nThe AC bonus of the armor increases to +3.\nYou are immune to acid damage while wearing this armor.\nAll friendly creatures within 15 feet of you are immune to the frightened condition as long as you are conscious.\nThe spell save DC of the armor’s command spell increases to 18, and the spell can target up to five creatures."
+  },
+  {
+    "name": "Breastplate, +3",
     "type": "Armor",
     "price": "NA",
     "rarity": "Legendary",
     "where_get": "Unknown",
-    "description":"Armor Class: 17\nWeight: 20lb\nYou have a +3 bonus to AC while wearing this armor."
+    "description": "Armor Class: 17\nWeight: 20lb\nYou have a +3 bonus to AC while wearing this armor."
   },
   {
-    "name":"Chain Mail, +3",
+    "name": "Chain Mail, +3",
     "type": "Armor",
     "price": "NA",
     "rarity": "Legendary",
     "where_get": "Unknown",
-    "description":"Armor Class: 19\nWeight: 55lb\nYou have a +3 bonus to AC while wearing this armor."
+    "description": "Armor Class: 19\nWeight: 55lb\nYou have a +3 bonus to AC while wearing this armor."
   },
   {
-    "name":"Chain Shirt, +3",
+    "name": "Chain Shirt, +3",
     "type": "Armor",
     "price": "NA",
     "rarity": "Legendary",
     "where_get": "Unknown",
-    "description":"Armor Class: 16\nWeight: 20lb\nYou have a +3 bonus to AC while wearing this armor."
+    "description": "Armor Class: 16\nWeight: 20lb\nYou have a +3 bonus to AC while wearing this armor."
   },
   {
-    "name":"Deathwalker's Ward",
-    "attunement":"Requires Attunement",
-    "type":"Armor",
-    "level_restriction":17,
-    "rarity":"Legendary",
-    "price":"NA",
-    "where_get":"Research",
-    "description":"STARTS AT DORMANT WILL BE QUEST PER STAGE\n\nThis beautiful black leather armor is covered in intricate scrollwork, and has a mantle bearing the black feathers of the Matron of Ravens. Legends say that it has been worn by a number of that deity’s champions over the centuries—most recently, Vax’ildan of Vox Machina.\n\nDormant\nWhen the Deathwalker’s Ward is in a dormant state, you gain a +1 bonus to AC and you have advantage on death saving throws while wearing the armor.\n\nAwakened\nWhen the Deathwalker’s Ward reaches an awakened state, you gain the following benefits:\nThe AC bonus of the armor increases to +2.\nWhile wearing the armor, you have resistance to one of the following damage types of your choice: acid, cold, fire, lightning, necrotic, or poison. You can change the damage type when you finish a short rest.\n\nExhalted\nWhen the Deathwalker’s Ward reaches an exalted state, you gain the following benefits:\nThe AC bonus of the armor increases to +3.\nAs a bonus action, you grow large black raven wings that grant you a flying speed of 60 feet and last for 1 hour. Once this property is used, it can’t be used again until you finish a long rest."
+    "name": "Deathwalker's Ward",
+    "attunement": "Requires Attunement",
+    "type": "Armor",
+    "level_restriction": 17,
+    "rarity": "Legendary",
+    "price": "NA",
+    "where_get": "Research",
+    "description": "STARTS AT DORMANT WILL BE QUEST PER STAGE\n\nThis beautiful black leather armor is covered in intricate scrollwork, and has a mantle bearing the black feathers of the Matron of Ravens. Legends say that it has been worn by a number of that deity’s champions over the centuries—most recently, Vax’ildan of Vox Machina.\n\nDormant\nWhen the Deathwalker’s Ward is in a dormant state, you gain a +1 bonus to AC and you have advantage on death saving throws while wearing the armor.\n\nAwakened\nWhen the Deathwalker’s Ward reaches an awakened state, you gain the following benefits:\nThe AC bonus of the armor increases to +2.\nWhile wearing the armor, you have resistance to one of the following damage types of your choice: acid, cold, fire, lightning, necrotic, or poison. You can change the damage type when you finish a short rest.\n\nExhalted\nWhen the Deathwalker’s Ward reaches an exalted state, you gain the following benefits:\nThe AC bonus of the armor increases to +3.\nAs a bonus action, you grow large black raven wings that grant you a flying speed of 60 feet and last for 1 hour. Once this property is used, it can’t be used again until you finish a long rest."
   },
   {
-    "name":"Efreeti Chain",
-    "type":"Armor",
-    "attunement":"Requires Attunement",
-    "price":"NA",
-    "level_restriction":17,
-    "rarity":"Legendary",
-    "where_get":"Research",
-    "description":"Armor Class: 16\nWeight: 55lb\nWhile wearing this armor, you gain a +3 bonus to AC, you are immune to fire damage, and you can understand and speak Primordial. In addition, you can stand on and walk across molten rock as if it were solid ground."
+    "name": "Efreeti Chain",
+    "type": "Armor",
+    "attunement": "Requires Attunement",
+    "price": "NA",
+    "level_restriction": 17,
+    "rarity": "Legendary",
+    "where_get": "Research",
+    "description": "Armor Class: 16\nWeight: 55lb\nWhile wearing this armor, you gain a +3 bonus to AC, you are immune to fire damage, and you can understand and speak Primordial. In addition, you can stand on and walk across molten rock as if it were solid ground."
   },
   {
-    "name":"Half Plate Armor of Etherealness",
-    "type":"Armor",
-    "attunement":"Requires Attunement",
-    "price":"NA",
-    "level_restriction":17,
-    "rarity":"Legendary",
-    "where_get":"Research",
-    "description":"Armor Class: 15\nWeight: 40lb\nWhile you’re wearing this armor, you can take a Magic action and use a command word to gain the effect of the Etherealness spell. The spell ends immediately if you remove the armor or take a Magic action to repeat the command word. This property of the armor can’t be used again until the next dawn."
+    "name": "Half Plate Armor of Etherealness",
+    "type": "Armor",
+    "attunement": "Requires Attunement",
+    "price": "NA",
+    "level_restriction": 17,
+    "rarity": "Legendary",
+    "where_get": "Research",
+    "description": "Armor Class: 15\nWeight: 40lb\nWhile you’re wearing this armor, you can take a Magic action and use a command word to gain the effect of the Etherealness spell. The spell ends immediately if you remove the armor or take a Magic action to repeat the command word. This property of the armor can’t be used again until the next dawn."
   },
   {
-    "name":"Half Plate, +3",
+    "name": "Half Plate, +3",
     "type": "Armor",
     "price": "NA",
     "rarity": "Legendary",
     "where_get": "Unknown",
-    "description":"Armor Class: 18\nWeight: 40lb\nYou have a +3 bonus to AC while wearing this armor."
+    "description": "Armor Class: 18\nWeight: 40lb\nYou have a +3 bonus to AC while wearing this armor."
   },
   {
-    "name":"Hide of the Feral Guardian",
-    "type":"Armor",
-    "price":"NA",
-    "rarity":"Legendary",
-    "where_get":"Research",
-    "attunement":"Requires Attunement",
-    "level_restriction":17,
-    "description":"STARTS AT DORMANT WILL BE QUEST PER STAGE\n\nIt is believed that this polished and beautifully detailed leather armor was a gift from Melora, bestowed on a long-forgotten archdruid and champion of the natural world before the terrors of the Calamity.\n\nDormant\nWhile wearing the armor in its dormant state, you gain the following benefits:\nThe armor grants you a +1 bonus to AC.\nWhile you are transformed by an effect that replaces any of your game statistics with those of another creature, you have a +1 bonus to melee attack and damage rolls, and you retain the benefits of this armor.\nAs an action, you can use the armor to cast polymorph on yourself, transforming into a giant owl while retaining your Intelligence, Wisdom, and Charisma scores. This property can’t be used again until the next dawn.\n\nAwakened\nWhen the armor reaches an awakened state, it gains the following properties:\nThe AC bonus of the armor increases to +2.\nWhile you are transformed by an effect that replaces any of your game statistics with those of another creature, your bonus to melee attack and damage rolls increases by 1 (to +2).\nWhen you cast the polymorph spell using this armor, you can transform into a cave bear (use the polar bear statistics).\n\nExhalted\nWhen the armor reaches an exalted state, it gains the following properties:\nThe AC bonus of the armor increases to +3.\nWhile you are transformed by an effect that replaces any of your game statistics with those of another creature, your bonus to melee attack and damage rolls increases by 1 (to +3).\nWhen you cast the polymorph spell using this armor, you can transform into a guardian wolf (see the accompanying stat block)."
+    "name": "Hide of the Feral Guardian",
+    "type": "Armor",
+    "price": "NA",
+    "rarity": "Legendary",
+    "where_get": "Research",
+    "attunement": "Requires Attunement",
+    "level_restriction": 17,
+    "description": "STARTS AT DORMANT WILL BE QUEST PER STAGE\n\nIt is believed that this polished and beautifully detailed leather armor was a gift from Melora, bestowed on a long-forgotten archdruid and champion of the natural world before the terrors of the Calamity.\n\nDormant\nWhile wearing the armor in its dormant state, you gain the following benefits:\nThe armor grants you a +1 bonus to AC.\nWhile you are transformed by an effect that replaces any of your game statistics with those of another creature, you have a +1 bonus to melee attack and damage rolls, and you retain the benefits of this armor.\nAs an action, you can use the armor to cast polymorph on yourself, transforming into a giant owl while retaining your Intelligence, Wisdom, and Charisma scores. This property can’t be used again until the next dawn.\n\nAwakened\nWhen the armor reaches an awakened state, it gains the following properties:\nThe AC bonus of the armor increases to +2.\nWhile you are transformed by an effect that replaces any of your game statistics with those of another creature, your bonus to melee attack and damage rolls increases by 1 (to +2).\nWhen you cast the polymorph spell using this armor, you can transform into a cave bear (use the polar bear statistics).\n\nExhalted\nWhen the armor reaches an exalted state, it gains the following properties:\nThe AC bonus of the armor increases to +3.\nWhile you are transformed by an effect that replaces any of your game statistics with those of another creature, your bonus to melee attack and damage rolls increases by 1 (to +3).\nWhen you cast the polymorph spell using this armor, you can transform into a guardian wolf (see the accompanying stat block)."
   },
   {
-    "name":"Hide, +3",
+    "name": "Hide, +3",
     "type": "Armor",
     "price": "NA",
     "rarity": "Legendary",
     "where_get": "Unknown",
-    "description":"Armor Class: 15\nWeight: 12lb\nYou have a +3 bonus to AC while wearing this armor."
+    "description": "Armor Class: 15\nWeight: 12lb\nYou have a +3 bonus to AC while wearing this armor."
   },
   {
-    "name":"Honor's Last Stand",
-    "type":"Armor",
-    "attunement":"Requires Attunement by Non-Evil Creature",
-    "price":"NA",
-    "rarity":"Legendary",
-    "level_restriction":17,
-    "where_get":"Research",
-    "description":"STARTS AT DORMANT WILL BE QUEST PER STAGE\n\nThis massive silvered shield bears the crest of the Platinum Dragon and never tarnishes. Its metal is always warm to the touch.\n\nDormant\nWhile Honor’s Last Stand is in a dormant state, you gain a +1 bonus to AC while holding the shield. This bonus is in addition to the shield’s normal bonus to AC. You also can’t be knocked prone while bearing this shield.\n\nAwakened\nWhen Honor’s Last Stand reaches an awakened state, you gain the following benefits:\nThe shield’s bonus to AC increases to +2.\nIf you successfully shove a creature while holding this shield, that creature takes 2d6 force damage.\nWhen a creature within 5 feet of you misses you with an attack, you can attempt to shove that creature as a reaction.\n\nExhalted\nWhen Honor’s Last Stand reaches an exalted state, you gain the following benefits:\nThe shield’s bonus to AC increases to +3.\nWhen you successfully shove a creature while holding this shield, you can move it up to 15 feet away from you.\nAs a bonus action, you can protect an ally within 5 feet of you, granting that ally a +3 bonus to AC until the start of your next turn or until they are no longer within 5 feet of you."
+    "name": "Honor's Last Stand",
+    "type": "Armor",
+    "attunement": "Requires Attunement by Non-Evil Creature",
+    "price": "NA",
+    "rarity": "Legendary",
+    "level_restriction": 17,
+    "where_get": "Research",
+    "description": "STARTS AT DORMANT WILL BE QUEST PER STAGE\n\nThis massive silvered shield bears the crest of the Platinum Dragon and never tarnishes. Its metal is always warm to the touch.\n\nDormant\nWhile Honor’s Last Stand is in a dormant state, you gain a +1 bonus to AC while holding the shield. This bonus is in addition to the shield’s normal bonus to AC. You also can’t be knocked prone while bearing this shield.\n\nAwakened\nWhen Honor’s Last Stand reaches an awakened state, you gain the following benefits:\nThe shield’s bonus to AC increases to +2.\nIf you successfully shove a creature while holding this shield, that creature takes 2d6 force damage.\nWhen a creature within 5 feet of you misses you with an attack, you can attempt to shove that creature as a reaction.\n\nExhalted\nWhen Honor’s Last Stand reaches an exalted state, you gain the following benefits:\nThe shield’s bonus to AC increases to +3.\nWhen you successfully shove a creature while holding this shield, you can move it up to 15 feet away from you.\nAs a bonus action, you can protect an ally within 5 feet of you, granting that ally a +3 bonus to AC until the start of your next turn or until they are no longer within 5 feet of you."
   },
   {
-    "name":"Leather, +3",
+    "name": "Leather, +3",
     "type": "Armor",
     "price": "NA",
     "rarity": "Legendary",
     "where_get": "Unknown",
-    "description":"Armor Class: 14\nWeight: 10lb\nYou have a +3 bonus to AC while wearing this armor."
+    "description": "Armor Class: 14\nWeight: 10lb\nYou have a +3 bonus to AC while wearing this armor."
   },
   {
-    "name":"Obsidian Flint Dragon Plate",
-    "level_restriction":17,
-    "price":"NA",
-    "rarity":"Legendary",
-    "type":"Armor",
-    "where_get":"Research",
-    "description":"Armor Class: 20\nWeight: 65lb\nYou gain a +2 bonus to AC and resistance to poison damage while you wear this armor. In addition, you gain advantage on ability checks and saving throws made to avoid or end the grappled condition on yourself."
+    "name": "Obsidian Flint Dragon Plate",
+    "level_restriction": 17,
+    "price": "NA",
+    "rarity": "Legendary",
+    "type": "Armor",
+    "where_get": "Research",
+    "description": "Armor Class: 20\nWeight: 65lb\nYou gain a +2 bonus to AC and resistance to poison damage while you wear this armor. In addition, you gain advantage on ability checks and saving throws made to avoid or end the grappled condition on yourself."
   },
   {
-    "name":"Padded, +3",
+    "name": "Padded, +3",
     "type": "Armor",
     "price": "NA",
     "rarity": "Legendary",
     "where_get": "Unknown",
-    "description":"Armor Class: 14\nWeight: 8lb\nYou have a +3 bonus to AC while wearing this armor."
+    "description": "Armor Class: 14\nWeight: 8lb\nYou have a +3 bonus to AC while wearing this armor."
   },
   {
-    "name":"Plate Armor of Etherealness",
-    "type":"Armor",
-    "attunement":"Requires Attunement",
-    "level_restriction":17,
-    "price":"NA",
-    "rarity":"Legendary",
-    "where_get":"Research",
-    "description":"Armor Class: 18\nWeight: 65lb\nWhile you're wearing this armor, you can speak its command word as an action to gain the effect of the etherealness spell, which last for 10 minutes or until you remove the armor or use an action to speak the command word again. This property of the armor can't be used again until the next dawn."
+    "name": "Plate Armor of Etherealness",
+    "type": "Armor",
+    "attunement": "Requires Attunement",
+    "level_restriction": 17,
+    "price": "NA",
+    "rarity": "Legendary",
+    "where_get": "Research",
+    "description": "Armor Class: 18\nWeight: 65lb\nWhile you're wearing this armor, you can speak its command word as an action to gain the effect of the etherealness spell, which last for 10 minutes or until you remove the armor or use an action to speak the command word again. This property of the armor can't be used again until the next dawn."
   },
   {
-    "name":"Plate of the Dawnmartyr",
-    "type":"Armor",
-    "attunement":"Requires Attunement",
-    "price":"NA",
-    "level_restriction":17,
-    "rarity":"Legendary",
-    "where_get":"Research",
-    "description":"STARTS AT DORMANT WILL BE QUEST PER STAGE\n\nBeautiful silver scrollwork and priceless cut rubies adorn this set of brass-and-gold armor. Legend holds that it was worn by Duana, High Priest of the Dawnfather, when she was martyred in the Battle of Ghor Dranas in the final days of the Calamity. In more recent times, it was worn by Pike Trickfoot, a legendary cleric of the Everlight, while fighting against the Chroma Conclave and the Whispered One.\n\nDormant\nWhile the Plate of the Dawnmartyr is in a dormant state, you gain a +1 bonus to AC while wearing it. When a creature within 5 feet of you hits you with a melee attack, you can use your reaction to rebuke that creature, dealing it 1d6 fire damage.\n\nAwakened\nWhen the Plate of the Dawnmartyr reaches an awakened state, you gain the following benefits:\nThe armor’s bonus to AC increases to +2.\nYou are immune to the frightened condition.\nYou have resistance to fire damage.\nThe fire damage you deal when you rebuke an attacker increases to 2d6.\n\nExhalted\nWhen the Plate of the Dawnmartyr reaches an exalted state, you gain the following benefits:\nThe armor’s bonus to AC increases to +3.\nWhen you rebuke an attacker, you can choose to deal either fire damage or radiant damage.\nWhen you are reduced to 0 hit points, you can choose to have a blast of healing flame surround you. You regain 1 hit point and are lifted to your feet. Each enemy within 10 feet of you takes 2d6 fire damage or radiant damage (your choice). This property of the armor can’t be used again until you finish a long rest."
+    "name": "Plate of the Dawnmartyr",
+    "type": "Armor",
+    "attunement": "Requires Attunement",
+    "price": "NA",
+    "level_restriction": 17,
+    "rarity": "Legendary",
+    "where_get": "Research",
+    "description": "STARTS AT DORMANT WILL BE QUEST PER STAGE\n\nBeautiful silver scrollwork and priceless cut rubies adorn this set of brass-and-gold armor. Legend holds that it was worn by Duana, High Priest of the Dawnfather, when she was martyred in the Battle of Ghor Dranas in the final days of the Calamity. In more recent times, it was worn by Pike Trickfoot, a legendary cleric of the Everlight, while fighting against the Chroma Conclave and the Whispered One.\n\nDormant\nWhile the Plate of the Dawnmartyr is in a dormant state, you gain a +1 bonus to AC while wearing it. When a creature within 5 feet of you hits you with a melee attack, you can use your reaction to rebuke that creature, dealing it 1d6 fire damage.\n\nAwakened\nWhen the Plate of the Dawnmartyr reaches an awakened state, you gain the following benefits:\nThe armor’s bonus to AC increases to +2.\nYou are immune to the frightened condition.\nYou have resistance to fire damage.\nThe fire damage you deal when you rebuke an attacker increases to 2d6.\n\nExhalted\nWhen the Plate of the Dawnmartyr reaches an exalted state, you gain the following benefits:\nThe armor’s bonus to AC increases to +3.\nWhen you rebuke an attacker, you can choose to deal either fire damage or radiant damage.\nWhen you are reduced to 0 hit points, you can choose to have a blast of healing flame surround you. You regain 1 hit point and are lifted to your feet. Each enemy within 10 feet of you takes 2d6 fire damage or radiant damage (your choice). This property of the armor can’t be used again until you finish a long rest."
   },
   {
-    "name":"Plate, +3",
+    "name": "Plate, +3",
     "type": "Armor",
     "price": "NA",
     "rarity": "Legendary",
     "where_get": "Unknown",
-    "description":"Armor Class: 21\nWeight: 65lb\nYou have a +3 bonus to AC while wearing this armor."
+    "description": "Armor Class: 21\nWeight: 65lb\nYou have a +3 bonus to AC while wearing this armor."
   },
   {
-    "name":"Ring Mail, +3",
+    "name": "Ring Mail, +3",
     "type": "Armor",
     "price": "NA",
     "rarity": "Legendary",
     "where_get": "Unknown",
-    "description":"Armor Class: 17\nWeight: 40lb\nYou have a +3 bonus to AC while wearing this armor."
+    "description": "Armor Class: 17\nWeight: 40lb\nYou have a +3 bonus to AC while wearing this armor."
   },
   {
-    "name":"Scale Mail, +3",
+    "name": "Scale Mail, +3",
     "type": "Armor",
     "price": "NA",
     "rarity": "Legendary",
     "where_get": "Unknown",
-    "description":"Armor Class: 17\nWeight: 45lb\nYou have a +3 bonus to AC while wearing this armor."
+    "description": "Armor Class: 17\nWeight: 45lb\nYou have a +3 bonus to AC while wearing this armor."
   },
   {
-    "name":"Shield of the Blazing Dreadnought",
-    "type":"Armor",
-    "attunement":"Requires Attunement",
-    "price":"NA",
-    "level_restriction":17,
-    "rarity":"Legendary",
-    "where_get":"Research",
-    "description":"Armor Class: +2\nWeight: 6lb\nModeled after the formidable spiked tower shields wielded by some fire giants, this iron shield emanates a constant warmth.\nYou can use a bonus action to activate the shield, causing glowing lava to flow through the shield’s grooves for 1 minute. While the shield is active, you gain the following benefits:\nBlazing Soul. You have immunity to fire damage.\nCleansing Fire. As an action, you can cause the shield to flare with the cleansing fire of the god Surtur. Choose one creature you can see within 30 feet of yourself (you can choose yourself). One disease or condition of your choice affecting this creature ends immediately; the condition can be blinded, charmed, deafened, or poisoned.\nShield Bash. When you take the Attack action on your turn, you can replace one of your attacks with a shield bash, targeting one creature you can see within 5 feet of yourself. The target must make a Strength saving throw (DC equals 8 + your proficiency bonus + your Strength modifier). On a failed save, the target takes 3d6 bludgeoning damage plus 3d6 fire damage and is knocked prone. On a successful save, the target takes half as much damage only. You can use Shield Bash only once per turn.\nOnce the shield has been activated, it can’t be activated again until the next dawn."
+    "name": "Shield of the Blazing Dreadnought",
+    "type": "Armor",
+    "attunement": "Requires Attunement",
+    "price": "NA",
+    "level_restriction": 17,
+    "rarity": "Legendary",
+    "where_get": "Research",
+    "description": "Armor Class: +2\nWeight: 6lb\nModeled after the formidable spiked tower shields wielded by some fire giants, this iron shield emanates a constant warmth.\nYou can use a bonus action to activate the shield, causing glowing lava to flow through the shield’s grooves for 1 minute. While the shield is active, you gain the following benefits:\nBlazing Soul. You have immunity to fire damage.\nCleansing Fire. As an action, you can cause the shield to flare with the cleansing fire of the god Surtur. Choose one creature you can see within 30 feet of yourself (you can choose yourself). One disease or condition of your choice affecting this creature ends immediately; the condition can be blinded, charmed, deafened, or poisoned.\nShield Bash. When you take the Attack action on your turn, you can replace one of your attacks with a shield bash, targeting one creature you can see within 5 feet of yourself. The target must make a Strength saving throw (DC equals 8 + your proficiency bonus + your Strength modifier). On a failed save, the target takes 3d6 bludgeoning damage plus 3d6 fire damage and is knocked prone. On a successful save, the target takes half as much damage only. You can use Shield Bash only once per turn.\nOnce the shield has been activated, it can’t be activated again until the next dawn."
   },
   {
-    "name":"Splint, +3",
+    "name": "Splint, +3",
     "type": "Armor",
     "price": "NA",
     "rarity": "Legendary",
     "where_get": "Unknown",
-    "description":"Armor Class: 20\nWeight: 60lb\nYou have a +3 bonus to AC while wearing this armor."
+    "description": "Armor Class: 20\nWeight: 60lb\nYou have a +3 bonus to AC while wearing this armor."
   },
   {
-    "name":"Stonebreaker's Breastplate",
-    "type":"Armor",
-    "price":"NA",
-    "attunement":"Requires Attunement",
-    "level_restriction":17,
-    "rarity":"Legendary",
-    "where_get":"Research",
-    "description":"Armor Class: 14\nWeight: 20lb\nThis breastplate is made from marbled granite, though it feels no heavier than a typical metal breastplate. Its chest is emblazoned with the stone rune.\nWhile wearing this breastplate, you have resistance to bludgeoning, piercing, and slashing damage and are immune to being knocked prone.\nInvoking the Rune. As an action, you can invoke the breastplate’s rune to cast the wall of stone spell (save DC 14) with it. When you cast the spell in this way, you have advantage on saving throws made to maintain concentration on the spell.\nOnce the rune has been invoked, it can’t be invoked again until the next dawn."
+    "name": "Stonebreaker's Breastplate",
+    "type": "Armor",
+    "price": "NA",
+    "attunement": "Requires Attunement",
+    "level_restriction": 17,
+    "rarity": "Legendary",
+    "where_get": "Research",
+    "description": "Armor Class: 14\nWeight: 20lb\nThis breastplate is made from marbled granite, though it feels no heavier than a typical metal breastplate. Its chest is emblazoned with the stone rune.\nWhile wearing this breastplate, you have resistance to bludgeoning, piercing, and slashing damage and are immune to being knocked prone.\nInvoking the Rune. As an action, you can invoke the breastplate’s rune to cast the wall of stone spell (save DC 14) with it. When you cast the spell in this way, you have advantage on saving throws made to maintain concentration on the spell.\nOnce the rune has been invoked, it can’t be invoked again until the next dawn."
   },
   {
-    "name":"Studded Leather, +3",
+    "name": "Studded Leather, +3",
     "type": "Armor",
     "price": "NA",
     "rarity": "Legendary",
     "where_get": "Unknown",
-    "description":"Armor Class: 15\nWeight: 13lb\nYou have a +3 bonus to AC while wearing this armor."
+    "description": "Armor Class: 15\nWeight: 13lb\nYou have a +3 bonus to AC while wearing this armor."
   },
   {
-    "name":"Tarrasque Plate",
-    "type":"Armor",
-    "price":"NA",
-    "level_restriction":17,
-    "attunement":"Requires Attunement",
-    "rarity":"Legendary",
-    "where_get":"Research",
-    "description":"Armor Class: 18\nWeight: 65lb\nThis impenetrable armor is made from refined fragments of a tarrasque’s armored hide and retains some of its original properties. You have resistance to damage from spells and a +1 bonus to AC while wearing this armor. In addition, whenever you’re targeted by a magic missile spell, a line spell, or a spell that requires a ranged attack roll, roll a d6. On a 6, you are unaffected by the spell, and the effect is reflected back at the caster as though it originated from you, turning the caster into the target."
+    "name": "Tarrasque Plate",
+    "type": "Armor",
+    "price": "NA",
+    "level_restriction": 17,
+    "attunement": "Requires Attunement",
+    "rarity": "Legendary",
+    "where_get": "Research",
+    "description": "Armor Class: 18\nWeight: 65lb\nThis impenetrable armor is made from refined fragments of a tarrasque’s armored hide and retains some of its original properties. You have resistance to damage from spells and a +1 bonus to AC while wearing this armor. In addition, whenever you’re targeted by a magic missile spell, a line spell, or a spell that requires a ranged attack roll, roll a d6. On a 6, you are unaffected by the spell, and the effect is reflected back at the caster as though it originated from you, turning the caster into the target."
+  },
+  {},
+  {
+    "name": "Stonky's Ring",
+    "type": "Ring",
+    "rarity": "Unknown Rarity",
+    "description": "Candlekeep Mysteries, pg. 132\nWhile wearing this ring, you can cast the telekinesis spell at will, but you can target only objects that aren't being worn or carried.\nAny character who attunes to the ring gains control of Stonky’s creations, though the skitterwidgets ignore commands spoken more than 30 feet away from them.\nTags:\nControl\nUtility\nJewelry\nAmount to add\n1",
+    "attunement": "Requires Attunement",
+    "price": "NA"
   },
   {
-    
+    "name": "Azorius Guild Signet",
+    "type": "Ring",
+    "rarity": "Uncommon",
+    "description": "Guildmasters’ Guide to Ravnica\nThis ring, adorned with the symbol of Azorius, allows you to cast ensnaring strike. A guild signet is sometimes awarded to a guild member whose renown score in that guild is 5 or higher, as a reward for performing special services for the guild. Aside from its magical properties, the ring is also an indicator of Azorius’s recognition and favor.\nA signet has 3 charges, and it regains 1d3 expended charges daily at dawn. While wearing it, you can expend 1 charge to cast the associated spell (save DC 13).\nAmount to add\n1",
+    "attunement": "Requires Attunement",
+    "price": "NA"
+  },
+  {
+    "name": "Boros Guild Signet",
+    "type": "Ring",
+    "rarity": "Uncommon",
+    "description": "Guildmasters’ Guide to Ravnica\nThis ring, adorned with the symbol of Boros, allows you to cast heroism. A guild signet is sometimes awarded to a guild member whose renown score in that guild is 5 or higher, as a reward for performing special services for the guild. Aside from its magical properties, the ring is also an indicator of Boros’ recognition and favor.\nA signet has 3 charges, and it regains 1d3 expended charges daily at dawn. While wearing it, you can expend 1 charge to cast the associated spell (save DC 13).\nAmount to add\n1",
+    "attunement": "Requires Attunement",
+    "price": "NA"
+  },
+  {
+    "name": "Dimir Guild Signet",
+    "type": "Ring",
+    "rarity": "Uncommon",
+    "description": "Guildmasters’ Guide to Ravnica\nThis ring, adorned with the symbol of Dimir, allows you to cast disguise self. A guild signet is sometimes awarded to a guild member whose renown score in that guild is 5 or higher, as a reward for performing special services for the guild. Aside from its magical properties, the ring is also an indicator of Dimir’s recognition and favor.\nA signet has 3 charges, and it regains 1d3 expended charges daily at dawn. While wearing it, you can expend 1 charge to cast the associated spell (save DC 13).\nAmount to add\n1",
+    "attunement": "Requires Attunement",
+    "price": "NA"
+  },
+  {
+    "name": "Golgari Guild Signet",
+    "type": "Ring",
+    "rarity": "Uncommon",
+    "description": "Guildmasters’ Guide to Ravnica\nThis ring, adorned with the symbol of Golgari, allows you to cast entangle. A guild signet is sometimes awarded to a guild member whose renown score in that guild is 5 or higher, as a reward for performing special services for the guild. Aside from its magical properties, the ring is also an indicator of Golgari’s recognition and favor.\nA signet has 3 charges, and it regains 1d3 expended charges daily at dawn. While wearing it, you can expend 1 charge to cast the associated spell (save DC 13).\nAmount to add\n1",
+    "attunement": "Requires Attunement",
+    "price": "NA"
+  },
+  {
+    "name": "Gruul Guild Signet",
+    "type": "Ring",
+    "rarity": "Uncommon",
+    "description": "Guildmasters’ Guide to Ravnica\nThis ring, adorned with the symbol of Gruul, allows you to cast compelled duel. A guild signet is sometimes awarded to a guild member whose renown score in that guild is 5 or higher, as a reward for performing special services for the guild. Aside from its magical properties, the ring is also an indicator of Gruul’s recognition and favor.\nA signet has 3 charges, and it regains 1d3 expended charges daily at dawn. While wearing it, you can expend 1 charge to cast the associated spell (save DC 13).\nAmount to add\n1",
+    "attunement": "Requires Attunement",
+    "price": "NA"
+  },
+  {
+    "name": "Izzet Guild Signet",
+    "type": "Ring",
+    "rarity": "Uncommon",
+    "description": "Guildmasters’ Guide to Ravnica\nThis ring, adorned with the symbol of Izzet, allows you to cast chaos bolt (see chapter 2). A guild signet is sometimes awarded to a guild member whose renown score in that guild is 5 or higher, as a reward for performing special services for the guild. Aside from its magical properties, the ring is also an indicator of Izzet’s recognition and favor.\nA signet has 3 charges, and it regains 1d3 expended charges daily at dawn. While wearing it, you can expend 1 charge to cast the associated spell (save DC 13).\nAmount to add\n1",
+    "attunement": "Requires Attunement",
+    "price": "NA"
+  },
+  {
+    "name": "Orzhov Guild Signet",
+    "type": "Ring",
+    "rarity": "Uncommon",
+    "description": "Guildmasters’ Guide to Ravnica\nThis ring, adorned with the symbol of Orzhov, allows you to cast command. A guild signet is sometimes awarded to a guild member whose renown score in that guild is 5 or higher, as a reward for performing special services for the guild. Aside from its magical properties, the ring is also an indicator of Orzhov’s recognition and favor.\nA signet has 3 charges, and it regains 1d3 expended charges daily at dawn. While wearing it, you can expend 1 charge to cast the associated spell (save DC 13).\nAmount to add\n1",
+    "attunement": "Requires Attunement",
+    "price": "NA"
+  },
+  {
+    "name": "Rakdos Guild Signet",
+    "type": "Ring",
+    "rarity": "Uncommon",
+    "description": "Guildmasters’ Guide to Ravnica\nThis ring, adorned with the symbol of Rakdos, allows you to cast hellish rebuke. A guild signet is sometimes awarded to a guild member whose renown score in that guild is 5 or higher, as a reward for performing special services for the guild. Aside from its magical properties, the ring is also an indicator of Rakdos’ recognition and favor.\nA signet has 3 charges, and it regains 1d3 expended charges daily at dawn. While wearing it, you can expend 1 charge to cast the associated spell (save DC 13).\nAmount to add\n1",
+    "attunement": "Requires Attunement",
+    "price": "NA"
+  },
+  {
+    "name": "Ring of Dancing",
+    "type": "Ring",
+    "rarity": "Uncommon",
+    "description": "Book of Ebon Tides, pg. 207\nWhen you dance, caper, or perform for an audience, your movements are especially thrilling and graceful. You have advantage on all Charisma (Persuasion) checks with any fey, giant, or humanoid who has watched such a performance of yours within 24 hours. When worn with boots of dancing, you instead have advantage on all Charisma ability checks.\nAmount to add\n1",
+    "price": "NA"
+  },
+  {
+    "name": "Ring of Hidden Desire",
+    "type": "Ring",
+    "rarity": "Uncommon",
+    "description": "Grim Hollow: Player Pack\nThis rose gold band is set with an obsidian stone carved in the shape of a heart. While wearing this ring, you can use an action to attempt to learn a creature’s darkest desire. Select a creature that you can see. That creature must succeed on a DC 13 Wisdom saving throw. On a failed save, you immediately learn the target’s darkest desire. On a successful save, you do not learn anything, and the creature is immune to the effects of the ring for 24 hours. If the creature you choose has an Intelligence of 3 or lower, the creature is unaffected. The ring’s power can be used 3 times per day and recharges at midnight.\nAmount to add\n1",
+    "attunement": "Requires Attunement",
+    "price": "NA"
+  },
+  {
+    "name": "Ring of Jumping",
+    "type": "Ring",
+    "rarity": "Legacy •  Uncommon",
+    "description": "Player’s Handbook (2014), pg. 191\nWhile wearing this ring, you can cast the jump spell from it as a bonus action at will, but can target only yourself when you do so.\nTags:\nBuff\nMovement\nJewelry\nAmount to add\n1",
+    "attunement": "Requires Attunement",
+    "price": "NA"
+  },
+  {
+    "name": "Ring of Jumping",
+    "type": "Ring",
+    "rarity": "Uncommon",
+    "description": "Dungeon Master’s Guide, pg. 293\nWhile wearing this ring, you can cast Jump from it, but can target only yourself when you do so.\nAmount to add\n1",
+    "attunement": "Requires Attunement",
+    "price": 2500
+  },
+  {
+    "name": "Ring of Mind Shielding",
+    "type": "Ring",
+    "rarity": "Legacy •  Uncommon",
+    "description": "Player’s Handbook (2014), pg. 191\nWhile wearing this ring, you are immune to magic that allows other creatures to read your thoughts, determine whether you are lying, know your alignment, or know your creature type. Creatures can telepathically communicate with you only if you allow it.\nYou can use an action to cause the ring to become invisible until you use another action to make it visible, until you remove the ring, or until you die.\nIf you die while wearing the ring, your soul enters it, unless it already houses a soul. You can remain in the ring or depart for the afterlife. As long as your soul is in the ring, you can telepathically communicate with any creature wearing it. A wearer can't prevent this telepathic communication.\nTags:\nDeception\nWarding\nJewelry\nAmount to add\n1",
+    "attunement": "Requires Attunement",
+    "price": 16000
+  },
+  {
+    "name": "Ring of Obscuring",
+    "type": "Ring",
+    "rarity": "Uncommon",
+    "description": "Explorer's Guide to Wildemount, pg. 269\nThis band of iron resembles a skull and is cold to the touch. It has 3 charges and regains 1d3 expended charges daily at dawn. As an action while wearing the ring, you can expend 1 of its charges to cast the fog cloud spell from it, with the following changes: the cloud is centered on you when it first appears, and the spell lasts for 1 minute (no concentration required).\nAmount to add\n1",
+    "attunement": "Requires Attunement",
+    "price": "NA"
+  },
+  {
+    "name": "Ring of Plant Speech",
+    "type": "Ring",
+    "rarity": "Uncommon",
+    "description": "Humblewood Tales, pg. 246\nWhile wearing this ring, you can speak with plants and plant creatures within 30 feet of you as though you share a common language. Non-sentient plants within 30 feet of you gain sentience and can communicate with you telepathically, and you can question them about events they have witnessed within the last day, gaining information about creatures that have passed, weather, and other things that have occurred nearby from the plant’s limited perspective.\nThis ring is prized by followers of Henwin.\nAmount to add\n1",
+    "price": "NA"
+  },
+  {
+    "name": "Ring of Puzzler's Wit",
+    "type": "Ring",
+    "rarity": "Uncommon",
+    "description": "The Book of Many Things, pg. 37\nThis gold ring bears a fluorite stone and is enchanted to sharpen the wearer’s mind.\nThe ring has 3 charges and regains 1d4 − 1 expended charges daily at dawn. When you make an Intelligence check, you can expend 1 charge to grant yourself advantage on the check.\nTags:\nUtility\nJewelry\nAmount to add\n1",
+    "price": "NA"
+  },
+  {
+    "name": "Ring of Swimming",
+    "type": "Ring",
+    "rarity": "Uncommon",
+    "description": "Dungeon Master’s Guide, pg. 193\nYou have a Swim Speed of 40 feet while wearing this ring.\nTags:\nMovement\nJewelry\nAmount to add\n1",
+    "price": 3000
+  },
+  {
+    "name": "Ring of Truth Telling",
+    "type": "Ring",
+    "rarity": "Uncommon",
+    "description": "Waterdeep: Dragon Heist\nWhile wearing this ring, you have advantage on Wisdom (Insight) checks to determine whether someone is lying to you.\nAmount to add\n1",
+    "attunement": "Requires Attunement",
+    "price": "NA"
+  },
+  {
+    "name": "Ring of Warmth",
+    "type": "Ring",
+    "rarity": "Legacy •  Uncommon",
+    "description": "Player’s Handbook (2014), pg. 193\nWhile wearing this ring, you have resistance to cold damage. In addition, you and everything you wear and carry are unharmed by temperatures as low as −50 degrees Fahrenheit.\nTags:\nExploration\nWarding\nJewelry\nAmount to add\n1",
+    "attunement": "Requires Attunement",
+    "price": 1000
+  },
+  {
+    "name": "Ring of Water Walking",
+    "type": "Ring",
+    "rarity": "Legacy •  Uncommon",
+    "description": "Player’s Handbook (2014), pg. 193\nWhile wearing this ring, you can stand on and move across any liquid surface as if it were solid ground.\nTags:\nMovement\nJewelry\nAmount to add\n1",
+    "price": 1500
+  },
+  {
+    "name": "Selesnya Guild Signet",
+    "type": "Ring",
+    "rarity": "Uncommon",
+    "description": "Guildmasters’ Guide to Ravnica\nThis ring, adorned with the symbol of Selesnya, allows you to cast charm person. A guild signet is sometimes awarded to a guild member whose renown score in that guild is 5 or higher, as a reward for performing special services for the guild. Aside from its magical properties, the ring is also an indicator of Selesnya’s recognition and favor.\nA signet has 3 charges, and it regains 1d3 expended charges daily at dawn. While wearing it, you can expend 1 charge to cast the associated spell (save DC 13).\nAmount to add\n1",
+    "attunement": "Requires Attunement",
+    "price": "NA"
+  },
+  {
+    "name": "Simic Guild Signet",
+    "type": "Ring",
+    "rarity": "Uncommon",
+    "description": "Guildmasters’ Guide to Ravnica\nThis ring, adorned with the symbol of Simic, allows you to cast expeditious retreat. A guild signet is sometimes awarded to a guild member whose renown score in that guild is 5 or higher, as a reward for performing special services for the guild. Aside from its magical properties, the ring is also an indicator of Simic’s recognition and favor.\nA signet has 3 charges, and it regains 1d3 expended charges daily at dawn. While wearing it, you can expend 1 charge to cast the associated spell (save DC 13).\nAmount to add\n1",
+    "attunement": "Requires Attunement",
+    "price": "NA"
+  },
+  {
+    "name": "Ring of Acid Resistance",
+    "type": "Ring",
+    "rarity": "Rare",
+    "description": "Player’s Handbook (2014)\nYou have resistance to acid damage while wearing this pearl ring.\nTags:\nWarding\nJewelry\nAmount to add\n1",
+    "attunement": "Requires Attunement",
+    "price": 6000
+  },
+  {
+    "name": "Ring of Acid Resistance",
+    "type": "Ring",
+    "rarity": "Rare",
+    "description": "Dungeon Master’s Guide, pg. 294\nYou have resistance to acid damage while wearing this pearl ring.\nTags:\nWarding\nJewelry\nAmount to add\n1",
+    "price": 6000,
+    "where_get": "Research",
+    "gacha": "Rare Ring"
+  },
+  {
+    "name": "Ring of Animal Influence",
+    "type": "Ring",
+    "rarity": "Rare",
+    "description": "Dungeon Master’s Guide, pg. 292\nThis ring has 3 charges, and it regains 1d3 expended charges daily at dawn. While wearing the ring, you can expend 1 charge to cast one of the following spells (save DC 13) from it:\nAnimal Friendship\nFear (affects Beasts only)\nSpeak with Animals\nAmount to add\n1",
+    "price": 4000,
+    "where_get": "Research",
+    "gacha": "Rare Ring"
+  },
+  {
+    "name": "Ring of Cold Resistance",
+    "type": "Ring",
+    "rarity": "Rare",
+    "description": "Dungeon Master’s Guide, pg. 294\nYou have resistance to cold damage while wearing this tourmaline ring.\nTags:\nWarding\nJewelry\nAmount to add\n1",
+    "price": 6000,
+    "where_get": "Research",
+    "gacha": "Rare Ring"
+  },
+  {
+    "name": "Ring of Daylight",
+    "type": "Ring",
+    "rarity": "Rare",
+    "description": "Book of Ebon Tides, pg. 208\nThis ring has 3 charges, and it regains 1d3 expended charges daily at dawn. By speaking the command word, you can make the ring shed light in a 60-foot radius sphere for 1 hour. The sphere is bright light and sheds dim light for an additional 60 feet. If you close your fist, put on a glove, or otherwise cover your ring hand completely, you block the light. If any of this light’s area overlaps with an area of darkness created by a spell of 3rd level or lower, the spell that created the darkness is dispelled.\nIn addition, melee or ranged attacks you make while wearing the ring of daylight deal radiant damage rather than their normal type.\nAmount to add\n1",
+    "attunement": "Requires Attunement",
+    "price": "NA",
+    "where_get": "Research",
+    "gacha": "Rare Ring"
+  },
+  {
+    "name": "Ring of Evasion",
+    "type": "Ring",
+    "rarity": "Rare",
+    "description": "Dungeon Master’s Guide, pg. 191\nThis ring has 3 charges, and it regains 1d3 expended charges daily at dawn. When you fail a Dexterity saving throw while wearing the ring, you can take a Reaction to expend 1 charge to succeed on that save instead.\nTags:\nWarding\nJewelry\nAmount to add\n1",
+    "attunement": "Requires Attunement",
+    "price": 5000,
+    "where_get": "Research",
+    "gacha": "Rare Ring"
+  },
+  {
+    "name": "Ring of Feather Falling",
+    "type": "Ring",
+    "rarity": "Rare",
+    "description": "Dungeon Master’s Guide, pg. 191\nWhen you fall while wearing this ring, you descend 60 feet per round and take no damage from falling.\nTags:\nMovement\nWarding\nJewelry\nAmount to add\n1",
+    "attunement": "Requires Attunement",
+    "price": 2000,
+    "where_get": "Research",
+    "gacha": "Rare Ring"
+  },
+  {
+    "name": "Ring of Fire Resistance",
+    "type": "Ring",
+    "rarity": "Rare",
+    "description": "Dungeon Master’s Guide, pg. 294\nYou have resistance to fire damage while wearing this garnet ring.\nTags:\nWarding\nJewelry\nAmount to add\n1",
+    "price": 6000,
+    "where_get": "Research",
+    "gacha": "Rare Ring"
+  },
+  {
+    "name": "Ring of Force Resistance",
+    "type": "Ring",
+    "rarity": "Rare",
+    "description": "Dungeon Master’s Guide, pg. 294\nYou have resistance to force damage while wearing this sapphire ring.\nTags:\nWarding\nJewelry\nAmount to add\n1",
+    "price": 6000,
+    "where_get": "Research",
+    "gacha": "Rare Ring"
+  },
+  {
+    "name": "Ring of Free Action",
+    "type": "Ring",
+    "rarity": "Rare",
+    "description": "Dungeon Master’s Guide, pg. 191\nWhile you wear this ring, Difficult Terrain doesn’t cost you extra movement. In addition, magic can neither reduce any of your Speeds nor cause you to have the Paralyzed or Restrained condition.\nTags:\nMovement\nWarding\nJewelry\nAmount to add\n1",
+    "attunement": "Requires Attunement",
+    "price": 20000,
+    "where_get": "Research",
+    "gacha": "Rare Ring"
+  },
+  {
+    "name": "Ring of Lightning Resistance",
+    "type": "Ring",
+    "rarity": "Rare",
+    "description": "Dungeon Master’s Guide, pg. 294\nYou have resistance to lightning damage while wearing this citrine ring.\nTags:\nWarding\nJewelry\nAmount to add\n1",
+    "price": 6000,
+    "where_get": "Research",
+    "gacha": "Rare Ring"
+  },
+  {
+    "name": "Ring of Necrotic Resistance",
+    "type": "Ring",
+    "rarity": "Rare",
+    "description": "Dungeon Master’s Guide, pg. 294\nYou have resistance to necrotic damage while wearing this jet ring.\nTags:\nWarding\nJewelry\nAmount to add\n1",
+    "price": 6000,
+    "where_get": "Research",
+    "gacha": "Rare Ring"
+  },
+  {
+    "name": "Ring of Poison Resistance",
+    "type": "Ring",
+    "rarity": "Rare",
+    "description": "Dungeon Master’s Guide, pg. 294\nYou have resistance to poison damage while wearing this amethyst ring.\nTags:\nWarding\nJewelry\nAmount to add\n1",
+    "price": 6000,
+    "where_get": "Research",
+    "gacha": "Rare Ring"
+  },
+  {
+    "name": "Ring of Protection",
+    "type": "Ring",
+    "rarity": "Rare",
+    "description": "Dungeon Master’s Guide, pg. 191\nYou gain a +1 bonus to Armor Class and saving throws while wearing this ring.\nTags:\nWarding\nJewelry\nAmount to add\n1",
+    "attunement": "Requires Attunement",
+    "price": 3500,
+    "where_get": "Research",
+    "gacha": "Rare Ring"
+  },
+  {
+    "name": "Ring of Psychic Resistance",
+    "type": "Ring",
+    "rarity": "Rare",
+    "description": "Dungeon Master’s Guide, pg. 294\nYou have resistance to psychic damage while wearing this jade ring.\nTags:\nWarding\nJewelry\nAmount to add\n1",
+    "price": 6000,
+    "where_get": "Research",
+    "gacha": "Rare Ring"
+  },
+  {
+    "name": "Ring of Radiant Resistance",
+    "type": "Ring",
+    "rarity": "Rare",
+    "description": "Dungeon Master’s Guide, pg. 294\nYou have resistance to radiant damage while wearing this topaz ring.\nTags:\nWarding\nJewelry\nAmount to add\n1",
+    "price": 6000,
+    "where_get": "Research",
+    "gacha": "Rare Ring"
+  },
+  {
+    "name": "Ring of Spell Storing",
+    "type": "Ring",
+    "rarity": "Rare",
+    "description": "Dungeon Master’s Guide, pg. 192\nThis ring stores spells cast into it, holding them until the attuned wearer uses them. The ring can store up to 5 levels worth of spells at a time. When found, it contains 1d6 − 1 levels of stored spells chosen by the DM.\nAny creature can cast a spell of level 1 through 5 into the ring by touching the ring as the spell is cast. The spell has no effect other than to be stored in the ring. If the ring can’t hold the spell, the spell is expended without effect. The level of the slot used to cast the spell determines how much space it uses.\nWhile wearing this ring, you can cast any spell stored in it. The spell uses the slot level, spell save DC, spell attack bonus, and spellcasting ability of the original caster but is otherwise treated as if you cast the spell. The spell cast from the ring is no longer stored in it, freeing up space.\nTags:\nBuff\nUtility\nJewelry\nAmount to add\n1",
+    "attunement": "Requires Attunement",
+    "price": 24000,
+    "where_get": "Research",
+    "gacha": "Rare Ring"
+  },
+  {
+    "name": "Ring of Temporal Salvation",
+    "type": "Ring",
+    "rarity": "Rare",
+    "description": "Explorer's Guide to Wildemount, pg. 269\nIf you die while wearing this gray crystal ring, you vanish and reappear in an unoccupied space within 5 feet of the space you left (or the nearest unoccupied space). You have a number of hit points equal to 3d6 + your Constitution modifier. If your hit point maximum is lower than the number of hit points you regain, your hit point maximum rises to a similar amount. If you have any levels of exhaustion, reduce your level of exhaustion by 1. Once the ring is used, it turns to dust and is destroyed.\nAmount to add\n1",
+    "attunement": "Requires Attunement",
+    "price": "NA",
+    "where_get": "Research",
+    "gacha": "Rare Ring"
+  },
+  {
+    "name": "Ring of Thunder Resistance",
+    "type": "Ring",
+    "rarity": "Rare",
+    "description": "Dungeon Master’s Guide, pg. 294\nYou have resistance to thunder damage while wearing this spinel ring.\nTags:\nWarding\nJewelry\nAmount to add\n1",
+    "price": 6000,
+    "where_get": "Research",
+    "gacha": "Rare Ring"
+  },
+  {
+    "name": "Ring of Winter's Kiss",
+    "type": "Ring",
+    "rarity": "Rare",
+    "description": "Book of Ebon Tides, pg. 208\nWhen you suffer cold damage while wearing the ring of winter’s kiss, you take damage normally. However, on your next turn, you can target any creature within 30 feet, making an attack roll with a +7 bonus. On a hit, the target takes the same cold damage you took.\nAmount to add\n1",
+    "attunement": "Requires Attunement",
+    "price": "NA",
+    "where_get": "Research",
+    "gacha": "Rare Ring"
+  },
+  {
+    "name": "Ring of X-ray Vision",
+    "type": "Ring",
+    "rarity": "Rare",
+    "description": "Dungeon Master’s Guide, pg. 296\nWhile wearing this ring, you can take a Magic action to gain X-ray vision with a range of 30 feet for 1 minute. To you, solid objects within that radius appear transparent and don’t prevent light from passing through them. The vision can penetrate 1 foot of stone, 1 inch of common metal, or up to 3 feet of wood or dirt. Thicker substances or a thin sheet of lead block the vision.\nWhenever you use the ring again before taking a Long Rest, you must succeed on a DC 15 Constitution saving throw or gain 1 Exhaustion level.\nAmount to add\n1",
+    "attunement": "Requires Attunement",
+    "price": 6000,
+    "where_get": "Research",
+    "gacha": "Rare Ring"
+  },
+  {
+    "name": "Ring of the Ghouls",
+    "type": "Ring",
+    "rarity": "Rare",
+    "description": "Book of Ebon Tides, pg. 208\nThis ring has 3 charges, and it regains 1d3 expended charges daily at dawn. While wearing the ring, when you make a successful melee attack and use your reaction to expend 1 of the ring’s charges, the target must succeed on a DC 13 Constitution saving throw or be paralyzed until the end of its next turn.\nAmount to add\n1",
+    "price": "NA",
+    "where_get": "Research",
+    "gacha": "Rare Ring"
+  },
+  {
+    "name": "Ring of the Ram",
+    "type": "Ring",
+    "rarity": "Rare",
+    "description": "Dungeon Master’s Guide, pg. 296\nThis ring has 3 charges and regains 1d3 expended charges daily at dawn. While wearing the ring, you can take a Magic action to expend 1 to 3 charges to make a ranged spell attack against one creature you can see within 60 feet of yourself. The ring produces a spectral ram’s head and makes its attack roll with a +7 bonus. On a hit, for each charge you spend, the target takes 2d10 Force damage and is pushed 5 feet away from you.\nAlternatively, you can expend 1 to 3 of the ring’s charges as a Magic action to try to break a nonmagical object you can see within 60 feet of yourself that isn’t being worn or carried. The ring makes a Strength check with a +5 bonus for each charge you spend.\nAmount to add\n1",
+    "attunement": "Requires Attunement",
+    "price": 5000,
+    "where_get": "Research",
+    "gacha": "Rare Ring"
+  },
+  {
+    "name": "Ring of the Sky Hunter",
+    "type": "Ring",
+    "rarity": "Rare",
+    "description": "Humblewood Tales, pg. 246\nThe dark metal talons of this ring’s setting grasp a blue gem that seems to swirl with patterns of windswept clouds. This ring has 3 charges, and it regains 1d3 spent charges each day at dawn.\nStooping Talons. While wearing this ring, you can use an action and expend any number of its charges to attack one creature you can see within 60 feet of you. The ring produces a pair of spectral talons which dive from the sky and make an attack roll with a +7 bonus. On a hit, the target takes 2d8 magical piercing damage for each charge you spent.\nRaising Talons. Alternatively, you can expend 1 to 3 of the ring’s charges as an action to cause the same spectral talons to appear and lift a Large or smaller creature you can see within 60 feet of you. The target is grappled by the claws and lifted 20 feet into the air for each charge spent. An unwilling target must succeed on a DC 15 Strength saving throw to avoid being grappled. The grapple lasts for a number of rounds equal to the number of charges spent. The target can repeat the saving throw at the end of each of its turns to break free of the grapple and takes damage as normal if this causes it to fall.\nAmount to add\n1",
+    "attunement": "Requires Attunement",
+    "price": "NA",
+    "where_get": "Research",
+    "gacha": "Rare Ring"
+  },
+  {
+    "name": "Sage's Signet (Serpent)",
+    "type": "Ring",
+    "rarity": "Rare",
+    "description": "The Book of Many Things, pg. 37\nThis gilded ring bears a beautiful engraving and is imbued with powers of keen wisdom and foresight. While wearing this ring, you can use an action to cast the Augury spell from the ring. Once you use the ring to cast the spell, the ring can’t cast the spell again until the next dawn.\nWhile wearing the Sage’s Signet, you can cast Fear and Hex once each from the ring using your Intelligence as the spellcasting ability. Once you cast each of the additional spells from the ring, it can’t cast the spell again until the next dawn.\nTags:\nDamage\nControl\nDebuff\nForeknowledge\nAmount to add\n1",
+    "attunement": "Requires Attunement",
+    "price": "NA",
+    "where_get": "Research",
+    "gacha": "Rare Ring"
+  },
+  {
+    "name": "Sage's Signet (Songbird)",
+    "type": "Ring",
+    "rarity": "Rare",
+    "description": "The Book of Many Things, pg. 37\nThis gilded ring bears a beautiful engraving and is imbued with powers of keen wisdom and foresight. While wearing this ring, you can use an action to cast the Augury spell from the ring. Once you use the ring to cast the spell, the ring can’t cast the spell again until the next dawn.\nWhile wearing the Sage’s Signet, you can cast Charm Person and Hypnotic Pattern once each from the ring using your Intelligence as the spellcasting ability. Once you cast each of the additional spells from the ring, it can’t cast the spell again until the next dawn.\nTags:\nControl\nSocial\nForeknowledge\nAmount to add\n1",
+    "attunement": "Requires Attunement",
+    "price": "NA",
+    "where_get": "Research",
+    "gacha": "Rare Ring"
+  },
+  {
+    "name": "Horned Ring",
+    "type": "Ring",
+    "rarity": "Very Rare",
+    "description": "Waterdeep: Dungeon of the Mad Mage\nAllows an attuned wearer to ignore Undermountain’s magical restrictions (see “Alterations to Magic”).\nTags:\nWarding\nJewelry\nAmount to add\n1",
+    "attunement": "Requires Attunement",
+    "price": "NA",
+    "where_get": "Research",
+    "gacha": "Very Rare Ring"
+  },
+  {
+    "name": "Ring of Amity",
+    "type": "Ring",
+    "rarity": "Very Rare",
+    "description": "Bigby Presents: Glory of the Giants, pg. 115\nThis ring is carved from hematite and bears an engraving of the friend rune.\nWhen you first attune to this ring, you can touch one willing creature and form a magical bond between the two of you. While this bond lasts, whenever you are subjected to a spell or magical effect that restores hit points, the bonded creature also receives the benefits of the spell or effect.\nYou can bond with a different creature whenever you finish a long rest, provided that you can touch the creature and the creature is willing.\nA creature can benefit from only one ring of amity’s bond at a time. The bond ends if either you or the creature travels to a different plane of existence, if you bond with a different creature at the end of a long rest, or if you sever the bond as a bonus action.\nInvoking the Rune. When the bonded creature hits a target with an attack roll, you can use your reaction to invoke the ring’s rune if you are within 60 feet of the bonded creature. The bonded creature’s attack is then turned into a critical hit.\nOnce the rune has been invoked, it can’t be invoked again until the next dawn.\nTags:\nHealing\nJewelry\nAmount to add\n1",
+    "attunement": "Requires Attunement",
+    "price": 4000,
+    "where_get": "Research",
+    "gacha": "Very Rare Ring"
+  },
+  {
+    "name": "Ring of Red Fury",
+    "type": "Ring",
+    "rarity": "Very Rare",
+    "description": "Critical Role: Call of the Netherdeep, pg. 214\nThis ring has a stripe of ruidium running through it. While wearing the ring, you gain the following benefits:\nYou can breathe water.\nYou gain a swimming speed equal to your walking speed.\nRuidium Rage. As a bonus action, you can use the ring to gain the following benefits, which last for 1 minute or until you are incapacitated:\nYou have advantage on Strength checks and Strength saving throws.\nWhen you hit with an attack, you can add your proficiency bonus to the damage roll.\nDifficult terrain doesn’t cost you extra movement, and you are immune to the paralyzed and restrained conditions.\nYou can’t use this property of the ring again until you finish a long rest.\nRuidium Corruption. When you use the Ruidium Rage property of the ring, you must make a DC 20 Charisma saving throw. On a failed save, you gain 1 level of exhaustion. If you are not already suffering from ruidium corruption, you become corrupted when you fail this save.\nIf Ruidium Is Destroyed. If the Apotheon is killed or redeemed, all the ruidium in Exandria is destroyed instantly, and the ring of red fury becomes a ring of free action.\nAmount to add\n1",
+    "attunement": "Requires Attunement",
+    "price": "NA",
+    "where_get": "Research",
+    "gacha": "Very Rare Ring"
+  },
+  {
+    "name": "Ring of Regeneration",
+    "type": "Ring",
+    "rarity": "Very Rare",
+    "description": "Dungeon Master’s Guide, pg. 191\nWhile wearing this ring, you regain 1d6 Hit Points every 10 minutes if you have at least 1 Hit Point. If you lose a body part, the ring causes the missing part to regrow and return to full functionality after 1d6 + 1 days if you have at least 1 Hit Point the whole time.\nTags:\nHealing\nJewelry\nAmount to add\n1",
+    "attunement": "Requires Attunement",
+    "price": 12000,
+    "where_get": "Research",
+    "gacha": "Very Rare Ring"
+  },
+  {
+    "name": "Ring of Shooting Stars",
+    "type": "Ring",
+    "rarity": "Very Rare",
+    "description": "Dungeon Master’s Guide, pg. 294\nYou can cast Dancing Lights or Light from the ring.\nThe ring has 6 charges and regains 1d6 expended charges daily at dawn. You can expend its charges to use the properties below.\nFaerie Fire. You can expend 1 charge to cast Faerie Fire from the ring.\nLightning Spheres. You can expend 2 charges as a Magic action to create up to four 3-foot-diameter spheres of lightning.\nEach sphere appears in an unoccupied space you can see within 120 feet of yourself. The spheres last as long as you maintain Concentration, up to 1 minute. Each sphere sheds Dim Light in a 30-foot radius.\nAs a Bonus Action, you can move each sphere up to 30 feet, but no farther than 120 feet away from yourself. The first time the sphere comes within 5 feet of a creature other than you that isn’t behind Total Cover, the sphere discharges lightning at that creature and disappears. That creature makes a DC 15 Dexterity saving throw. On a failed save, the creature takes Lightning damage based on the number of spheres you created, as shown in the following table. On a successful save, the creature takes half as much damage.\nNumber of Spheres\tLightning Damage\n1\t4d12\n2\t5d4\n3\t2d6\n4\t2d4\nShooting Stars. You can expend 1 to 3 charges as a Magic action. For every charge you expend, you launch a glowing mote of light from the ring at a point you can see within 60 feet of yourself. Each creature in a 15-foot Cube originating from that point is showered in sparks and makes a DC 15 Dexterity saving throw, taking 5d4 Radiant damage on a failed save or half as much damage on a successful one.\nAmount to add\n1",
+    "attunement": "Requires Attunement",
+    "price": 14000,
+    "where_get": "Research",
+    "gacha": "Very Rare Ring"
+  },
+  {
+    "name": "Ring of Telekinesis",
+    "type": "Ring",
+    "rarity": "Very Rare",
+    "description": "Dungeon Master’s Guide, pg. 295\nWhile wearing this ring, you can cast Telekinesis from it.\nAmount to add\n1",
+    "attunement": "Requires Attunement",
+    "price": 80000,
+    "where_get": "Research",
+    "gacha": "Very Rare Ring"
+  },
+  {
+    "name": "Sage's Signet (Bear)",
+    "type": "Ring",
+    "rarity": "Very Rare",
+    "description": "The Book of Many Things, pg. 37\nThis gilded ring bears a beautiful engraving and is imbued with powers of keen wisdom and foresight. While wearing this ring, you can use an action to cast the Augury spell from the ring. Once you use the ring to cast the spell, the ring can’t cast the spell again until the next dawn.\nWhile wearing the Sage’s Signet, you can cast Enlarge/Reduce and Polymorph once each from the ring using your Intelligence as the spellcasting ability. Once you cast each of the additional spells from the ring, it can’t cast the spell again until the next dawn.\nTags:\nControl\nBuff\nShapechanging\nForeknowledge\nAmount to add\n1",
+    "attunement": "Requires Attunement",
+    "price": "NA",
+    "where_get": "Research",
+    "gacha": "Very Rare Ring"
+  },
+  {
+    "name": "Sage's Signet (Hart)",
+    "type": "Ring",
+    "rarity": "Very Rare",
+    "description": "The Book of Many Things, pg. 37\nThis gilded ring bears a beautiful engraving and is imbued with powers of keen wisdom and foresight. While wearing this ring, you can use an action to cast the Augury spell from the ring. Once you use the ring to cast the spell, the ring can’t cast the spell again until the next dawn.\nWhile wearing the Sage’s Signet, you can cast Aura of Vitality and Mass Cure Wounds once each from the ring using your Intelligence as the spellcasting ability. Once you cast each of the additional spells from the ring, it can’t cast the spell again until the next dawn.\nTags:\nHealing\nForeknowledge\nAmount to add\n1",
+    "attunement": "Requires Attunement",
+    "price": "NA",
+    "where_get": "Research",
+    "gacha": "Very Rare Ring"
+  },
+  {
+    "name": "Sage's Signet (Lion)",
+    "type": "Ring",
+    "rarity": "Very Rare",
+    "description": "The Book of Many Things, pg. 37\nThis gilded ring bears a beautiful engraving and is imbued with powers of keen wisdom and foresight. While wearing this ring, you can use an action to cast the Augury spell from the ring. Once you use the ring to cast the spell, the ring can’t cast the spell again until the next dawn.\nWhile wearing the Sage’s Signet, you can cast Destructive Wave and Fireball once each from the ring using your Intelligence as the spellcasting ability. Once you cast each of the additional spells from the ring, it can’t cast the spell again until the next dawn.\nTags:\nDamage\nControl\nForeknowledge\nAmount to add\n1",
+    "attunement": "Requires Attunement",
+    "price": "NA",
+    "where_get": "Research",
+    "gacha": "Very Rare Ring"
+  },
+  {
+    "name": "Sage's Signet (Wolf)",
+    "type": "Ring",
+    "rarity": "Very Rare",
+    "description": "The Book of Many Things, pg. 37\nThis gilded ring bears a beautiful engraving and is imbued with powers of keen wisdom and foresight. While wearing this ring, you can use an action to cast the Augury spell from the ring. Once you use the ring to cast the spell, the ring can’t cast the spell again until the next dawn.\nWhile wearing the Sage’s Signet, you can cast Freedom of Movement and Pass without Trace once each from the ring using your Intelligence as the spellcasting ability. Once you cast each of the additional spells from the ring, it can’t cast the spell again until the next dawn.\nTags:\nBuff\nMovement\nExploration\nForeknowledge\nAmount to add\n1",
+    "attunement": "Requires Attunement",
+    "price": "NA",
+    "where_get": "Research",
+    "gacha": "Very Rare Ring"
+  },
+  {
+    "name": "Ring of Air Elemental Command",
+    "type": "Ring",
+    "rarity": "Legendary",
+    "description": "Player’s Handbook (2014), pg. 190\nThis ring is linked to the Elemental Plane of Air.\nWhile wearing this ring, you have advantage on attack rolls against air elementals, and they have disadvantage on attack rolls against you. In addition, you have access to properties based on the Elemental Plane of Air.\nThe ring has 5 charges. It regains 1d4 + 1 expended charges daily at dawn. Spells cast from the ring have a save DC of 17.\nYou can expend 2 of the ring's charges to cast dominate monster on an air elemental. In addition, when you fall, you descend 60 feet per round and take no damage from falling. You can also speak and understand Auran.\nIf you help slay an air elemental while attuned to the ring, you gain access to the following additional properties:\nYou have resistance to lightning damage.\nYou have a flying speed equal to your walking speed and can hover.\nYou can cast the following spells from the ring, expending the necessary number of charges: chain lightning (3 charges), gust of wind (2 charges), or wind wall (1 charge).\nTags:\nControl\nMovement\nWarding\nJewelry\nAmount to add\n1",
+    "attunement": "Requires Attunement",
+    "price": 35000,
+    "where_get": "Research",
+    "gacha": "Legendary Ring"
+  },
+  {
+    "name": "Ring of Djinni Summoning",
+    "type": "Ring",
+    "rarity": "Legendary",
+    "description": "Dungeon Master’s Guide, pg. 292\nWhile wearing this ring, you can take a Magic action to summon a particular Djinni from the Elemental Plane of Air. The djinni appears in an unoccupied space you choose within 120 feet of yourself. It remains as long as you maintain Concentration, to a maximum of 1 hour, or until it drops to 0 Hit Points.\nWhile summoned, the djinni is Friendly to you and your allies, and it obeys your commands. If you fail to command it, the djinni defends itself against attackers but takes no other actions.\nAfter the djinni departs, it can’t be summoned again for 24 hours, and the ring becomes nonmagical if the djinni dies.\nRings of Djinni Summoning are often created by the djinn they summon and given to mortals as gifts of friendship or tokens of esteem.\nAmount to add\n1",
+    "attunement": "Requires Attunement",
+    "price": "NA",
+    "where_get": "Research",
+    "gacha": "Legendary Ring"
+  },
+  {
+    "name": "Ring of Earth Elemental Command",
+    "type": "Ring",
+    "rarity": "Legendary",
+    "description": "Player’s Handbook (2014), pg. 190\nThis ring is linked to the Elemental Plane of Earth.\nWhile wearing this ring, you have advantage on attack rolls against earth elementals, and they have disadvantage on attack rolls against you. In addition, you have access to properties based on the Elemental Plane of Earth.\nThe ring has 5 charges. It regains 1d4 + 1 expended charges daily at dawn. Spells cast from the ring have a save DC of 17.\nYou can expend 2 of the ring's charges to cast dominate monster on an earth elemental. In addition, you can move in difficult terrain that is composed of rubble, rocks, or dirt as if it were normal terrain. You can also speak and understand Terran.\nIf you help slay an earth elemental while attuned to the ring, you gain access to the following additional properties:\nYou have resistance to acid damage.\nYou can move through solid earth or rock as if those areas were difficult terrain. If you end your turn there, you are shunted out to the nearest unoccupied space you last occupied.\nYou can cast the following spells from the ring, expending the necessary number of charges: stone shape (2 charges), stoneskin (3 charges), or wall of stone (3 charges).\nTags:\nControl\nMovement\nWarding\nJewelry\nAmount to add\n1",
+    "attunement": "Requires Attunement",
+    "price": 31000,
+    "where_get": "Research",
+    "gacha": "Legendary Ring"
+  },
+  {
+    "name": "Ring of Fire Elemental Command",
+    "type": "Ring",
+    "rarity": "Legendary",
+    "description": "Player’s Handbook (2014), pg. 190\nThis ring is linked to the Elemental Plane of Fire.\nWhile wearing this ring, you have advantage on attack rolls against fire elementals, and they have disadvantage on attack rolls against you. In addition, you have access to properties based on the Elemental Plane of Fire.\nThe ring has 5 charges. It regains 1d4 + 1 expended charges daily at dawn. Spells cast from the ring have a save DC of 17.\nYou can expend 2 of the ring's charges to cast dominate monster on a fire elemental. In addition, you have resistance to fire damage. You can also speak and understand Ignan.\nIf you help slay a fire elemental while attuned to the ring, you gain access to the following additional properties:\nYou are immune to fire damage.\nYou can cast the following spells from the ring, expending the necessary number of charges: burning hands (1 charge), fireball (2 charges), and wall of fire (3 charges).\nTags:\nDamage\nControl\nWarding\nJewelry\nAmount to add\n1",
+    "attunement": "Requires Attunement",
+    "price": 17000,
+    "where_get": "Research",
+    "gacha": "Legendary Ring"
+  },
+  {
+    "name": "Ring of Invisibility",
+    "type": "Ring",
+    "rarity": "Legendary",
+    "description": "Dungeon Master’s Guide, pg. 293\nWhile wearing this ring, you can take a Magic action to give yourself the Invisible condition. You remain Invisible until the ring is removed or until you take a Bonus Action to become visible again.\nAmount to add\n1",
+    "attunement": "Requires Attunement",
+    "price": 10000,
+    "where_get": "Research",
+    "gacha": "Legendary Ring"
+  },
+  {
+    "name": "Ring of Spell Turning",
+    "type": "Ring",
+    "rarity": "Legendary",
+    "description": "Dungeon Master’s Guide, pg. 295\nWhile wearing this ring, you have Advantage on saving throws against spells. If you succeed on the save for a spell of level 7 or lower, the spell has no effect on you. If that spell targeted only you and didn’t create an area of effect, you can take a Reaction to deflect the spell back at the spell’s caster; the caster must make a saving throw against the spell using their own spell save DC.\nAmount to add\n1",
+    "attunement": "Requires Attunement",
+    "price": 30000,
+    "where_get": "Research",
+    "gacha": "Legendary Ring"
+  },
+  {
+    "name": "Ring of Three Wishes",
+    "type": "Ring",
+    "rarity": "Legendary",
+    "description": "Dungeon Master’s Guide, pg. 193\nWhile wearing this ring, you can expend 1 of its 3 charges to cast Wish from it. The ring becomes nonmagical when you use the last charge.\nTags:\nBuff\nUtility\nConsumable\nJewelry\nAmount to add\n1",
+    "price": "NA",
+    "where_get": "Research",
+    "gacha": "Legendary Ring"
+  },
+  {
+    "name": "Ring of Water Elemental Command",
+    "type": "Ring",
+    "rarity": "Legendary",
+    "description": "Player’s Handbook (2014), pg. 191\nThis ring is linked to the Elemental Plane of Water.\nWhile wearing this ring, you have advantage on attack rolls against water elementals, and they have disadvantage on attack rolls against you. In addition, you have access to properties based on the Elemental Plane of Water.\nThe ring has 5 charges. It regains 1d4 + 1 expended charges daily at dawn. Spells cast from the ring have a save DC of 17.\nYou can expend 2 of the ring's charges to cast dominate monster on a water elemental. In addition, you can stand on and walk across liquid surfaces as if they were solid ground. You can also speak and understand Aquan.\nIf you help slay a water elemental while attuned to the ring, you gain access to the following additional properties:\nYou can breathe underwater and have a swimming speed equal to your walking speed.\nYou can cast the following spells from the ring, expending the necessary number of charges: create or destroy water (1 charge), control water (3 charges), ice storm (2 charges), or wall of ice (3 charges).\nTags:\nControl\nBuff\nMovement\nJewelry\nAmount to add\n1",
+    "attunement": "Requires Attunement",
+    "price": 25000,
+    "where_get": "Research",
+    "gacha": "Legendary Ring"
+  },
+  {
+    "name": "Spymaster's Signet",
+    "type": "Ring",
+    "rarity": "Legendary",
+    "description": "Dungeons of Drakkenheim, pg. 233\nWhile wearing this ring, you can cast disguise self at-will. In addition, you can turn invisible as an action. Anything you are wearing or carrying is invisible with you. You remain invisible for one minute, or until you use a bonus action to become visible again. Once you use this power, it can’t be used again until the next dawn.\nCrown Authority\nA character cannot attune to more than one Seal of Drakkenheim. Guardian constructs in Drakkenheim such as wall gargoyles and tower dragons do not attack you while you are attuned to one of the Seals of Drakkenheim. An individual guardian ignores this effect for 24 hours if you attack it or cast a spell upon it.\nAs an action, you may present a Seal of Drakkenheim to rebuke the guardians. You make an opposed Charisma ability check against each wall gargoyle or tower dragon that can see or hear you within 30 feet of you. If you win the contest, the creature is rebuked for 1 minute or until it takes any damage. A rebuked creature doesn’t move, and can’t take actions or reactions. A creature who wins the contest is immune to your rebuke for 24 hours.\nTags:\nSeal of Drakkenheim\nAmount to add\n1",
+    "attunement": "Requires Attunement",
+    "price": "NA",
+    "where_get": "Research",
+    "gacha": "Legendary Ring"
+  },
+  {
+    "name": "Ring of Winter",
+    "type": "Ring",
+    "rarity": "Artifact",
+    "description": "Tomb of Annihilation, pg. 207\nArtus Cimber has kept this item in his possession for over a century. The Ring of Winter is a golden band that resizes to fit snugly on the finger of its wearer. A thin layer of frost coats the outside of the ring, which normal heat can’t melt. The ring feels ice cold to the touch and initially numbs the hand that wears it, but this cold ceases to be felt by one who is attuned to the ring.\nThe Ring of Winter is sentient and tries to take control of any creature that wears it (see “Sentient Magic Items” in chapter 7 of the Dungeon Master’s Guide). If it succeeds, the ring compels its wearer to cause undue harm to everyone and everything around it, in a cold-hearted attempt to incur the wrath of enemies and bring about the wearer’s doom.\nSentience. The Ring of Winter is a sentient chaotic evil item with an Intelligence of 14, a Wisdom of 14, and a Charisma of 17. The ring communicates by transmitting emotion to the creature carrying or wielding it, and it has hearing and normal vision out to a range of 60 feet. The ring craves destruction, and it likes inflicting indiscriminate harm on others.\nNondetection. The Ring of Winter defies attempts to magically locate it. Neither the ring nor its wearer can be targeted by any divination magic or perceived through magical scrying sensors.\nFrozen Time. As long as you wear the ring, you don’t age naturally. This effect is similar to suspended animation, in that your age doesn’t catch up to you once the ring is removed. The ring doesn’t protect its wearer from magical or supernatural aging effects, such as the Horrifying Visage of a ghost.\nCold Immunity. While attuned to and wearing the ring, you have immunity to cold damage and don’t suffer any ill effects from extreme cold (see chapter 5 of the Dungeon Master’s Guide).\nMagic. The Ring of Winter has 12 charges and regains all its expended charges daily at dawn. While wearing the ring, you can expend the necessary number of charges to activate one of the following properties:\nYou can expend 1 charge as an action and use the ring to lower the temperature in a 120-foot-radius sphere centered on a point you can see within 300 feet of you. The temperature in that area drops 20 degrees per minute, to a minimum of –30 degrees Fahrenheit. Frost and ice begin to form on surfaces once the temperature drops below 32 degrees. This effect is permanent unless you use the ring to end it as an action, at which point the temperature in the area returns to normal at a rate of 10 degrees per minute.\nYou can cast one of the following spells from the ring (spell save DC 17) by expending the necessary number of charges: Bigby’s hand (2 charges; the hand is made of ice, is immune to cold damage, and deals bludgeoning damage instead of force damage as a clenched fist), cone of cold (2 charges), flesh to ice (3 charges; as flesh to stone except that the target turns to solid ice with the density and durability of stone), ice storm (2 charges), Otiluke’s freezing sphere (3 charges), sleet storm (1 charge), spike growth (1 charge; the spikes are made of ice), or wall of ice (2 charges).\nYou can expend the necessary number of charges as an action and use the ring to create either an inanimate ice object (2 charges) or an animated ice creature (4 charges). The ice object can’t have any moving parts, must be able to fit inside a 10-foot cube, and has the density and durability of metal or stone (your choice). The ice creature must be modeled after a beast with a challenge rating of 2 or less. The ice creature has the same statistics as the beast it models, with the following changes: the creature is a construct with vulnerability to fire damage, immunity to cold and poison damage, and immunity to the following conditions: charmed, exhaustion, frightened, paralyzed, petrified, and poisoned. The ice creature obeys only its creator’s commands. The ice object or creature appears in an unoccupied space within 60 feet of you. It melts into a pool of normal water after 24 hours or when it drops to 0 hit points. In extreme heat, it loses 5 (1d10) hit points per minute as it melts. Use the guidelines in chapter 8 of the Dungeon Master’s Guide to determine the hit points of an inanimate object if they become necessary.\nOther Properties. The Ring of Winter is rumored to possess other properties that can be activated only by an evil being whose will the ring can’t break. Frost Giants have long believed that the ring can be used to freeze entire worlds, while a djinni in the service of a Calishite pasha once claimed that the ring could be used to summon and control white dragons, as well as a mighty ice primordial named Cryonax.\nDestroying the Ring. The ring is nigh indestructible, resisting even the most intense magical heat. If it is placed on the finger of the powerful archfey known as the Summer Queen, the ring melts away and is destroyed forever.\nTags:\nControl\nBuff\nUtility\nDeception\nWarding\nSentient\nAmount to add\n1",
+    "attunement": "Requires Attunement",
+    "price": "NA"
   }
 ]
