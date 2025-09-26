@@ -2251,5 +2251,333 @@
     "description": "Tomb of Annihilation, pg. 207\nArtus Cimber has kept this item in his possession for over a century. The Ring of Winter is a golden band that resizes to fit snugly on the finger of its wearer. A thin layer of frost coats the outside of the ring, which normal heat can’t melt. The ring feels ice cold to the touch and initially numbs the hand that wears it, but this cold ceases to be felt by one who is attuned to the ring.\nThe Ring of Winter is sentient and tries to take control of any creature that wears it (see “Sentient Magic Items” in chapter 7 of the Dungeon Master’s Guide). If it succeeds, the ring compels its wearer to cause undue harm to everyone and everything around it, in a cold-hearted attempt to incur the wrath of enemies and bring about the wearer’s doom.\nSentience. The Ring of Winter is a sentient chaotic evil item with an Intelligence of 14, a Wisdom of 14, and a Charisma of 17. The ring communicates by transmitting emotion to the creature carrying or wielding it, and it has hearing and normal vision out to a range of 60 feet. The ring craves destruction, and it likes inflicting indiscriminate harm on others.\nNondetection. The Ring of Winter defies attempts to magically locate it. Neither the ring nor its wearer can be targeted by any divination magic or perceived through magical scrying sensors.\nFrozen Time. As long as you wear the ring, you don’t age naturally. This effect is similar to suspended animation, in that your age doesn’t catch up to you once the ring is removed. The ring doesn’t protect its wearer from magical or supernatural aging effects, such as the Horrifying Visage of a ghost.\nCold Immunity. While attuned to and wearing the ring, you have immunity to cold damage and don’t suffer any ill effects from extreme cold (see chapter 5 of the Dungeon Master’s Guide).\nMagic. The Ring of Winter has 12 charges and regains all its expended charges daily at dawn. While wearing the ring, you can expend the necessary number of charges to activate one of the following properties:\nYou can expend 1 charge as an action and use the ring to lower the temperature in a 120-foot-radius sphere centered on a point you can see within 300 feet of you. The temperature in that area drops 20 degrees per minute, to a minimum of –30 degrees Fahrenheit. Frost and ice begin to form on surfaces once the temperature drops below 32 degrees. This effect is permanent unless you use the ring to end it as an action, at which point the temperature in the area returns to normal at a rate of 10 degrees per minute.\nYou can cast one of the following spells from the ring (spell save DC 17) by expending the necessary number of charges: Bigby’s hand (2 charges; the hand is made of ice, is immune to cold damage, and deals bludgeoning damage instead of force damage as a clenched fist), cone of cold (2 charges), flesh to ice (3 charges; as flesh to stone except that the target turns to solid ice with the density and durability of stone), ice storm (2 charges), Otiluke’s freezing sphere (3 charges), sleet storm (1 charge), spike growth (1 charge; the spikes are made of ice), or wall of ice (2 charges).\nYou can expend the necessary number of charges as an action and use the ring to create either an inanimate ice object (2 charges) or an animated ice creature (4 charges). The ice object can’t have any moving parts, must be able to fit inside a 10-foot cube, and has the density and durability of metal or stone (your choice). The ice creature must be modeled after a beast with a challenge rating of 2 or less. The ice creature has the same statistics as the beast it models, with the following changes: the creature is a construct with vulnerability to fire damage, immunity to cold and poison damage, and immunity to the following conditions: charmed, exhaustion, frightened, paralyzed, petrified, and poisoned. The ice creature obeys only its creator’s commands. The ice object or creature appears in an unoccupied space within 60 feet of you. It melts into a pool of normal water after 24 hours or when it drops to 0 hit points. In extreme heat, it loses 5 (1d10) hit points per minute as it melts. Use the guidelines in chapter 8 of the Dungeon Master’s Guide to determine the hit points of an inanimate object if they become necessary.\nOther Properties. The Ring of Winter is rumored to possess other properties that can be activated only by an evil being whose will the ring can’t break. Frost Giants have long believed that the ring can be used to freeze entire worlds, while a djinni in the service of a Calishite pasha once claimed that the ring could be used to summon and control white dragons, as well as a mighty ice primordial named Cryonax.\nDestroying the Ring. The ring is nigh indestructible, resisting even the most intense magical heat. If it is placed on the finger of the powerful archfey known as the Summer Queen, the ring melts away and is destroyed forever.\nTags:\nControl\nBuff\nUtility\nDeception\nWarding\nSentient\nAmount to add\n1",
     "attunement": "Requires Attunement",
     "price": "NA"
+  },
+  {},
+  {
+    "name": "Potion of Advantage",
+    "type": "Potion",
+    "price": 100,
+    "rarity": "Uncommon",
+    "where_get": "Potant Potables",
+    "weight": 0.5,
+    "description": "The Wild Beyond the Witchlight, pg. 212\n\nWhen you drink this potion, you gain advantage on one ability check, attack roll, or saving throw of your choice that you make within the next hour.\n\nThis potion takes the form of a sparkling, golden mist that moves and pours like water."
+  },
+  {
+    "name": "Potion of Animal Friendship",
+    "type": "Potion",
+    "price": 200,
+    "rarity": "Uncommon",
+    "where_get": "Potant Potables",
+    "weight": 0.5,
+    "description": "Dungeon Master\u2019s Guide, pg. 287\n\nWhen you drink this potion, you can cast the level 3 version of the Animal Friendship spell (save DC 13).\n\nAgitating this potion\u2019s muddy liquid brings little bits into view: a fish scale, a hummingbird feather, a cat claw, or a squirrel hair."
+  },
+  {
+    "name": "Potion of Clairvoyance",
+    "type": "Potion",
+    "price": 960,
+    "rarity": "Rare",
+    "gacha": "Rare Potion",
+    "where_get": "Research",
+    "weight": 0.5,
+    "description": "Dungeon Master\u2019s Guide, pg. 187\n\nWhen you drink this potion, you gain the effect of the Clairvoyance spell (no Concentration required).\n\nAn eyeball bobs in this potion\u2019s yellowish liquid but vanishes when the potion is opened."
+  },
+  {
+    "name": "Potion of Climbing",
+    "type": "Potion",
+    "price": 180,
+    "rarity": "Common",
+    "where_get": "Potant Potables",
+    "weight": 0.5,
+    "description": "Dungeon Master\u2019s Guide, pg. 187\n\nWhen you drink this potion, you gain a Climb Speed equal to your Speed for 1 hour. During this time, you have Advantage on Strength (Athletics) checks to climb.\n\nThis potion is separated into brown, silver, and gray layers resembling bands of stone. Shaking the bottle fails to mix the colors."
+  },
+  {
+    "name": "Potion of Diminution",
+    "type": "Potion",
+    "price": 270,
+    "rarity": "Rare",
+    "gacha": "Rare Potion",
+    "where_get": "Research",
+    "weight": 0.5,
+    "description": "Dungeon Master\u2019s Guide, pg. 187\n\nWhen you drink this potion, you gain the \u201creduce\u201d effect of the Enlarge/Reduce spell for 1d4 hours (no Concentration required).\n\nThe red in the potion\u2019s liquid continuously contracts to a tiny bead and then expands to color the clear liquid around it. Shaking the bottle fails to interrupt this process."
+  },
+  {
+    "name": "Potion of Dragon Majesty",
+    "type": "Potion",
+    "price": 125000,
+    "rarity": "Legendary",
+    "gacha": "Legendary Potion",
+    "where_get": "Research",
+    "weight": 0.5,
+    "description": "Fizban's Treasury of Dragons, pg. 24\n\nThis potion looks like liquid gold, with a single scale from a chromatic, gem, or metallic dragon suspended in it. When you drink this potion, you transform into an adult dragon of the same kind as the dragon the scale came from. The transformation lasts for 1 hour. Any equipment you are wearing or carrying melds into your new form or falls to the ground (your choice). For the duration, you use the game statistics of the adult dragon instead of your own, but you retain your languages, personality, and memories. You can’t use a dragon's Change Shape or its legendary or lair actions."
+  },
+  {
+    "name": "Potion of Fire Breath",
+    "type": "Potion",
+    "price": 150,
+    "rarity": "Uncommon",
+    "where_get": "Potant Potables",
+    "weight": 0.5,
+    "description": "Dungeon Master\u2019s Guide, pg. 187\n\nAfter drinking this potion, you can take a Bonus Action to exhale fire at a target within 30 feet of yourself. The target makes a DC 13 Dexterity saving throw, taking 4d6 Fire damage on a failed save or half as much damage on a successful one. The effect ends after you exhale the fire three times or when 1 hour has passed.\n\nThis potion\u2019s orange liquid flickers, and smoke fills the top of the container and wafts out whenever it is opened."
+  },
+  {
+    "name": "Potion of Flying",
+    "type": "Potion",
+    "price": 500,
+    "rarity": "Very Rare",
+    "gacha": "Very Rare Potion",
+    "where_get": "Research",
+    "weight": 0.5,
+    "description": "Dungeon Master\u2019s Guide, pg. 187\n\nWhen you drink this potion, you gain a Fly Speed equal to your Speed for 1 hour and can hover. If you\u2019re in the air when the potion wears off, you fall unless you have some other means of staying aloft.\n\nThis potion\u2019s clear liquid floats at the top of its container and has cloudy white impurities drifting in it."
+  },
+  {
+    "name": "Potion of Gaseous Form",
+    "type": "Potion",
+    "price": 300,
+    "rarity": "Rare",
+    "gacha": "Rare Potion",
+    "where_get": "Research",
+    "weight": 0.5,
+    "description": "Dungeon Master\u2019s Guide, pg. 187\n\nWhen you drink this potion, you gain the effect of the Gaseous Form spell for 1 hour (no Concentration required) or until you end the effect as a Bonus Action.\n\nThis potion\u2019s container seems to hold fog that moves and pours like water."
+  },
+  {
+    "name": "Potion of Giant Strength (Cloud Giant)",
+    "type": "Potion",
+    "price": 800,
+    "rarity": "Very Rare",
+    "gacha": "Very Rare Potion",
+    "where_get": "Research",
+    "weight": 0.5,
+    "description": "Dungeon Master’s Guide, pg. 287\n\nWhen you drink this potion, your Strength score changes to 27 for 1 hour. The potion has no effect on you if your Strength is equal to or greater than that score.\n\nThis potion's transparent liquid has floating in it a sliver of fingernail from a cloud giant."
+  },
+  {
+    "name": "Potion of Giant Strength (Fire Giant)",
+    "type": "Potion",
+    "price": 600,
+    "rarity": "Rare",
+    "gacha": "Rare Potion",
+    "where_get": "Research",
+    "weight": 0.5,
+    "description": "Dungeon Master’s Guide, pg. 287\n\nWhen you drink this potion, your Strength score changes to 25 for 1 hour. The potion has no effect on you if your Strength is equal to or greater than that score.\n\nThis potion's transparent liquid has floating in it a sliver of fingernail from a fire giant."
+  },
+  {
+    "name": "Potion of Giant Strength (Frost Giant)",
+    "type": "Potion",
+    "price": 500,
+    "rarity": "Rare",
+    "gacha": "Rare Potion",
+    "where_get": "Research",
+    "weight": 0.5,
+    "description": "Dungeon Master’s Guide, pg. 287\n\nWhen you drink this potion, your Strength score changes to 23 for 1 hour. The potion has no effect on you if your Strength is equal to or greater than that score.\n\nThis potion's transparent liquid has floating in it a sliver of fingernail from a frost giant."
+  },
+  {
+    "name": "Potion of Giant Strength (Hill Giant)",
+    "type": "Potion",
+    "price": 400,
+    "rarity": "Uncommon",
+    "where_get": "Potant Potables",
+    "weight": 0.5,
+    "description": "Dungeon Master’s Guide, pg. 287\n\nWhen you drink this potion, your Strength score changes to 21 for 1 hour. The potion has no effect on you if your Strength is equal to or greater than that score.\n\nThis potion's transparent liquid has floating in it a sliver of fingernail from a hill giant."
+  },
+  {
+    "name": "Potion of Giant Strength (Stone Giant)",
+    "type": "Potion",
+    "price": 500,
+    "rarity": "Rare",
+    "gacha": "Rare Potion",
+    "where_get": "Research",
+    "weight": 0.5,
+    "description": "Dungeon Master’s Guide, pg. 287\n\nWhen you drink this potion, your Strength score changes to 23 for 1 hour. The potion has no effect on you if your Strength is equal to or greater than that score.\n\nThis potion's transparent liquid has floating in it a sliver of fingernail from a stone giant."
+  },
+  {
+    "name": "Potion of Giant Strength (Storm Giant)",
+    "type": "Potion",
+    "price": 1000,
+    "rarity": "Legendary",
+    "gacha": "Legendary Potion",
+    "where_get": "Research",
+    "weight": 0.5,
+    "description": "Dungeon Master’s Guide, pg. 287\n\nWhen you drink this potion, your Strength score changes to 29 for 1 hour. The potion has no effect on you if your Strength is equal to or greater than that score.\n\nThis potion's transparent liquid has floating in it a sliver of fingernail from a storm giant."
+  },
+  {
+    "name": "Potion of Greater Healing",
+    "type": "Potion",
+    "price": 200,
+    "rarity": "Uncommon",
+    "where_get": "Potant Potables",
+    "weight": 0.5,
+    "description": "Dungeon Master’s Guide, pg. 287\n\nYou regain 4d4 + 4 Hit Points when you drink this potion.\n\nWhatever its potency, the potion’s red liquid glimmers when agitated."
+},
+  {
+    "name": "Potion of Growth",
+    "type": "Potion",
+    "price": 270,
+    "rarity": "Uncommon",
+    "where_get": "Potant Potables",
+    "weight": 0.5,
+    "description": "Dungeon Master\u2019s Guide, pg. 288\n\nWhen you drink this potion, you gain the \u201cenlarge\u201d effect of the Enlarge/Reduce spell for 10 minutes (no Concentration required).\n\nThe red in the potion\u2019s liquid continuously expands from a tiny bead to color the clear liquid around it and then contracts. Shaking the bottle fails to interrupt this process."
+  },
+  {
+    "name": "Potion of Healing",
+    "type": "Potion",
+    "price": 50,
+    "rarity": "Common",
+    "where_get": "Potant Potables",
+    "weight": 0.5,
+    "description": "Dungeon Master\u2019s Guide, pg. 228\n\nThis potion is a magic item. As a Bonus Action, you can drink it or administer it to another creature within 5 feet of yourself. The creature that drinks the magical red fluid in this vial regains 2d4 + 2 Hit Points."
+  },
+  {
+    "name": "Potion of Heroism",
+    "type": "Potion",
+    "price": 180,
+    "rarity": "Rare",
+    "gacha": "Rare Potion",
+    "where_get": "Research",
+    "weight": 0.5,
+    "description": "Dungeon Master\u2019s Guide, pg. 188\n\nWhen you drink this potion, you gain 10 Temporary Hit Points that last for 1 hour. For the same duration, you are under the effect of the Bless spell (no Concentration required).\n\nThis potion\u2019s blue liquid bubbles and steams as if boiling."
+  },
+  {
+    "name": "Potion of Invisibility",
+    "type": "Potion",
+    "price": 180,
+    "rarity": "Very Rare",
+    "gacha": "Very Rare Potion",
+    "where_get": "Research",
+    "weight": 0.5,
+    "description": "Player\u2019s Handbook (2014), pg. 188\n\nThis potion's container looks empty but feels as though it holds liquid. When you drink it, you become invisible for 1 hour. Anything you wear or carry is invisible with you. The effect ends early if you attack or cast a spell."
+  },
+  {
+    "name": "Potion of Invulnerability",
+    "type": "Potion",
+    "price": 3840,
+    "rarity": "Rare",
+    "gacha": "Rare Potion",
+    "where_get": "Research",
+    "weight": 0.5,
+    "description": "Dungeon Master\u2019s Guide, pg. 188\n\nFor 1 minute after you drink this potion, you have Resistance to all damage.\n\nThis potion\u2019s syrupy liquid looks like liquefied iron."
+  },
+  {
+    "name": "Potion of Longevity",
+    "type": "Potion",
+    "price": 9000,
+    "rarity": "Very Rare",
+    "gacha": "Very Rare Potion",
+    "where_get": "Research",
+    "weight": 0.5,
+    "description": "Dungeon Master\u2019s Guide, pg. 188\n\nWhen you drink this potion, your physical age is reduced by 1d6 + 6 years, to a minimum of 13 years. Each time you subsequently drink a Potion of Longevity, there is 10 percent cumulative chance that you instead age by 1d6 + 6 years.\n\nSuspended in this amber liquid is a tiny heart that, against all reason, is still beating. These ingredients vanish when the potion is opened."
+  },
+  {
+    "name": "Potion of Mind Reading",
+    "type": "Potion",
+    "price": 180,
+    "rarity": "Rare",
+    "gacha": "Rare Potion",
+    "where_get": "Research",
+    "weight": 0.5,
+    "description": "Dungeon Master\u2019s Guide, pg. 288\n\nWhen you drink this potion, you gain the effect of the Detect Thoughts spell (save DC 13) for 10 minutes (no Concentration required).\n\nThis potion\u2019s dense, purple liquid has an ovoid cloud of pink floating in it."
+  },
+  {
+    "name": "Potion of Poison",
+    "type": "Potion",
+    "price": 100,
+    "rarity": "Uncommon",
+    "where_get": "Potant Potables",
+    "weight": 0.5,
+    "description": "Dungeon Master\u2019s Guide, pg. 288\n\nThis concoction looks, smells, and tastes like a Potion of Healing or another beneficial potion. However, it is actually poison masked by illusion magic. Identify reveals its true nature.\n\nIf you drink this potion, you take 4d6 Poison damage and must succeed on a DC 13 Constitution saving throw or have the Poisoned condition for 1 hour."
+  },
+  {
+    "name": "Potion of Resistance",
+    "type": "Potion",
+    "price": 300,
+    "rarity": "Uncommon",
+    "where_get": "Potant Potables",
+    "weight": 0.5,
+    "description": "Grants resistance to a chosen type of damage for 1 hour. You choose when creating this potion."
+  },
+  {
+    "name": "Potion of Speed",
+    "type": "Potion",
+    "price": 400,
+    "rarity": "Very Rare",
+    "gacha": "Very Rare Potion",
+    "where_get": "Research",
+    "weight": 0.5,
+    "description": "Dungeon Master\u2019s Guide, pg. 289\n\nWhen you drink this potion, you gain the effect of the Haste spell for 1 minute (no Concentration required) without suffering the wave of lethargy that typically occurs when the effect ends.\n\nThis potion\u2019s yellow fluid is streaked with black and swirls on its own."
+  },
+  {
+    "name": "Potion of Superior Healing",
+    "type": "Potion",
+    "price": 500,
+    "rarity": "Rare",
+    "gacha": "Rare Potion",
+    "where_get": "Research",
+    "weight": 0.5,
+    "description": "Dungeon Master’s Guide, pg. 197\n\nYou regain 8d4 + 8 Hit Points when you drink this potion.\n\nWhatever its potency, the potion’s red liquid glimmers when agitated."
+},
+  {
+    "name": "Potion of Supreme Healing",
+    "type": "Potion",
+    "price": 2000,
+    "rarity": "Very Rare",
+    "gacha": "Very Rare Potion",
+    "where_get": "Research",
+    "weight": 0.5,
+    "description": "Dungeon Master’s Guide, pg. 197\n\nYou regain 10d4 + 20 Hit Points when you drink this potion.\n\nWhatever its potency, the potion’s red liquid glimmers when agitated."
+  },
+  {
+    "name": "Potion of Vitality",
+    "type": "Potion",
+    "price": 960,
+    "rarity": "Very Rare",
+    "gacha": "Very Rare Potion",
+    "where_get": "Research",
+    "weight": 0.5,
+    "description": "Dungeon Master\u2019s Guide, pg. 188\n\nWhen you drink this potion, it removes any Exhaustion levels you have and ends the Poisoned condition on you. For the next 24 hours, you regain the maximum number of Hit Points for any Hit Point Die you spend.\n\nThis potion\u2019s crimson liquid regularly pulses with dull light, calling to mind a heartbeat."
+  },
+  {
+    "name": "Potion of Water Breathing",
+    "type": "Potion",
+    "price": 180,
+    "rarity": "Uncommon",
+    "where_get": "Potant Potables",
+    "weight": 0.5,
+    "description": "Dungeon Master\u2019s Guide, pg. 289\n\nYou can breathe underwater for 24 hours after drinking this potion.\n\nThis potion\u2019s cloudy green fluid smells of the sea and has a jellyfish-like bubble floating in it."
+  },
+  {
+    "name": "Oil of Etherealness",
+    "type": "Potion",
+    "price": 1920,
+    "rarity": "Rare",
+    "gacha": "Rare Potion",
+    "where_get": "Research",
+    "weight": 0.5,
+    "description": "Dungeon Master\u2019s Guide, pg. 183\n\nOne vial of this oil can cover one Medium or smaller creature, along with the equipment it\u2019s wearing and carrying (one additional vial is required for each size category above Medium). Applying the oil takes 10 minutes. The affected creature then gains the effect of the Etherealness spell for 1 hour.\n\nBeads of this cloudy, gray oil form on the outside of its container and quickly evaporate."
+  },
+  {
+    "name": "Oil of Sharpness",
+    "type": "Potion",
+    "price": 3200,
+    "rarity": "Very Rare",
+    "gacha": "Very Rare Potion",
+    "where_get": "Research",
+    "weight": 1,
+    "description": "Dungeon Master\u2019s Guide, pg. 282\n\nOne vial of this oil can coat one Melee weapon or twenty pieces of ammunition, but only ammunition and Melee weapons that are nonmagical and deal Slashing or Piercing damage are affected. Applying the oil takes 1 minute, after which the oil magically seeps into whatever it coats, turning the coated weapon into a +3 Weapon or the coated ammunition into +3 Ammunition.\n\nThis clear, gelatinous oil sparkles with tiny, ultrathin silver shards."
+  },
+  {
+    "name": "Oil of Slipperiness",
+    "type": "Potion",
+    "price": 480,
+    "rarity": "Uncommon",
+    "where_get": "Potant Potables",
+    "weight": 1,
+    "description": "Dungeon Master\u2019s Guide, pg. 283\n\nOne vial of this oil can cover one Medium or smaller creature, along with the equipment it\u2019s wearing and carrying (one additional vial is required for each size category above Medium). Applying the oil takes 10 minutes. The affected creature then gains the effect of the Freedom of Movement spell for 8 hours.\n\nAlternatively, the oil can be poured on the ground as a Magic action, where it covers a 10-foot square, duplicating the effect of the Grease spell in that area for 8 hours.\n\nThis sticky, black unguent is thick and heavy, but it flows quickly when poured."
+  },
+  {
+    "name": "Philter of Love",
+    "type": "Potion",
+    "price": 90,
+    "rarity": "Uncommon",
+    "where_get": "Potant Potables",
+    "weight": 0.5,
+    "description": "Dungeon Master\u2019s Guide, pg. 285\n\nThe next time you see a creature within 10 minutes after drinking this philter, you are charmed by that creature and have the Charmed condition for 1 hour.\n\nThis rose-hued, effervescent liquid contains one easy-to-miss bubble shaped like a heart."
   }
 ]
