@@ -27,17 +27,24 @@ function parseWeaponsFromInbound() {
             const firstLine = lines[i++]?.trim();
             weapon.name = firstLine;
             
-            // Skip duplicate name lines and "Add" line
-            while (i < lines.length && (lines[i].trim() === weapon.name || lines[i].trim() === "Add")) {
-                i++;
+            // Skip lines until we find the "Weapon" line with rarity (includes Legacy weapons)
+            let weaponTypeLine = null;
+            while (i < lines.length) {
+                const line = lines[i++].trim();
+                if (line.startsWith('Weapon') || line.includes('• Weapon')) {
+                    weaponTypeLine = line;
+                    break;
+                }
             }
 
-            // Parse weapon type and rarity from the combined line
-            if (i < lines.length) {
-                const weaponTypeLine = lines[i++];
-                const rarityMatch = weaponTypeLine.match(/Weapon(?:\s*\([^)]+\))?,\s*(Common|Uncommon|Rare|Very Rare|Legendary|Artifact)/i);
+            // Parse weapon type and rarity from the weapon line
+            if (weaponTypeLine) {
+                // Handle both regular and Legacy weapon formats
+                const rarityMatch = weaponTypeLine.match(/(?:Legacy\s*•\s*)?Weapon(?:\s*\([^)]+\))?,\s*(Common|Uncommon|Rare|Very Rare|Legendary|Artifact)/i);
                 if (rarityMatch) {
                     weapon.rarity = rarityMatch[1];
+                } else {
+                    weapon.rarity = 'Common';
                 }
                 
                 // Check for attunement requirement
@@ -107,13 +114,8 @@ function parseWeaponsFromInbound() {
                     break;
             }
 
-            // Set price
-            const priceFromTable = priceTable[weapon.name];
-            if (priceFromTable) {
-                weapon.price = parseInt(priceFromTable.replace(/[^0-9]/g, '')) || "NA";
-            } else {
-                weapon.price = "NA";
-            }
+            // Set price using smart pattern matching
+            weapon.price = lookupWeaponPrice(weapon.name, priceTable);
 
             // Set weight if available
             if (properties.Weight && properties.Weight !== '--') {
@@ -134,6 +136,58 @@ function parseWeaponsFromInbound() {
         console.error('Error parsing weapons:', error);
         return [];
     }
+}
+
+function lookupWeaponPrice(weaponName, priceTable) {
+    // First try exact match
+    if (priceTable[weaponName]) {
+        return parseInt(priceTable[weaponName].replace(/[^0-9]/g, '')) || "NA";
+    }
+    
+    // Try pattern matching for generic weapon entries
+    // Handle "+X" weapons (e.g., "Battleaxe, +1" -> "Weapon +1")
+    const plusMatch = weaponName.match(/,\s*\+(\d+)$/);
+    if (plusMatch) {
+        const genericName = `Weapon +${plusMatch[1]}`;
+        if (priceTable[genericName]) {
+            return parseInt(priceTable[genericName].replace(/[^0-9]/g, '')) || "NA";
+        }
+    }
+    
+    // Handle "of X" weapons (e.g., "Battleaxe of Warning" -> "Weapon of Warning") 
+    const ofMatch = weaponName.match(/\s+of\s+(.+)$/);
+    if (ofMatch) {
+        const genericName = `Weapon of ${ofMatch[1]}`;
+        if (priceTable[genericName]) {
+            return parseInt(priceTable[genericName].replace(/[^0-9]/g, '')) || "NA";
+        }
+    }
+    
+    // Handle prefix patterns (e.g., "Nine Lives Stealer Battleaxe" -> "Nine Lives Stealer")
+    for (const priceKey in priceTable) {
+        if (weaponName.startsWith(priceKey + " ")) {
+            return parseInt(priceTable[priceKey].replace(/[^0-9]/g, '')) || "NA";
+        }
+    }
+    
+    // Handle special "Vicious" case: "Vicious Battleaxe" -> "Vicious Weapon"
+    if (weaponName.startsWith("Vicious ") && priceTable["Vicious Weapon"]) {
+        return parseInt(priceTable["Vicious Weapon"].replace(/[^0-9]/g, '')) || "NA";
+    }
+    
+    // Handle other patterns like "Dragon's Wrath", "Adamantine", etc.
+    // Check if the priceTable has a generic version
+    const weaponParts = weaponName.split(/[\s,]+/);
+    for (const part of weaponParts) {
+        if (part.length > 2) { // Skip short words
+            const genericName = `Weapon ${part}`;
+            if (priceTable[genericName]) {
+                return parseInt(priceTable[genericName].replace(/[^0-9]/g, '')) || "NA";
+            }
+        }
+    }
+    
+    return "NA";
 }
 
 function buildWeaponDescription(weapon, properties) {
