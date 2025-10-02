@@ -1,5 +1,4 @@
 Rod
-Staff
 Wand
 Wondrous
 Other Gear

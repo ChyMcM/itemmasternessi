@@ -13,7 +13,7 @@ function parseWeaponsFromInbound() {
         const weaponTracker = new Map(); // Track weapons to prioritize Legacy versions
         
         // Load price table from external file
-        const priceTable = require('./priceTable.json');
+        const priceTable = require('../priceTable.json');
 
         for (let entry of entries) {
             if (!entry.trim()) continue;
