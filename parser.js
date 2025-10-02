@@ -29,6 +29,14 @@ function parseWeaponsFromInbound() {
             const firstLine = lines[i++]?.trim();
             weapon.name = firstLine;
             
+            // Get base weapon type from second line (before "Add" or weapon type line)
+            let baseWeaponType = null;
+            const secondLine = lines[i]?.trim();
+            if (secondLine && secondLine !== 'Add' && !secondLine.startsWith('Weapon') && !secondLine.includes('• Weapon')) {
+                baseWeaponType = secondLine;
+                i++;
+            }
+            
             // Skip lines until we find the "Weapon" line with rarity (includes Legacy weapons)
             let weaponTypeLine = null;
             while (i < lines.length) {
@@ -129,12 +137,29 @@ function parseWeaponsFromInbound() {
 
             // Only add if we have a valid weapon name
             if (weapon.name) {
+                // Filter out modern/futuristic weapons not used in the game
+                const excludedWeapons = [
+                    'Antimatter Rifle', 'Laser Pistol', 'Laser Rifle', 'Pistol', 
+                    'Pistol, Automatic', 'Rifle, Automatic', 'Rifle, Hunting', 
+                    'Shotgun', 'Energy Cells', 'Modern Bullets',
+                    'Bad News (Exandria)', 'Blunderbuss (Exandria)', 'Hand Mortar (Exandria)', 
+                    'Musket (Exandria)', 'Pepperbox (Exandria)', 'Pistol (Exandria)', 
+                    'Semiautomatic Pistol'
+                ];
+                
+                if (excludedWeapons.includes(weapon.name)) {
+                    continue; // Skip this weapon entirely
+                }
+                
                 // Detect if this is a Legacy weapon
                 const isLegacy = weaponTypeLine && weaponTypeLine.includes('Legacy •');
                 
                 // Check if this weapon should be grouped into an enchantment
                 const enchantmentInfo = getEnchantmentInfo(weapon.name);
                 if (enchantmentInfo) {
+                    // Use base weapon type from parsing data, fallback to pattern-extracted type
+                    const actualWeaponType = baseWeaponType || enchantmentInfo.weaponType;
+                    
                     // Group this weapon by enchantment
                     if (!enchantmentGroups.has(enchantmentInfo.enchantmentName)) {
                         enchantmentGroups.set(enchantmentInfo.enchantmentName, {
@@ -143,7 +168,7 @@ function parseWeaponsFromInbound() {
                             sampleWeapon: weapon // Use first weapon as template
                         });
                     }
-                    enchantmentGroups.get(enchantmentInfo.enchantmentName).weaponTypes.add(enchantmentInfo.weaponType);
+                    enchantmentGroups.get(enchantmentInfo.enchantmentName).weaponTypes.add(actualWeaponType);
                 } else {
                     // Regular weapon - check for duplicates and prioritize Legacy versions
                     const existingWeapon = weaponTracker.get(weapon.name);
@@ -168,13 +193,30 @@ function parseWeaponsFromInbound() {
         }
 
         // Create enchantment entries from grouped weapons
+        const excludedWeaponTypes = [
+            'Antimatter Rifle', 'Laser Pistol', 'Laser Rifle', 'Pistol', 
+            'Automatic Pistol', 'Automatic Rifle', 'Hunting Rifle', 
+            'Shotgun', 'Energy Cell', 'Modern Bullets',
+            'Bad News (Exandria)', 'Blunderbuss (Exandria)', 'Hand Mortar (Exandria)', 
+            'Musket (Exandria)', 'Pepperbox (Exandria)', 'Pistol (Exandria)', 
+            'Semiautomatic Pistol'
+        ];
+        
         for (const [enchantmentName, enchantmentData] of enchantmentGroups) {
-            const enchantment = {
-                ...enchantmentData.sampleWeapon,
-                name: enchantmentName,
-                weapon_types: Array.from(enchantmentData.weaponTypes).sort()
-            };
-            weapons.push(enchantment);
+            // Filter out excluded weapon types from enchantments
+            const filteredWeaponTypes = Array.from(enchantmentData.weaponTypes)
+                .filter(weaponType => !excludedWeaponTypes.includes(weaponType))
+                .sort();
+            
+            // Only create enchantment if it has remaining weapon types
+            if (filteredWeaponTypes.length > 0) {
+                const enchantment = {
+                    ...enchantmentData.sampleWeapon,
+                    name: enchantmentName,
+                    weapon_types: filteredWeaponTypes
+                };
+                weapons.push(enchantment);
+            }
         }
 
         return weapons;
@@ -195,7 +237,9 @@ function getEnchantmentInfo(weaponName) {
         { pattern: /^(.+) of Sharpness$/, enchantmentSuffix: ' Enchantment' },
         { pattern: /^(.+) of Grass$/, enchantmentSuffix: ' Enchantment' },
         { pattern: /^(.+) of the Wood$/, enchantmentSuffix: ' Enchantment' },
-        { pattern: /^(.+) of Throne's Command(?:\s*\([^)]+\))?$/, enchantmentSuffix: ' Enchantment' },
+        { pattern: /^(.+) of Unity$/, enchantmentSuffix: ' Enchantment' },
+        { pattern: /^(.+) of Melodies$/, enchantmentSuffix: ' Enchantment' },
+        { pattern: /^(.+?) of Throne's Command(?:\s*\([^)]+\))?$/, enchantmentSuffix: ' Enchantment' },
         { pattern: /^Ruidium (.+)$/, prefix: 'Ruidium', enchantmentSuffix: ' Enchantment' },
         { pattern: /^Dragon Wing (.+)$/, prefix: 'Dragon Wing', enchantmentSuffix: ' Enchantment' },
         { pattern: /^Mind Blade (.+)$/, prefix: 'Mind Blade', enchantmentSuffix: ' Enchantment' },
@@ -230,6 +274,8 @@ function getEnchantmentInfo(weaponName) {
         { pattern: /^Moon-Touched Sword, (.+)$/, prefix: 'Moon-Touched Sword', enchantmentSuffix: ' Enchantment' },
         { pattern: /^Moon-Touched, (.+)$/, prefix: 'Moon-Touched', enchantmentSuffix: ' Enchantment' },
         { pattern: /^(.+), Walloping$/, prefix: 'Walloping', enchantmentSuffix: ' Enchantment' },
+        { pattern: /^True Name (.+), \+1$/, prefix: 'True Name +1', enchantmentSuffix: ' Enchantment' },
+        { pattern: /^True Name (.+), \+2$/, prefix: 'True Name +2', enchantmentSuffix: ' Enchantment' },
         { pattern: /^Corpse Slayer, (.+)$/, prefix: 'Corpse Slayer', enchantmentSuffix: ' Enchantment' },
         { pattern: /^(.+), \+(\d+)$/, enchantmentSuffix: ' Enchantment' },
         { pattern: /^Weapon of Certain Death, (.+)$/, prefix: 'Weapon of Certain Death', enchantmentSuffix: ' Enchantment' },
@@ -266,7 +312,9 @@ function getEnchantmentInfo(weaponName) {
                 // Handle "of X" patterns (e.g., "Battleaxe of Warning" -> "Weapon of Warning Enchantment")
                 const parts = weaponName.split(' of ');
                 if (parts.length === 2) {
-                    enchantmentName = `Weapon of ${parts[1]}${enchantmentSuffix}`;
+                    // Strip optional parenthetical part from enchantment name for consistency
+                    const enchantmentPart = parts[1].replace(/\s*\([^)]+\)$/, '');
+                    enchantmentName = `Weapon of ${enchantmentPart}${enchantmentSuffix}`;
                     weaponType = parts[0];
                 } else {
                     enchantmentName = match[0] + enchantmentSuffix;
