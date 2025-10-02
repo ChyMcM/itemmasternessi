@@ -9,6 +9,8 @@ function parseWeaponsFromInbound() {
         const entries = content.split(/Add Item\s*[\r\n]+/).filter(entry => entry.trim());
         
         const weapons = [];
+        const enchantmentGroups = new Map(); // Track enchantments and their weapon types
+        const weaponTracker = new Map(); // Track weapons to prioritize Legacy versions
         
         // Load price table from external file
         const priceTable = require('./priceTable.json');
@@ -127,8 +129,52 @@ function parseWeaponsFromInbound() {
 
             // Only add if we have a valid weapon name
             if (weapon.name) {
-                weapons.push(weapon);
+                // Detect if this is a Legacy weapon
+                const isLegacy = weaponTypeLine && weaponTypeLine.includes('Legacy •');
+                
+                // Check if this weapon should be grouped into an enchantment
+                const enchantmentInfo = getEnchantmentInfo(weapon.name);
+                if (enchantmentInfo) {
+                    // Group this weapon by enchantment
+                    if (!enchantmentGroups.has(enchantmentInfo.enchantmentName)) {
+                        enchantmentGroups.set(enchantmentInfo.enchantmentName, {
+                            name: enchantmentInfo.enchantmentName,
+                            weaponTypes: new Set(),
+                            sampleWeapon: weapon // Use first weapon as template
+                        });
+                    }
+                    enchantmentGroups.get(enchantmentInfo.enchantmentName).weaponTypes.add(enchantmentInfo.weaponType);
+                } else {
+                    // Regular weapon - check for duplicates and prioritize Legacy versions
+                    const existingWeapon = weaponTracker.get(weapon.name);
+                    if (existingWeapon) {
+                        // If we already have this weapon, only replace if current one is Legacy
+                        if (isLegacy && !existingWeapon.isLegacy) {
+                            // Replace non-Legacy with Legacy version
+                            const index = weapons.findIndex(w => w.name === weapon.name);
+                            if (index !== -1) {
+                                weapons[index] = weapon;
+                                weaponTracker.set(weapon.name, { weapon, isLegacy });
+                            }
+                        }
+                        // If existing is Legacy or current is not Legacy, skip this weapon
+                    } else {
+                        // New weapon, add it
+                        weapons.push(weapon);
+                        weaponTracker.set(weapon.name, { weapon, isLegacy });
+                    }
+                }
             }
+        }
+
+        // Create enchantment entries from grouped weapons
+        for (const [enchantmentName, enchantmentData] of enchantmentGroups) {
+            const enchantment = {
+                ...enchantmentData.sampleWeapon,
+                name: enchantmentName,
+                weapon_types: Array.from(enchantmentData.weaponTypes).sort()
+            };
+            weapons.push(enchantment);
         }
 
         return weapons;
@@ -136,6 +182,103 @@ function parseWeaponsFromInbound() {
         console.error('Error parsing weapons:', error);
         return [];
     }
+}
+
+function getEnchantmentInfo(weaponName) {
+    // Define enchantment patterns that should be grouped
+    const enchantmentPatterns = [
+        { pattern: /^(.+) of Warning$/, enchantmentSuffix: ' Enchantment' },
+        { pattern: /^(.+) of Wounding$/, enchantmentSuffix: ' Enchantment' },
+        { pattern: /^(.+) of Life Stealing$/, enchantmentSuffix: ' Enchantment' },
+        { pattern: /^(.+) of Vengeance$/, enchantmentSuffix: ' Enchantment' },
+        { pattern: /^(.+) of Slaying$/, enchantmentSuffix: ' Enchantment' },
+        { pattern: /^(.+) of Sharpness$/, enchantmentSuffix: ' Enchantment' },
+        { pattern: /^(.+) of Grass$/, enchantmentSuffix: ' Enchantment' },
+        { pattern: /^(.+) of the Wood$/, enchantmentSuffix: ' Enchantment' },
+        { pattern: /^(.+) of Throne's Command(?:\s*\([^)]+\))?$/, enchantmentSuffix: ' Enchantment' },
+        { pattern: /^Ruidium (.+)$/, prefix: 'Ruidium', enchantmentSuffix: ' Enchantment' },
+        { pattern: /^Dragon Wing (.+)$/, prefix: 'Dragon Wing', enchantmentSuffix: ' Enchantment' },
+        { pattern: /^Mind Blade (.+)$/, prefix: 'Mind Blade', enchantmentSuffix: ' Enchantment' },
+        { pattern: /^Starcrossed (.+)$/, prefix: 'Starcrossed', enchantmentSuffix: ' Enchantment' },
+        { pattern: /^Blade of the Medusa, (.+)$/, prefix: 'Blade of the Medusa', enchantmentSuffix: ' Enchantment' },
+        { pattern: /^Comet Smasher (.+)$/, prefix: 'Comet Smasher', enchantmentSuffix: ' Enchantment' },
+        { pattern: /^Dancing (.+)$/, prefix: 'Dancing', enchantmentSuffix: ' Enchantment' },
+        { pattern: /^Executioner's (.+)$/, prefix: 'Executioner\'s', enchantmentSuffix: ' Enchantment' },
+        { pattern: /^Fool's (.+)$/, prefix: 'Fool\'s', enchantmentSuffix: ' Enchantment' },
+        { pattern: /^Polymorph Blade, (.+)$/, prefix: 'Polymorph Blade', enchantmentSuffix: ' Enchantment' },
+        { pattern: /^Fey (.+)$/, prefix: 'Fey', enchantmentSuffix: ' Enchantment' },
+        { pattern: /^Starshot (.+)$/, prefix: 'Starshot', enchantmentSuffix: ' Enchantment' },
+        { pattern: /^Bloodshed (.+)$/, prefix: 'Bloodshed', enchantmentSuffix: ' Enchantment' },
+        { pattern: /^Scepter (.+)$/, prefix: 'Scepter', enchantmentSuffix: ' Enchantment' },
+        { pattern: /^Lunar (.+)$/, prefix: 'Lunar', enchantmentSuffix: ' Enchantment' },
+        { pattern: /^Gambler's Blade, (.+)$/, prefix: 'Gambler\'s Blade', enchantmentSuffix: ' Enchantment' },
+        { pattern: /^Acheron Blade, (.+)$/, prefix: 'Acheron Blade', enchantmentSuffix: ' Enchantment' },
+        { pattern: /^Crystal (.+)$/, prefix: 'Crystal', enchantmentSuffix: ' Enchantment' },
+        { pattern: /^Winged (.+)$/, prefix: 'Winged', enchantmentSuffix: ' Enchantment' },
+        { pattern: /^Dried Leech, (.+)$/, prefix: 'Dried Leech', enchantmentSuffix: ' Enchantment' },
+        { pattern: /^Sylvan Talon (.+)$/, prefix: 'Sylvan Talon', enchantmentSuffix: ' Enchantment' },
+        { pattern: /^Berserker (.+)$/, prefix: 'Berserker', enchantmentSuffix: ' Enchantment' },
+        { pattern: /^Delerium-Forged (.+)$/, prefix: 'Delerium-Forged', enchantmentSuffix: ' Enchantment' },
+        { pattern: /^Quickstep (.+)$/, prefix: 'Quickstep', enchantmentSuffix: ' Enchantment' },
+        { pattern: /^Glimmering Moonbow, (.+)$/, prefix: 'Glimmering Moonbow', enchantmentSuffix: ' Enchantment' },
+        { pattern: /^Moonsteel (.+)$/, prefix: 'Moonsteel', enchantmentSuffix: ' Enchantment' },
+        { pattern: /^Bloodseeker (.+)$/, prefix: 'Bloodseeker', enchantmentSuffix: ' Enchantment' },
+        { pattern: /^Frostglow (.+)$/, prefix: 'Frostglow', enchantmentSuffix: ' Enchantment' },
+        { pattern: /^Red-Feather (.+)$/, prefix: 'Red-Feather', enchantmentSuffix: ' Enchantment' },
+        { pattern: /^Energy (.+)$/, prefix: 'Energy', enchantmentSuffix: ' Enchantment' },
+        { pattern: /^Oathbow (.+)$/, prefix: 'Oathbow', enchantmentSuffix: ' Enchantment' },
+        { pattern: /^Moon-Touched Sword, (.+)$/, prefix: 'Moon-Touched Sword', enchantmentSuffix: ' Enchantment' },
+        { pattern: /^Moon-Touched, (.+)$/, prefix: 'Moon-Touched', enchantmentSuffix: ' Enchantment' },
+        { pattern: /^(.+), Walloping$/, prefix: 'Walloping', enchantmentSuffix: ' Enchantment' },
+        { pattern: /^Corpse Slayer, (.+)$/, prefix: 'Corpse Slayer', enchantmentSuffix: ' Enchantment' },
+        { pattern: /^(.+), \+(\d+)$/, enchantmentSuffix: ' Enchantment' },
+        { pattern: /^Weapon of Certain Death, (.+)$/, prefix: 'Weapon of Certain Death', enchantmentSuffix: ' Enchantment' },
+        { pattern: /^Nine Lives Stealer (.+)$/, prefix: 'Nine Lives Stealer', enchantmentSuffix: ' Enchantment' },
+        { pattern: /^Flame Tongue (.+)$/, prefix: 'Flame Tongue', enchantmentSuffix: ' Enchantment' },
+        { pattern: /^Frost Brand (.+)$/, prefix: 'Frost Brand', enchantmentSuffix: ' Enchantment' },
+        { pattern: /^Vicious (.+)$/, prefix: 'Vicious Weapon', enchantmentSuffix: ' Enchantment' },
+        { pattern: /^Dragon Slayer (.+)$/, prefix: 'Dragon Slayer', enchantmentSuffix: ' Enchantment' },
+        { pattern: /^Giant Slayer (.+)$/, prefix: 'Giant Slayer', enchantmentSuffix: ' Enchantment' },
+        { pattern: /^Adamantine (.+)$/, prefix: 'Adamantine', enchantmentSuffix: ' Enchantment' },
+        { pattern: /^Silvered (.+)$/, prefix: 'Silvered', enchantmentSuffix: ' Enchantment' },
+        { pattern: /^Hellfire (.+)$/, prefix: 'Hellfire', enchantmentSuffix: ' Enchantment' },
+        { pattern: /^Enspelled (.+)$/, prefix: 'Enspelled', enchantmentSuffix: ' Enchantment' },
+        { pattern: /^Forcebreaker (.+)$/, prefix: 'Forcebreaker', enchantmentSuffix: ' Enchantment' },
+        { pattern: /^True Name (.+)$/, prefix: 'True Name', enchantmentSuffix: ' Enchantment' },
+        { pattern: /^Armblade \((.+)\)$/, prefix: 'Armblade', enchantmentSuffix: ' Enchantment' },
+        { pattern: /^Oceanic (.+)$/, prefix: 'Oceanic', enchantmentSuffix: ' Enchantment' }
+    ];
+
+    for (const { pattern, prefix, enchantmentSuffix } of enchantmentPatterns) {
+        const match = weaponName.match(pattern);
+        if (match) {
+            let enchantmentName, weaponType;
+            
+            if (prefix) {
+                // Use predefined prefix (e.g., "Nine Lives Stealer" -> "Nine Lives Stealer Enchantment")
+                enchantmentName = prefix + enchantmentSuffix;
+                weaponType = match[1];
+            } else if (match[2]) {
+                // Handle "+X" weapons (e.g., "Battleaxe, +1" -> "Weapon +1 Enchantment")
+                enchantmentName = `Weapon +${match[2]}${enchantmentSuffix}`;
+                weaponType = match[1];
+            } else {
+                // Handle "of X" patterns (e.g., "Battleaxe of Warning" -> "Weapon of Warning Enchantment")
+                const parts = weaponName.split(' of ');
+                if (parts.length === 2) {
+                    enchantmentName = `Weapon of ${parts[1]}${enchantmentSuffix}`;
+                    weaponType = parts[0];
+                } else {
+                    enchantmentName = match[0] + enchantmentSuffix;
+                    weaponType = match[1];
+                }
+            }
+            
+            return { enchantmentName, weaponType };
+        }
+    }
+    
+    return null; // Not an enchantment pattern
 }
 
 function lookupWeaponPrice(weaponName, priceTable) {
