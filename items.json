@@ -5849,5 +5849,384 @@
     "gacha": "Very Rare Staff Research",
     "attunement": "Requires Attunement",
     "description": "You gain a +1 bonus to attack and damage rolls made with this magic quarterstaff. While you hold it, you gain a +1 bonus to spell attack rolls. This staff has 10 charges. While holding it, you can use an action to expend 1 or more of the staff’s charges to cast one of the following spells from it, using your spell save DC: banishment (4 charges), blink (3 charges), misty step (2 charges), passwall (5 charges), or teleport (7 charges). The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff vanishes forever."
+  },
+  {},
+    {
+    "name": "Radiance",
+    "type": "Wand",
+    "rarity": "Rare",
+    "description": "While holding this wand, you gain a +1 bonus to spell attack rolls. In addition, you ignore half cover when making a spell attack. Radiance is in the form of an exquisite golden hand mirror. While surrounded by darkness, it sheds dim light in a 5-foot radius. A creature that is attuned to Radiance can use a bonus action while holding the mirror to cast the enhance ability spell, choosing itself and no other creature as the spell’s target. Once this property of the wand is used, it can’t be used again until the next dawn.",
+    "where_get": "Research",
+    "attunement": "Requires Attunement",
+    "price": "NA",
+    "gacha": "Rare Wand Research",
+    "class_recommendations": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ]
+  },
+  {
+    "name": "Wand of Conducting",
+    "type": "Wand",
+    "rarity": "Common",
+    "description": "This wand has 3 charges. While holding it, you can use an action to expend 1 of its charges and create orchestral music by waving it around. The music can be heard out to a range of 60 feet and ends when you stop waving the wand. The wand regains all expended charges daily at dawn. If you expend the wand’s last charge, roll a d20. On a 1, a sad tuba sound plays as the wand crumbles to dust and is destroyed.",
+    "where_get": "Magicians Menagerie",
+    "price": 500
+  },
+  {
+    "name": "Wand of Pyrotechnics",
+    "type": "Wand",
+    "rarity": "Common",
+    "description": "This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges and create a harmless burst of multicolored light at a point you can see up to 60 feet away. The burst of light is accompanied by a crackling noise that can be heard up to 300 feet away. The light is as bright as a torch flame but lasts only a second. The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand’s last charge, roll a d20. On a 1, the wand erupts in a harmless pyrotechnic display and is destroyed.",
+    "where_get": "Magicians Menagerie",
+    "price": 400
+  },
+  {
+    "name": "Wand of Scowls",
+    "type": "Wand",
+    "rarity": "Common",
+    "description": "This wand has 3 charges. While holding it, you can use an action to expend 1 of its charges and target a Humanoid you can see within 30 feet of you. The target must succeed on a DC 10 Charisma saving throw or be forced to scowl for 1 minute. The wand regains all expended charges daily at dawn. If you expend the wand’s last charge, roll a d20. On a 1, the wand transforms into a wand of smiles.",
+    "where_get": "Magicians Menagerie",
+    "price": 500
+  },
+  {
+    "name": "Wand of Smiles",
+    "type": "Wand",
+    "rarity": "Common",
+    "description": "This wand has 3 charges. While holding it, you can use an action to expend 1 of its charges and target a Humanoid you can see within 30 feet of you. The target must succeed on a DC 10 Charisma saving throw or be forced to smile for 1 minute. The wand regains all expended charges daily at dawn. If you expend the wand’s last charge, roll a d20. On a 1, the wand transforms into a wand of scowls.",
+    "where_get": "Magicians Menagerie",
+    "price": 500
+  },
+  {
+    "name": "Spellpiercing Wand",
+    "type": "Wand",
+    "rarity": "Uncommon",
+    "description": "You can use this wand as a spellcasting focus. Creatures making a saving throw against a spell cast using this wand can’t gain benefit from advantage on their saving throws.",
+    "where_get": "Magicians Menagerie",
+    "attunement": "Requires Attunement",
+    "price": "NA",
+    "class_recommendations": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ]
+  },
+  {
+    "name": "Wand of Entangle",
+    "type": "Wand",
+    "rarity": "Uncommon",
+    "description": "This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges to cast the entangle spell (save DC 13) from it. The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand’s last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed. Debuff",
+    "where_get": "Magicians Menagerie",
+    "attunement": "Requires Attunement",
+    "price": "NA",
+    "class_recommendations": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ]
+  },
+  {
+    "name": "Wand of Magic Detection",
+    "type": "Wand",
+    "rarity": "Uncommon",
+    "description": "This wand has 3 charges. While holding it, you can expend 1 charge as an action to cast the detect magic spell from it. The wand regains 1d3 expended charges daily at dawn. Detection",
+    "where_get": "Magicians Menagerie",
+    "price": 1500
+  },
+  {
+    "name": "Wand of Magic Missiles",
+    "type": "Wand",
+    "rarity": "Uncommon",
+    "description": "This wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the magic missile spell from it. For 1 charge, you cast the 1st-level version of the spell. You can increase the spell slot level by one for each additional charge you expend. The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand’s last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.",
+    "where_get": "Magicians Menagerie",
+    "price": 8000
+  },
+  {
+    "name": "Wand of Secrets",
+    "type": "Wand",
+    "rarity": "Uncommon",
+    "description": "The wand has 3 charges. While holding it, you can use an action to expend 1 of its charges, and if a secret door or trap is within 30 feet of you, the wand pulses and points at the one nearest to you. The wand regains 1d3 expended charges daily at dawn. Detection",
+    "where_get": "Magicians Menagerie",
+    "price": 1500
+  },
+  {
+    "name": "Wand of Shadows",
+    "type": "Wand",
+    "rarity": "Uncommon",
+    "description": "This wand has 5 charges. While holding it, you have advantage on Dexterity (Stealth) checks against creatures that rely on sight. You can also use an action to expend 1 or more of its charges to cast the darkbolt spell (save DC 15, see Deep Magic) from it. For 1 charge, you cast the 2nd-level version of the spell. You can increase the spell slot level by one for each additional charge you expend. The wand regains 1d6+1 expended charges daily at midnight. If you expend the last charge, roll a d20. On a 1, the wand turns to ash and is destroyed.",
+    "where_get": "Magicians Menagerie",
+    "attunement": "Requires Attunement",
+    "price": "NA",
+    "class_recommendations": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ]
+  },
+  {
+    "name": "Wand of Tides",
+    "type": "Wand",
+    "rarity": "Uncommon",
+    "description": "This wand has 5 charges. While holding it, you cannot be paralyzed. You can also use an action to expend 1 or more of its charges to warp space around you, filling it with tangible shadows. All creatures moving toward you move as if they are in difficult terrain. Attack rolls against you have disadvantage. The shadows last for 3 rounds or until you choose to end them. The wand regains 1d4+1 expended charges daily at midnight. If you expend the last charge, roll a d20. On a 1, the wand turns to ash and is destroyed.",
+    "where_get": "Magicians Menagerie",
+    "attunement": "Requires Attunement",
+    "price": "NA",
+    "class_recommendations": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ]
+  },
+  {
+    "name": "Wand of Web",
+    "type": "Wand",
+    "rarity": "Uncommon",
+    "description": "This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges to cast the web spell (save DC 15) from it. The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.",
+    "where_get": "Magicians Menagerie",
+    "attunement": "Requires Attunement",
+    "price": 8000,
+    "class_recommendations": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ]
+  },
+  {
+    "name": "Wand of the War Mage, +1",
+    "type": "Wand",
+    "rarity": "Uncommon",
+    "description": "While holding this wand, you gain a bonus to spell attack rolls determined by the wand’s rarity. In addition, you ignore Half Cover when making a spell attack roll.",
+    "where_get": "Magicians Menagerie",
+    "attunement": "Requires Attunement",
+    "price": 1200,
+    "class_recommendations": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ]
+  },
+  {
+    "name": "Failed Experiment Wand",
+    "type": "Wand",
+    "rarity": "Rare",
+    "description": "While holding it, you can use an action to expend 1 or more of its charges to cast either a green-flamed fireball or a blue lightning bolt at random from it (save DC 15). For 1 charge, you cast the 3rd-level version of the spell. You can increase the spell slot level by one for each additional charge you expend. This wand has 2 charges per day. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.",
+    "where_get": "Research",
+    "attunement": "Requires Attunement",
+    "price": "NA",
+    "gacha": "Rare Wand Research",
+    "class_recommendations": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ]
+  },
+  {
+    "name": "Wand of Binding",
+    "type": "Wand",
+    "rarity": "Rare",
+    "description": "This wand has 7 charges for the following properties. It regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed. Spells. While holding the wand, you can use an action to expend some of its charges to cast one of the following spells (save DC 17): hold monster (5 charges) or hold person (2 charges). Assisted Escape. While holding the wand, you can use your reaction to expend 1 charge and gain advantage on a saving throw you make to avoid being paralyzed or restrained, or you can expend 1 charge and gain advantage on any check you make to escape a grapple.",
+    "where_get": "Research",
+    "attunement": "Requires Attunement",
+    "price": 10000,
+    "gacha": "Rare Wand Research",
+    "class_recommendations": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ]
+  },
+  {
+    "name": "Wand of Enemy Detection",
+    "type": "Wand",
+    "rarity": "Rare",
+    "description": "This wand has 7 charges. While holding it, you can use an action and expend 1 charge to speak its command word. For the next minute, you know the direction of the nearest creature hostile to you within 60 feet, but not its distance from you. The wand can sense the presence of hostile creatures that are ethereal, invisible, disguised, or hidden, as well as those in plain sight. The effect ends if you stop holding the wand. The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed. Detection",
+    "where_get": "Research",
+    "attunement": "Requires Attunement",
+    "price": 4000,
+    "gacha": "Rare Wand Research"
+  },
+  {
+    "name": "Wand of Fear",
+    "type": "Wand",
+    "rarity": "Rare",
+    "description": "This wand has 7 charges for the following properties. It regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed. Command. While holding the wand, you can use an action to expend 1 charge and command another creature to flee or grovel, as with the command spell (save DC 15). Cone of Fear. While holding the wand, you can use an action to expend 2 charges, causing the wand's tip to emit a 60-foot cone of amber light. Each creature in the cone must succeed on a DC 15 Wisdom saving throw or become frightened of you for 1 minute. While it is frightened in this way, a creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If it has nowhere it can move, the creature can use the Dodge action. At the end of each of its turns, a creature can repeat the saving throw, ending the effect on itself on a success.",
+    "where_get": "Research",
+    "attunement": "Requires Attunement",
+    "price": 10000,
+    "gacha": "Rare Wand Research"
+  },
+  {
+    "name": "Wand of Fireballs",
+    "type": "Wand",
+    "rarity": "Rare",
+    "description": "This wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the fireball spell (save DC 15) from it. For 1 charge, you cast the 3rd-level version of the spell. You can increase the spell slot level by one for each additional charge you expend. The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.",
+    "where_get": "Research",
+    "attunement": "Requires Attunement",
+    "price": 32000,
+    "gacha": "Rare Wand Research",
+    "class_recommendations": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ]
+  },
+  {
+    "name": "Wand of Lightning Bolts",
+    "type": "Wand",
+    "rarity": "Rare",
+    "description": "This wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the lightning bolt spell (save DC 15) from it. For 1 charge, you cast the 3rd-level version of the spell. You can increase the spell slot level by one for each additional charge you expend. The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.",
+    "where_get": "Research",
+    "attunement": "Requires Attunement",
+    "price": 32000,
+    "gacha": "Rare Wand Research",
+    "class_recommendations": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ]
+  },
+  {
+    "name": "Wand of Paralysis",
+    "type": "Wand",
+    "rarity": "Rare",
+    "description": "This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges to cause a thin blue ray to streak from the tip toward a creature you can see within 60 feet of you. The target must succeed on a DC 15 Constitution saving throw or be paralyzed for 1 minute. At the end of each of the target's turns, it can repeat the saving throw, ending the effect on itself on a success. The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed. Debuff",
+    "where_get": "Research",
+    "attunement": "Requires Attunement",
+    "price": 16000,
+    "gacha": "Rare Wand Research",
+    "class_recommendations": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ]
+  },
+  {
+    "name": "Wand of Viscid Globs",
+    "type": "Wand",
+    "rarity": "Rare",
+    "description": "Crafted by the drow, this slim black wand has 7 charges. While holding it, you can use an action to expend 1 of its charges to cause a small glob of viscous material to launch from the tip at one creature within 60 feet of you. Make a ranged attack roll against the target, with a bonus equal to your spellcasting modifier (or your Intelligence modifier, if you don’t have a spellcasting ability) plus your proficiency bonus. On a hit, the glob expands and dries on the target, which is restrained for 1 hour. After that time, the viscous material cracks and falls away. Applying a pint or more of alcohol to the restrained creature dissolves the glob instantly, as does the application of oil of etherealness or universal solvent. The glob also dissolves instantly if exposed to sunlight. No other nonmagical process can remove the viscous material until it deteriorates on its own. The wand regains 1d6 + 1 expended charges daily at midnight. If you expend the wand’s last charge, roll a d20. On a 1, the wand melts into harmless slime and is destroyed. A wand of viscid globs is destroyed if exposed to sunlight for 1 hour without interruption. Debuff",
+    "where_get": "Research",
+    "attunement": "Requires Attunement",
+    "price": "NA",
+    "gacha": "Rare Wand Research"
+  },
+  {
+    "name": "Wand of Winter",
+    "type": "Wand",
+    "rarity": "Rare",
+    "description": "This wand looks and feels like an icicle. You must be attuned to the wand to use it. The wand has 7 charges, which are used to fuel the spells within it. With the wand in hand, you can use your action to cast one of the following spells from the wand, even if you are incapable of casting spells: ray of frost (no charges, or 1 charge to cast at 5th level; +5 to hit with ranged spell attack), sleet storm (3 charges; spell save DC 15), or ice storm (4 charges; spell save DC 15). No other components are required. The wand regains 1d6 + 1 expended charges each day at dawn. If you expend the wand’s last charge, roll a d20. On a 20, the wand melts away, forever destroyed.",
+    "where_get": "Research",
+    "attunement": "Requires Attunement",
+    "price": "NA",
+    "gacha": "Rare Wand Research"
+  },
+  {
+    "name": "Wand of Wonder",
+    "type": "Wand",
+    "rarity": "Rare",
+    "description": "This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges and choose a target within 120 feet of you. The target can be a creature, an object, or a point in space. Roll d100 and consult the following table to discover what happens. If the effect causes you to cast a spell from the wand, the spell's save DC is 15. If the spell normally has a range expressed in feet, its range becomes 120 feet if it isn't already. If an effect covers an area, you must center the spell on and include the target. If an effect has multiple possible subjects, the GM randomly determines which ones are affected. The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into dust and is destroyed. d100 Effect 01-05 You cast slow. 06-10 You cast faerie fire. 11-15 You are stunned until the start of your next turn, believing something awesome just happened. 16-20 You cast gust of wind. 21-25 You cast detect thoughts on the target you chose. If you didn't target a creature, you instead take 1d6 psychic. 26-30 You cast stinking cloud. 31-33 Heavy rain falls in a 60-foot radius centered on the target. The area becomes lightly obscured. The rain falls until the start of your next turn. 34-36 An animal appears in the unoccupied space nearest the target. The animal isn't under your and acts as it normally would. Roll a d100 to determine which animal appears. On a 01–25, a rhinoceros appears; on a 26–50, an elephant appears; and on a 51–100, a rat appears. 37-46 You cast lightning bolt. 47-49 A cloud of 600 oversized butterflies fills a 30‐foot radius centered on the target. The area becomes heavily obscured. The butterflies remain for 10 minutes. 50-53 You enlarge the target as if you had cast enlarge/reduce. If the target can't be affected by that spell, or if you didn't target a creature, you become the target. 54-58 You cast darkness. 59-62 Grass grows on the ground in a 60‐foot radius centered on the target. If grass is already there, it grows to ten times its normal size and remains overgrown for 1 minute. 63-65 An object of the GM's choice disappears into the Ethereal Plane. The object must be neither worn nor carried, within 120 feet of the target, and no larger than 10 feet in any dimension. 66-69 You shrink yourself as if you had cast enlarge/reduce on yourself. 70-79 You cast fireball. 80-84 You cast invisibility on yourself. 85-87 Leaves grow from the target. If you chose a point in space as the target, leaves sprout from the creature nearest to that point. Unless they are picked off, the leaves turn brown and fall off after 24 hours. 88-90 A stream of 1d4 × 10 gems, each worth 1 gp, shoots from the wand's tip in a line 30 feet long and 5 feet wide. Each gem deals 1 bludgeoning , and the total of the gems is divided equally among all creatures in the line. 91-95 A burst of colorful shimmering light extends from you in a 30‐foot radius. You and each creature in the area that can see must succeed on a DC 15 Constitution saving throw or become blinded for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. 96-97 The target's skin turns bright blue for 1d10 days. If you chose a point in space, the creature nearest to that point is affected. 98-00 If you targeted a creature, it must make a DC 15 Constitution saving throw. If you didn't target a creature, you become the target and must make the saving throw. If the saving throw fails by 5 or more, the target is instantly petrified. On any other failed save, the target is restrained and begins to turn to stone. While restrained in this way, the target must repeat the saving throw at the end of its next turn, becoming petrified on a failure or ending the effect on a success. The petrification lasts until the target is freed by the greater restoration spell or similar magic. Deception",
+    "where_get": "Research",
+    "attunement": "Requires Attunement",
+    "price": "NA",
+    "gacha": "Rare Wand Research",
+    "class_recommendations": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ]
+  },
+  {
+    "name": "Wand of the War Mage, +2",
+    "type": "Wand",
+    "rarity": "Rare",
+    "description": "While holding this wand, you gain a bonus to spell attack rolls determined by the wand’s rarity. In addition, you ignore Half Cover when making a spell attack roll.",
+    "where_get": "Research",
+    "attunement": "Requires Attunement",
+    "price": 4800,
+    "gacha": "Rare Wand Research",
+    "class_recommendations": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ]
+  },
+  {
+    "name": "Wand of Polymorph",
+    "type": "Wand",
+    "rarity": "Very Rare",
+    "description": "This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges to cast the polymorph spell (save DC 15) from it. The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed. Shapechanging",
+    "where_get": "Research",
+    "attunement": "Requires Attunement",
+    "price": 32000,
+    "gacha": "Very Rare Wand Research",
+    "class_recommendations": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ]
+  },
+  {
+    "name": "Wand of the War Mage, +3",
+    "type": "Wand",
+    "rarity": "Very Rare",
+    "description": "While holding this wand, you gain a bonus to spell attack rolls determined by the wand’s rarity. In addition, you ignore Half Cover when making a spell attack roll.",
+    "where_get": "Research",
+    "attunement": "Requires Attunement",
+    "price": 19200,
+    "gacha": "Very Rare Wand Research",
+    "class_recommendations": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ]
   }
 ]

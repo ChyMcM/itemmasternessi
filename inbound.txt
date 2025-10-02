@@ -1,7 +1,7 @@
-Enspelled Staff
-Staff
+Radiance
+Wand
 Add
-Staff, Varies (requires attunement by a Spellcaster)
+Wand, Unknown Rarity (requires attunement by a Spellcaster)
 Weight:
 
 --
@@ -12,81 +12,24 @@ Cost:
 
 Source:
 
-Dungeon Master’s Guide, pg. 258
+Candlekeep Mysteries, pg. 87
 
-Bound into this staff is a spell of level 8 or lower. The spell is determined when the staff is created and can be of any school of magic. The staff has 6 charges and regains 1d6 expended charges daily at dawn. While holding the staff, you can expend 1 charge to cast its spell. If you expend the staff ’s last charge, roll 1d20. On a 1, the staff loses its properties and becomes a nonmagical Quarterstaff.
+While holding this wand, you gain a +1 bonus to spell attack rolls. In addition, you ignore half cover when making a spell attack. Radiance is in the form of an exquisite golden hand mirror.
 
-The level of the spell bound into the staff determines the spell’s saving throw DC and attack bonus, as well as the staff’s rarity, as shown in the following table.
-
-Spell Level	Rarity	Save DC	Attack Bonus
-Cantrip	Uncommon	13	+5
-1	Uncommon	13	+5
-2	Rare	13	+5
-3	Rare	15	+7
-4	Very Rare	15	+7
-5	Very Rare	17	+9
-6	Legendary	17	+9
-7	Legendary	18	+10
-8	Legendary	18	+10
-Amount to add
-
-1
-
-Add Item
-Staff of Adornment
-Staff
-Add
-Staff, Common
-Weight:
-
---
-
-Cost:
-
---
-
-Source:
-
-Dungeon Master’s Guide, pg. 306
-
-If you place a Tiny object weighing no more than 1 pound (such as a shard of crystal, an egg, or a stone) above the tip of this staff while holding it, the object floats an inch from the staff’s tip and remains there until it is removed or until the staff is no longer in your possession. The staff can have up to three such objects floating over its tip at any given time. While holding the staff, you can make one or more of the objects slowly spin or turn in place.
-
-Amount to add
-
-1
-
-Add Item
-Staff of Birdcalls
-LegacyStaff
-Add
-Legacy • Staff, Common
-Weight:
-
---
-
-Cost:
-
---
-
-Source:
-
-Xanathar's Guide to Everything, pg. 139
-
-This wooden staff is decorated with bird carvings. It has 10 charges. While holding it, you can use an action to expend 1 charge from the staff and cause it to create one of the following sounds out to a range of 60 feet: a finch’s chirp, a raven’s caw, a duck’s quack, a chicken’s cluck, a goose’s honk, a loon’s call, a turkey’s gobble, a seagull’s cry, an owl’s hoot, or an eagle’s shriek.
-
-The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff explodes in a harmless cloud of bird feathers and is lost forever.
+While surrounded by darkness, it sheds dim light in a 5-foot radius. A creature that is attuned to Radiance can use a bonus action while holding the mirror to cast the enhance ability spell, choosing itself and no other creature as the spell’s target. Once this property of the wand is used, it can’t be used again until the next dawn.
 
 Tags:
-Utility
+Buff
+Combat
 Amount to add
 
 1
 
 Add Item
-Staff of Birdcalls
-Staff
+Wand of Conducting
+LegacyWand
 Add
-Staff, Common
+Legacy • Wand, Common
 Weight:
 
 --
@@ -97,36 +40,11 @@ Cost:
 
 Source:
 
-Dungeon Master’s Guide, pg. 307
+Xanathar's Guide to Everything, pg. 140
 
-This wooden staff is decorated with bird carvings. It has 10 charges. While holding it, you can take a Magic action to expend 1 charge from the staff and cause it to create one of the following sounds, which can be heard out to 120 feet: a finch’s chirp, a raven’s caw, a duck’s quack, a chicken’s cluck, a goose’s honk, a loon’s call, a turkey’s gobble, a seagull’s cry, an owl’s hoot, or an eagle’s shriek.
+This wand has 3 charges. While holding it, you can use an action to expend 1 of its charges and create orchestral music by waving it around. The music can be heard out to a range of 60 feet and ends when you stop waving the wand.
 
-Regaining Charges. The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, the staff explodes in a harmless cloud of bird feathers and is lost forever.
-
-Amount to add
-
-1
-
-Add Item
-Staff of Flowers
-LegacyStaff
-Add
-Legacy • Staff, Common
-Weight:
-
---
-
-Cost:
-
---
-
-Source:
-
-Xanathar's Guide to Everything, pg. 139
-
-This wooden staff has 10 charges. While holding it, you can use an action to expend 1 charge from the staff and cause a flower to sprout from a patch of earth or soil within 5 feet of you, or from the staff itself. Unless you choose a specific kind of flower, the staff creates a mild-scented daisy. The flower is harmless and nonmagical, and it grows or withers as a normal flower would.
-
-The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff turns into flower petals and is lost forever.
+The wand regains all expended charges daily at dawn. If you expend the wand’s last charge, roll a d20. On a 1, a sad tuba sound plays as the wand crumbles to dust and is destroyed.
 
 Tags:
 Social
@@ -135,10 +53,10 @@ Amount to add
 1
 
 Add Item
-Staff of Flowers
-Staff
+Wand of Conducting
+Wand
 Add
-Staff, Common
+Wand, Common
 Weight:
 
 --
@@ -149,21 +67,21 @@ Cost:
 
 Source:
 
-Dungeon Master’s Guide, pg. 308
+Dungeon Master’s Guide, pg. 319
 
-This wooden staff has 10 charges. While holding it, you can take a Magic action to expend 1 charge from the staff and cause a flower to sprout from a patch of earth or soil within 5 feet of yourself, or from the staff itself. Unless you choose a specific kind of flower, the staff creates a mild-scented daisy. The flower is harmless and nonmagical, and it grows or withers as a normal flower would.
+This wand has 3 charges. While holding it, you can take a Magic action to expend 1 charge and create orchestral music by waving it around. The music can be heard out to 120 feet and ends when you stop waving the wand.
 
-Regaining Charges. The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, the staff turns into flower petals and is lost forever.
+Regaining Charges. The wand regains all expended charges daily at dawn. If you expend the wand’s last charge, roll 1d20. On a 1, a sad tuba sound plays as the wand crumbles into dust and is destroyed.
 
 Amount to add
 
 1
 
 Add Item
-Skyblinder Staff
-Staff
+Wand of Pyrotechnics
+LegacyWand
 Add
-Staff, Uncommon (requires attunement)
+Legacy • Wand, Common
 Weight:
 
 --
@@ -174,84 +92,23 @@ Cost:
 
 Source:
 
-Guildmasters’ Guide to Ravnica
+Xanathar's Guide to Everything, pg. 140
 
-You gain a +1 bonus to attack and damage rolls made with this magic quarterstaff. While holding it, you gain a +1 bonus to spell attack rolls.
+This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges and create a harmless burst of multicolored light at a point you can see up to 60 feet away. The burst of light is accompanied by a crackling noise that can be heard up to 300 feet away. The light is as bright as a torch flame but lasts only a second.
 
-If a flying creature you can see within 30 feet of you makes an attack roll against you, you can use your reaction to hold the staff aloft and cause it to flare with light. The attacker has disadvantage on the attack roll, and it must succeed on a DC 15 Constitution saving throw or be blinded until the start of its next turn.
-
-Amount to add
-
-1
-
-Add Item
-Staff of Climbing Ivy
-Staff
-Add
-Staff, Uncommon (requires attunement by a bard, druid, sorcerer, or warlock)
-Weight:
-
---
-
-Cost:
-
---
-
-Source:
-
-Humblewood Tales, pg. 248
-
-This staff is formed from several strands of leafy vines that have grown together into the shape of a twisted walking stick. It is rigid and sturdy.
-
-The staff has three command words. While holding the staff, you can speak one of its command words to cause an effect.
-
-Growth. Speaking the first command word as a bonus action causes up to 120 feet of creeping vines to grow from the staff towards a solid surface or unattended object you can see. The vines grow at a speed of 30 feet per round.
-
-Grasp. Speaking the second command word, costing no action causes the vines to firmly affix themselves to a surface or unattended object within their reach. The vines can only be anchored to one object or surface at a time.
-
-Grapple. Speaking the third command word as an action causes the vines to retract into the staff at a speed of 30 feet per round. If anchored to a solid surface, the vines will pull the staff’s wielder towards the surface at the same speed. If anchored to an object, the vines will pull the object towards the wielder of the staff.
-
-When the vines are extended, they can be attacked. The extended vines have an Armor Class of 14, 45 hit points, and vulnerability to fire and slashing damage. The vines have a Strength score of 16 and can bear up to 240 pounds of weight at once. Weight in excess of this will cause the vines to begin to tear, dealing 10 points of damage to them each round. If the vines drop to 0 hit points, the staff is destroyed. The vines regain all lost hit points when they retract into the staff.
-
-Amount to add
-
-1
-
-Add Item
-Staff of the Adder
-LegacyStaff
-Add
-Legacy • Staff, Uncommon (requires attunement by a cleric, druid, or warlock)
-Weight:
-
---
-
-Cost:
-
---
-
-Source:
-
-Dungeon Master’s Guide (2014), pg. 203
-
-You can use a bonus action to speak the staff's command word and make the head of the staff become that of an animate poisonous snake for 1 minute. By using another bonus action to speak the command word again, you return the staff to its normal inanimate form.
-
-You can make a melee attack using the snake head, which has a reach of 5 feet. Your proficiency bonus applies to the attack roll. On a hit, the target takes 1d6 piercing damage and must succeed on a DC 15 Constitution saving throw or take 3d6 poison damage.
-
-The snake head can be attacked while it is animate. It has an Armor Class of 15 and 20 hit points. If the head drops to 0 hit points, the staff is destroyed. As long as it's not destroyed, the staff regains all lost hit points when it reverts to its animate form.
+The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand’s last charge, roll a d20. On a 1, the wand erupts in a harmless pyrotechnic display and is destroyed.
 
 Tags:
-Summoning
-Damage
+Social
 Amount to add
 
 1
 
 Add Item
-Staff of the Adder
-Staff
+Wand of Pyrotechnics
+Wand
 Add
-Staff, Uncommon (requires attunement)
+Wand, Common
 Weight:
 
 --
@@ -262,23 +119,21 @@ Cost:
 
 Source:
 
-Dungeon Master’s Guide, pg. 310
+Dungeon Master’s Guide, pg. 321
 
-As a Bonus Action, you can turn the head of this staff into that of an animate, venomous snake for 1 minute or revert the staff to its inanimate form.
+This wand has 7 charges. While holding it, you can take a Magic action to expend 1 charge and create a harmless burst of multicolored light at a point you can see up to 120 feet away. The burst of light is accompanied by a crackling noise that can be heard up to 300 feet away. The light is as bright as a torch flame but lasts only a second.
 
-When you take the Attack action, you can make one of the attack rolls using the animated snake head, which has a reach of 5 feet. Apply your Proficiency Bonus and Wisdom modifier to the attack roll. On a hit, the target takes 1d6 Piercing damage and 3d6 Poison damage.
-
-The snake head can be attacked while it is animate. It has AC 15, HP 20, and Immunity to Poison and Psychic damage. If the head drops to 0 Hit Points, the staff is destroyed. As long as it’s not destroyed, the staff regains all lost Hit Points when it reverts to its inanimate form.
+Regaining Charges. The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll 1d20. On a 1, the wand erupts in a harmless pyrotechnic display and is destroyed.
 
 Amount to add
 
 1
 
 Add Item
-Staff of the Python
-LegacyStaff
+Wand of Scowls
+Wand
 Add
-Legacy • Staff, Uncommon (requires attunement by a Cleric, Druid, or Warlock)
+Wand, Common
 Weight:
 
 --
@@ -289,26 +144,23 @@ Cost:
 
 Source:
 
-Player’s Handbook (2014), pg. 204
+Xanathar's Guide to Everything, pg. 140
 
-You can use an action to speak this staff's command word and throw the staff on the ground within 10 feet of you. The staff becomes a giant constrictor snake under your control and acts on its own initiative count. By using a bonus action to speak the command word again, you return the staff to its normal form in a space formerly occupied by the snake.
+This wand has 3 charges. While holding it, you can use an action to expend 1 of its charges and target a Humanoid you can see within 30 feet of you. The target must succeed on a DC 10 Charisma saving throw or be forced to scowl for 1 minute.
 
-On your turn, you can mentally command the snake if it is within 60 feet of you and you aren't incapacitated. You decide what action the snake takes and where it moves during its next turn, or you can issue it a general command, such as to attack your enemies or guard a location.
-
-If the snake is reduced to 0 hit points, it dies and reverts to its staff form. The staff then shatters and is destroyed. If the snake reverts to staff form before losing all its hit points, it regains all of them.
+The wand regains all expended charges daily at dawn. If you expend the wand’s last charge, roll a d20. On a 1, the wand transforms into a wand of smiles.
 
 Tags:
-Summoning
-Control
+Social
 Amount to add
 
 1
 
 Add Item
-Staff of the Python
-Staff
+Wand of Smiles
+Wand
 Add
-Staff, Uncommon (requires attunement)
+Wand, Common
 Weight:
 
 --
@@ -319,56 +171,23 @@ Cost:
 
 Source:
 
-Dungeon Master’s Guide, pg. 311
+Xanathar's Guide to Everything, pg. 140
 
-As a Magic action, you can throw this staff so that it lands in an unoccupied space within 10 feet of you, causing the staff to become a Giant Constrictor Snake in that space. The snake is under your control and shares your Initiative count, taking its turn immediately after yours.
+This wand has 3 charges. While holding it, you can use an action to expend 1 of its charges and target a Humanoid you can see within 30 feet of you. The target must succeed on a DC 10 Charisma saving throw or be forced to smile for 1 minute.
 
-On your turn, you can mentally command the snake (no action required) if it is within 60 feet of you and you don’t have the Incapacitated condition. You decide what action the snake takes and where it moves during its turn, or you can issue it a general command, such as to attack your enemies or guard a location. Absent commands from you, the snake defends itself.
-
-As a Bonus Action, you can command the snake to revert to staff form in its current space, and you can’t use the staff's property again for 1 hour. If the snake is reduced to 0 Hit Points, it dies and reverts to its staff form; the staff then shatters and is destroyed. If the snake reverts to staff form before losing all its Hit Points, it regains all of them.
-
-Amount to add
-
-1
-
-Add Item
-Gulthias Staff
-Staff
-Add
-Staff, Rare (requires attunement)
-Weight:
-
---
-
-Cost:
-
---
-
-Source:
-
-Curse of Strahd, pg. 221
-
-Made from the branch of a Gulthias tree (see the blights entry in the Monster Manual), a Gulthias staff is a spongy, black length of wood. Its evil makes beasts visibly uncomfortable while within 30 feet of it. The staff has 10 charges and regains 1d6 + 4 of its expended charges daily at dusk.
-
-If the staff is broken or burned to ashes, its wood releases a terrible, inhuman scream that can be heard out to a range of 300 feet. All blights that can hear the scream immediately wither and die.
-
-Vampiric Strike. The staff can be wielded as a magic quarterstaff. On a hit, it deals damage as a normal quarterstaff, and you can expend 1 charge to regain a number of hit points equal to the damage dealt by the weapon. Each time a charge is spent, red blood oozes from the staff’s pores, and you must succeed on a DC 12 Wisdom saving throw or be afflicted with short-term madness (see “Madness” in chapter 8 of the Dungeon Master’s Guide).
-
-Blight Bane. While you are attuned to the staff, blights and other evil plant creatures don’t regard you as hostile unless you harm them.
+The wand regains all expended charges daily at dawn. If you expend the wand’s last charge, roll a d20. On a 1, the wand transforms into a wand of scowls.
 
 Tags:
-Damage
-Buff
-Combat
+Social
 Amount to add
 
 1
 
 Add Item
-Sceptre of Saint Vitruvio
-Staff
+Spellpiercing Wand
+Wand
 Add
-Staff, Rare (requires attunement by a spellcaster)
+Wand, Uncommon (requires attunement by a Spellcaster)
 Weight:
 
 --
@@ -379,26 +198,19 @@ Cost:
 
 Source:
 
-Dungeons of Drakkenheim, pg. 234
+Dungeons of Drakkenheim, pg. 232
 
-This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. The staff has 10 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC: guiding bolt (1 charge), flaming sphere (2 charges), or flame strike (5 charges). The staff regains 1d6 + 4 expended charges daily at dawn.
+You can use this wand as a spellcasting focus. Creatures making a saving throw against a spell cast using this wand can’t gain benefit from advantage on their saving throws.
 
-Relics of Saint Vitruvio
-These holy relics of the Sacred Flame were wielded by Saint Vitruvio and are kept in several religious sites throughout Drakkenheim. The Knights of the Silver Order and the Followers of the Falling Fire now seek these relics. Not only do both factions revere Saint Vitruvio, both wish to use these relics to help advance their goals in Drakkenheim.
-
-A character attuned to three Relics of Saint Vitruvio may cast the heal spell three times per day, after which they must finish a long rest before they may do so again. In addition, that character gains the ability to attune to two additional magic items so long as those magic items are both Relics of Saint Vitruvio.
-
-Tags:
-Relics of Saint Vitruvio
 Amount to add
 
 1
 
 Add Item
-Spider Staff
-LegacyStaff
+Wand of Entangle
+Wand
 Add
-Legacy • Staff, Rare (requires attunement)
+Wand, Uncommon (requires attunement by a spellcaster)
 Weight:
 
 --
@@ -409,268 +221,100 @@ Cost:
 
 Source:
 
-Lost Mine of Phandelver, pg. 53
+Tales from the Yawning Portal, pg. 229
 
-The top of this black, adamantine staff is shaped like a spider. The staff weighs 6 pounds. You must be attuned to the staff to gain its benefits and cast its spells.
+This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges to cast the entangle spell (save DC 13) from it.
 
-The staff can be wielded as a quarterstaff. It deals 1d6 extra poison damage on a hit when used to make a weapon attack.
-
-The staff has 10 charges, which are used to fuel the spells within it. With the staff in hand, you can use your action to cast one of the following spells from the staff if the spell is on your class’s spell list: spider climb (1 charge) or web (2 charges, spell save DC 15). No components are required.
-
-The staff regains 1d6 + 4 expended charges each day at dusk. If you expend the staff’s last charge, roll a d20. On a 1, the staff crumbles to dust and is destroyed.
-
-Tags:
-Damage
-Combat
-Amount to add
-
-1
-
-Add Item
-Staff of Charming
-LegacyStaff
-Add
-Legacy • Staff, Rare (requires attunement by a Bard, Cleric, Druid, Sorcerer, Warlock, or Wizard)
-Weight:
-
---
-
-Cost:
-
---
-
-Source:
-
-Player’s Handbook (2014), pg. 201
-
-While holding this staff, you can use an action to expend 1 of its 10 charges to cast charm person, command, or comprehend languages from it using your spell save DC. The staff can also be used as a magic quarterstaff.
-
-If you are holding the staff and fail a saving throw against an enchantment spell that targets only you, you can turn your failed save into a successful one. You can't use this property of the staff again until the next dawn. If you succeed on a save against an enchantment spell that targets only you, with or without the staff's intervention, you can use your reaction to expend 1 charge from the staff and turn the spell back on its caster as if you had cast the spell.
-
-The staff regains 1d8 + 2 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff becomes a nonmagical quarterstaff.
+The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand’s last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.
 
 Tags:
 Control
-Communication
-Amount to add
-
-1
-
-Add Item
-Staff of Charming
-Staff
-Add
-Staff, Rare (requires attunement by a Bard, Cleric, Druid, Sorcerer, Warlock, or Wizard)
-Weight:
-
---
-
-Cost:
-
---
-
-Source:
-
-Dungeon Master’s Guide, pg. 307
-
-This staff has 10 charges. While holding the staff , you can use any of its properties:
-
-Cast Spell. You can expend 1 of the staff’s charges to cast Charm Person, Command, or Comprehend Languages from it using your spell save DC.
-
-Reflect Enchantment. If you succeed on a saving throw against an Enchantment spell that targets only you, you can take a Reaction to expend 1 charge from the staff and turn the spell back on its caster as if you had cast the spell.
-
-Resist Enchantment. If you fail a saving throw against an Enchantment spell that targets only you, you can turn your failed save into a successful one. You can’t use this property of the staff again until the next dawn.
-
-Regaining Charges. The staff regains 1d8 + 2 expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, the staff crumbles to dust and is destroyed.
-
-Amount to add
-
-1
-
-Add Item
-Staff of Defense
-LegacyStaff
-Add
-Legacy • Staff, Rare (requires attunement)
-Weight:
-
---
-
-Cost:
-
---
-
-Source:
-
-Lost Mine of Phandelver, pg. 53
-
-This slender, hollow staff is made of glass yet is as strong as oak. It weighs 3 pounds. You must be attuned to the staff to gain its benefits and cast its spells.
-
-While holding the staff, you have a +1 bonus to your Armor Class.
-
-The staff has 10 charges, which are used to fuel the spells within it. With the staff in hand, you can use your action to cast one of the following spells from the staff if the spell is on your class’s spell list: mage armor (1 charge) or shield (2 charges). No components are required.
-
-The staff regains 1d6 + 4 expended charges each day at dawn. If you expend the staff’s last charge, roll a d20. On a 1, the staff shatters and is destroyed.
-
-Tags:
-Buff
-Warding
-Amount to add
-
-1
-
-Add Item
-Staff of Healing
-LegacyStaff
-Add
-Legacy • Staff, Rare (requires attunement by a Bard, Cleric, or Druid)
-Weight:
-
---
-
-Cost:
-
---
-
-Source:
-
-Player’s Handbook (2014), pg. 202
-
-This staff has 10 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC and spellcasting ability modifier: cure wounds (1 charge per spell level, up to 4th), lesser restoration (2 charges), or mass cure wounds (5 charges).
-
-The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff vanishes in a flash of light, lost forever.
-
-Tags:
-Healing
-Amount to add
-
-1
-
-Add Item
-Staff of Healing
-Staff
-Add
-Staff, Rare (requires attunement by a Bard, Cleric, or Druid)
-Weight:
-
---
-
-Cost:
-
---
-
-Source:
-
-Dungeon Master’s Guide, pg. 308
-
-This staff has 10 charges. While holding the staff, you can cast one of the spells on the following table from it, using your spellcasting ability modifier. The table indicates how many charges you must expend to cast the spell.
-
-Spell	Charge Cost
-Cure Wounds	1 charge per spell level (maximum 4 for a level 4 spell)
-Lesser Restoration	2
-Mass Cure Wounds	5
-Regaining Charges. The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, the staff vanishes in a flash of light, lost forever.
-
-Amount to add
-
-1
-
-Add Item
-Staff of Swarming Insects
-LegacyStaff
-Add
-Legacy • Staff, Rare (requires attunement by a Bard, Cleric, Druid, Sorcerer, Warlock, or Wizard)
-Weight:
-
---
-
-Cost:
-
---
-
-Source:
-
-Player’s Handbook (2014), pg. 203
-
-This staff has 10 charges and regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, a swarm of insects consumes and destroys the staff, then disperses.
-
-Spells. While holding the staff, you can use an action to expend some of its charges to cast one of the following spells from it, using your spell save DC: giant insect (4 charges) or insect plague (5 charges).
-
-Insect Cloud. While holding the staff, you can use an action and expend 1 charge to cause a swarm of harmless flying insects to spread out in a 30-foot radius from you. The insects remain for 10 minutes, making the area heavily obscured for creatures other than you. The swarm moves with you, remaining centered on you. A wind of at least 10 miles per hour disperses the swarm and ends the effect.
-
-Tags:
-Summoning
-Control
-Amount to add
-
-1
-
-Add Item
-Staff of Swarming Insects
-Staff
-Add
-Staff, Rare (requires attunement by a Bard, Cleric, Druid, Sorcerer, Warlock, or Wizard)
-Weight:
-
---
-
-Cost:
-
---
-
-Source:
-
-Dungeon Master’s Guide, pg. 309
-
-This staff has 10 charges.
-
-Insect Cloud. While holding the staff , you can take a Magic action and expend 1 charge to cause a swarm of harmless flying insects to fill a 30-foot Emanation originating from you. The insects remain for 10 minutes, making the area Heavily Obscured for creatures other than you. A strong wind (like that created by Gust of Wind) disperses the swarm and ends the effect.
-
-Spells. While holding the staff, you can cast one of the spells on the following table from it, using your spell save DC and spell attack modifier. The table indicates how many charges you must expend to cast the spell.
-
-Spell	Charge Cost
-Giant Insect	4
-Insect Plague	5
-Regaining Charges. The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, a swarm of insects consumes and destroys the staff, then disperses.
-
-Amount to add
-
-1
-
-Add Item
-Staff of Withering
-Staff
-Add
-Staff, Rare (requires attunement by a Cleric, Druid, or Warlock)
-Weight:
-
---
-
-Cost:
-
---
-
-Source:
-
-Dungeon Master’s Guide, pg. 205
-
-This staff has 3 charges and regains 1d3 expended charges daily at dawn.
-
-The staff can be wielded as a magic Quarterstaff. On a hit, it deals damage as a normal Quarterstaff , and you can expend 1 charge to deal an extra 2d10 Necrotic damage to the target and force it to make a DC 15 Constitution saving throw. On a failed save, the target has Disadvantage for 1 hour on any ability check or saving throw that uses Strength or Constitution.
-
-Tags:
-Damage
 Debuff
+Amount to add
+
+1
+
+Add Item
+Wand of Magic Detection
+LegacyWand
+Add
+Legacy • Wand, Uncommon
+Weight:
+
+--
+
+Cost:
+
+--
+
+Source:
+
+Player’s Handbook (2014), pg. 211
+
+This wand has 3 charges. While holding it, you can expend 1 charge as an action to cast the detect magic spell from it. The wand regains 1d3 expended charges daily at dawn.
+
+Tags:
+Detection
+Amount to add
+
+1
+
+Add Item
+Wand of Magic Detection
+Wand
+Add
+Wand, Uncommon
+Weight:
+
+--
+
+Cost:
+
+--
+
+Source:
+
+Dungeon Master’s Guide, pg. 320
+
+This wand has 3 charges. While holding it, you can expend 1 charge to cast Detect Magic from it. The wand regains 1d3 expended charges daily at dawn.
+
+Amount to add
+
+1
+
+Add Item
+Wand of Magic Missiles
+LegacyWand
+Add
+Legacy • Wand, Uncommon
+Weight:
+
+--
+
+Cost:
+
+--
+
+Source:
+
+Player’s Handbook (2014), pg. 211
+
+This wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the magic missile spell from it. For 1 charge, you cast the 1st-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.
+
+The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand’s last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.
+
+Tags:
+Damage
 Combat
 Amount to add
 
 1
 
 Add Item
-Staff of the Ivory Claw
-Staff
+Wand of Magic Missiles
+Wand
 Add
-Staff, Rare (requires attunement by a spellcaster)
+Wand, Uncommon
 Weight:
 
 --
@@ -681,19 +325,21 @@ Cost:
 
 Source:
 
-Explorer's Guide to Wildemount, pg. 270
+Dungeon Master’s Guide, pg. 320
 
-This gray-and-cerulean staff is topped with a small dragon claw carved from ivory. While holding the staff, you gain a +1 bonus to spell attack rolls. Whenever you score a critical hit with a spell attack, the target takes an extra 3d6 radiant damage.
+This wand has 7 charges. While holding it, you can expend no more than 3 charges to cast Magic Missile from it. For 1 charge, you cast the level 1 version of the spell. You can increase the spell’s level by 1 for each additional charge you expend.
+
+Regaining Charges. The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand’s last charge, roll 1d20. On a 1, the wand crumbles into ashes and is destroyed.
 
 Amount to add
 
 1
 
 Add Item
-Staff of the Rooted Hills
-Staff
+Wand of Secrets
+LegacyWand
 Add
-Staff, Rare (requires attunement)
+Legacy • Wand, Uncommon
 Weight:
 
 --
@@ -704,73 +350,21 @@ Cost:
 
 Source:
 
-Bigby Presents: Glory of the Giants, pg. 116
+Player’s Handbook (2014), pg. 211
 
-The hill rune is carved into this gnarled wooden staff. The staff magically resizes to match the height of any creature that attunes to it.
-
-The staff can be wielded as a magic quarterstaff that grants a +1 bonus to attack and damage rolls made with it. The first time you hit any creature with the staff on your turn, the creature must succeed on a DC 12 Strength saving throw or be restrained by spectral vines until the start of your next turn.
-
-Invoking the Rune. As an action, you can invoke the staff’s rune to cast either hold person (save DC 12) or speak with plants with the staff. When you cast hold person using the staff, the target is wreathed in spectral vines.
-
-Once the rune has been invoked to cast either spell, it can’t be invoked again until the next dawn.
+The wand has 3 charges. While holding it, you can use an action to expend 1 of its charges, and if a secret door or trap is within 30 feet of you, the wand pulses and points at the one nearest to you. The wand regains 1d3 expended charges daily at dawn.
 
 Tags:
-Control
-Communication
-Amount to add
-
-1
-
-Add Item
-Staff of the Woodlands
-LegacyStaff
-Add
-Legacy • Staff, Rare (requires attunement by a Druid)
-Weight:
-
---
-
-Cost:
-
---
-
-Source:
-
-Player’s Handbook (2014), pg. 204
-
-This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. While holding it, you have a +2 bonus to spell attack rolls.
-
-The staff has 10 charges for the following properties. It regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff loses its properties and becomes a nonmagical quarterstaff.
-
-Spells
-You can use an action to expend 1 or more of the staff's charges to cast one of the following spells from it, using your spell save DC:
-
-animal friendship (1 charge)
-awaken (5 charges)
-barkskin (2 charges)
-locate animals or plants (2 charges)
-speak with animals (1 charge)
-speak with plants (3 charges)
-wall of thorns (6 charges).
-You can also use an action to cast the pass without trace spell from the staff without using any charges.
-
-Tree Form. You can use an action to plant one end of the staff in fertile earth and expend 1 charge to transform the staff into a healthy tree. The tree is 60 feet tall and has a 5-foot-diameter trunk, and its branches at the top spread out in a 20-foot radius. The tree appears ordinary but radiates a faint aura of transmutation magic if targeted by detect magic. While touching the tree and using another action to speak its command word, you return the staff to its normal form. Any creature in the tree falls when it reverts to a staff.
-
-Tags:
-Creation
-Control
-Communication
 Detection
-Warding
 Amount to add
 
 1
 
 Add Item
-Staff of the Woodlands
-Staff
+Wand of Secrets
+Wand
 Add
-Staff, Rare (requires attunement by a Druid)
+Wand, Uncommon
 Weight:
 
 --
@@ -781,34 +375,19 @@ Cost:
 
 Source:
 
-Dungeon Master’s Guide, pg. 311
+Dungeon Master’s Guide, pg. 322
 
-This staff has 6 charges and can be wielded as a magic Quarterstaff that grants a +2 bonus to attack rolls and damage rolls made with it. While holding it, you have a +2 bonus to spell attack rolls.
-
-Spells. While holding the staff, you can cast one of the spells on the following table from it, using your spell save DC. The table indicates how many charges you must expend to cast the spell.
-
-Spell	Charge Cost
-Animal Friendship	1
-Awaken	5
-Barkskin	2
-Locate Animals or Plants	2
-Pass without Trace	2
-Speak with Animals	1
-Speak with Plants	3
-Wall of Thorns	6
-Tree Form. You can take a Magic action to plant one end of the staff in earth in an unoccupied space and expend 1 charge to transform the staff into a healthy tree. The tree is 60 feet tall and has a 5-foot-diameter trunk, and its branches at the top spread out in a 20-foot radius. The tree appears ordinary but radiates a faint aura of Transmutation magic that can be discerned with the Detect Magic spell. While touching the tree and using a Magic action, you return the staff to its normal form. Any creature in the tree falls when the tree reverts to a staff.
-
-Regaining Charges. The staff regains 1d6 expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, the staff loses its properties and becomes a nonmagical Quarterstaff.
+This wand has 3 charges and regains 1d3 expended charges daily at dawn. While holding it, you can take a Magic action to expend 1 charge, and if a secret door or trap is within 60 feet of you, the wand pulses and points at the one nearest to you.
 
 Amount to add
 
 1
 
 Add Item
-Sun Staff
-Staff
+Wand of Shadows
+Wand
 Add
-Staff, Rare (requires attunement by a Cleric, Druid, or Wizard)
+Wand, Uncommon (requires attunement by a Spellcaster)
 Weight:
 
 --
@@ -819,27 +398,602 @@ Cost:
 
 Source:
 
-The Book of Many Things, pg. 39
+Book of Ebon Tides, pg. 208
 
-Veins of sunstone run through this wooden staff. This staff can be wielded as a magic quarterstaff that grants a +1 bonus to attack and damage rolls made with it. When you hit with an attack roll using this staff, the target takes an extra 1d8 fire damage.
+This wand has 5 charges. While holding it, you have advantage on Dexterity (Stealth) checks against creatures that rely on sight. You can also use an action to expend 1 or more of its charges to cast the darkbolt spell (save DC 15, see Deep Magic) from it. For 1 charge, you cast the 2nd-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.
 
-Solar Focus. You can use the staff as a spellcasting focus. While holding the staff, you can reroll a number of damage dice up to your proficiency bonus when you use a spell slot to cast a spell that deals fire or radiant damage. You must use the new rolls. Once this property is used, it can’t be used again until the next dawn.
+The wand regains 1d6+1 expended charges daily at midnight. If you expend the last charge, roll a d20. On a 1, the wand turns to ash and is destroyed.
 
-Sunny Glow. As a bonus action, you can cause the staff to glow with sunlight. While glowing, the staff sheds bright light in a 15-foot radius and dim light for an additional 15 feet. The light lasts until you use another bonus action to extinguish it.
+Amount to add
+
+1
+
+Add Item
+Wand of Tides
+Wand
+Add
+Wand, Uncommon (requires attunement by a Spellcaster)
+Weight:
+
+--
+
+Cost:
+
+--
+
+Source:
+
+Book of Ebon Tides, pg. 208
+
+This wand has 5 charges. While holding it, you cannot be paralyzed. You can also use an action to expend 1 or more of its charges to warp space around you, filling it with tangible shadows. All creatures moving toward you move as if they are in difficult terrain. Attack rolls against you have disadvantage. The shadows last for 3 rounds or until you choose to end them.
+
+The wand regains 1d4+1 expended charges daily at midnight. If you expend the last charge, roll a d20. On a 1, the wand turns to ash and is destroyed.
+
+Amount to add
+
+1
+
+Add Item
+Wand of Web
+LegacyWand
+Add
+Legacy • Wand, Uncommon (requires attunement by a Spellcaster)
+Weight:
+
+--
+
+Cost:
+
+--
+
+Source:
+
+Player’s Handbook (2014), pg. 212
+
+This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges to cast the web spell (save DC 15) from it.
+
+The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.
+
+Tags:
+Control
+Amount to add
+
+1
+
+Add Item
+Wand of Web
+Wand
+Add
+Wand, Uncommon (requires attunement by a Spellcaster)
+Weight:
+
+--
+
+Cost:
+
+--
+
+Source:
+
+Dungeon Master’s Guide, pg. 322
+
+This wand has 7 charges. While holding it, you can expend 1 charge to cast Web (save DC 13) from it.
+
+Regaining Charges. The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand’s last charge, roll 1d20. On a 1, the wand crumbles into ashes and is destroyed.
+
+Amount to add
+
+1
+
+Add Item
+Wand of the War Mage, +1
+Wand
+Add
+Wand, Uncommon (requires attunement by a Spellcaster)
+Weight:
+
+--
+
+Cost:
+
+--
+
+Source:
+
+Dungeon Master’s Guide
+
+While holding this wand, you gain a bonus to spell attack rolls determined by the wand’s rarity. In addition, you ignore Half Cover when making a spell attack roll.
+
+Tags:
+Buff
+Combat
+Amount to add
+
+1
+
+Add Item
+Failed Experiment Wand
+Wand
+Add
+Wand, Rare (requires attunement by a Spellcaster)
+Weight:
+
+--
+
+Cost:
+
+--
+
+Source:
+
+Acquisitions Incorporated, pg. 162
+
+While holding it, you can use an action to expend 1 or more of its charges to cast either a green-flamed fireball or a blue lightning bolt at random from it (save DC 15).
+
+For 1 charge, you cast the 3rd-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.
+
+This wand has 2 charges per day. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.
 
 Tags:
 Damage
+Combat
+Amount to add
+
+1
+
+Add Item
+Wand of Binding
+LegacyWand
+Add
+Legacy • Wand, Rare (requires attunement by a Spellcaster)
+Weight:
+
+--
+
+Cost:
+
+--
+
+Source:
+
+Player’s Handbook (2014), pg. 209
+
+This wand has 7 charges for the following properties. It regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.
+
+Spells. While holding the wand, you can use an action to expend some of its charges to cast one of the following spells (save DC 17): hold monster (5 charges) or hold person (2 charges).
+
+Assisted Escape. While holding the wand, you can use your reaction to expend 1 charge and gain advantage on a saving throw you make to avoid being paralyzed or restrained, or you can expend 1 charge and gain advantage on any check you make to escape a grapple.
+
+Tags:
+Control
+Buff
+Amount to add
+
+1
+
+Add Item
+Wand of Binding
+Wand
+Add
+Wand, Rare (requires attunement)
+Weight:
+
+--
+
+Cost:
+
+--
+
+Source:
+
+Dungeon Master’s Guide, pg. 318
+
+This wand has 7 charges.
+
+Spells. While holding the wand, you can cast one of the spells (save DC 17) on the following table from it. The table indicates how many charges you must expend to cast the spell.
+
+Spell	Charge Cost
+Hold Monster	5
+Hold Person	2
+Regaining Charges. The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand’s last charge, roll 1d20. On a 1, the wand crumbles into ashes and is destroyed.
+
+Amount to add
+
+1
+
+Add Item
+Wand of Enemy Detection
+LegacyWand
+Add
+Legacy • Wand, Rare (requires attunement)
+Weight:
+
+--
+
+Cost:
+
+--
+
+Source:
+
+Player’s Handbook (2014), pg. 210
+
+This wand has 7 charges. While holding it, you can use an action and expend 1 charge to speak its command word. For the next minute, you know the direction of the nearest creature hostile to you within 60 feet, but not its distance from you. The wand can sense the presence of hostile creatures that are ethereal, invisible, disguised, or hidden, as well as those in plain sight. The effect ends if you stop holding the wand.
+
+The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.
+
+Tags:
+Detection
+Amount to add
+
+1
+
+Add Item
+Wand of Enemy Detection
+Wand
+Add
+Wand, Rare (requires attunement)
+Weight:
+
+--
+
+Cost:
+
+--
+
+Source:
+
+Dungeon Master’s Guide, pg. 319
+
+This wand has 7 charges. While holding it, you can take a Magic action to expend 1 charge. For 1 minute, you know the direction of the nearest creature Hostile to you within 60 feet, but not its distance from you. The wand can sense the presence of Hostile creatures that are Invisible, ethereal, disguised, or hidden, as well as those in plain sight. The effect ends if you stop holding the wand.
+
+Regaining Charges. The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand’s last charge, roll 1d20. On a 1, the wand crumbles into ashes and is destroyed.
+
+Amount to add
+
+1
+
+Add Item
+Wand of Fear
+LegacyWand
+Add
+Legacy • Wand, Rare (requires attunement)
+Weight:
+
+--
+
+Cost:
+
+--
+
+Source:
+
+Player’s Handbook (2014), pg. 210
+
+This wand has 7 charges for the following properties. It regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.
+
+Command. While holding the wand, you can use an action to expend 1 charge and command another creature to flee or grovel, as with the command spell (save DC 15).
+
+Cone of Fear. While holding the wand, you can use an action to expend 2 charges, causing the wand's tip to emit a 60-foot cone of amber light. Each creature in the cone must succeed on a DC 15 Wisdom saving throw or become frightened of you for 1 minute. While it is frightened in this way, a creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If it has nowhere it can move, the creature can use the Dodge action. At the end of each of its turns, a creature can repeat the saving throw, ending the effect on itself on a success.
+
+Tags:
+Control
+Amount to add
+
+1
+
+Add Item
+Wand of Fear
+Wand
+Add
+Wand, Rare (requires attunement)
+Weight:
+
+--
+
+Cost:
+
+--
+
+Source:
+
+Dungeon Master’s Guide, pg. 319
+
+This wand has 7 charges.
+
+Spells. While holding the wand, you can cast one of the spells (save DC 15) on the following table from it. The table indicates how many charges you must expend to cast the spell.
+
+Spell	Charge Cost
+Command (“flee” or “grovel” only)	1
+Fear (60-foot Cone)	3
+Regaining Charges. The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand’s last charge, roll 1d20. On a 1, the wand crumbles into ashes and is destroyed.
+
+Amount to add
+
+1
+
+Add Item
+Wand of Fireballs
+LegacyWand
+Add
+Legacy • Wand, Rare (requires attunement by a Spellcaster)
+Weight:
+
+--
+
+Cost:
+
+--
+
+Source:
+
+Player’s Handbook (2014), pg. 210
+
+This wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the fireball spell (save DC 15) from it. For 1 charge, you cast the 3rd-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.
+
+The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.
+
+Tags:
+Damage
+Combat
+Amount to add
+
+1
+
+Add Item
+Wand of Fireballs
+Wand
+Add
+Wand, Rare (requires attunement by a Spellcaster)
+Weight:
+
+--
+
+Cost:
+
+--
+
+Source:
+
+Dungeon Master’s Guide, pg. 319
+
+This wand has 7 charges. While holding it, you can expend no more than 3 charges to cast Fireball (save DC 15) from it. For 1 charge, you cast the level 3 version of the spell. You can increase the spell’s level by 1 for each additional charge you expend.
+
+Regaining Charges. The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand’s last charge, roll 1d20. On a 1, the wand crumbles into ashes and is destroyed.
+
+Amount to add
+
+1
+
+Add Item
+Wand of Lightning Bolts
+LegacyWand
+Add
+Legacy • Wand, Rare (requires attunement by a Spellcaster)
+Weight:
+
+--
+
+Cost:
+
+--
+
+Source:
+
+Player’s Handbook (2014), pg. 211
+
+This wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the lightning bolt spell (save DC 15) from it. For 1 charge, you cast the 3rd-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.
+
+The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.
+
+Tags:
+Damage
+Combat
+Amount to add
+
+1
+
+Add Item
+Wand of Lightning Bolts
+Wand
+Add
+Wand, Rare (requires attunement by a Spellcaster)
+Weight:
+
+--
+
+Cost:
+
+--
+
+Source:
+
+Dungeon Master’s Guide, pg. 320
+
+This wand has 7 charges. While holding it, you can expend no more than 3 charges to cast Lightning Bolt (save DC 15) from it. For 1 charge, you cast the level 3 version of the spell. You can increase the spell’s level by 1 for each additional charge you expend.
+
+Regaining Charges.The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand’s last charge, roll 1d20. On a 1, the wand crumbles into ashes and is destroyed.
+
+Amount to add
+
+1
+
+Add Item
+Wand of Paralysis
+LegacyWand
+Add
+Legacy • Wand, Rare (requires attunement by a Spellcaster)
+Weight:
+
+--
+
+Cost:
+
+--
+
+Source:
+
+Player’s Handbook (2014), pg. 211
+
+This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges to cause a thin blue ray to streak from the tip toward a creature you can see within 60 feet of you. The target must succeed on a DC 15 Constitution saving throw or be paralyzed for 1 minute. At the end of each of the target's turns, it can repeat the saving throw, ending the effect on itself on a success.
+
+The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.
+
+Tags:
+Control
+Debuff
+Amount to add
+
+1
+
+Add Item
+Wand of Paralysis
+Wand
+Add
+Wand, Rare (requires attunement by a Spellcaster)
+Weight:
+
+--
+
+Cost:
+
+--
+
+Source:
+
+Dungeon Master’s Guide, pg. 321
+
+This wand has 7 charges. While holding it, you can take a Magic action to expend 1 charge to cause a thin blue ray to streak from the tip toward a creature you can see within 60 feet of yourself. The target must succeed on a DC 15 Constitution saving throw or have the Paralyzed condition for 1 minute. At the end of each of the target’s turns, it repeats the save, ending the effect on itself on a success.
+
+Regaining Charges. The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand’s last charge, roll 1d20. On a 1, the wand crumbles into ashes and is destroyed.
+
+Amount to add
+
+1
+
+Add Item
+Wand of Viscid Globs
+Wand
+Add
+Wand, Rare (requires attunement)
+Weight:
+
+--
+
+Cost:
+
+--
+
+Source:
+
+Out of the Abyss
+
+Crafted by the drow, this slim black wand has 7 charges. While holding it, you can use an action to expend 1 of its charges to cause a small glob of viscous material to launch from the tip at one creature within 60 feet of you. Make a ranged attack roll against the target, with a bonus equal to your spellcasting modifier (or your Intelligence modifier, if you don’t have a spellcasting ability) plus your proficiency bonus. On a hit, the glob expands and dries on the target, which is restrained for 1 hour. After that time, the viscous material cracks and falls away.
+
+Applying a pint or more of alcohol to the restrained creature dissolves the glob instantly, as does the application of oil of etherealness or universal solvent. The glob also dissolves instantly if exposed to sunlight. No other nonmagical process can remove the viscous material until it deteriorates on its own.
+
+The wand regains 1d6 + 1 expended charges daily at midnight. If you expend the wand’s last charge, roll a d20. On a 1, the wand melts into harmless slime and is destroyed.
+
+A wand of viscid globs is destroyed if exposed to sunlight for 1 hour without interruption.
+
+Tags:
+Control
+Debuff
+Amount to add
+
+1
+
+Add Item
+Wand of Winter
+Wand
+Add
+Wand, Rare (requires attunement)
+Weight:
+
+--
+
+Cost:
+
+--
+
+Source:
+
+Tyranny of Dragons
+
+This wand looks and feels like an icicle. You must be attuned to the wand to use it.
+
+The wand has 7 charges, which are used to fuel the spells within it. With the wand in hand, you can use your action to cast one of the following spells from the wand, even if you are incapable of casting spells: ray of frost (no charges, or 1 charge to cast at 5th level; +5 to hit with ranged spell attack), sleet storm (3 charges; spell save DC 15), or ice storm (4 charges; spell save DC 15). No other components are required.
+
+The wand regains 1d6 + 1 expended charges each day at dawn. If you expend the wand’s last charge, roll a d20. On a 20, the wand melts away, forever destroyed.
+
+Tags:
+Damage
+Control
+Amount to add
+
+1
+
+Add Item
+Wand of Wonder
+LegacyWand
+Add
+Legacy • Wand, Rare (requires attunement by a Spellcaster)
+Weight:
+
+--
+
+Cost:
+
+--
+
+Source:
+
+Player’s Handbook (2014), pg. 212
+
+This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges and choose a target within 120 feet of you. The target can be a creature, an object, or a point in space. Roll d100 and consult the following table to discover what happens.
+
+If the effect causes you to cast a spell from the wand, the spell's save DC is 15. If the spell normally has a range expressed in feet, its range becomes 120 feet if it isn't already. If an effect covers an area, you must center the spell on and include the target. If an effect has multiple possible subjects, the GM randomly determines which ones are affected.
+The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into dust and is destroyed.
+
+
+d100	Effect
+01-05	You cast slow.
+06-10	You cast faerie fire.
+11-15	You are stunned until the start of your next turn, believing something awesome just happened.
+16-20	You cast gust of wind.
+21-25	You cast detect thoughts on the target you chose. If you didn't target a creature, you instead take 1d6 psychic damage.
+26-30	You cast stinking cloud.
+31-33	Heavy rain falls in a 60-foot radius centered on the target. The area becomes lightly obscured. The rain falls until the start of your next turn.
+34-36	An animal appears in the unoccupied space nearest the target. The animal isn't under your control and acts as it normally would. Roll a d100 to determine which animal appears. On a 01–25, a rhinoceros appears; on a 26–50, an elephant appears; and on a 51–100, a rat appears.
+37-46	You cast lightning bolt.
+47-49	A cloud of 600 oversized butterflies fills a 30‐foot radius centered on the target. The area becomes heavily obscured. The butterflies remain for 10 minutes.
+50-53	You enlarge the target as if you had cast enlarge/reduce. If the target can't be affected by that spell, or if you didn't target a creature, you become the target.
+54-58	You cast darkness.
+59-62	Grass grows on the ground in a 60‐foot radius centered on the target. If grass is already there, it grows to ten times its normal size and remains overgrown for 1 minute.
+63-65	An object of the GM's choice disappears into the Ethereal Plane. The object must be neither worn nor carried, within 120 feet of the target, and no larger than 10 feet in any dimension.
+66-69	You shrink yourself as if you had cast enlarge/reduce on yourself.
+70-79	You cast fireball.
+80-84	You cast invisibility on yourself.
+85-87	Leaves grow from the target. If you chose a point in space as the target, leaves sprout from the creature nearest to that point. Unless they are picked off, the leaves turn brown and fall off after 24 hours.
+88-90	A stream of 1d4 × 10 gems, each worth 1 gp, shoots from the wand's tip in a line 30 feet long and 5 feet wide. Each gem deals 1 bludgeoning damage, and the total damage of the gems is divided equally among all creatures in the line.
+91-95	A burst of colorful shimmering light extends from you in a 30‐foot radius. You and each creature in the area that can see must succeed on a DC 15 Constitution saving throw or become blinded for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+96-97	The target's skin turns bright blue for 1d10 days. If you chose a point in space, the creature nearest to that point is affected.
+98-00	If you targeted a creature, it must make a DC 15 Constitution saving throw. If you didn't target a creature, you become the target and must make the saving throw. If the saving throw fails by 5 or more, the target is instantly petrified. On any other failed save, the target is restrained and begins to turn to stone. While restrained in this way, the target must repeat the saving throw at the end of its next turn, becoming petrified on a failure or ending the effect on a success. The petrification lasts until the target is freed by the greater restoration spell or similar magic.
+Tags:
+Damage
+Control
 Utility
 Combat
+Deception
 Amount to add
 
 1
 
 Add Item
-Eldritch Staff
-Staff
+Wand of Wonder
+Wand
 Add
-Staff, Very Rare (requires attunement)
+Wand, Rare (requires attunement)
 Weight:
 
 --
@@ -850,28 +1004,67 @@ Cost:
 
 Source:
 
-The Wild Beyond the Witchlight, pg. 209
+Dungeon Master’s Guide, pg. 322
 
-This staff can be wielded as a magic quarterstaff that grants a +1 bonus to attack and damage rolls made with it.
+This wand has 7 charges. While holding it, you can take a Magic action to expend 1 charge while choosing a point within 120 feet of yourself. That location becomes the point of origin of a spell or other magical effect determined by rolling on the Wand of Wonder Effects table. Spells cast from the wand have a save DC of 15. If a spell’s maximum range is normally less than 120 feet, it becomes 120 feet when cast from the wand. If an effect has multiple possible subjects, the DM determines randomly which among them are affected.
 
-The staff has 10 charges and regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff is destroyed in an otherwise harmless burst of eldritch energy.
+Regaining Charges. The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand’s last charge, roll 1d20. On a 1, the wand crumbles into dust and is destroyed.
 
-Eldritch Attack. When you hit with a melee attack using the staff, you can expend up to 3 of its charges. For each charge you expend, the target takes an extra 1d8 lightning damage.
+Wand of Wonder Effects
+1d100	Effect
+01–20	You cast a spell originating from the chosen point. Roll 1d10 to determine the spell: on a 1–2, Darkness; on a 3–4, Faerie Fire; on a 5–6, Fireball; on a 7–8, Slow; on a 9–10, Stinking Cloud.
+21–25	Nothing happens at the chosen point of origin. Instead, you have the Stunned condition until the start of your next turn, believing something awesome just happened.
+26–30	You cast Gust of Wind. The Line created by the spell extends from you to the chosen point of origin.
+31–35	Nothing happens at the chosen point of origin. Instead, you take 1d6 Psychic damage.
+36–40	Heavy rain falls for 1 minute in a 120-foot-high, 60-foot-radius Cylinder centered on the chosen point of origin. During that time, the area of effect is Lightly Obscured.
+41–45	A cloud of 600 oversized butterflies fills a 60-foot-high, 30-foot-radius Cylinder centered on the chosen point of origin. The butterflies remain for 10 minutes, during which time the area of effect is Heavily Obscured.
+46–50	You cast Lightning Bolt. The Line created by the spell extends from you to the chosen point of origin.
+51–55	The creature closest to the chosen point of origin is enlarged as if you had cast Enlarge/Reduce on it. If the target isn’t you and can’t be affected by that spell, you become the target instead.
+56–60	A magically formed creature appears in an unoccupied space as close to the chosen point of origin as possible. The creature isn’t under your control, acts as it normally would, and disappears after 1 hour or when it drops to 0 Hit Points. Roll 1d4 to determine which creature appears. On a 1, a Rhinoceros appears; on a 2, an Elephant appears; and on a 3–4, a Rat appears.
+61–64	Grass covers a 60-foot-radius circle of ground, with the center of that circle as close to the chosen point of origin as possible. Grass that’s already there grows to ten times its normal size and remains overgrown for 1 minute.
+65–68	An object of the DM’s choice disappears into the Ethereal Plane. The object must be neither worn nor carried, within 120 feet of the chosen point of origin, and no larger than 10 feet in any dimension. If there are no such objects in range, nothing happens.
+69–72	Nothing happens at the chosen point of origin. Instead, you shrink as if you had cast Enlarge/Reduce on yourself and remain in that state for 1 minute.
+73–77	Leaves grow from the creature nearest to the chosen point of origin. Unless they are picked off, the leaves turn brown and fall off after 24 hours.
+78–82	Nothing happens at the chosen point of origin. Instead, a burst of colorful, shimmering light extends from you in a 30-foot Emanation. Each creature in the area must succeed on a DC 15 Constitution saving throw or have the Blinded condition for 1 minute. A creature repeats the save at the end of each of its turns, ending the effect on itself on a success.
+83–87	Nothing happens at the chosen point of origin. Instead, you cast Invisibility on yourself.
+88–92	Nothing happens at the chosen point of origin. Instead, a stream of 1d4 × 10 gems, each worth 1 GP, shoots from the wand’s tip in a Line 30 feet long and 5 feet wide toward the chosen point of origin. Each gem deals 1 Bludgeoning damage, and the total damage of the gems is divided equally among all creatures in the Line.
+93–97	You cast Polymorph, targeting the creature closest to the chosen point of origin. Roll 1d4 to determine the target’s new form. On a 1, the new form is a Black Bear; on a 2, the new form is a Giant Wasp; on a 3–4, the new form is a Frog.
+98–00	The creature closest to the chosen point of origin makes a DC 15 Constitution saving throw. On a failed save, the creature has the Restrained condition and begins to turn to stone. While Restrained in this way, the creature repeats the save at the end of its next turn. On a successful save, the effect ends. On a failed save, the creature has the Petrified condition instead of the Restrained condition. The petrification lasts until the creature is freed by the Greater Restoration spell or similar magic.
+Amount to add
 
-Eldritch Escape. If you take damage while holding the staff, you can use your reaction to expend 3 of the staff’s charges, whereupon you turn invisible and teleport yourself, along with any equipment you are wearing or carrying, up to 60 feet to an unoccupied space that you can see. You remain invisible until the start of your next turn or until you attack, cast a spell, or deal damage.
+1
+
+Add Item
+Wand of the War Mage, +2
+Wand
+Add
+Wand, Rare (requires attunement by a Spellcaster)
+Weight:
+
+--
+
+Cost:
+
+--
+
+Source:
+
+Dungeon Master’s Guide
+
+While holding this wand, you gain a bonus to spell attack rolls determined by the wand’s rarity. In addition, you ignore Half Cover when making a spell attack roll.
 
 Tags:
-Damage
+Buff
 Combat
 Amount to add
 
 1
 
 Add Item
-Staff of Dunamancy
-Staff
+Wand of Polymorph
+LegacyWand
 Add
-Staff, Very Rare (requires attunement by a wizard)
+Legacy • Wand, Very Rare (requires attunement by a Spellcaster)
 Weight:
 
 --
@@ -882,55 +1075,24 @@ Cost:
 
 Source:
 
-Explorer's Guide to Wildemount, pg. 270
+Player’s Handbook (2014), pg. 211
 
-This staff of polished gray wood bears numerous runes carved along its length. The staff has 10 charges and regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff turns into dust and is destroyed.
+This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges to cast the polymorph spell (save DC 15) from it.
 
-While holding the staff, you can use an action to expend 2 or more of its charges to cast one of the following spells from it, using your spell save DC and spell attack bonus: fortune’s favor (2 charges), pulse wave (3 charges), or gravity sinkhole (4 charges). See chapter 4 for descriptions of these spells.
-
-New Possibility. If you are holding the staff and fail a saving throw against a spell that targets only you, you can turn your failed save into a successful one. This property can’t be used again until the next dawn.
-
-Amount to add
-
-1
-
-Add Item
-Staff of Fire
-LegacyStaff
-Add
-Legacy • Staff, Very Rare (requires attunement by a Druid, Sorcerer, Warlock, or Wizard)
-Weight:
-
---
-
-Cost:
-
---
-
-Source:
-
-Player’s Handbook (2014), pg. 201
-
-You have resistance to fire damage while you hold this staff.
-
-The staff has 10 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC: burning hands (1 charge), fireball (3 charges), or wall of fire (4 charges).
-
-The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff blackens, crumbles into cinders, and is destroyed.
+The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.
 
 Tags:
-Damage
 Control
-Combat
-Warding
+Shapechanging
 Amount to add
 
 1
 
 Add Item
-Staff of Fire
-Staff
+Wand of Polymorph
+Wand
 Add
-Staff, Very Rare (requires attunement by a Druid, Sorcerer, Warlock, or Wizard)
+Wand, Very Rare (requires attunement by a Spellcaster)
 Weight:
 
 --
@@ -941,27 +1103,21 @@ Cost:
 
 Source:
 
-Dungeon Master’s Guide, pg. 307
+Dungeon Master’s Guide, pg. 321
 
-You have Resistance to Fire damage while you hold this staff.
+This wand has 7 charges. While holding it, you can expend 1 charge to cast Polymorph (save DC 15) from it.
 
-Spells. The staff has 10 charges. While holding the staff, you can cast one of the spells on the following table from it, using your spell save DC. The table indicates how many charges you must expend to cast the spell.
-
-Spell	Charge Cost
-Burning Hands	1
-Fireball	3
-Wall of Fire	4
-Regaining Charges. The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, the staff crumbles into cinders and is destroyed.
+Regaining Charges. The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand’s last charge, roll 1d20. On a 1, the wand crumbles into ashes and is destroyed.
 
 Amount to add
 
 1
 
 Add Item
-Staff of Frost
-LegacyStaff
+Wand of the War Mage, +3
+Wand
 Add
-Legacy • Staff, Very Rare (requires attunement by a Druid, Sorcerer, Warlock, or Wizard)
+Wand, Very Rare (requires attunement by a Spellcaster)
 Weight:
 
 --
@@ -972,317 +1128,13 @@ Cost:
 
 Source:
 
-Player’s Handbook (2014), pg. 202
+Dungeon Master’s Guide
 
-You have resistance to cold damage while you hold this staff.
-
-The staff has 10 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC: cone of cold (5 charges), fog cloud (1 charge), ice storm (4 charges), or wall of ice (4 charges).
-
-The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff turns to water and is destroyed.
+While holding this wand, you gain a bonus to spell attack rolls determined by the wand’s rarity. In addition, you ignore Half Cover when making a spell attack roll.
 
 Tags:
-Damage
-Control
+Buff
 Combat
-Warding
-Amount to add
-
-1
-
-Add Item
-Staff of Frost
-Staff
-Add
-Staff, Very Rare (requires attunement by a Druid, Sorcerer, Warlock, or Wizard)
-Weight:
-
---
-
-Cost:
-
---
-
-Source:
-
-Dungeon Master’s Guide, pg. 308
-
-You have Resistance to Cold damage while you hold this staff.
-
-Spells. The staff has 10 charges. While holding the staff, you can cast one of the spells on the following table from it, using your spell save DC. The table indicates how many charges you must expend to cast the spell.
-
-Spell	Charge Cost
-Cone of Cold	5
-Fog Cloud	1
-Ice Storm	4
-Wall of Ice	4
-Regaining Charges.The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, the staff turns to water and is destroyed.
-
-Amount to add
-
-1
-
-Add Item
-Staff of Power
-LegacyStaff
-Add
-Legacy • Staff, Very Rare (requires attunement by a Sorcerer, Warlock, or Wizard)
-Weight:
-
---
-
-Cost:
-
---
-
-Source:
-
-Player’s Handbook (2014), pg. 202
-
-This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. While holding it, you gain a +2 bonus to Armor Class, saving throws, and spell attack rolls.
-
-The staff has 20 charges for the following properties. The staff regains 2d8 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff retains its +2 bonus to attack and damage rolls but loses all other properties. On a 20, the staff regains 1d8 + 2 charges.
-
-Power Strike. When you hit with a melee attack using the staff, you can expend 1 charge to deal an extra 1d6 force damage to the target.
-
-Spells. While holding this staff, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC and spell attack bonus: cone of cold (5 charges), fireball (5th-level version, 5 charges), globe of invulnerability (6 charges), hold monster (5 charges), levitate (2 charges), lightning bolt (5th-level version, 5 charges), magic missile (1 charge), ray of enfeeblement (1 charge), or wall of force (5 charges).
-
-Retributive Strike. You can use an action to break the staff over your knee or against a solid surface, performing a retributive strike. The staff is destroyed and releases its remaining magic in an explosion that expands to fill a 30-foot-radius sphere centered on it.
-
-You have a 50 percent chance to instantly travel to a random plane of existence, avoiding the explosion. If you fail to avoid the effect, you take force damage equal to 16 × the number of charges in the staff. Every other creature in the area must make a DC 17 Dexterity saving throw. On a failed save, a creature takes an amount of damage based on how far away it is from the point of origin, as shown in the following table. On a successful save, a creature takes half as much damage.
-
-
-Distance from Origin	Damage
-10 ft. away or closer	8 x the number of charges in the staff
-11 to 20 ft. away	6 x the number of charges in the staff
-21 to 30 ft. away	4 x the number of charges in the staff
- 
-
-Tags:
-Damage
-Control
-Combat
-Warding
-Amount to add
-
-1
-
-Add Item
-Staff of Power
-Staff
-Add
-Staff, Very Rare (requires attunement by a Sorcerer, Warlock, or Wizard)
-Weight:
-
---
-
-Cost:
-
---
-
-Source:
-
-Dungeon Master’s Guide, pg. 308
-
-This staff has 20 charges and can be wielded as a magic Quarterstaff that grants a +2 bonus to attack rolls and damage rolls made with it. While holding it, you gain a +2 bonus to Armor Class, saving throws, and spell attack rolls.
-
-Spells. While holding the staff , you can cast one of the spells on the following table from it, using your spell save DC. The table indicates how many charges you must expend to cast the spell.
-
-Spell	Charge Cost
-Cone of Cold	5
-Fireball (level 5 version)	5
-Globe of Invulnerability	6
-Hold Monster	5
-Levitate	2
-Lightning Bolt (level 5 version)	5
-Magic Missile	1
-Ray of Enfeeblement	1
-Wall of Force	5
-Regaining Charges. The staff regains 2d8 + 4 expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, the staff retains its +2 bonus to attack rolls and damage rolls but loses all other properties. On a 20, the staff regains 1d8 + 2 charges.
-
-Retributive Strike. You can take a Magic action to break the staff over your knee or against a solid surface. The staff is destroyed and releases its magic in an explosion that fills a 30-foot Emanation originating from itself. You have a 50 percent chance to instantly travel to a random plane of existence, avoiding the explosion. If you fail to avoid the effect, you take Force damage equal to 16 times the number of charges in the staff . Each other creature in the area makes a DC 17 Dexterity saving throw. On a failed save, a creature takes Force damage equal to 4 times the number of charges in the staff . On a successful save, a creature takes half as much damage.
-
-Amount to add
-
-1
-
-Add Item
-Staff of Radiance
-Staff
-Add
-Staff, Very Rare (requires attunement by a Druid, Sorcerer, Warlock, or Wizard)
-Weight:
-
---
-
-Cost:
-
---
-
-Source:
-
-Book of Ebon Tides, pg. 208
-
-This staff of yarrow wood is often bleached white with points of glowing golden warmth embedded in the wood. You have resistance to radiant damage while you hold this staff.
-
-The staff has 10 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC: burning radiance* (4 charges), daylight (2 charges), searing sun* (3 charges), or sunburst (5 charges). You may cast the douse light* or light cantrips without expending a charge. (Spells marked with an asterisk are from Deep Magic.)
-
-The staff regains 1d6+4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff turns to a cloud of fireflies and is destroyed.
-
-Amount to add
-
-1
-
-Add Item
-Staff of Striking
-Staff
-Add
-Staff, Very Rare (requires attunement)
-Weight:
-
---
-
-Cost:
-
---
-
-Source:
-
-Dungeon Master’s Guide, pg. 203
-
-This staff can be wielded as a magic Quarterstaff that grants a +3 bonus to attack rolls and damage rolls made with it.
-
-The staff has 10 charges. When you hit with a melee attack using it, you can expend up to 3 charges. For each charge you expend, the target takes an extra 1d6 Force damage.
-
-Regaining Charges. The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, the staff becomes a nonmagical Quarterstaff.
-
-Tags:
-Damage
-Combat
-Amount to add
-
-1
-
-Add Item
-Staff of Thunder and Lightning
-LegacyStaff
-Add
-Legacy • Staff, Very Rare (requires attunement)
-Weight:
-
---
-
-Cost:
-
---
-
-Source:
-
-Player’s Handbook (2014), pg. 204
-
-This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. It also has the following additional properties. When one of these properties is used, it can't be used again until the next dawn.
-
-Lightning. When you hit with a melee attack using the staff, you can cause the target to take an extra 2d6 lightning damage.
-
-Thunder. When you hit with a melee attack using the staff, you can cause the staff to emit a crack of thunder, audible out to 300 feet. The target you hit must succeed on a DC 17 Constitution saving throw or become stunned until the end of your next turn.
-
-Lightning Strike. You can use an action to cause a bolt of lightning to leap from the staff's tip in a line that is 5 feet wide and 120 feet long. Each creature in that line must make a DC 17 Dexterity saving throw, taking 9d6 lightning damage on a failed save, or half as much damage on a successful one.
-
-Thunderclap. You can use an action to cause the staff to issue a deafening thunderclap, audible out to 600 feet. Each creature within 60 feet of you (not including you) must make a DC 17 Constitution saving throw. On a failed save, a creature takes 2d6 thunder damage and becomes deafened for 1 minute. On a successful save, a creature takes half damage and isn't deafened.
-
-Thunder and Lightning. You can use an action to use the Lightning Strike and Thunderclap properties at the same time. Doing so doesn't expend the daily use of those properties, only the use of this one.
-
-Tags:
-Damage
-Control
-Debuff
-Combat
-Amount to add
-
-1
-
-Add Item
-Staff of Thunder and Lightning
-Staff
-Add
-Staff, Very Rare (requires attunement)
-Weight:
-
---
-
-Cost:
-
---
-
-Source:
-
-Dungeon Master’s Guide, pg. 311
-
-This staff can be wielded as a magic Quarterstaff that grants a +2 bonus to attack rolls and damage rolls made with it. It also has the following additional properties. Once one of these properties is used, it can’t be used again until the next dawn.
-
-Lightning. When you hit with a melee attack using the staff, you can cause the target to take an extra 2d6 Lightning damage (no action required).
-
-Thunder. When you hit with a melee attack using the staff, you can cause the staff to emit a crack of thunder audible out to 300 feet (no action required). The target you hit must succeed on a DC 17 Constitution saving throw or have the Stunned condition until the end of your next turn.
-
-Thunder and Lightning. Immediately after you hit with a melee attack using the staff, you can take a Bonus Action to use the Lightning and Thunder properties (see above) at the same time. Doing so doesn’t expend the daily use of those properties, only the use of this one.
-
-Lightning Strike. You can take a Magic action to cause a bolt of lightning to leap from the staff’s tip in a Line that is 5 feet wide and 120 feet long. Each creature in that Line makes a DC 17 Dexterity saving throw, taking 9d6 Lightning damage on a failed save or half as much damage on a successful one.
-
-Thunderclap. You can take a Magic action to cause the staff to produce a thunderclap audible out to 600 feet. Every creature within a 60-foot Emanation originating from you makes a DC 17 Constitution saving throw. On a failed save, a creature takes 2d6 Thunder damage and has the Deafened condition for 1 minute. On a successful save, a creature takes half as much damage only.
-
-Amount to add
-
-1
-
-Add Item
-Staff of the Void
-Staff
-Add
-Staff, Very Rare (requires attunement by a Cleric, Sorcerer, Warlock, or Wizard)
-Weight:
-
---
-
-Cost:
-
---
-
-Source:
-
-Book of Ebon Tides, pg. 208
-
-This staff of ironwood is often cracked and gnarled with points of purple, wriggling movement seemingly moving through the wood. You have resistance to psychic damage while you hold this staff.
-
-The staff has 10 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC: life drain* (5 charges), living shadows* (4 charges), maddening whispers* (2 charges), or void strike* (3 charges). You may cast the word of misfortune* cantrip without expending a charge. (Spells marked with an asterisk are from Deep Magic.)
-
-The staff regains 1d6+4 expended charges daily at midnight. If you expend the last charge, roll a d20. On a 1, the staff turns to ash and is destroyed.
-
-Amount to add
-
-1
-
-Add Item
-Voyager Staff
-Staff
-Add
-Staff, Very Rare (requires attunement by a spellcaster)
-Weight:
-
---
-
-Cost:
-
---
-
-Source:
-
-Guildmasters’ Guide to Ravnica
-
-You gain a +1 bonus to attack and damage rolls made with this magic quarterstaff. While you hold it, you gain a +1 bonus to spell attack rolls.
-
-This staff has 10 charges. While holding it, you can use an action to expend 1 or more of the staff’s charges to cast one of the following spells from it, using your spell save DC: banishment (4 charges), blink (3 charges), misty step (2 charges), passwall (5 charges), or teleport (7 charges).
-
-The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff vanishes forever.
-
 Amount to add
 
 1
