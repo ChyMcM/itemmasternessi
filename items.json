@@ -1636,7 +1636,7 @@
     "rarity": "Unknown Rarity",
     "description": "Candlekeep Mysteries, pg. 132\nWhile wearing this ring, you can cast the telekinesis spell at will, but you can target only objects that aren't being worn or carried.\nAny character who attunes to the ring gains control of Stonky’s creations, though the skitterwidgets ignore commands spoken more than 30 feet away from them.\nTags:\nControl\nUtility\nJewelry\nAmount to add\n1",
     "attunement": "Requires Attunement",
-    "price": "NA"
+    "price": 2500
   },
   {
     "name": "Azorius Guild Signet",
@@ -1707,7 +1707,7 @@
     "type": "Ring",
     "rarity": "Uncommon",
     "description": "Book of Ebon Tides, pg. 207\nWhen you dance, caper, or perform for an audience, your movements are especially thrilling and graceful. You have advantage on all Charisma (Persuasion) checks with any fey, giant, or humanoid who has watched such a performance of yours within 24 hours. When worn with boots of dancing, you instead have advantage on all Charisma ability checks.\nAmount to add\n1",
-    "price": "NA"
+    "price": 5000
   },
   {
     "name": "Ring of Hidden Desire",
@@ -1715,7 +1715,7 @@
     "rarity": "Uncommon",
     "description": "Grim Hollow: Player Pack\nThis rose gold band is set with an obsidian stone carved in the shape of a heart. While wearing this ring, you can use an action to attempt to learn a creature’s darkest desire. Select a creature that you can see. That creature must succeed on a DC 13 Wisdom saving throw. On a failed save, you immediately learn the target’s darkest desire. On a successful save, you do not learn anything, and the creature is immune to the effects of the ring for 24 hours. If the creature you choose has an Intelligence of 3 or lower, the creature is unaffected. The ring’s power can be used 3 times per day and recharges at midnight.\nAmount to add\n1",
     "attunement": "Requires Attunement",
-    "price": "NA"
+    "price": 2500
   },
   {
     "name": "Ring of Jumping",
@@ -1739,21 +1739,21 @@
     "rarity": "Uncommon",
     "description": "Explorer's Guide to Wildemount, pg. 269\nThis band of iron resembles a skull and is cold to the touch. It has 3 charges and regains 1d3 expended charges daily at dawn. As an action while wearing the ring, you can expend 1 of its charges to cast the fog cloud spell from it, with the following changes: the cloud is centered on you when it first appears, and the spell lasts for 1 minute (no concentration required).\nAmount to add\n1",
     "attunement": "Requires Attunement",
-    "price": "NA"
+    "price": 2500
   },
   {
     "name": "Ring of Plant Speech",
     "type": "Ring",
     "rarity": "Uncommon",
     "description": "Humblewood Tales, pg. 246\nWhile wearing this ring, you can speak with plants and plant creatures within 30 feet of you as though you share a common language. Non-sentient plants within 30 feet of you gain sentience and can communicate with you telepathically, and you can question them about events they have witnessed within the last day, gaining information about creatures that have passed, weather, and other things that have occurred nearby from the plant’s limited perspective.\nThis ring is prized by followers of Henwin.\nAmount to add\n1",
-    "price": "NA"
+    "price": 2000
   },
   {
     "name": "Ring of Puzzler's Wit",
     "type": "Ring",
     "rarity": "Uncommon",
     "description": "The Book of Many Things, pg. 37\nThis gold ring bears a fluorite stone and is enchanted to sharpen the wearer’s mind.\nThe ring has 3 charges and regains 1d4 − 1 expended charges daily at dawn. When you make an Intelligence check, you can expend 1 charge to grant yourself advantage on the check.\nTags:\nUtility\nJewelry\nAmount to add\n1",
-    "price": "NA"
+    "price": 20000
   },
   {
     "name": "Ring of Swimming",
@@ -1768,7 +1768,7 @@
     "rarity": "Uncommon",
     "description": "Waterdeep: Dragon Heist\nWhile wearing this ring, you have advantage on Wisdom (Insight) checks to determine whether someone is lying to you.\nAmount to add\n1",
     "attunement": "Requires Attunement",
-    "price": "NA"
+    "price": 5000
   },
   {
     "name": "Ring of Warmth",
@@ -1842,7 +1842,7 @@
     "rarity": "Rare",
     "description": "Book of Ebon Tides, pg. 208\nThis ring has 3 charges, and it regains 1d3 expended charges daily at dawn. By speaking the command word, you can make the ring shed light in a 60-foot radius sphere for 1 hour. The sphere is bright light and sheds dim light for an additional 60 feet. If you close your fist, put on a glove, or otherwise cover your ring hand completely, you block the light. If any of this light’s area overlaps with an area of darkness created by a spell of 3rd level or lower, the spell that created the darkness is dispelled.\nIn addition, melee or ranged attacks you make while wearing the ring of daylight deal radiant damage rather than their normal type.\nAmount to add\n1",
     "attunement": "Requires Attunement",
-    "price": "NA",
+    "price": 15000,
     "where_get": "Research",
     "gacha": "Rare Ring"
   },
@@ -1965,7 +1965,7 @@
     "rarity": "Rare",
     "description": "Explorer's Guide to Wildemount, pg. 269\nIf you die while wearing this gray crystal ring, you vanish and reappear in an unoccupied space within 5 feet of the space you left (or the nearest unoccupied space). You have a number of hit points equal to 3d6 + your Constitution modifier. If your hit point maximum is lower than the number of hit points you regain, your hit point maximum rises to a similar amount. If you have any levels of exhaustion, reduce your level of exhaustion by 1. Once the ring is used, it turns to dust and is destroyed.\nAmount to add\n1",
     "attunement": "Requires Attunement",
-    "price": "NA",
+    "price": 15000,
     "where_get": "Research",
     "gacha": "Rare Ring"
   },
@@ -1984,7 +1984,7 @@
     "rarity": "Rare",
     "description": "Book of Ebon Tides, pg. 208\nWhen you suffer cold damage while wearing the ring of winter’s kiss, you take damage normally. However, on your next turn, you can target any creature within 30 feet, making an attack roll with a +7 bonus. On a hit, the target takes the same cold damage you took.\nAmount to add\n1",
     "attunement": "Requires Attunement",
-    "price": "NA",
+    "price": 5000,
     "where_get": "Research",
     "gacha": "Rare Ring"
   },
@@ -2003,7 +2003,7 @@
     "type": "Ring",
     "rarity": "Rare",
     "description": "Book of Ebon Tides, pg. 208\nThis ring has 3 charges, and it regains 1d3 expended charges daily at dawn. While wearing the ring, when you make a successful melee attack and use your reaction to expend 1 of the ring’s charges, the target must succeed on a DC 13 Constitution saving throw or be paralyzed until the end of its next turn.\nAmount to add\n1",
-    "price": "NA",
+    "price": 10000,
     "where_get": "Research",
     "gacha": "Rare Ring"
   },
@@ -2023,7 +2023,7 @@
     "rarity": "Rare",
     "description": "Humblewood Tales, pg. 246\nThe dark metal talons of this ring’s setting grasp a blue gem that seems to swirl with patterns of windswept clouds. This ring has 3 charges, and it regains 1d3 spent charges each day at dawn.\nStooping Talons. While wearing this ring, you can use an action and expend any number of its charges to attack one creature you can see within 60 feet of you. The ring produces a pair of spectral talons which dive from the sky and make an attack roll with a +7 bonus. On a hit, the target takes 2d8 magical piercing damage for each charge you spent.\nRaising Talons. Alternatively, you can expend 1 to 3 of the ring’s charges as an action to cause the same spectral talons to appear and lift a Large or smaller creature you can see within 60 feet of you. The target is grappled by the claws and lifted 20 feet into the air for each charge spent. An unwilling target must succeed on a DC 15 Strength saving throw to avoid being grappled. The grapple lasts for a number of rounds equal to the number of charges spent. The target can repeat the saving throw at the end of each of its turns to break free of the grapple and takes damage as normal if this causes it to fall.\nAmount to add\n1",
     "attunement": "Requires Attunement",
-    "price": "NA",
+    "price": 10000,
     "where_get": "Research",
     "gacha": "Rare Ring"
   },
@@ -2033,7 +2033,7 @@
     "rarity": "Rare",
     "description": "The Book of Many Things, pg. 37\nThis gilded ring bears a beautiful engraving and is imbued with powers of keen wisdom and foresight. While wearing this ring, you can use an action to cast the Augury spell from the ring. Once you use the ring to cast the spell, the ring can’t cast the spell again until the next dawn.\nWhile wearing the Sage’s Signet, you can cast Fear and Hex once each from the ring using your Intelligence as the spellcasting ability. Once you cast each of the additional spells from the ring, it can’t cast the spell again until the next dawn.\nTags:\nDamage\nControl\nDebuff\nForeknowledge\nAmount to add\n1",
     "attunement": "Requires Attunement",
-    "price": "NA",
+    "price": 5000,
     "where_get": "Research",
     "gacha": "Rare Ring"
   },
@@ -2043,7 +2043,7 @@
     "rarity": "Rare",
     "description": "The Book of Many Things, pg. 37\nThis gilded ring bears a beautiful engraving and is imbued with powers of keen wisdom and foresight. While wearing this ring, you can use an action to cast the Augury spell from the ring. Once you use the ring to cast the spell, the ring can’t cast the spell again until the next dawn.\nWhile wearing the Sage’s Signet, you can cast Charm Person and Hypnotic Pattern once each from the ring using your Intelligence as the spellcasting ability. Once you cast each of the additional spells from the ring, it can’t cast the spell again until the next dawn.\nTags:\nControl\nSocial\nForeknowledge\nAmount to add\n1",
     "attunement": "Requires Attunement",
-    "price": "NA",
+    "price": 5000,
     "where_get": "Research",
     "gacha": "Rare Ring"
   },
@@ -2073,7 +2073,7 @@
     "rarity": "Very Rare",
     "description": "Critical Role: Call of the Netherdeep, pg. 214\nThis ring has a stripe of ruidium running through it. While wearing the ring, you gain the following benefits:\nYou can breathe water.\nYou gain a swimming speed equal to your walking speed.\nRuidium Rage. As a bonus action, you can use the ring to gain the following benefits, which last for 1 minute or until you are incapacitated:\nYou have advantage on Strength checks and Strength saving throws.\nWhen you hit with an attack, you can add your proficiency bonus to the damage roll.\nDifficult terrain doesn’t cost you extra movement, and you are immune to the paralyzed and restrained conditions.\nYou can’t use this property of the ring again until you finish a long rest.\nRuidium Corruption. When you use the Ruidium Rage property of the ring, you must make a DC 20 Charisma saving throw. On a failed save, you gain 1 level of exhaustion. If you are not already suffering from ruidium corruption, you become corrupted when you fail this save.\nIf Ruidium Is Destroyed. If the Apotheon is killed or redeemed, all the ruidium in Exandria is destroyed instantly, and the ring of red fury becomes a ring of free action.\nAmount to add\n1",
     "attunement": "Requires Attunement",
-    "price": "NA",
+    "price": 10000,
     "where_get": "Research",
     "gacha": "Very Rare Ring"
   },
@@ -2113,7 +2113,7 @@
     "rarity": "Very Rare",
     "description": "The Book of Many Things, pg. 37\nThis gilded ring bears a beautiful engraving and is imbued with powers of keen wisdom and foresight. While wearing this ring, you can use an action to cast the Augury spell from the ring. Once you use the ring to cast the spell, the ring can’t cast the spell again until the next dawn.\nWhile wearing the Sage’s Signet, you can cast Enlarge/Reduce and Polymorph once each from the ring using your Intelligence as the spellcasting ability. Once you cast each of the additional spells from the ring, it can’t cast the spell again until the next dawn.\nTags:\nControl\nBuff\nShapechanging\nForeknowledge\nAmount to add\n1",
     "attunement": "Requires Attunement",
-    "price": "NA",
+    "price": 20000,
     "where_get": "Research",
     "gacha": "Very Rare Ring"
   },
@@ -2123,7 +2123,7 @@
     "rarity": "Very Rare",
     "description": "The Book of Many Things, pg. 37\nThis gilded ring bears a beautiful engraving and is imbued with powers of keen wisdom and foresight. While wearing this ring, you can use an action to cast the Augury spell from the ring. Once you use the ring to cast the spell, the ring can’t cast the spell again until the next dawn.\nWhile wearing the Sage’s Signet, you can cast Aura of Vitality and Mass Cure Wounds once each from the ring using your Intelligence as the spellcasting ability. Once you cast each of the additional spells from the ring, it can’t cast the spell again until the next dawn.\nTags:\nHealing\nForeknowledge\nAmount to add\n1",
     "attunement": "Requires Attunement",
-    "price": "NA",
+    "price": 20000,
     "where_get": "Research",
     "gacha": "Very Rare Ring"
   },
@@ -2133,7 +2133,7 @@
     "rarity": "Very Rare",
     "description": "The Book of Many Things, pg. 37\nThis gilded ring bears a beautiful engraving and is imbued with powers of keen wisdom and foresight. While wearing this ring, you can use an action to cast the Augury spell from the ring. Once you use the ring to cast the spell, the ring can’t cast the spell again until the next dawn.\nWhile wearing the Sage’s Signet, you can cast Destructive Wave and Fireball once each from the ring using your Intelligence as the spellcasting ability. Once you cast each of the additional spells from the ring, it can’t cast the spell again until the next dawn.\nTags:\nDamage\nControl\nForeknowledge\nAmount to add\n1",
     "attunement": "Requires Attunement",
-    "price": "NA",
+    "price": 20000,
     "where_get": "Research",
     "gacha": "Very Rare Ring"
   },
@@ -2143,7 +2143,7 @@
     "rarity": "Very Rare",
     "description": "The Book of Many Things, pg. 37\nThis gilded ring bears a beautiful engraving and is imbued with powers of keen wisdom and foresight. While wearing this ring, you can use an action to cast the Augury spell from the ring. Once you use the ring to cast the spell, the ring can’t cast the spell again until the next dawn.\nWhile wearing the Sage’s Signet, you can cast Freedom of Movement and Pass without Trace once each from the ring using your Intelligence as the spellcasting ability. Once you cast each of the additional spells from the ring, it can’t cast the spell again until the next dawn.\nTags:\nBuff\nMovement\nExploration\nForeknowledge\nAmount to add\n1",
     "attunement": "Requires Attunement",
-    "price": "NA",
+    "price": 20000,
     "where_get": "Research",
     "gacha": "Very Rare Ring"
   },
@@ -2163,7 +2163,7 @@
     "rarity": "Legendary",
     "description": "Dungeon Master’s Guide, pg. 292\nWhile wearing this ring, you can take a Magic action to summon a particular Djinni from the Elemental Plane of Air. The djinni appears in an unoccupied space you choose within 120 feet of yourself. It remains as long as you maintain Concentration, to a maximum of 1 hour, or until it drops to 0 Hit Points.\nWhile summoned, the djinni is Friendly to you and your allies, and it obeys your commands. If you fail to command it, the djinni defends itself against attackers but takes no other actions.\nAfter the djinni departs, it can’t be summoned again for 24 hours, and the ring becomes nonmagical if the djinni dies.\nRings of Djinni Summoning are often created by the djinn they summon and given to mortals as gifts of friendship or tokens of esteem.\nAmount to add\n1",
     "attunement": "Requires Attunement",
-    "price": "NA",
+    "price": 50000,
     "where_get": "Research",
     "gacha": "Legendary Ring"
   },
@@ -2579,7 +2579,7 @@
     "name": "Battleaxe",
     "rarity": "Common",
     "where_get": "Ironclad Monkey",
-    "price": "NA",
+    "price": 10,
     "weight": 4
   },
   {
@@ -2588,7 +2588,7 @@
     "name": "Blowgun",
     "rarity": "Common",
     "where_get": "Ironclad Monkey",
-    "price": "NA",
+    "price": 10,
     "weight": 1
   },
   {
@@ -2597,7 +2597,7 @@
     "name": "Boarding Axe",
     "rarity": "Common",
     "where_get": "Ironclad Monkey",
-    "price": "NA",
+    "price": 8,
     "weight": 3
   },
   {
@@ -2606,7 +2606,7 @@
     "name": "Boomerang",
     "rarity": "Common",
     "where_get": "Ironclad Monkey",
-    "price": "NA"
+    "price": 10
   },
   {
     "type": "Weapon",
@@ -2614,7 +2614,7 @@
     "name": "Club",
     "rarity": "Common",
     "where_get": "Ironclad Monkey",
-    "price": "NA",
+    "price": 1,
     "weight": 2
   },
   {
@@ -2623,7 +2623,7 @@
     "name": "Crossbow, Hand",
     "rarity": "Common",
     "where_get": "Ironclad Monkey",
-    "price": "NA",
+    "price": 75,
     "weight": 3
   },
   {
@@ -2632,7 +2632,7 @@
     "name": "Crossbow, Heavy",
     "rarity": "Common",
     "where_get": "Ironclad Monkey",
-    "price": "NA",
+    "price": 50,
     "weight": 18
   },
   {
@@ -2641,7 +2641,7 @@
     "name": "Crossbow, Light",
     "rarity": "Common",
     "where_get": "Ironclad Monkey",
-    "price": "NA",
+    "price": 25,
     "weight": 5
   },
   {
@@ -2650,7 +2650,7 @@
     "name": "Dagger",
     "rarity": "Common",
     "where_get": "Ironclad Monkey",
-    "price": "NA",
+    "price": 2,
     "weight": 1
   },
   {
@@ -2659,7 +2659,7 @@
     "name": "Dart",
     "rarity": "Common",
     "where_get": "Ironclad Monkey",
-    "price": "NA",
+    "price": 2,
     "weight": 0.25
   },
   {
@@ -2667,7 +2667,6 @@
     "description": "Melee weapon\n\nDamage: 2d4\nDamage Type: Slashing\nProperties: Special, Two-Handed\nWeight: 6lb.\n\nSource: D&D Beyond Basic Rules The double-bladed scimitar is the signature weapon of Valenar elves. A haft of fine wood supports a long, curving blade on either end. Forged with techniques honed over centuries, these blades are strong, sharp, and remarkably light. Each scimitar is a masterpiece, and as a result the double-bladed scimitar is an expensive weapon (100 gp) — few though ever have the opportunity to purchase one. A Valenar blade in the hands of a non-elf is generally assumed to have been stolen or looted from a fallen foe, and a Valenar elf might feel entitled to demand its return or challenge the bearer to prove they’re worthy to wield it. Special. If you attack with a double-bladed scimitar as part of the Attack action on your turn, you can use a bonus action immediately after to make a melee attack with it. This attack deals 1d4 slashing damage on a hit, instead of 2d4.",
     "name": "Double-Bladed Scimitar",
     "rarity": "Common",
-    "where_get": "Ironclad Monkey",
     "price": "NA",
     "weight": 6
   },
@@ -2686,7 +2685,7 @@
     "name": "Flail",
     "rarity": "Common",
     "where_get": "Ironclad Monkey",
-    "price": "NA",
+    "price": 10,
     "weight": 2
   },
   {
@@ -2695,7 +2694,7 @@
     "name": "Glaive",
     "rarity": "Common",
     "where_get": "Ironclad Monkey",
-    "price": "NA",
+    "price": 20,
     "weight": 6
   },
   {
@@ -2704,7 +2703,7 @@
     "name": "Greataxe",
     "rarity": "Common",
     "where_get": "Ironclad Monkey",
-    "price": "NA",
+    "price": 30,
     "weight": 7
   },
   {
@@ -2713,7 +2712,7 @@
     "name": "Greatclub",
     "rarity": "Common",
     "where_get": "Ironclad Monkey",
-    "price": "NA",
+    "price": 2,
     "weight": 10
   },
   {
@@ -2722,7 +2721,7 @@
     "name": "Greatsword",
     "rarity": "Common",
     "where_get": "Ironclad Monkey",
-    "price": "NA",
+    "price": 50,
     "weight": 6
   },
   {
@@ -2731,7 +2730,7 @@
     "name": "Halberd",
     "rarity": "Common",
     "where_get": "Ironclad Monkey",
-    "price": "NA",
+    "price": 20,
     "weight": 6
   },
   {
@@ -2740,7 +2739,7 @@
     "name": "Handaxe",
     "rarity": "Common",
     "where_get": "Ironclad Monkey",
-    "price": "NA",
+    "price": 5,
     "weight": 2
   },
   {
@@ -2749,7 +2748,7 @@
     "name": "Hoopak",
     "rarity": "Common",
     "where_get": "Ironclad Monkey",
-    "price": "NA",
+    "price": 1,
     "weight": 2
   },
   {
@@ -2758,7 +2757,7 @@
     "name": "Hoopak (Ranged)",
     "rarity": "Common",
     "where_get": "Ironclad Monkey",
-    "price": "NA",
+    "price": 1,
     "weight": 2
   },
   {
@@ -2767,7 +2766,7 @@
     "name": "Javelin",
     "rarity": "Common",
     "where_get": "Ironclad Monkey",
-    "price": "NA",
+    "price": 5,
     "weight": 2
   },
   {
@@ -2776,7 +2775,7 @@
     "name": "Lance",
     "rarity": "Common",
     "where_get": "Ironclad Monkey",
-    "price": "NA",
+    "price": 10,
     "weight": 6
   },
   {
@@ -2785,7 +2784,7 @@
     "name": "Light Hammer",
     "rarity": "Common",
     "where_get": "Ironclad Monkey",
-    "price": "NA",
+    "price": 2,
     "weight": 2
   },
   {
@@ -2794,7 +2793,7 @@
     "name": "Longbow",
     "rarity": "Common",
     "where_get": "Ironclad Monkey",
-    "price": "NA",
+    "price": 50,
     "weight": 2
   },
   {
@@ -2803,7 +2802,7 @@
     "name": "Longsword",
     "rarity": "Common",
     "where_get": "Ironclad Monkey",
-    "price": "NA",
+    "price": 15,
     "weight": 3
   },
   {
@@ -2812,7 +2811,7 @@
     "name": "Mace",
     "rarity": "Common",
     "where_get": "Ironclad Monkey",
-    "price": "NA",
+    "price": 5,
     "weight": 4
   },
   {
@@ -2821,7 +2820,7 @@
     "name": "Maul",
     "rarity": "Common",
     "where_get": "Ironclad Monkey",
-    "price": "NA",
+    "price": 10,
     "weight": 10
   },
   {
@@ -2830,7 +2829,7 @@
     "name": "Morningstar",
     "rarity": "Common",
     "where_get": "Ironclad Monkey",
-    "price": "NA",
+    "price": 15,
     "weight": 4
   },
   {
@@ -2839,7 +2838,7 @@
     "name": "Musket",
     "rarity": "Common",
     "where_get": "Ironclad Monkey",
-    "price": "NA",
+    "price": "200 for components",
     "weight": 10
   },
   {
@@ -2848,7 +2847,7 @@
     "name": "Net",
     "rarity": "Common",
     "where_get": "Ironclad Monkey",
-    "price": "NA",
+    "price": 1,
     "weight": 3
   },
   {
@@ -2857,7 +2856,7 @@
     "name": "Palm Pistol (Exandria)",
     "rarity": "Common",
     "where_get": "Ironclad Monkey",
-    "price": "NA",
+    "price": 250,
     "weight": 1
   },
   {
@@ -2866,7 +2865,7 @@
     "name": "Pike",
     "rarity": "Common",
     "where_get": "Ironclad Monkey",
-    "price": "NA",
+    "price": 5,
     "weight": 18
   },
   {
@@ -2875,7 +2874,7 @@
     "name": "Quarterstaff",
     "rarity": "Common",
     "where_get": "Ironclad Monkey",
-    "price": "NA",
+    "price": 2,
     "weight": 4
   },
   {
@@ -2884,7 +2883,7 @@
     "name": "Rapier",
     "rarity": "Common",
     "where_get": "Ironclad Monkey",
-    "price": "NA",
+    "price": 25,
     "weight": 2
   },
   {
@@ -2892,7 +2891,6 @@
     "description": "Melee weapon\n\nDamage: 2d4\nDamage Type: Slashing\nProperties: Special, Two-Handed\nWeight: 6lb.\n\nSource: Wayfinder's Guide to Eberron While wielding this double-bladed weapon with two hands, the weapon has the finesse property for your attacks with it, and you gain +1 AC.",
     "name": "Revenant Double-Bladed Scimitar",
     "rarity": "Common",
-    "where_get": "Ironclad Monkey",
     "price": "NA",
     "weight": 6
   },
@@ -2902,7 +2900,7 @@
     "name": "Revolver",
     "rarity": "Common",
     "where_get": "Ironclad Monkey",
-    "price": "NA",
+    "price": "2000 for components",
     "weight": 3
   },
   {
@@ -2911,7 +2909,7 @@
     "name": "Scimitar",
     "rarity": "Common",
     "where_get": "Ironclad Monkey",
-    "price": "NA",
+    "price": 25,
     "weight": 3
   },
   {
@@ -2920,7 +2918,7 @@
     "name": "Shortbow",
     "rarity": "Common",
     "where_get": "Ironclad Monkey",
-    "price": "NA",
+    "price": 25,
     "weight": 2
   },
   {
@@ -2929,7 +2927,7 @@
     "name": "Shortsword",
     "rarity": "Common",
     "where_get": "Ironclad Monkey",
-    "price": "NA",
+    "price": 10,
     "weight": 2
   },
   {
@@ -2938,7 +2936,7 @@
     "name": "Sickle",
     "rarity": "Common",
     "where_get": "Ironclad Monkey",
-    "price": "NA",
+    "price": 1,
     "weight": 2
   },
   {
@@ -2947,7 +2945,7 @@
     "name": "Sling",
     "rarity": "Common",
     "where_get": "Ironclad Monkey",
-    "price": "NA"
+    "price": 1
   },
   {
     "type": "Weapon",
@@ -2955,7 +2953,7 @@
     "name": "Spear",
     "rarity": "Common",
     "where_get": "Ironclad Monkey",
-    "price": "NA",
+    "price": 1,
     "weight": 3
   },
   {
@@ -2965,7 +2963,7 @@
     "rarity": "Very Rare",
     "attunement": "Requires Attunement by a Creature of Non-Evil Alignment",
     "where_get": "Magicians Menagerie",
-    "price": "NA",
+    "price": 15000,
     "weight": 3
   },
   {
@@ -2974,7 +2972,7 @@
     "name": "Trident",
     "rarity": "Common",
     "where_get": "Ironclad Monkey",
-    "price": "NA",
+    "price": 5,
     "weight": 4
   },
   {
@@ -2982,7 +2980,6 @@
     "description": "Ranged weapon\n\nDamage: 1d6\nDamage Type: Piercing\nRange: 30ft./90ft.\nProperties: Ammunition, Range, Light, Loading, Special\nWeight: 5lb.\n\nSource: Humblewood Tales This hand crossbow has been modified to support two crossbow mechanisms, each one activated with a separate trigger. Unlike other weapons with the loading property, it can be fired twice before it needs to be reloaded. If you are proficient with a hand crossbow, you are proficient with a twinshot hand crossbow as well.",
     "name": "Twinshot Hand Crossbow",
     "rarity": "Common",
-    "where_get": "Ironclad Monkey",
     "price": "NA",
     "weight": 5
   },
@@ -2992,7 +2989,7 @@
     "name": "War Pick",
     "rarity": "Common",
     "where_get": "Ironclad Monkey",
-    "price": "NA",
+    "price": 5,
     "weight": 2
   },
   {
@@ -3001,7 +2998,7 @@
     "name": "Warhammer",
     "rarity": "Common",
     "where_get": "Ironclad Monkey",
-    "price": "NA",
+    "price": 15,
     "weight": 5
   },
   {
@@ -3010,7 +3007,7 @@
     "name": "Whip",
     "rarity": "Common",
     "where_get": "Ironclad Monkey",
-    "price": "NA",
+    "price": 2,
     "weight": 3
   },
   {
@@ -3018,7 +3015,6 @@
     "description": "Melee weapon\n\nDamage: 1d8 1d8when the axe hits a plant, whether an ordinary plant or a plant creature 1against any creature of non-good alignment wielding the axe, after an attack is made with it; this damage is considered magical\nDamage Type: Slashing\nProperties: Versatile (1d10), Topple\nWeight: 2lb.\n\nSource: Curse of Strahd, pg. 198 Its handle is carved with leaves and vines, and the weapon weighs half as much as a normal battleaxe. When the axe hits a plant, whether an ordinary plant or a plant creature, the target takes an extra 1d8 slashing damage. When a creature of non-good alignment wields the axe, it sprouts thorns whenever its wielder makes an attack with it. These thorns prick the wielder for 1 piercing damage after the attack is made, and this damage is considered magical.",
     "name": "Yester Hill Axe",
     "rarity": "Common",
-    "where_get": "Ironclad Monkey",
     "price": "NA",
     "weight": 2
   },
@@ -3027,7 +3023,6 @@
     "description": "Melee weapon\n\nDamage: 1d8\nDamage Type: Piercing\nRange: 10ft./30ft.\nProperties: Thrown\nWeight: 2lb.\n\nSource: D&D Beyond Basic Rules A yklwa (pronounced YICK-ul-wah) is a simple melee weapon that is the traditional weapon of Chultan warriors. A yklwa consists of a 3-foot wooden shaft with a steel or stone blade up to 18 inches long. It costs 1 gp, and it deals 1d8 piercing damage on a hit. Although it has the thrown weapon property, the yklwa is not well balanced for throwing (range 10/30 ft.).",
     "name": "Yklwa",
     "rarity": "Common",
-    "where_get": "Ironclad Monkey",
     "price": "NA",
     "weight": 2
   },
@@ -3038,7 +3033,7 @@
     "rarity": "Uncommon",
     "attunement": "Requires Attunement",
     "where_get": "Magicians Menagerie",
-    "price": "NA",
+    "price": 5000,
     "weight": 3
   },
   {
@@ -3047,7 +3042,7 @@
     "name": "Bloodrage Greataxe",
     "rarity": "Uncommon",
     "where_get": "Magicians Menagerie",
-    "price": "NA",
+    "price": 5000,
     "weight": 7
   },
   {
@@ -3057,7 +3052,7 @@
     "rarity": "Uncommon",
     "attunement": "Requires Attunement",
     "where_get": "Magicians Menagerie",
-    "price": "NA",
+    "price": 5000,
     "weight": 2
   },
   {
@@ -3066,7 +3061,7 @@
     "name": "Flame Lance",
     "rarity": "Uncommon",
     "where_get": "Magicians Menagerie",
-    "price": "NA",
+    "price": 5000,
     "weight": 6
   },
   {
@@ -3075,7 +3070,7 @@
     "name": "Hew",
     "rarity": "Uncommon",
     "where_get": "Magicians Menagerie",
-    "price": "NA",
+    "price": 5000,
     "weight": 4
   },
   {
@@ -3093,7 +3088,7 @@
     "name": "Lightbringer",
     "rarity": "Uncommon",
     "where_get": "Magicians Menagerie",
-    "price": "NA",
+    "price": 5000,
     "weight": 4
   },
   {
@@ -3102,7 +3097,7 @@
     "name": "Seeker Dart",
     "rarity": "Uncommon",
     "where_get": "Magicians Menagerie",
-    "price": "NA",
+    "price": 2500,
     "weight": 0.25
   },
   {
@@ -3112,7 +3107,7 @@
     "rarity": "Uncommon",
     "attunement": "Requires Attunement",
     "where_get": "Magicians Menagerie",
-    "price": "NA",
+    "price": 2500,
     "weight": 3
   },
   {
@@ -3121,7 +3116,7 @@
     "name": "Sling of Giant Felling",
     "rarity": "Uncommon",
     "where_get": "Magicians Menagerie",
-    "price": "NA"
+    "price": 2500
   },
   {
     "type": "Weapon",
@@ -3129,7 +3124,7 @@
     "name": "Storm Boomerang",
     "rarity": "Uncommon",
     "where_get": "Magicians Menagerie",
-    "price": "NA"
+    "price": 5000
   },
   {
     "type": "Weapon",
@@ -3147,7 +3142,7 @@
     "name": "Winter's Dark Bite",
     "rarity": "Uncommon",
     "where_get": "Magicians Menagerie",
-    "price": "NA",
+    "price": 4000,
     "weight": 6
   },
   {
@@ -3156,8 +3151,8 @@
     "name": "Bonecounter",
     "rarity": "Rare",
     "where_get": "Research",
-    "gacha": "Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Rare Weapon",
+    "price": 5000,
     "weight": 4
   },
   {
@@ -3167,8 +3162,8 @@
     "rarity": "Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Rare Weapon",
+    "price": 10000,
     "weight": 1
   },
   {
@@ -3178,8 +3173,8 @@
     "rarity": "Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Rare Weapon",
+    "price": 5000,
     "weight": 1
   },
   {
@@ -3188,7 +3183,7 @@
     "name": "Dagger of Venom",
     "rarity": "Rare",
     "where_get": "Research",
-    "gacha": "Rare Weapon Research",
+    "gacha": "Rare Weapon",
     "price": 2500,
     "weight": 1
   },
@@ -3199,7 +3194,7 @@
     "rarity": "Rare",
     "attunement": "Requires Attunement by a cleric or paladin",
     "where_get": "Research",
-    "gacha": "Rare Weapon Research",
+    "gacha": "Rare Weapon",
     "price": 10000,
     "weight": 2
   },
@@ -3209,8 +3204,8 @@
     "name": "Dragontooth Dagger",
     "rarity": "Rare",
     "where_get": "Research",
-    "gacha": "Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Rare Weapon",
+    "price": 7500,
     "weight": 1
   },
   {
@@ -3219,8 +3214,8 @@
     "name": "Grasping Whip",
     "rarity": "Rare",
     "where_get": "Research",
-    "gacha": "Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Rare Weapon",
+    "price": 2500,
     "weight": 3
   },
   {
@@ -3230,8 +3225,8 @@
     "rarity": "Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Rare Weapon",
+    "price": 2500,
     "weight": 3
   },
   {
@@ -3240,7 +3235,7 @@
     "name": "Lash of Immolation",
     "rarity": "Rare",
     "where_get": "Research",
-    "gacha": "Rare Weapon Research",
+    "gacha": "Rare Weapon",
     "price": 10000,
     "weight": 3
   },
@@ -3251,8 +3246,8 @@
     "rarity": "Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Rare Weapon",
+    "price": 9000,
     "weight": 2
   },
   {
@@ -3262,7 +3257,7 @@
     "rarity": "Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Rare Weapon Research",
+    "gacha": "Rare Weapon",
     "price": 8000,
     "weight": 4
   },
@@ -3272,7 +3267,7 @@
     "name": "Mace of Smiting",
     "rarity": "Rare",
     "where_get": "Research",
-    "gacha": "Rare Weapon Research",
+    "gacha": "Rare Weapon",
     "price": 7000,
     "weight": 4
   },
@@ -3283,7 +3278,7 @@
     "rarity": "Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Rare Weapon Research",
+    "gacha": "Rare Weapon",
     "price": 8000,
     "weight": 4
   },
@@ -3293,8 +3288,8 @@
     "name": "Magician's Judge",
     "rarity": "Rare",
     "where_get": "Research",
-    "gacha": "Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Rare Weapon",
+    "price": 7500,
     "weight": 6
   },
   {
@@ -3304,8 +3299,8 @@
     "rarity": "Rare",
     "attunement": "Requires Attunement by a mind flayer",
     "where_get": "Research",
-    "gacha": "Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Rare Weapon",
+    "price": 10000,
     "weight": 3
   },
   {
@@ -3315,8 +3310,8 @@
     "rarity": "Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Rare Weapon",
+    "price": 5000,
     "weight": 3
   },
   {
@@ -3326,8 +3321,8 @@
     "rarity": "Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Rare Weapon",
+    "price": 5000,
     "weight": 1
   },
   {
@@ -3337,8 +3332,8 @@
     "rarity": "Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Rare Weapon",
+    "price": 8000,
     "weight": 2
   },
   {
@@ -3348,8 +3343,8 @@
     "rarity": "Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Rare Weapon",
+    "price": 9000,
     "weight": 2
   },
   {
@@ -3359,8 +3354,8 @@
     "rarity": "Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Rare Weapon",
+    "price": 10000,
     "weight": 4
   },
   {
@@ -3369,8 +3364,8 @@
     "name": "Serpent's Fang",
     "rarity": "Rare",
     "where_get": "Research",
-    "gacha": "Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Rare Weapon",
+    "price": 15000,
     "weight": 3
   },
   {
@@ -3380,8 +3375,8 @@
     "rarity": "Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Rare Weapon",
+    "price": 8000,
     "weight": 2
   },
   {
@@ -3391,8 +3386,8 @@
     "rarity": "Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Rare Weapon",
+    "price": 10000,
     "weight": 4
   },
   {
@@ -3402,8 +3397,8 @@
     "rarity": "Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Rare Weapon",
+    "price": 9000,
     "weight": 3
   },
   {
@@ -3413,7 +3408,7 @@
     "rarity": "Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Rare Weapon Research",
+    "gacha": "Rare Weapon",
     "price": 12000,
     "weight": 3
   },
@@ -3424,8 +3419,8 @@
     "rarity": "Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Rare Weapon",
+    "price": 12000,
     "weight": 5
   },
   {
@@ -3434,8 +3429,8 @@
     "name": "Two-Birds Sling",
     "rarity": "Rare",
     "where_get": "Research",
-    "gacha": "Rare Weapon Research",
-    "price": "NA"
+    "gacha": "Rare Weapon",
+    "price": 5000
   },
   {
     "type": "Weapon",
@@ -3444,10 +3439,11 @@
     "rarity": "Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Rare Weapon",
+    "price": 7500,
     "weight": 3
   },
+	#############################################
   {
     "type": "Weapon",
     "description": "Melee weapon\n\nDamage: 1d12 2d6against a plant (an ordinary plant or a creature with the Plant type) or a wooden object that isn’t being worn or carried\nDamage Type: Slashing\nProperties: Heavy, Two-Handed, Cleave\nWeight: 7lb.\n\nSource: The Wild Beyond the Witchlight, pg. 214 You have a +1 bonus to attack and damage rolls made with this magic weapon. When you use this axe to make an attack against a plant (an ordinary plant or a creature with the Plant type) or a wooden object that isn’t being worn or carried, the attack deals an extra 2d6 slashing damage on a hit.",
