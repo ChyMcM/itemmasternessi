@@ -3443,15 +3443,14 @@
     "price": 7500,
     "weight": 3
   },
-	#############################################
   {
     "type": "Weapon",
     "description": "Melee weapon\n\nDamage: 1d12 2d6against a plant (an ordinary plant or a creature with the Plant type) or a wooden object that isn’t being worn or carried\nDamage Type: Slashing\nProperties: Heavy, Two-Handed, Cleave\nWeight: 7lb.\n\nSource: The Wild Beyond the Witchlight, pg. 214 You have a +1 bonus to attack and damage rolls made with this magic weapon. When you use this axe to make an attack against a plant (an ordinary plant or a creature with the Plant type) or a wooden object that isn’t being worn or carried, the attack deals an extra 2d6 slashing damage on a hit.",
     "name": "Woodcutter's Axe",
     "rarity": "Rare",
     "where_get": "Research",
-    "gacha": "Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Rare Weapon",
+    "price": 5000,
     "weight": 7
   },
   {
@@ -3460,8 +3459,8 @@
     "name": "Baleful Talon",
     "rarity": "Very Rare",
     "where_get": "Research",
-    "gacha": "Very Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Very Rare Weapon",
+    "price": 15000,
     "weight": 1
   },
   {
@@ -3471,8 +3470,8 @@
     "rarity": "Very Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Very Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Very Rare Weapon",
+    "price": 10000,
     "weight": 7
   },
   {
@@ -3482,8 +3481,8 @@
     "rarity": "Very Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Very Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Very Rare Weapon",
+    "price": 20000,
     "weight": 2
   },
   {
@@ -3493,8 +3492,8 @@
     "rarity": "Very Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Very Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Very Rare Weapon",
+    "price": 7500,
     "weight": 1
   },
   {
@@ -3504,8 +3503,8 @@
     "rarity": "Very Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Very Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Very Rare Weapon",
+    "price": 7500,
     "weight": 5
   },
   {
@@ -3515,7 +3514,7 @@
     "rarity": "Very Rare",
     "attunement": "Requires Attunement by a Dwarf or a Creature Attuned to a Belt of Dwarvenkind",
     "where_get": "Research",
-    "gacha": "Very Rare Weapon Research",
+    "gacha": "Very Rare Weapon",
     "price": 18000,
     "weight": 5
   },
@@ -3526,8 +3525,8 @@
     "rarity": "Very Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Very Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Very Rare Weapon",
+    "price": 7500,
     "weight": 3
   },
   {
@@ -3537,8 +3536,8 @@
     "rarity": "Very Rare",
     "attunement": "Requires Attunement by a Elf",
     "where_get": "Research",
-    "gacha": "Very Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Very Rare Weapon",
+    "price": 10000,
     "weight": 3
   },
   {
@@ -3548,8 +3547,8 @@
     "rarity": "Very Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Very Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Very Rare Weapon",
+    "price": 15000,
     "weight": 1
   },
   {
@@ -3559,8 +3558,8 @@
     "rarity": "Very Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Very Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Very Rare Weapon",
+    "price": 7500,
     "weight": 5
   },
   {
@@ -3570,10 +3569,11 @@
     "rarity": "Very Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Very Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Very Rare Weapon",
+    "price": 7500,
     "weight": 2
   },
+	#################################
   {
     "type": "Weapon",
     "description": "Melee weapon\n\nDamage: 1d8\nDamage Type: Slashing\nProperties: Versatile (1d10), Sap\nWeight: 3lb.\n\nSource: Grim Hollow: Player Pack This sword’s hilt and blade are forged of a single piece of black metal that seems to absorb the light around it. You gain a +2 bonus to attack and damage rolls made with this weapon, which deals cold damage instead of slashing damage. While attuned to the sword, you gain darkvision to 60 feet and can see in magical darkness. As a bonus action, you can cause the sword to emit magical darkness in a 15-foot radius and dim light for an additional 15 feet. While the darkness is active, you can use an action to expand or reduce its radius of darkness by 5 feet each, to a maximum of 30 feet each or a minimum of 10 feet each. Darkness created by this sword can only be suppressed by an antimagic field.",
