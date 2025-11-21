@@ -1629,7 +1629,7 @@
     "where_get": "Research",
     "description": "Armor Class: 18\nWeight: 65lb\nThis impenetrable armor is made from refined fragments of a tarrasque’s armored hide and retains some of its original properties. You have resistance to damage from spells and a +1 bonus to AC while wearing this armor. In addition, whenever you’re targeted by a magic missile spell, a line spell, or a spell that requires a ranged attack roll, roll a d6. On a 6, you are unaffected by the spell, and the effect is reflected back at the caster as though it originated from you, turning the caster into the target."
   },
-  {},
+  {}, #Rings
   {
     "name": "Stonky's Ring",
     "type": "Ring",
@@ -2244,7 +2244,7 @@
     "attunement": "Requires Attunement",
     "price": "NA"
   },
-  {},
+  {}, #Potion
   {
     "name": "Potion of Advantage",
     "type": "Potion",
@@ -2572,7 +2572,7 @@
     "weight": 0.5,
     "description": "Dungeon Master\u2019s Guide, pg. 285\n\nThe next time you see a creature within 10 minutes after drinking this philter, you are charmed by that creature and have the Charmed condition for 1 hour.\n\nThis rose-hued, effervescent liquid contains one easy-to-miss bubble shaped like a heart."
   },
-  {},
+  {}, #Weapons
   {
     "type": "Weapon",
     "description": "Melee weapon\n\nDamage: 1d8\nDamage Type: Slashing\nProperties: Versatile (1d10), Topple\nWeight: 4lb.\n\nSource: D&D Beyond Basic Rules Proficiency with a Battleaxe allows you to add your proficiency bonus to the attack roll for any attack you make with it.",
@@ -3573,7 +3573,6 @@
     "price": 7500,
     "weight": 2
   },
-	#################################
   {
     "type": "Weapon",
     "description": "Melee weapon\n\nDamage: 1d8\nDamage Type: Slashing\nProperties: Versatile (1d10), Sap\nWeight: 3lb.\n\nSource: Grim Hollow: Player Pack This sword’s hilt and blade are forged of a single piece of black metal that seems to absorb the light around it. You gain a +2 bonus to attack and damage rolls made with this weapon, which deals cold damage instead of slashing damage. While attuned to the sword, you gain darkvision to 60 feet and can see in magical darkness. As a bonus action, you can cause the sword to emit magical darkness in a 15-foot radius and dim light for an additional 15 feet. While the darkness is active, you can use an action to expand or reduce its radius of darkness by 5 feet each, to a maximum of 30 feet each or a minimum of 10 feet each. Darkness created by this sword can only be suppressed by an antimagic field.",
@@ -3581,7 +3580,7 @@
     "rarity": "Very Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Very Rare Weapon Research",
+    "gacha": "Very Rare Weapon",
     "price": "NA",
     "weight": 3
   },
@@ -3592,7 +3591,7 @@
     "rarity": "Very Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Very Rare Weapon Research",
+    "gacha": "Very Rare Weapon",
     "price": 10000,
     "weight": 10
   },
@@ -3602,8 +3601,8 @@
     "name": "Lute of Thunderous Thumping",
     "rarity": "Very Rare",
     "where_get": "Research",
-    "gacha": "Very Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Very Rare Weapon",
+    "price": 5000,
     "weight": 2
   },
   {
@@ -3613,8 +3612,8 @@
     "rarity": "Very Rare",
     "attunement": "Requires Attunement by a Spellcaster",
     "where_get": "Research",
-    "gacha": "Very Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Very Rare Weapon",
+    "price": 7500,
     "weight": 4
   },
   {
@@ -3624,8 +3623,8 @@
     "rarity": "Very Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Very Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Very Rare Weapon",
+    "price": 7600,
     "weight": 4
   },
   {
@@ -3635,7 +3634,7 @@
     "rarity": "Very Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Very Rare Weapon Research",
+    "gacha": "Very Rare Weapon",
     "price": 6000,
     "weight": 3
   },
@@ -3645,8 +3644,8 @@
     "name": "Slimeforged Blade",
     "rarity": "Very Rare",
     "where_get": "Research",
-    "gacha": "Very Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Very Rare Weapon",
+    "price": 10000,
     "weight": 6
   },
   {
@@ -3655,8 +3654,8 @@
     "name": "Sling Bullets of Althemone",
     "rarity": "Very Rare",
     "where_get": "Research",
-    "gacha": "Very Rare Weapon Research",
-    "price": "NA"
+    "gacha": "Very Rare Weapon",
+    "price": 7500
   },
   {
     "type": "Weapon",
@@ -3665,8 +3664,8 @@
     "rarity": "Very Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Very Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Very Rare Weapon",
+    "price": 7500,
     "weight": 3
   },
   {
@@ -3676,8 +3675,8 @@
     "rarity": "Very Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Very Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Very Rare Weapon",
+    "price": 10000,
     "weight": 4
   },
   {
@@ -3687,7 +3686,7 @@
     "rarity": "Very Rare",
     "attunement": "Requires Attunement by a Good-aligned Creature",
     "where_get": "Research",
-    "gacha": "Very Rare Weapon Research",
+    "gacha": "Very Rare Weapon",
     "price": 8000,
     "weight": 3
   },
@@ -3698,8 +3697,8 @@
     "rarity": "Very Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Very Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Very Rare Weapon",
+    "price": 7500,
     "weight": 2
   },
   {
@@ -3709,8 +3708,8 @@
     "rarity": "Very Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Very Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Very Rare Weapon",
+    "price": 7500,
     "weight": 3
   },
   {
@@ -3719,7 +3718,7 @@
     "name": "Thunderbuss",
     "rarity": "Very Rare",
     "where_get": "Research",
-    "gacha": "Very Rare Weapon Research",
+    "gacha": "Very Rare Weapon",
     "price": 7000,
     "weight": 3
   },
@@ -3730,8 +3729,8 @@
     "rarity": "Very Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Very Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Very Rare Weapon",
+    "price": 7500,
     "weight": 10
   },
   {
@@ -3741,8 +3740,8 @@
     "rarity": "Very Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Very Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Very Rare Weapon",
+    "price": 7600,
     "weight": 4
   },
   {
@@ -3752,8 +3751,8 @@
     "rarity": "Very Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Very Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Very Rare Weapon",
+    "price": 15000,
     "weight": 3
   },
   {
@@ -3846,7 +3845,7 @@
     "name": "Moon-Touched Sword Enchantment",
     "rarity": "Common",
     "where_get": "Ironclad Monkey",
-    "price": "NA",
+    "price": 8000,
     "weight": 6,
     "weapon_types": [
       "Greatsword",
@@ -3861,7 +3860,7 @@
     "name": "Moon-Touched Enchantment",
     "rarity": "Common",
     "where_get": "Ironclad Monkey",
-    "price": "NA",
+    "price": 8000,
     "weight": 6,
     "weapon_types": [
       "Glaive",
@@ -3874,7 +3873,7 @@
     "name": "Silvered Enchantment",
     "rarity": "Common",
     "where_get": "Ironclad Monkey",
-    "price": "NA",
+    "price": 50,
     "weight": 10,
     "weapon_types": [
       "Battleaxe",
@@ -3940,8 +3939,9 @@
     "description": "-- weapon\n\nDamage: --\nDamage Type: --\n\nSource: Dungeon Master’s Guide, pg. 227 This weapon or piece of ammunition is made of adamantine, one of the hardest substances in existence. Whenever this weapon or piece of ammunition hits an object, the hit is a Critical Hit.",
     "name": "Adamantine Enchantment",
     "rarity": "Uncommon",
-    "where_get": "Magicians Menagerie",
-    "price": "NA",
+    "where_get": "Research",
+	"gacha": "Very Rare Weapon",
+    "price": 30000,
     "weapon_types": [
       "Battleaxe",
       "Club",
@@ -4114,7 +4114,7 @@
     "description": "Melee weapon\n\nDamage: 1d8\nDamage Type: Slashing\nProperties: Versatile (1d10), Topple\nWeight: 4lb.\n\nSource: Book of Ebon Tides, pg. 209 This battleaxe is lightweight and portable and can easily fit into a dagger sheath, even if a two-handed weapon or polearm. You can draw it from the sheath or replace it as a bonus action.",
     "name": "Fey Enchantment",
     "rarity": "Uncommon",
-    "where_get": "Magicians Menagerie",
+    "where_get": "Unknown",
     "price": "NA",
     "weight": 4,
     "weapon_types": [
@@ -4135,7 +4135,7 @@
     "rarity": "Uncommon",
     "attunement": "Requires Attunement",
     "where_get": "Magicians Menagerie",
-    "price": "NA",
+    "price": 8000,
     "weight": 6,
     "weapon_types": [
       "Glaive",
@@ -4151,7 +4151,7 @@
     "description": "Ranged weapon\n\nDamage: 6d8\nDamage Type: Necrotic\nRange: 120ft./360ft.\nProperties: Ammunition (Firearms), Range, Reload, Two-Handed, Sap\nWeight: 10lb.\n\nSource: Baldur’s Gate: Descent into Avernus This weapon is fashioned from infernal iron and traced with veins of hellfire that shed dim light in a 5-foot-radius. Any humanoid killed by an attack made with this weapon has its soul funneled into the River Styx, where it’s reborn instantly as a lemure devil (described in the Monster Manual).",
     "name": "Hellfire Enchantment",
     "rarity": "Uncommon",
-    "where_get": "Magicians Menagerie",
+    "where_get": "Unknown",
     "price": "NA",
     "weight": 10,
     "weapon_types": [
@@ -4248,7 +4248,7 @@
     "name": "True Name Enchantment",
     "rarity": "Uncommon",
     "attunement": "Requires Attunement by a Illrigger",
-    "where_get": "Magicians Menagerie",
+    "where_get": "Unknown",
     "price": "NA",
     "weight": 10,
     "weapon_types": [
@@ -4299,7 +4299,7 @@
     "attunement": "Requires Attunement",
     "where_get": "Research",
     "gacha": "Rare Weapon Research",
-    "price": "NA",
+    "price": 6500,
     "weight": 6,
     "weapon_types": [
       "Greatsword",
@@ -4369,8 +4369,8 @@
     "rarity": "Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Rare Weapon",
+    "price": 6500,
     "weight": 4,
     "weapon_types": [
       "Battleaxe",
@@ -4385,8 +4385,8 @@
     "rarity": "Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Rare Weapon",
+    "price": 6500,
     "weight": 10,
     "weapon_types": [
       "Battleaxe",
@@ -4439,8 +4439,8 @@
     "rarity": "Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Rare Weapon",
+    "price": 10000,
     "weight": 6,
     "weapon_types": [
       "Greatsword",
@@ -4456,8 +4456,8 @@
     "name": "Delerium-Forged Enchantment",
     "rarity": "Rare",
     "where_get": "Research",
-    "gacha": "Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Rare Weapon",
+    "price": 10000,
     "weight": 6,
     "weapon_types": [
       "Greatsword",
@@ -4473,7 +4473,7 @@
     "name": "Dragon Slayer Enchantment",
     "rarity": "Rare",
     "where_get": "Research",
-    "gacha": "Rare Weapon Research",
+    "gacha": "Rare Weapon",
     "price": 8000,
     "weight": 2,
     "weapon_types": [
@@ -4524,8 +4524,8 @@
     "rarity": "Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Rare Weapon",
+    "price": 8000,
     "weight": 3,
     "weapon_types": [
       "Crossbow, Hand",
@@ -4542,7 +4542,7 @@
     "rarity": "Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Rare Weapon Research",
+    "gacha": "Rare Weapon",
     "price": 5000,
     "weight": 4,
     "weapon_types": [
@@ -4583,8 +4583,8 @@
     "rarity": "Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Rare Weapon",
+    "price": 5000,
     "weight": 1,
     "weapon_types": [
       "Dagger",
@@ -4598,8 +4598,8 @@
     "rarity": "Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Rare Weapon",
+    "price": 6500,
     "weight": 6,
     "weapon_types": [
       "Greatsword",
@@ -4615,7 +4615,7 @@
     "name": "Giant Slayer Enchantment",
     "rarity": "Rare",
     "where_get": "Research",
-    "gacha": "Rare Weapon Research",
+    "gacha": "Rare Weapon",
     "price": 7000,
     "weight": 10,
     "weapon_types": [
@@ -4666,8 +4666,8 @@
     "rarity": "Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Rare Weapon",
+    "price": 8000,
     "weight": 6,
     "weapon_types": [
       "Glaive",
@@ -4685,8 +4685,8 @@
     "rarity": "Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Rare Weapon",
+    "price": 8000,
     "weight": 6,
     "weapon_types": [
       "Glaive",
@@ -4704,8 +4704,8 @@
     "rarity": "Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Rare Weapon",
+    "price": 6500,
     "weight": 2,
     "weapon_types": [
       "Longbow",
@@ -4719,8 +4719,8 @@
     "rarity": "Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Rare Weapon",
+    "price": 6500,
     "weight": 6,
     "weapon_types": [
       "Greatsword",
@@ -4737,8 +4737,8 @@
     "rarity": "Rare",
     "attunement": "Requires Attunement by a specific mind flayer or one of its thralls",
     "where_get": "Research",
-    "gacha": "Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Rare Weapon",
+    "price": 6500,
     "weight": 6,
     "weapon_types": [
       "Greatsword",
@@ -4754,8 +4754,8 @@
     "name": "Moonsteel Enchantment",
     "rarity": "Rare",
     "where_get": "Research",
-    "gacha": "Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Rare Weapon",
+    "price": 6500,
     "weight": 1,
     "weapon_types": [
       "Dagger",
@@ -4769,8 +4769,8 @@
     "rarity": "Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Rare Weapon",
+    "price": 10000,
     "weight": 10,
     "weapon_types": [
       "Blowgun",
@@ -4802,8 +4802,8 @@
     "rarity": "Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Rare Weapon",
+    "price": 8000,
     "weight": 2,
     "weapon_types": [
       "Club",
@@ -4821,8 +4821,8 @@
     "rarity": "Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Rare Weapon",
+    "price": 7500,
     "weight": 3,
     "weapon_types": [
       "Crossbow, Hand",
@@ -4839,8 +4839,8 @@
     "rarity": "Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Rare Weapon",
+    "price": 8000,
     "weight": 3,
     "weapon_types": [
       "Crossbow, Hand",
@@ -4855,7 +4855,7 @@
     "rarity": "Rare",
     "attunement": "Requires Attunement by a Illrigger",
     "where_get": "Research",
-    "gacha": "Rare Weapon Research",
+    "gacha": "Rare Weapon",
     "price": 1000,
     "weight": 10,
     "weapon_types": [
@@ -4905,7 +4905,7 @@
     "name": "Vicious Weapon Enchantment",
     "rarity": "Rare",
     "where_get": "Research",
-    "gacha": "Rare Weapon Research",
+    "gacha": "Rare Weapon",
     "price": 350,
     "weight": 10,
     "weapon_types": [
@@ -4955,8 +4955,8 @@
     "name": "Weapon of Certain Death Enchantment",
     "rarity": "Rare",
     "where_get": "Research",
-    "gacha": "Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Rare Weapon",
+    "price": 5000,
     "weight": 10,
     "weapon_types": [
       "Battleaxe",
@@ -5009,8 +5009,8 @@
     "rarity": "Very Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Very Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Very Rare Weapon",
+    "price": 8500,
     "weight": 10,
     "weapon_types": [
       "Battleaxe",
@@ -5103,8 +5103,8 @@
     "rarity": "Very Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Very Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Very Rare Weapon",
+    "price": 10000,
     "weight": 6,
     "weapon_types": [
       "Greatsword",
@@ -5121,8 +5121,8 @@
     "rarity": "Very Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Very Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Very Rare Weapon",
+    "price": 7500,
     "weight": 6,
     "weapon_types": [
       "Greatsword",
@@ -5139,8 +5139,8 @@
     "rarity": "Very Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Very Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Very Rare Weapon",
+    "price": 10000,
     "weight": 2,
     "weapon_types": [
       "Club",
@@ -5160,8 +5160,8 @@
     "rarity": "Very Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Very Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Very Rare Weapon",
+    "price": 10000,
     "weight": 6,
     "weapon_types": [
       "Greatsword",
@@ -5177,8 +5177,8 @@
     "name": "Executioner's Enchantment",
     "rarity": "Very Rare",
     "where_get": "Research",
-    "gacha": "Very Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Very Rare Weapon",
+    "price": 8500,
     "weight": 4,
     "weapon_types": [
       "Battleaxe",
@@ -5194,8 +5194,8 @@
     "rarity": "Very Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Very Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Very Rare Weapon",
+    "price": 10000,
     "weight": 6,
     "weapon_types": [
       "Double-Bladed Scimitar",
@@ -5212,8 +5212,8 @@
     "name": "Forcebreaker Enchantment",
     "rarity": "Very Rare",
     "where_get": "Research",
-    "gacha": "Very Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Very Rare Weapon",
+    "price": 9000,
     "weapon_types": [
       "Boomerang",
       "Club",
@@ -5237,7 +5237,7 @@
     "rarity": "Very Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Very Rare Weapon Research",
+    "gacha": "Very Rare Weapon",
     "price": 2200,
     "weight": 6,
     "weapon_types": [
@@ -5256,8 +5256,8 @@
     "rarity": "Very Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Very Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Very Rare Weapon",
+    "price": 6500,
     "weight": 6,
     "weapon_types": [
       "Glaive",
@@ -5273,8 +5273,8 @@
     "rarity": "Very Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Very Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Very Rare Weapon",
+    "price": 7500,
     "weight": 2,
     "weapon_types": [
       "Longbow",
@@ -5288,7 +5288,7 @@
     "rarity": "Very Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Very Rare Weapon Research",
+    "gacha": "Very Rare Weapon",
     "price": 8000,
     "weight": 10,
     "weapon_types": [
@@ -5339,7 +5339,7 @@
     "rarity": "Very Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Very Rare Weapon Research",
+    "gacha": "Very Rare Weapon",
     "price": 3500,
     "weight": 2,
     "weapon_types": [
@@ -5354,8 +5354,8 @@
     "rarity": "Very Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Very Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Very Rare Weapon",
+    "price": 7500,
     "weight": 6,
     "weapon_types": [
       "Greatsword",
@@ -5372,8 +5372,8 @@
     "rarity": "Very Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Very Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Very Rare Weapon",
+    "price": 6500,
     "weight": 2,
     "weapon_types": [
       "Rapier",
@@ -5387,8 +5387,8 @@
     "rarity": "Very Rare",
     "attunement": "Requires Attunement",
     "where_get": "Research",
-    "gacha": "Very Rare Weapon Research",
-    "price": "NA",
+    "gacha": "Very Rare Weapon",
+    "price": 20000,
     "weight": 4,
     "weapon_types": [
       "Battleaxe",
@@ -5439,7 +5439,7 @@
     "rarity": "Very Rare",
     "attunement": "Requires Attunement by a Illrigger",
     "where_get": "Research",
-    "gacha": "Very Rare Weapon Research",
+    "gacha": "Very Rare Weapon",
     "price": 4000,
     "weight": 10,
     "weapon_types": [
@@ -5483,7 +5483,7 @@
       "Whip"
     ]
   },
-  {},
+  {}, #Staff
   {
     "name": "Staff of Adornment",
     "type": "Staff",
@@ -5566,7 +5566,7 @@
     "price": 2000,
     "rarity": "Rare",
     "where_get": "Research",
-    "gacha": "Rare Staff Research",
+    "gacha": "Rare Staff",
     "attunement": "Requires Attunement",
     "description": "Made from the branch of a Gulthias tree (see the blights entry in the Monster Manual), a Gulthias staff is a spongy, black length of wood. Its evil makes beasts visibly uncomfortable while within 30 feet of it. The staff has 10 charges and regains 1d6 + 4 of its expended charges daily at dusk. If the staff is broken or burned to ashes, its wood releases a terrible, inhuman scream that can be heard out to a range of 300 feet. All blights that can hear the scream immediately wither and die. Vampiric Strike. The staff can be wielded as a magic quarterstaff. On a hit, it deals damage as a normal quarterstaff, and you can expend 1 charge to regain a number of hit points equal to the damage dealt by the weapon. Each time a charge is spent, red blood oozes from the staff’s pores, and you must succeed on a DC 12 Wisdom saving throw or be afflicted with short-term madness (see “Madness” in chapter 8 of the Dungeon Master’s Guide). Blight Bane. While you are attuned to the staff, blights and other evil plant creatures don’t regard you as hostile unless you harm them."
   },
@@ -5576,7 +5576,7 @@
     "price": 2000,
     "rarity": "Rare",
     "where_get": "Research",
-    "gacha": "Rare Staff Research",
+    "gacha": "Rare Staff",
     "attunement": "Requires Attunement",
     "description": "This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. The staff has 10 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC: guiding bolt (1 charge), flaming sphere (2 charges), or flame strike (5 charges). The staff regains 1d6 + 4 expended charges daily at dawn. Relics of Saint Vitruvio These holy relics of the Sacred Flame were wielded by Saint Vitruvio and are kept in several religious sites throughout Drakkenheim. The Knights of the Silver Order and the Followers of the Falling Fire now seek these relics. Not only do both factions revere Saint Vitruvio, both wish to use these relics to help advance their goals in Drakkenheim. A character attuned to three Relics of Saint Vitruvio may cast the heal spell three times per day, after which they must finish a long rest before they may do so again. In addition, that character gains the ability to attune to two additional magic items so long as those magic items are both Relics of Saint Vitruvio."
   },
@@ -5586,7 +5586,7 @@
     "price": 2000,
     "rarity": "Rare",
     "where_get": "Research",
-    "gacha": "Rare Staff Research",
+    "gacha": "Rare Staff",
     "attunement": "Requires Attunement",
     "description": "The top of this black, adamantine staff is shaped like a spider. The staff weighs 6 pounds. You must be attuned to the staff to gain its benefits and cast its spells. The staff can be wielded as a quarterstaff. It deals 1d6 extra poison damage on a hit when used to make a weapon attack. The staff has 10 charges, which are used to fuel the spells within it. With the staff in hand, you can use your action to cast one of the following spells from the staff if the spell is on your class’s spell list: spider climb (1 charge) or web (2 charges, spell save DC 15). No components are required. The staff regains 1d6 + 4 expended charges each day at dusk. If you expend the staff’s last charge, roll a d20. On a 1, the staff crumbles to dust and is destroyed."
   },
@@ -5596,7 +5596,7 @@
     "price": 12000,
     "rarity": "Rare",
     "where_get": "Research",
-    "gacha": "Rare Staff Research",
+    "gacha": "Rare Staff",
     "attunement": "Requires Attunement",
     "class_recommendations": [
       "warlock",
@@ -5614,7 +5614,7 @@
     "price": 2000,
     "rarity": "Rare",
     "where_get": "Research",
-    "gacha": "Rare Staff Research",
+    "gacha": "Rare Staff",
     "attunement": "Requires Attunement",
     "description": "This slender, hollow staff is made of glass yet is as strong as oak. It weighs 3 pounds. You must be attuned to the staff to gain its benefits and cast its spells. While holding the staff, you have a +1 bonus to your Armor Class. The staff has 10 charges, which are used to fuel the spells within it. With the staff in hand, you can use your action to cast one of the following spells from the staff if the spell is on your class’s spell list: mage armor (1 charge) or shield (2 charges). No components are required. The staff regains 1d6 + 4 expended charges each day at dawn. If you expend the staff’s last charge, roll a d20. On a 1, the staff shatters and is destroyed."
   },
@@ -5624,7 +5624,7 @@
     "price": 13000,
     "rarity": "Rare",
     "where_get": "Research",
-    "gacha": "Rare Staff Research",
+    "gacha": "Rare Staff",
     "attunement": "Requires Attunement",
     "class_recommendations": [
       "cleric",
@@ -5639,7 +5639,7 @@
     "price": 16000,
     "rarity": "Rare",
     "where_get": "Research",
-    "gacha": "Rare Staff Research",
+    "gacha": "Rare Staff",
     "attunement": "Requires Attunement",
     "class_recommendations": [
       "warlock",
@@ -5657,7 +5657,7 @@
     "price": 3000,
     "rarity": "Rare",
     "where_get": "Research",
-    "gacha": "Rare Staff Research",
+    "gacha": "Rare Staff",
     "attunement": "Requires Attunement",
     "class_recommendations": [
       "warlock",
@@ -5672,7 +5672,7 @@
     "price": 2000,
     "rarity": "Rare",
     "where_get": "Research",
-    "gacha": "Rare Staff Research",
+    "gacha": "Rare Staff",
     "attunement": "Requires Attunement",
     "description": "This gray-and-cerulean staff is topped with a small dragon claw carved from ivory. While holding the staff, you gain a +1 bonus to spell attack rolls. Whenever you score a critical hit with a spell attack, the target takes an extra 3d6 radiant damage."
   },
@@ -5682,7 +5682,7 @@
     "price": 4000,
     "rarity": "Rare",
     "where_get": "Research",
-    "gacha": "Rare Staff Research",
+    "gacha": "Rare Staff",
     "attunement": "Requires Attunement",
     "description": "The hill rune is carved into this gnarled wooden staff. The staff magically resizes to match the height of any creature that attunes to it. The staff can be wielded as a magic quarterstaff that grants a +1 bonus to attack and damage rolls made with it. The first time you hit any creature with the staff on your turn, the creature must succeed on a DC 12 Strength saving throw or be restrained by spectral vines until the start of your next turn. Invoking the Rune. As an action, you can invoke the staff’s rune to cast either hold person (save DC 12) or speak with plants with the staff. When you cast hold person using the staff, the target is wreathed in spectral vines. Once the rune has been invoked to cast either spell, it can’t be invoked again until the next dawn."
   },
@@ -5692,7 +5692,7 @@
     "price": 44000,
     "rarity": "Rare",
     "where_get": "Research",
-    "gacha": "Rare Staff Research",
+    "gacha": "Rare Staff",
     "attunement": "Requires Attunement",
     "class_recommendations": [
       "druid"
@@ -5705,7 +5705,7 @@
     "price": 2000,
     "rarity": "Rare",
     "where_get": "Research",
-    "gacha": "Rare Staff Research",
+    "gacha": "Rare Staff",
     "attunement": "Requires Attunement",
     "class_recommendations": [
       "cleric",
@@ -5720,7 +5720,7 @@
     "price": 8000,
     "rarity": "Very Rare",
     "where_get": "Research",
-    "gacha": "Very Rare Staff Research",
+    "gacha": "Very Rare Staff",
     "attunement": "Requires Attunement",
     "description": "This staff can be wielded as a magic quarterstaff that grants a +1 bonus to attack and damage rolls made with it. The staff has 10 charges and regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff is destroyed in an otherwise harmless burst of eldritch energy. Eldritch Attack. When you hit with a melee attack using the staff, you can expend up to 3 of its charges. For each charge you expend, the target takes an extra 1d8 lightning damage. Eldritch Escape. If you take damage while holding the staff, you can use your reaction to expend 3 of the staff’s charges, whereupon you turn invisible and teleport yourself, along with any equipment you are wearing or carrying, up to 60 feet to an unoccupied space that you can see. You remain invisible until the start of your next turn or until you attack, cast a spell, or deal damage."
   },
@@ -5730,7 +5730,7 @@
     "price": 8000,
     "rarity": "Very Rare",
     "where_get": "Research",
-    "gacha": "Very Rare Staff Research",
+    "gacha": "Very Rare Staff",
     "attunement": "Requires Attunement",
     "class_recommendations": [
       "wizard"
@@ -5743,7 +5743,7 @@
     "price": 16000,
     "rarity": "Very Rare",
     "where_get": "Research",
-    "gacha": "Very Rare Staff Research",
+    "gacha": "Very Rare Staff",
     "attunement": "Requires Attunement",
     "class_recommendations": [
       "warlock",
@@ -5759,7 +5759,7 @@
     "price": 26000,
     "rarity": "Very Rare",
     "where_get": "Research",
-    "gacha": "Very Rare Staff Research",
+    "gacha": "Very Rare Staff",
     "attunement": "Requires Attunement",
     "class_recommendations": [
       "warlock",
@@ -5775,7 +5775,7 @@
     "price": 95500,
     "rarity": "Very Rare",
     "where_get": "Research",
-    "gacha": "Very Rare Staff Research",
+    "gacha": "Very Rare Staff",
     "attunement": "Requires Attunement",
     "class_recommendations": [
       "warlock",
@@ -5790,7 +5790,7 @@
     "price": 8000,
     "rarity": "Very Rare",
     "where_get": "Research",
-    "gacha": "Very Rare Staff Research",
+    "gacha": "Very Rare Staff",
     "attunement": "Requires Attunement",
     "class_recommendations": [
       "warlock",
@@ -5806,7 +5806,7 @@
     "price": 21000,
     "rarity": "Very Rare",
     "where_get": "Research",
-    "gacha": "Very Rare Staff Research",
+    "gacha": "Very Rare Staff",
     "attunement": "Requires Attunement",
     "description": "This staff can be wielded as a magic Quarterstaff that grants a +3 bonus to attack rolls and damage rolls made with it. The staff has 10 charges. When you hit with a melee attack using it, you can expend up to 3 charges. For each charge you expend, the target takes an extra 1d6 Force damage. Regaining Charges. The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, the staff becomes a nonmagical Quarterstaff."
   },
@@ -5816,7 +5816,7 @@
     "price": 10000,
     "rarity": "Very Rare",
     "where_get": "Research",
-    "gacha": "Very Rare Staff Research",
+    "gacha": "Very Rare Staff",
     "attunement": "Requires Attunement",
     "description": "This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. It also has the following additional properties. When one of these properties is used, it can't be used again until the next dawn. Lightning. When you hit with a melee attack using the staff, you can cause the target to take an extra 2d6 lightning damage. Thunder. When you hit with a melee attack using the staff, you can cause the staff to emit a crack of thunder, audible out to 300 feet. The target you hit must succeed on a DC 17 Constitution saving throw or become stunned until the end of your next turn. Lightning Strike. You can use an action to cause a bolt of lightning to leap from the staff's tip in a line that is 5 feet wide and 120 feet long. Each creature in that line must make a DC 17 Dexterity saving throw, taking 9d6 lightning damage on a failed save, or half as much damage on a successful one. Thunderclap. You can use an action to cause the staff to issue a deafening thunderclap, audible out to 600 feet. Each creature within 60 feet of you (not including you) must make a DC 17 Constitution saving throw. On a failed save, a creature takes 2d6 thunder damage and becomes deafened for 1 minute. On a successful save, a creature takes half damage and isn't deafened. Thunder and Lightning. You can use an action to use the Lightning Strike and Thunderclap properties at the same time. Doing so doesn't expend the daily use of those properties, only the use of this one."
   },
@@ -5826,7 +5826,7 @@
     "price": 8000,
     "rarity": "Very Rare",
     "where_get": "Research",
-    "gacha": "Very Rare Staff Research",
+    "gacha": "Very Rare Staff",
     "attunement": "Requires Attunement",
     "class_recommendations": [
       "warlock",
@@ -5842,11 +5842,11 @@
     "price": 8000,
     "rarity": "Very Rare",
     "where_get": "Research",
-    "gacha": "Very Rare Staff Research",
+    "gacha": "Very Rare Staff",
     "attunement": "Requires Attunement",
     "description": "You gain a +1 bonus to attack and damage rolls made with this magic quarterstaff. While you hold it, you gain a +1 bonus to spell attack rolls. This staff has 10 charges. While holding it, you can use an action to expend 1 or more of the staff’s charges to cast one of the following spells from it, using your spell save DC: banishment (4 charges), blink (3 charges), misty step (2 charges), passwall (5 charges), or teleport (7 charges). The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff vanishes forever."
   },
-  {},
+  {}, #Wand
     {
     "name": "Radiance",
     "type": "Wand",
@@ -5854,8 +5854,8 @@
     "description": "While holding this wand, you gain a +1 bonus to spell attack rolls. In addition, you ignore half cover when making a spell attack. Radiance is in the form of an exquisite golden hand mirror. While surrounded by darkness, it sheds dim light in a 5-foot radius. A creature that is attuned to Radiance can use a bonus action while holding the mirror to cast the enhance ability spell, choosing itself and no other creature as the spell’s target. Once this property of the wand is used, it can’t be used again until the next dawn.",
     "where_get": "Research",
     "attunement": "Requires Attunement",
-    "price": "NA",
-    "gacha": "Rare Wand Research",
+    "price": 5000,
+    "gacha": "Rare Wand",
     "class_recommendations": [
       "Bard",
       "Cleric",
@@ -5904,7 +5904,7 @@
     "description": "You can use this wand as a spellcasting focus. Creatures making a saving throw against a spell cast using this wand can’t gain benefit from advantage on their saving throws.",
     "where_get": "Magicians Menagerie",
     "attunement": "Requires Attunement",
-    "price": "NA",
+    "price": 2500,
     "class_recommendations": [
       "Bard",
       "Cleric",
@@ -5921,7 +5921,7 @@
     "description": "This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges to cast the entangle spell (save DC 13) from it. The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand’s last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed. Debuff",
     "where_get": "Magicians Menagerie",
     "attunement": "Requires Attunement",
-    "price": "NA",
+    "price": 2500,
     "class_recommendations": [
       "Bard",
       "Cleric",
@@ -5962,7 +5962,7 @@
     "description": "This wand has 5 charges. While holding it, you have advantage on Dexterity (Stealth) checks against creatures that rely on sight. You can also use an action to expend 1 or more of its charges to cast the darkbolt spell (save DC 15, see Deep Magic) from it. For 1 charge, you cast the 2nd-level version of the spell. You can increase the spell slot level by one for each additional charge you expend. The wand regains 1d6+1 expended charges daily at midnight. If you expend the last charge, roll a d20. On a 1, the wand turns to ash and is destroyed.",
     "where_get": "Magicians Menagerie",
     "attunement": "Requires Attunement",
-    "price": "NA",
+    "price": 5000,
     "class_recommendations": [
       "Bard",
       "Cleric",
@@ -5979,7 +5979,7 @@
     "description": "This wand has 5 charges. While holding it, you cannot be paralyzed. You can also use an action to expend 1 or more of its charges to warp space around you, filling it with tangible shadows. All creatures moving toward you move as if they are in difficult terrain. Attack rolls against you have disadvantage. The shadows last for 3 rounds or until you choose to end them. The wand regains 1d4+1 expended charges daily at midnight. If you expend the last charge, roll a d20. On a 1, the wand turns to ash and is destroyed.",
     "where_get": "Magicians Menagerie",
     "attunement": "Requires Attunement",
-    "price": "NA",
+    "price": 2500,
     "class_recommendations": [
       "Bard",
       "Cleric",
@@ -6030,8 +6030,8 @@
     "description": "While holding it, you can use an action to expend 1 or more of its charges to cast either a green-flamed fireball or a blue lightning bolt at random from it (save DC 15). For 1 charge, you cast the 3rd-level version of the spell. You can increase the spell slot level by one for each additional charge you expend. This wand has 2 charges per day. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.",
     "where_get": "Research",
     "attunement": "Requires Attunement",
-    "price": "NA",
-    "gacha": "Rare Wand Research",
+    "price": 5000,
+    "gacha": "Rare Wand",
     "class_recommendations": [
       "Bard",
       "Cleric",
@@ -6049,7 +6049,7 @@
     "where_get": "Research",
     "attunement": "Requires Attunement",
     "price": 10000,
-    "gacha": "Rare Wand Research",
+    "gacha": "Rare Wand",
     "class_recommendations": [
       "Bard",
       "Cleric",
@@ -6067,7 +6067,7 @@
     "where_get": "Research",
     "attunement": "Requires Attunement",
     "price": 4000,
-    "gacha": "Rare Wand Research"
+    "gacha": "Rare Wand"
   },
   {
     "name": "Wand of Fear",
@@ -6077,7 +6077,7 @@
     "where_get": "Research",
     "attunement": "Requires Attunement",
     "price": 10000,
-    "gacha": "Rare Wand Research"
+    "gacha": "Rare Wand"
   },
   {
     "name": "Wand of Fireballs",
@@ -6087,7 +6087,7 @@
     "where_get": "Research",
     "attunement": "Requires Attunement",
     "price": 32000,
-    "gacha": "Rare Wand Research",
+    "gacha": "Rare Wand",
     "class_recommendations": [
       "Bard",
       "Cleric",
@@ -6105,7 +6105,7 @@
     "where_get": "Research",
     "attunement": "Requires Attunement",
     "price": 32000,
-    "gacha": "Rare Wand Research",
+    "gacha": "Rare Wand",
     "class_recommendations": [
       "Bard",
       "Cleric",
@@ -6123,7 +6123,7 @@
     "where_get": "Research",
     "attunement": "Requires Attunement",
     "price": 16000,
-    "gacha": "Rare Wand Research",
+    "gacha": "Rare Wand",
     "class_recommendations": [
       "Bard",
       "Cleric",
@@ -6140,8 +6140,8 @@
     "description": "Crafted by the drow, this slim black wand has 7 charges. While holding it, you can use an action to expend 1 of its charges to cause a small glob of viscous material to launch from the tip at one creature within 60 feet of you. Make a ranged attack roll against the target, with a bonus equal to your spellcasting modifier (or your Intelligence modifier, if you don’t have a spellcasting ability) plus your proficiency bonus. On a hit, the glob expands and dries on the target, which is restrained for 1 hour. After that time, the viscous material cracks and falls away. Applying a pint or more of alcohol to the restrained creature dissolves the glob instantly, as does the application of oil of etherealness or universal solvent. The glob also dissolves instantly if exposed to sunlight. No other nonmagical process can remove the viscous material until it deteriorates on its own. The wand regains 1d6 + 1 expended charges daily at midnight. If you expend the wand’s last charge, roll a d20. On a 1, the wand melts into harmless slime and is destroyed. A wand of viscid globs is destroyed if exposed to sunlight for 1 hour without interruption. Debuff",
     "where_get": "Research",
     "attunement": "Requires Attunement",
-    "price": "NA",
-    "gacha": "Rare Wand Research"
+    "price": 6500,
+    "gacha": "Rare Wand"
   },
   {
     "name": "Wand of Winter",
@@ -6150,8 +6150,8 @@
     "description": "This wand looks and feels like an icicle. You must be attuned to the wand to use it. The wand has 7 charges, which are used to fuel the spells within it. With the wand in hand, you can use your action to cast one of the following spells from the wand, even if you are incapable of casting spells: ray of frost (no charges, or 1 charge to cast at 5th level; +5 to hit with ranged spell attack), sleet storm (3 charges; spell save DC 15), or ice storm (4 charges; spell save DC 15). No other components are required. The wand regains 1d6 + 1 expended charges each day at dawn. If you expend the wand’s last charge, roll a d20. On a 20, the wand melts away, forever destroyed.",
     "where_get": "Research",
     "attunement": "Requires Attunement",
-    "price": "NA",
-    "gacha": "Rare Wand Research"
+    "price": 7600,
+    "gacha": "Rare Wand"
   },
   {
     "name": "Wand of Wonder",
@@ -6160,8 +6160,8 @@
     "description": "This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges and choose a target within 120 feet of you. The target can be a creature, an object, or a point in space. Roll d100 and consult the following table to discover what happens. If the effect causes you to cast a spell from the wand, the spell's save DC is 15. If the spell normally has a range expressed in feet, its range becomes 120 feet if it isn't already. If an effect covers an area, you must center the spell on and include the target. If an effect has multiple possible subjects, the GM randomly determines which ones are affected. The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into dust and is destroyed. d100 Effect 01-05 You cast slow. 06-10 You cast faerie fire. 11-15 You are stunned until the start of your next turn, believing something awesome just happened. 16-20 You cast gust of wind. 21-25 You cast detect thoughts on the target you chose. If you didn't target a creature, you instead take 1d6 psychic. 26-30 You cast stinking cloud. 31-33 Heavy rain falls in a 60-foot radius centered on the target. The area becomes lightly obscured. The rain falls until the start of your next turn. 34-36 An animal appears in the unoccupied space nearest the target. The animal isn't under your and acts as it normally would. Roll a d100 to determine which animal appears. On a 01–25, a rhinoceros appears; on a 26–50, an elephant appears; and on a 51–100, a rat appears. 37-46 You cast lightning bolt. 47-49 A cloud of 600 oversized butterflies fills a 30‐foot radius centered on the target. The area becomes heavily obscured. The butterflies remain for 10 minutes. 50-53 You enlarge the target as if you had cast enlarge/reduce. If the target can't be affected by that spell, or if you didn't target a creature, you become the target. 54-58 You cast darkness. 59-62 Grass grows on the ground in a 60‐foot radius centered on the target. If grass is already there, it grows to ten times its normal size and remains overgrown for 1 minute. 63-65 An object of the GM's choice disappears into the Ethereal Plane. The object must be neither worn nor carried, within 120 feet of the target, and no larger than 10 feet in any dimension. 66-69 You shrink yourself as if you had cast enlarge/reduce on yourself. 70-79 You cast fireball. 80-84 You cast invisibility on yourself. 85-87 Leaves grow from the target. If you chose a point in space as the target, leaves sprout from the creature nearest to that point. Unless they are picked off, the leaves turn brown and fall off after 24 hours. 88-90 A stream of 1d4 × 10 gems, each worth 1 gp, shoots from the wand's tip in a line 30 feet long and 5 feet wide. Each gem deals 1 bludgeoning , and the total of the gems is divided equally among all creatures in the line. 91-95 A burst of colorful shimmering light extends from you in a 30‐foot radius. You and each creature in the area that can see must succeed on a DC 15 Constitution saving throw or become blinded for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. 96-97 The target's skin turns bright blue for 1d10 days. If you chose a point in space, the creature nearest to that point is affected. 98-00 If you targeted a creature, it must make a DC 15 Constitution saving throw. If you didn't target a creature, you become the target and must make the saving throw. If the saving throw fails by 5 or more, the target is instantly petrified. On any other failed save, the target is restrained and begins to turn to stone. While restrained in this way, the target must repeat the saving throw at the end of its next turn, becoming petrified on a failure or ending the effect on a success. The petrification lasts until the target is freed by the greater restoration spell or similar magic. Deception",
     "where_get": "Research",
     "attunement": "Requires Attunement",
-    "price": "NA",
-    "gacha": "Rare Wand Research",
+    "price": 7600,
+    "gacha": "Rare Wand",
     "class_recommendations": [
       "Bard",
       "Cleric",
@@ -6179,7 +6179,7 @@
     "where_get": "Research",
     "attunement": "Requires Attunement",
     "price": 4800,
-    "gacha": "Rare Wand Research",
+    "gacha": "Rare Wand",
     "class_recommendations": [
       "Bard",
       "Cleric",
@@ -6197,7 +6197,7 @@
     "where_get": "Research",
     "attunement": "Requires Attunement",
     "price": 32000,
-    "gacha": "Very Rare Wand Research",
+    "gacha": "Very Rare Wand",
     "class_recommendations": [
       "Bard",
       "Cleric",
@@ -6215,7 +6215,7 @@
     "where_get": "Research",
     "attunement": "Requires Attunement",
     "price": 19200,
-    "gacha": "Very Rare Wand Research",
+    "gacha": "Very Rare Wand",
     "class_recommendations": [
       "Bard",
       "Cleric",
